@@ -1,5 +1,6 @@
 __pycache__/
 feh2/
 secret.py
+*.bat
 *.png
 *.txt
