@@ -1,6 +1,5 @@
 __pycache__/
 feh2/
 secret.py
-feh 2 undertale 2.png
-features.txt
-pats.txt
+*.png
+*.txt
