@@ -1,0 +1,28 @@
+Atk Ploy 3
+Attack +3
+Atk Smoke 3
+Brash Assault 3
+Breath of Life 3
+Defense +3
+Deflect Magic 3
+Deflect Melee 3
+Deflect Missile 3
+Distant Def 3
+Fortify Def 3
+Fortify Res 3
+Guidance 3
+HP +5
+Hardy Bearing 3
+Panic Ploy 3
+Phantom Spd 3
+Quickened Pulse
+Resistance +3
+Speed +3
+Spur Atk 3
+Spur Def 3
+Spur Res 3
+Spur Spd 3
+Squad Ace A 3
+Squad Ace B 3
+Squad Ace C 3
+Squad Ace D 3

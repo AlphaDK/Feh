@@ -1,0 +1,54 @@
+Just leave it blank lol
+Armor March 3
+Atk Ploy 3
+Atk Smoke 3
+Axe Experience 3
+Axe Valor 3
+B Tome Exp. 3
+B Tome Valor 3
+Bow Exp. 3
+Breath of Life 3
+Dagger Valor 3
+Def Ploy 3
+Drive Atk 2
+Drive Def 2
+Drive Res 2
+Drive Spd 2
+Fortify Armor
+Fortify Cavalry
+Fortify Def 3
+Fortify Dragons
+Fortify Fliers
+Fortify Res 3
+Goad Armor
+Goad Cavalry
+Goad Fliers
+G Tome Valor 3
+Guidance 3
+Hone Armor
+Hone Atk 3
+Hone Cavalry
+Hone Fliers
+Hone Spd 3
+Infantry Pulse 3
+Lance Valor 3
+Panic Ploy 3
+Res Ploy 3
+Savage Blow 3
+Spd Ploy 3
+Spd Smoke 3
+Spur Atk 3
+Spur Def 3
+Spur Def Res 2
+Spur Res 3
+Spur Spd 3
+Spur Spd Def 2
+Sword Exp. 3
+Sword Valor 3
+Threaten Atk 3
+Threaten Def 3
+Threaten Res 3
+Threaten Spd 3
+Ward Armor
+Ward Cavalry
+Ward Fliers

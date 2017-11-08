@@ -1,0 +1,47 @@
+Armored Blow 3
+Attack Def +2
+Attack +3
+Atk Res Bond 3
+Attack Res 2
+Atk Spd 2
+Bracing Blow 2
+Close Counter
+Close Def 3
+Darting Blow 3
+Death Blow 3
+Defense +3
+Defiant Atk 3
+Defiant Def 3
+Defiant Res 3
+Defiant Spd 3
+Distant Counter
+Distant Def 3
+Earth Boost 3
+Fire Boost 3
+Fortress Def 3
+Fortress Res 3
+Fury 3
+Grani's Shield
+HP Def 2
+HP +5
+HP Spd 2
+Heavy Blade 3
+Iote's Shield
+Life and Death 3
+Mirror Strike 2
+Resistance +3
+Spd Def 2
+Speed +3
+Spd Res 2
+Steady Blow 2
+Steady Breath
+Steady Stance 3
+Sturdy Blow 2
+Svalinn Shield
+Swift Sparrow 2
+Swift Strike 2
+Triangle Adept 3
+Warding Blow 3
+Warding Stance 3
+Water Boost 3
+Wind Boost 3

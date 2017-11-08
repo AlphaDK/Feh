@@ -1,0 +1,44 @@
+Axebreaker 3
+Blaze Dance 3
+B Tomebreaker 3
+Bowbreaker 3
+Brash Assault 3
+Cancel Affinity 3
+Daggerbreaker 3
+Dazzling Staff 3
+Desperation 3
+Drag Back
+Escape Route 3
+Flier Formation 3
+Gale Dance 3
+Geyser Dance 2
+G Tomebreaker 3
+Guard 3
+Hit and Run
+Knock Back
+Lancebreaker 3
+Live for Bounty
+Live for Honor
+Live to Serve 3
+Lunge
+Obstruct 3
+Pass 3
+Poison Strike 3
+Quick Riposte 3
+R Tomebreaker 3
+Renewal 3
+Seal Atk 3
+Seal Atk Def 2
+Seal Atk Spd 2
+Seal Def 3
+Seal Res 3
+Seal Spd 3
+Shield Pulse 3
+Swordbreaker 3
+Vantage 3
+Wary Fighter 3
+Watersweep 3
+Windsweep 3
+Wings of Mercy 3
+Wrath 3
+Wrathful Staff 3

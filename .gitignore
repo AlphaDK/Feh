@@ -3,4 +3,5 @@ feh2/
 secret.py
 *.bat
 *.png
-*.txt
+pats.txt
+features.txt
