@@ -1,4 +1,4 @@
-#Feh, a Discord bot by AlphaDK#2649
+#Feh v1.4.1, a Discord bot by AlphaDK#2649
 #v0.1 created 9/10/17 (the 9th of October, not the 10th of September you silly Americans)
 #v1.0 released 19/10/17
 #v1.5 released publically ??/??/??
@@ -57,22 +57,23 @@ async def check_tweets(lastnews, lastgauntlet):
                 await client.send_message(client.get_channel("333859340253396992"), "@FEHGauntletBot: <http://www.twitter.com/FEHGauntletBot/status/" + str(tweet.id) + ">\n" + str(tweet.text))
             lastgauntlet = tweet.id
         await asyncio.sleep(60) #Checks both accounts once a minute, could be more often but I'll respect the Twitter API gods and their 100 requests/15 minutes rate limit
-	
+
+@asyncio.coroutine
 def main(lastnews, lastgauntlet):
     now = datetime.now(pytz.utc) #Checks UTC's current time, since that's you know, where the game is based off and doesn't have daylight savings
     seconds_delta = (now.replace(hour=7, minute=0, second=0, microsecond=5) - now).total_seconds() % 86400 #Figures out how long until 7AM the next day, microseconds are just so it doesn't post at 6:59AM instead
     loop.call_later(seconds_delta, post_daily)
-    asyncio.ensure_future(check_tweets(lastnews, lastgauntlet))
+    yield from asyncio.ensure_future(check_tweets(lastnews, lastgauntlet))
 
 @client.event
 async def on_ready():
-    print("Feh v1.4 online")
+    print("Feh v1.4.1 online")
     await client.change_presence(game=discord.Game(name="Fire Emblem: Heroes"))
     lastnews = api.user_timeline("FEHeroes_News", count=1)
     lastnews = lastnews[0].id #These check the most recent tweet from each account, since we only care about tweets yet to happen
     lastgauntlet = api.user_timeline("FEHGauntletBot", count=1)
     lastgauntlet = lastgauntlet[0].id
-    main(lastnews, lastgauntlet)
+    asyncio.ensure_future(main(lastnews, lastgauntlet))
     
 @client.event
 async def on_message(message):
@@ -172,7 +173,7 @@ async def on_message(message):
                     tim = " times!"
                 await client.send_message(message.channel, "<@" + message.author.id + "> You've pet Feh " + str(patcounts[message.author.id]) + tim)
         elif message.content.lower().startswith("!fehhelp"):
-            await client.send_message(message.channel, "Hi! I'm Feh (v1.4), a bot created to help out with Fire Emblem: Heroes content! <:feh:344700243910197259>\nI can provide information to you about various weapons, skills or units! Try {{Quickened Pulse}}!\nIf you have any suggestions for improvements or if I'm broken, tell AlphaDK!\n(Use `!report [issue]` and I'll let him know)")
+            await client.send_message(message.channel, "Hi! I'm Feh (v1.4.1), a bot created to help out with Fire Emblem: Heroes content! <:feh:344700243910197259>\nI can provide information to you about various weapons, skills or units! Try {{Quickened Pulse}}!\nIf you have any suggestions for improvements or if I'm broken, tell AlphaDK!\n(Use `!report [issue]` and I'll let him know)")
         elif message.content.lower().startswith("!report "):
             await client.send_message(client.get_channel("368631261071147009"), str(message.author) + " (" + message.author.id + ") in " + str(message.channel) + " (" + message.channel.id  + ") from " + message.server.name + ": " + str(message.content[8:]))
             await client.send_message(message.channel, "I've reported the issue! We hope you continue to enjoy Fire Emblem! Heroes.")

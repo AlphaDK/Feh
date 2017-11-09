@@ -47,14 +47,8 @@ Here's the current full list of features;
 
 # Most recent changelog
 
-v1.4:
+v1.4.1:
 
--Improved backend, preparing for useful public release
+-Removed mostly debug print statements
 
--Added comments like everywhere
-
--Moved auth codes out of main.py and into secret.py lol
-
--Changed !feh to !fehhelp for clarity
-
--Made the bot actually post at 7AM UTC instead of 6PM AEDT
+-Attempted to prevent a crash, probably works. Maybe.
