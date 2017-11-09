@@ -50,7 +50,7 @@ class CommandHandler:
         # types of commands. I'm just using this as a small example.
 
     async def _handle_static_commands(self, message):
-        msg_split = message.content.split[' ']
+        msg_split = message.content.split(' ')
         command_str = msg_split[0]
 
         if command_str.startswith(COMMAND_PREFIX):

@@ -84,7 +84,7 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    command_handler.handle_commands(message)
+    await command_handler.handle_commands(message)
 
     if "\N{NERD FACE}" in message.content: #nerd into feh is a true combo
         await client.add_reaction(message, "feh:344700243910197259")
