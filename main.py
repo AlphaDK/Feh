@@ -28,6 +28,7 @@ auth.set_access_token(TWITTER_ACCESS1, TWITTER_ACCESS2)
 
 api = tweepy.API(auth)
 client = discord.Client()
+command_handler = commands.CommandHandler(client)
 
 #Tells the user they messed up
 async def error(message):
@@ -82,6 +83,8 @@ async def on_ready():
 async def on_message(message):
     if message.author.bot:
         return
+
+    command_handler.handle_commands(message)
 
     if "\N{NERD FACE}" in message.content: #nerd into feh is a true combo
         await client.add_reaction(message, "feh:344700243910197259")
@@ -208,4 +211,4 @@ async def on_message(message):
     elif message.content.startswith("!typing") and message.author.id == "126197907392167937": #This one just sucks I barely use it
         await client.send_typing(client.get_channel("333859340253396992"))
 
-client.run(DISCORD_CLIENT_ID)           
+client.run(DISCORD_CLIENT_ID)         
