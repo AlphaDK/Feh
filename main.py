@@ -18,6 +18,9 @@ import fileinput
 import pytz
 from datetime import datetime
 from secret import *
+
+import commands
+
 loop = asyncio.get_event_loop()
 
 auth = tweepy.OAuthHandler(TWITTER_AUTH1, TWITTER_AUTH2)
