@@ -14,7 +14,7 @@ COMMAND_PREFIX = "!"
 
 def read_static_commands() -> dict:
     """
-    Reads all static commands from their souce file.abs
+    Reads all static commands from their source file.
 
     :return: Dictionary mapping command names to their output values.
     """
@@ -40,7 +40,7 @@ class CommandHandler:
 
     async def handle_commands(self, message):
         """
-        Handles responding to any commands present in a given message.abs
+        Handles responding to any commands present in a given message.
 
         :param message: Discord message object to search and respond to commands
             for. 
