@@ -45,7 +45,7 @@ class CommandHandler:
         :param message: Discord message object to search and respond to commands
             for. 
         """
-        self._handle_static_commands(message)
+        await self._handle_static_commands(message)
         # TODO: You'll probably add different functions for handling different
         # types of commands. I'm just using this as a small example.
 
@@ -60,6 +60,4 @@ class CommandHandler:
                 return # Abandon ship if the command does not exist.
 
             command = self.static_commands[command_str]
-
             await self.bot.send_message(message.channel, command['message'])
-            print(utils.mention(message.author) + ' ' + command['log_message'])
