@@ -335,7 +335,9 @@ absorb|Recovers HP=50% of damage dealt.|grey|Absorb|Colorless Staff, Mt:4*
 assault|No special effect.|grey|Assault|Colorless Staff, Mt:10*
 battery|Create a 3/3 green Elephant creature token.|green|Battery|Magic: The Gathering Card, CC: {3G}
 candlelight|After combat, foe inflicted with status preventing them from counterattacking.|grey|Candlelight|Colorless Staff, Mt:7*
-fear|After combat, inflicts Atk-6 on targeted foe through its next action.|grey|Fear|Colorless Staff, Mt:5*
+fear-|After combat, inflicts Atk-6 on targeted foe through its next action.|grey|Fear|Colorless Staff, Mt:5*
+fear|After combat, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions.|grey|Fear+|Colorless Staff, Mt:5*
+fear+|After combat, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions.|grey|Fear+|Colorless Staff, Mt:5*
 gravity|After any combat, prevents foe from moving more than 1 space through its next action.|grey|Gravity|Colorless Staff, Mt:6*
 pain|Inflicts 10 damage on targeted foe after combat.|grey|Pain|Colorless Staff, Mt:3*
 panic|After combat, bonuses on targeted foe become penalties through its next action.|grey|Panic|Colorless Staff, Mt:7*
@@ -419,7 +421,9 @@ harsh command|Converts penalties on target into bonuses.|cyan|Harsh Command|Assi
 heal|Restores 5 HP.|cyan|Heal|Assist
 martyr|Restores HP=7+ this unit's suffered damage. Unit heals HP=half suffered damage. Slows Special trigger (cooldown count+1).|cyan|Martyr|Assist
 mend|Restores 10 HP.|cyan|Mend|Assist
-physic|Restores 8 HP. Rng: 2.|cyan|Physic|Assist
+physic-|Restores 8 HP. Rng: 2.|cyan|Physic|Assist
+physic|Restores HP = 50% of Atk. (Minimum of 8 HP.) Rng: 2.|cyan|Physic+|Assist
+physic+|Restores HP = 50% of Atk. (Minimum of 8 HP.) Rng: 2.|cyan|Physic+|Assist
 pivot|Unit moves to opposite side of adjacent ally.|cyan|Pivot|Assist
 rally attack|Grants Atk+4 to an adjacent ally until the end of the turn.|cyan|Rally Attack|Assist
 rally atk|Grants Atk+4 to an adjacent ally until the end of the turn.|cyan|Rally Attack|Assist
@@ -451,29 +455,29 @@ smite|Push adjacent ally 2 spaces farther away.|cyan|Smite|Assist
 swap|Swap places with an adjacent ally.|cyan|Swap|Assist
 aegis|Reduces damage inflicted by attacks from foes 2 spaces away by 50%.|purple|Aegis|Special, CD:3
 aether|Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP=half damage dealt.|purple|Aether|Special, CD:5
-astra|Grants +150% to damage dealt.|purple|Astra|Special, CD:5
+astra|Grants +150% to damage dealt.|purple|Astra|Special, CD:4
 black luna|Resolve combat as if foe suffered Def/Res-80%. (Skill cannot be inherited.)|purple|Black Luna|Special, CD:3
-blazing flame|Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).|purple|Blazing Flame|Special, CD:5
-blazing light|Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).|purple|Blazing Light|Special, CD:5
-blazing thunder|Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).|purple|Blazing Thunder|Special, CD:5
-blazing wind|Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).|purple|Blazing Wind|Special, CD:5
+blazing flame|Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).|purple|Blazing Flame|Special, CD:4
+blazing light|Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).|purple|Blazing Light|Special, CD:4
+blazing thunder|Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).|purple|Blazing Thunder|Special, CD:4
+blazing wind|Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).|purple|Blazing Wind|Special, CD:4
 bonfire|Boosts damage dealt by 50% of unit's Def.|purple|Bonfire|Special, CD:3
 childish gambino|Boosts damage dealt by 50% of unit's Def.|purple|Bonfire|Special, CD:3
 buckler|Reduces damage inflicted by attacks from adjacent foes by 30%.|purple|Buckler|Special, CD:3
 chilling wind|Boosts damage dealt by 50% of unit's Res.|purple|Chilling Wind|Special, CD:4
-daylight|Heal 30% of damage dealt.|purple|Daylight|Special, CD:4
+daylight|Heal 30% of damage dealt.|purple|Daylight|Special, CD:3
 draconic aura|Grants +30% to Atk.|purple|Draconic Aura|Special, CD:3
 dragon fang|Grants +50% to Atk.|purple|Dragon Fang|Special, CD:4
 dragon gaze|Grants +30% to Atk.|purple|Dragon Gaze|Special, CD:4
 escutcheon|Reduces damage inflicted by attacks from adjacent foes by 30%.|purple|Escutcheon|Special, CD:2
 galeforce|If this unit initiates an attack, it can take another action after combat. (Once per turn only.)|purple|Galeforce|Special, CD:5
 glacies|Boosts damage dealt by 80% of unit's Res.|purple|Glacies|Special, CD:4
-glimmer|Grants +50% to damage dealt.|purple|Glimmer|Special, CD:3
+glimmer|Grants +50% to damage dealt.|purple|Glimmer|Special, CD:2
 glowing ember|Boosts damage dealt by 50% of unit's Def.|purple|Glowing Ember|Special, CD:4
-growing flame|Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Growing Flame|Special, CD:5
-growing light|Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk - foe's Def or Res).|purple|Growing Light|Special, CD:5
-growing thunder|Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Growing Thunder|Special, CD:5
-growing wind|Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Growing Wind|Special, CD:5
+growing flame|Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Growing Flame|Special, CD:4
+growing light|Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk - foe's Def or Res).|purple|Growing Light|Special, CD:4
+growing thunder|Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Growing Thunder|Special, CD:4
+growing wind|Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Growing Wind|Special, CD:4
 heavenly light|When healing an ally with a staff, all other allies recover 10 HP.|purple|Heavenly Light|Special, CD:2
 holy vestments|Reduces damage inflicted by attacks from foes 2 spaces away by 30%.|purple|Holy Vestments|Special, CD:3
 iceberg|Boosts damage dealt by 50% of unit's Res.|purple|Iceberg|Special, CD:3
@@ -485,20 +489,20 @@ luna|Resolve combat as if foe suffered Def/Res-50%.|purple|Luna|Special, CD:3
 miracle|If HP > 1, survive a lethal attack with 1 HP remaining.|purple|Miracle|Special, CD:5
 moonbow|Resolve combat as if foe suffered Def/Res-30%.|purple|Moonbow|Special, CD:2
 new moon|Resolve combat as if foe suffered Def/Res-30%.|purple|New Moon|Special, CD:3
-night sky|Grants +50% to damage dealt.|purple|Night Sky|Special, CD:4
-noontime|Heal 30% of damage dealt.|purple|Noontime|Special, CD:3
-high noon|Heal 30% of damage dealt.|purple|Noontime|Special, CD:3
+night sky|Grants +50% to damage dealt.|purple|Night Sky|Special, CD:3
+noontime|Heal 30% of damage dealt.|purple|Noontime|Special, CD:2
+high noon|Heal 30% of damage dealt.|purple|Noontime|Special, CD:2
 pavise|Reduces damage inflicted by attacks from adjacent foes by 50%.|purple|Pavise|Special, CD:3
 regnal astra|Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)|purple|Regnal Astra|Special, CD:2
 regnel astral|Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)|purple|Regnal Astra|Special, CD:2
 reprisal|Grants bonus to damage dealt equal to 30% of damage suffered.|purple|Reprisal|Special, CD:2
 retribution|Grants bonus to damage dealt equal to 30% of damage suffered.|purple|Retribution|Special, CD:3
-rising flame|Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Rising Flame|Special, CD:5
-rising light|Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Rising Light|Special, CD:5
-rising thunder|Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Rising Thunder|Special, CD:5
-rising wind|Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Rising Wind|Special, CD:5
+rising flame|Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Rising Flame|Special, CD:4
+rising light|Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Rising Light|Special, CD:4
+rising thunder|Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Rising Thunder|Special, CD:4
+rising wind|Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).|purple|Rising Wind|Special, CD:4
 sacred cowl|Reduces damage inflicted by attacks from foes 2 spaces away by 30%.|purple|Sacred Cowl|Special, CD:2
-sol|Heal 50% of damage dealt.|purple|Sol|Special, CD:4
+sol|Heal 50% of damage dealt.|purple|Sol|Special, CD:3
 solid-earth balm|When healing an ally with a staff, grants all allies Def+4 for 1 turn.|purple|Solid-Earth Balm|Special, CD:1
 solid earth balm|When healing an ally with a staff, grants all allies Def+4 for 1 turn.|purple|Solid-Earth Balm|Special, CD:1
 still-water balm|When healing an ally with a staff, grants all allies Res+4 for 1 turn.|purple|Still-Water Balm|Special, CD:1
@@ -1607,6 +1611,34 @@ atk/res bond|Grants Atk/Res+5 to this unit during combat if unit is adjacent to 
 atk res bond|Grants Atk/Res+5 to this unit during combat if unit is adjacent to an ally|orange|Atk/Res Bond 3|A Skill
 attack res bond|Grants Atk/Res+5 to this unit during combat if unit is adjacent to an ally|orange|Atk/Res Bond 3|A Skill
 attack resistance bond|Grants Atk/Res+5 to this unit during combat if unit is adjacent to an ally|orange|Atk/Res Bond 3|A Skill
+stout tomahawk|Enables counterattack regardless of distance if this unit is attacked.|green|Stout Tomahawk|Green Axe, Mt:16
+fierce stance 1|Grants Atk+2 during combat when this unit is attacked.|orange|Fierce Stance 1|A Skill
+fierce stance 2|Grants Atk+4 during combat when this unit is attacked.|orange|Fierce Stance 2|A Skill
+fierce stance 3|Grants Atk+6 during combat when this unit is attacked.|orange|Fierce Stance 3|A Skill
+fierce stance|Grants Atk+6 during combat when this unit is attacked.|orange|Fierce Stance 3|A Skill
+weirding tome|Grants Spd+3.$At start of turn, all foes in cardinal directions, and with Res 1 or more lower than unit, suffer Spd-5 until the end of foes' next actions.|blue|Weirding Tome|Blue Tome, Mt:14
+hp res 1|Grants HP+3, Res+1.|orange|HP/Res 1|A Skill
+hp res +1|Grants HP+3, Res+1.|orange|HP/Res 1|A Skill
+hp res+1|Grants HP+3, Res+1.|orange|HP/Res 1|A Skill
+hp/res 1|Grants HP+3, Res+1.|orange|HP/Res 1|A Skill
+hp resistance 1|Grants HP+3, Res+1.|orange|HP/Res 1|A Skill
+hp resistance +1|Grants HP+3, Res+1.|orange|HP/Res 1|A Skill
+hp resistance+1|Grants HP+3, Res+1.|orange|HP/Res 1|A Skill
+hp res 2|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp res +2|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp res+2|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp/res 2|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp resistance 2|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp resistance +2|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp resistance+2|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp/res|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp res|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+hp resistance|Grants HP+4, Res+2.|orange|HP/Res 2|A Skill
+resolute blade|Grants Atk+3. Grants +10 to damage when Special triggers.|red|Resolute Blade|Red Sword, Mt:16
+flashing blade 1|If unit's Spd - foe's Spd >= 5, unit gains Special cooldown charge +1 per attack.$(If using other similar skill, only highest value applied.)|orange|Flashing Blade 1|A Skill
+flashing blade 2|If unit's Spd - foe's Spd >= 3, unit gains Special cooldown charge +1 per attack.$(If using other similar skill, only highest value applied.)|orange|Flashing Blade 2|A Skill
+flashing blade 3|If unit's Spd - foe's Spd >= 1, unit gains Special cooldown charge +1 per attack.$(If using other similar skill, only highest value applied.)|orange|Flashing Blade 3|A Skill
+flashing blade|If unit's Spd - foe's Spd >= 1, unit gains Special cooldown charge +1 per attack.$(If using other similar skill, only highest value applied.)|orange|Flashing Blade 3|A Skill
 abel|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 17/7/8/8/6$5\* lv40: 39/33/32/25/25 (153~155)$$**Skills:**$W: Brave Lance+ (5\*)$S: Aegis (4\*)$A: HP+5 (5\*)$B: Swordbreaker 3 (4\*)|blue|Abel: The Panther|Cavalry Lance
 alfonse|Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 19/9/6/8/5$5\* lv40: 43/35/25/32/22 (157)$$**Skills:**$W: Folkvangr (5\*)$S: Sol (4\*)$A: Death Blow 3 (4\*)$C: Spur Atk 3 (5\*)$(Unit only obtainable through story, no IV variation)|red|Alfonse: Prince of Askr|Infantry Sword
 alm|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 21/9/6/6/5$5\* lv40: 45/33/30/28/22 (157~158)$$**Skills:**$W: Falchion$S: Draconic Aura$A: Attack +3$B: Windsweep 3$(Unit only summonable at 5\*)|red|Alm: Hero of Prophecy|Infantry Sword
@@ -1621,6 +1653,8 @@ ayra|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 19/7/11/7/4$5\* lv40: 41/33/3
 bamboozle|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 19/7/11/7/4$5\* lv40: 41/33/37/31/21 (162~163)$$**Skills:**$W: Ayra's Blade$S: Regnal Astra$A: Swift Sparrow 2$B: Desperation 3$(Unit only summonable at 5\*)|red|Ayra: Astra's Wielder|Infantry Sword
 bamboozled|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 19/7/11/7/4$5\* lv40: 41/33/37/31/21 (162~163)$$**Skills:**$W: Ayra's Blade$S: Regnal Astra$A: Swift Sparrow 2$B: Desperation 3$(Unit only summonable at 5\*)|red|Ayra: Astra's Wielder|Infantry Sword
 jebaited|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 19/7/11/7/4$5\* lv40: 41/33/37/31/21 (162~163)$$**Skills:**$W: Ayra's Blade$S: Regnal Astra$A: Swift Sparrow 2$B: Desperation 3$(Unit only summonable at 5\*)|red|Ayra: Astra's Wielder|Infantry Sword
+sailor mars|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 19/7/11/7/4$5\* lv40: 41/33/37/31/21 (162~163)$$**Skills:**$W: Ayra's Blade$S: Regnal Astra$A: Swift Sparrow 2$B: Desperation 3$(Unit only summonable at 5\*)|red|Ayra: Astra's Wielder|Infantry Sword
+dark eirika|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 19/7/11/7/4$5\* lv40: 41/33/37/31/21 (162~163)$$**Skills:**$W: Ayra's Blade$S: Regnal Astra$A: Swift Sparrow 2$B: Desperation 3$(Unit only summonable at 5\*)|red|Ayra: Astra's Wielder|Infantry Sword
 azama|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 19/4/7/8/6$5\* lv40: 43/21/26/32/25 (147~148)$$**Skills:**$W: Pain (3\*)$As: Martyr (4\*)$S: Solid-Earth Balm (3\*)$C: Threaten Atk 3 (5\*)|grey|Azama: Carefree Monk|Infantry Staff
 azura|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 17/5/7/4/6$5\* lv40: 36/31/33/21/28 (148~150)$$**Skills:**$W: Sapphire Lance+$As: Sing$A: Speed +3$C: Fortify Res 3$(Unit only summonable at 5\*)|blue|Azura: Lady of the Lake|Infantry Lance
 regular azura|Neutral Stats: (HP/Atk/Spd/Def/Res)$5\* lv 1: 17/5/7/4/6$5\* lv40: 36/31/33/21/28 (148~150)$$**Skills:**$W: Sapphire Lance+$As: Sing$A: Speed +3$C: Fortify Res 3$(Unit only summonable at 5\*)|blue|Azura: Lady of the Lake|Infantry Lance
