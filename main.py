@@ -30,6 +30,8 @@ api = tweepy.API(auth)
 client = discord.Client()
 command_handler = commands.CommandHandler(client)
 
+mainhasbeenrunoncealready = False #So if the bot loses connection to Discord due to server outages on their end or something, it'll rerun on_ready() again. This is undesired behaviour, as it causes things like double posting of the daily reset, and this is the lowest effort solution to this problem, it'll set this to True once main() has been run once.
+
 #Tells the user they messed up
 async def error(message):
     if message.author.id == "188123523691053060": #Yellow
@@ -72,12 +74,15 @@ def main(lastnews, lastgauntlet):
 @client.event
 async def on_ready():
     print("Feh v1.4.1 online")
-    await client.change_presence(game=discord.Game(name="Fire Emblem: Heroes"))
-    lastnews = api.user_timeline("FEHeroes_News", count=1)
-    lastnews = lastnews[0].id #These check the most recent tweet from each account, since we only care about tweets yet to happen
-    lastgauntlet = api.user_timeline("FEHGauntletBot", count=1)
-    lastgauntlet = lastgauntlet[0].id
-    asyncio.ensure_future(main(lastnews, lastgauntlet))
+    global mainhasbeenrunoncealready
+    if not mainhasbeenrunoncealready:
+        mainhasbeenrunoncealready = True
+        await client.change_presence(game=discord.Game(name="Fire Emblem: Heroes"))
+        lastnews = api.user_timeline("FEHeroes_News", count=1)
+        lastnews = lastnews[0].id #These check the most recent tweet from each account, since we only care about tweets yet to happen
+        lastgauntlet = api.user_timeline("FEHGauntletBot", count=1)
+        lastgauntlet = lastgauntlet[0].id
+        asyncio.ensure_future(main(lastnews, lastgauntlet))
     
 @client.event
 async def on_message(message):
