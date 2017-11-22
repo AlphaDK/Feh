@@ -13,7 +13,6 @@ import asyncio
 import random
 import time
 import tweepy
-import re #only
 import fileinput
 import pytz
 from datetime import datetime
@@ -93,34 +92,7 @@ async def on_message(message):
 
     if "\N{NERD FACE}" in message.content: #nerd into feh is a true combo
         await client.add_reaction(message, "feh:344700243910197259")
-    if "{{" in message.content and "}}" in message.content:
-        colourtypes = {"red": 0xD92242, "green": 0x0CA428, "blue": 0x2763D6, "grey": 0x63737B, "cyan": 0x28EFEF, "purple": 0xA012ED, "yellow": 0xDEC027, "orange": 0xEA803F}
-        start = "{{"
-        end = "}}"
-        query = re.search("%s(.*)%s" % (start, end), message.content).group(1).lower() #This just gets the part between {{ and }} to be used for checking
-        skills = {}
-        colourdict = {}
-        printas = {}
-        skilltype = {}
-        with open("skills.txt") as f:
-            for line in f:
-                (key, val, colourtype, aka, skill) = line.split("|") #These get the arguments for each line in the document, and arrange them into dictionaries
-                skills[key] = val
-                colourdict[key] = colourtype
-                printas[key] = aka
-                skilltype[key] = skill
-        try:
-            skill = skills[query].split("$")
-            sk = ""
-            for arg in skill: #Newline can't be read from the document directly, so $ is used instead and is replaced into newline here. Don't ask me why this has to work like this
-                sk = sk + arg + "\n"
-            sk = sk[:-1]
-            emb = discord.Embed(title=printas[query], description=sk, colour=int(colourtypes[colourdict[query]]))
-            emb.set_author(name=skilltype[query][:-1], icon_url="https://i.imgur.com/CyaOfZE.png")
-            await client.send_message(message.channel, embed=emb)
-        except KeyError:
-            asyncio.ensure_future(error(message)) #This will post if the queried phrase isn't found in the text document, most of the time it's just joke but better to let them know than to not respond
-
+    
     if message.content.lower().startswith("!draug") or message.content.lower().startswith("!knowyourdraug"): #Source: reddit, it's important to be familiar with Draug and his variants
         await client.send_file(message.channel, "draug.jpg")
     elif message.content.lower().startswith("!pat") or message.content.lower().startswith("!headpat") or message.content.lower().startswith("!pet") or message.content.lower().startswith("!halfp"): #Source: Trashy asked if Feh accepted headpats.
