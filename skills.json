@@ -4755,10 +4755,17 @@
     {
         "name": "obstruct 3",
         "aliases": [
-            "obstruct",
-            "obstruct meme"
+            "obstruct"
         ],
         "content": "Prevents foes from moving through adjacent spaces while this unit's HP >= 50%. (No effect on foes with a Pass skill.)",
+        "color": "orange",
+        "aka": "Obstruct 3",
+        "skill": "B Skill"
+    },
+    {
+        "name": "obstruct meme",
+        "aliases": [],
+        "content": "Prevents foes from moving through adjacent spaces while this unit's HP >= 50%. (No effect on Kelly.)",
         "color": "orange",
         "aka": "Obstruct 3",
         "skill": "B Skill"
