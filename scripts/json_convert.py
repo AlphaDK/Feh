@@ -20,11 +20,11 @@ with open('../skills.txt') as f:
     for skill in skills:
         skill_dict = line_to_dict(skill)
         name = skill_dict['name']
-        content = skill_dict['content']
+        aka = skill_dict['aka']
 
         found = False
         for s in skills_dict.values():
-            if content == s['content']:
+            if aka == s['aka']:
                 skills_dict[s['name']]['aliases'].append(skill_dict['name'])
                 found = True
 

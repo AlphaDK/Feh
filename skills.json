@@ -83,7 +83,9 @@
     },
     {
         "name": "op",
-        "aliases": [],
+        "aliases": [
+            "gangnam style"
+        ],
         "content": "op",
         "color": "green",
         "aka": "op",
@@ -273,14 +275,7 @@
     },
     {
         "name": "alondite",
-        "aliases": [
-            "ragnell",
-            "raijinto",
-            "ryoma's sword",
-            "siegfried",
-            "gradivus",
-            "stout tomahawk"
-        ],
+        "aliases": [],
         "content": "Enables counterattack regardless of distance if this unit is attacked.",
         "color": "red",
         "aka": "Alondite",
@@ -297,23 +292,24 @@
     {
         "name": "armorslayer-",
         "aliases": [
-            "armourslayer-",
-            "armorslayer",
-            "armourslayer",
-            "armorslayer+",
-            "armourslayer+",
-            "heavy spear-",
-            "heavy spear",
-            "heavy spear+",
-            "hammer-",
-            "hammer",
-            "hammer+",
-            "banhammer"
+            "armourslayer-"
         ],
         "content": "Effective against armored units.",
         "color": "red",
         "aka": "Armorslayer",
         "skill": "Red Sword, Mt:8"
+    },
+    {
+        "name": "armorslayer",
+        "aliases": [
+            "armourslayer",
+            "armorslayer+",
+            "armourslayer+"
+        ],
+        "content": "Effective against armored units.",
+        "color": "red",
+        "aka": "Armorslayer+",
+        "skill": "Red Sword, Mt:12"
     },
     {
         "name": "ayra's blade",
@@ -343,21 +339,21 @@
     },
     {
         "name": "brave sword-",
-        "aliases": [
-            "brave sword",
-            "brave sword+",
-            "brave lance-",
-            "brave lance",
-            "brave lance+",
-            "dire thunder",
-            "brave axe-",
-            "brave axe",
-            "brave axe+"
-        ],
+        "aliases": [],
         "content": "Spd-5. Attack twice when initiating combat.",
         "color": "red",
         "aka": "Brave Sword",
         "skill": "Red Sword, Mt:5"
+    },
+    {
+        "name": "brave sword",
+        "aliases": [
+            "brave sword+"
+        ],
+        "content": "Spd-5. Attack twice when initiating combat.",
+        "color": "red",
+        "aka": "Brave Sword+",
+        "skill": "Red Sword, Mt:8"
     },
     {
         "name": "divine tyrfing",
@@ -377,10 +373,7 @@
     },
     {
         "name": "eckesachs",
-        "aliases": [
-            "threaten def 2",
-            "threaten defense 2"
-        ],
+        "aliases": [],
         "content": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn.",
         "color": "red",
         "aka": "Eckesachs",
@@ -396,10 +389,7 @@
     },
     {
         "name": "folkvangr",
-        "aliases": [
-            "defiant atk 2",
-            "defiant attack 2"
-        ],
+        "aliases": [],
         "content": "Grants Atk+5 at start of turn if unit's HP <= 50%.",
         "color": "red",
         "aka": "Folkvangr",
@@ -407,48 +397,7 @@
     },
     {
         "name": "iron sword",
-        "aliases": [
-            "silver sword-",
-            "silver sword",
-            "silver sword+",
-            "steel sword",
-            "bolganone-",
-            "bolganone",
-            "bolganone+",
-            "elfire",
-            "fenrir-",
-            "fenrir",
-            "fenrir+",
-            "fire",
-            "flux",
-            "ruin",
-            "fire breath-",
-            "fire breath",
-            "fire breath+",
-            "flametongue-",
-            "flametongue",
-            "flametongue+",
-            "iron lance",
-            "silver lance-",
-            "silver lance",
-            "silver lance+",
-            "steel lance",
-            "elthunder",
-            "thoron-",
-            "thoron",
-            "thoron+",
-            "thunder",
-            "iron axe",
-            "silver axe-",
-            "silver axe",
-            "silver axe+",
-            "steel axe",
-            "elwind",
-            "rexcalibur-",
-            "rexcalibur",
-            "rexcalibur+",
-            "assault"
-        ],
+        "aliases": [],
         "content": "No special effect.",
         "color": "red",
         "aka": "Iron Sword",
@@ -456,31 +405,47 @@
     },
     {
         "name": "killing edge-",
-        "aliases": [
-            "killing edge",
-            "killing edge+",
-            "mystletainn",
-            "slaying edge-",
-            "slaying edge",
-            "slaying edge+",
-            "killer lance-",
-            "killer lance",
-            "killer lance+",
-            "slaying lance-",
-            "slaying lance",
-            "slaying lance+",
-            "hauteclere",
-            "killer axe-",
-            "killer axe",
-            "killer axe+",
-            "slaying axe-",
-            "slaying axe",
-            "slaying axe+"
-        ],
+        "aliases": [],
         "content": "Accelerates Special trigger (cooldown count-1).",
         "color": "red",
         "aka": "Killing Edge",
         "skill": "Red Sword, Mt:7"
+    },
+    {
+        "name": "killing edge",
+        "aliases": [
+            "killing edge+"
+        ],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "red",
+        "aka": "Killing Edge+",
+        "skill": "Red Sword, Mt:11"
+    },
+    {
+        "name": "mystletainn",
+        "aliases": [],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "red",
+        "aka": "Mystletainn",
+        "skill": "Red Sword, Mt:16"
+    },
+    {
+        "name": "ragnell",
+        "aliases": [],
+        "content": "Enables counterattack regardless of distance if this unit is attacked.",
+        "color": "red",
+        "aka": "Ragnell",
+        "skill": "Red Sword, Mt:16"
+    },
+    {
+        "name": "raijinto",
+        "aliases": [
+            "ryoma's sword"
+        ],
+        "content": "Enables counterattack regardless of distance if this unit is attacked.",
+        "color": "red",
+        "aka": "Raijinto",
+        "skill": "Red Sword, Mt:16"
     },
     {
         "name": "regal blade",
@@ -492,36 +457,73 @@
     },
     {
         "name": "ruby sword-",
-        "aliases": [
-            "ruby sword",
-            "ruby sword+",
-            "sapphire lance-",
-            "sapphire lance",
-            "sapphire lance+",
-            "emerald axe-",
-            "emerald axe",
-            "emerald axe+",
-            "triangle adept 3",
-            "triangle adept",
-            "ta",
-            "ta3"
-        ],
+        "aliases": [],
         "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
         "color": "red",
         "aka": "Ruby Sword",
         "skill": "Red Sword, Mt:8"
     },
     {
-        "name": "sieglinde",
+        "name": "ruby sword",
         "aliases": [
-            "siegmund",
-            "hone atk 2",
-            "hone attack 2"
+            "ruby sword+"
         ],
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "color": "red",
+        "aka": "Ruby Sword+",
+        "skill": "Red Sword, Mt:12"
+    },
+    {
+        "name": "siegfried",
+        "aliases": [],
+        "content": "Enables counterattack regardless of distance if this unit is attacked.",
+        "color": "red",
+        "aka": "Siegfried",
+        "skill": "Red Sword, Mt:16"
+    },
+    {
+        "name": "sieglinde",
+        "aliases": [],
         "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
         "color": "red",
         "aka": "Sieglinde",
         "skill": "Red Sword, Mt:16"
+    },
+    {
+        "name": "silver sword-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Silver Sword",
+        "skill": "Red Sword, Mt:11"
+    },
+    {
+        "name": "silver sword",
+        "aliases": [
+            "silver sword+"
+        ],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Silver Sword+",
+        "skill": "Red Sword, Mt:15"
+    },
+    {
+        "name": "slaying edge-",
+        "aliases": [],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "red",
+        "aka": "Slaying Edge",
+        "skill": "Red Sword, Mt:10"
+    },
+    {
+        "name": "slaying edge",
+        "aliases": [
+            "slaying edge+"
+        ],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "red",
+        "aka": "Slaying Edge+",
+        "skill": "Red Sword, Mt:14"
     },
     {
         "name": "sol katti",
@@ -530,6 +532,14 @@
         "color": "red",
         "aka": "Sol Katti",
         "skill": "Red Sword, Mt:16"
+    },
+    {
+        "name": "steel sword",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Steel Sword",
+        "skill": "Red Sword, Mt:8"
     },
     {
         "name": "tyrfing",
@@ -541,14 +551,21 @@
     },
     {
         "name": "wo dao-",
-        "aliases": [
-            "wo dao",
-            "wo dao+"
-        ],
+        "aliases": [],
         "content": "Grants +10 to damage when Special triggers.",
         "color": "red",
         "aka": "Wo Dao",
         "skill": "Red Sword, Mt:9"
+    },
+    {
+        "name": "wo dao",
+        "aliases": [
+            "wo dao+"
+        ],
+        "content": "Grants +10 to damage when Special triggers.",
+        "color": "red",
+        "aka": "Wo Dao+",
+        "skill": "Red Sword, Mt:13"
     },
     {
         "name": "yato",
@@ -560,29 +577,39 @@
     },
     {
         "name": "zanbato-",
-        "aliases": [
-            "zanbato",
-            "zanbato+",
-            "rauorwolf-",
-            "rauorwolf",
-            "rauorwolf+",
-            "ridersbane-",
-            "ridersbane",
-            "ridersbane+",
-            "ridersbigguy-",
-            "ridersbigguy",
-            "ridersbigguy+",
-            "blarwolf-",
-            "blarwolf",
-            "blarwolf+",
-            "gronnwolf-",
-            "gronnwolf",
-            "gronnwolf+"
-        ],
+        "aliases": [],
         "content": "Effective against cavalry units.",
         "color": "red",
         "aka": "Zanbato",
         "skill": "Red Sword, Mt:10"
+    },
+    {
+        "name": "zanbato",
+        "aliases": [
+            "zanbato+"
+        ],
+        "content": "Effective against cavalry units.",
+        "color": "red",
+        "aka": "Zanbato+",
+        "skill": "Red Sword, Mt:14"
+    },
+    {
+        "name": "bolganone-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Bolganone",
+        "skill": "Red Tome, Mt:9"
+    },
+    {
+        "name": "bolganone",
+        "aliases": [
+            "bolganone+"
+        ],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Bolganone+",
+        "skill": "Red Tome, Mt:13"
     },
     {
         "name": "brynhildr",
@@ -599,6 +626,48 @@
         "color": "red",
         "aka": "Cymbeline",
         "skill": "Red Tome, Mt:14"
+    },
+    {
+        "name": "elfire",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Elfire",
+        "skill": "Red Tome, Mt:6"
+    },
+    {
+        "name": "fenrir-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Fenrir",
+        "skill": "Red Tome, Mt:9"
+    },
+    {
+        "name": "fenrir",
+        "aliases": [
+            "fenrir+"
+        ],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Fenrir+",
+        "skill": "Red Tome, Mt:13"
+    },
+    {
+        "name": "fire",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Fire",
+        "skill": "Red Tome, Mt:4"
+    },
+    {
+        "name": "flux",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Flux",
+        "skill": "Red Tome, Mt:4"
     },
     {
         "name": "ragnarok",
@@ -620,77 +689,105 @@
     },
     {
         "name": "rauorblade-",
-        "aliases": [
-            "rauorblade",
-            "rauorblade+",
-            "blarblade-",
-            "blarblade",
-            "blarblade+",
-            "gronnblade-",
-            "gronnblade",
-            "gronnblade+"
-        ],
+        "aliases": [],
         "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
         "color": "red",
         "aka": "Rauorblade",
         "skill": "Red Tome, Mt:9"
     },
     {
-        "name": "rauorowl-",
+        "name": "rauorblade",
         "aliases": [
-            "rauorowl",
-            "rauorowl+",
-            "blarowl-",
-            "blarowl",
-            "blarowl+",
-            "gronnowl-",
-            "gronnowl",
-            "gronnowl+"
+            "rauorblade+"
         ],
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "color": "red",
+        "aka": "Rauorblade+",
+        "skill": "Red Tome, Mt:13"
+    },
+    {
+        "name": "rauorowl-",
+        "aliases": [],
         "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
         "color": "red",
         "aka": "Rauorowl",
         "skill": "Red Tome, Mt:6"
     },
     {
-        "name": "rauorraven-",
+        "name": "rauorowl",
         "aliases": [
-            "rauorraven",
-            "rauorraven+",
-            "blarraven-",
-            "blarraven",
-            "blarraven+",
-            "gronnraven-",
-            "gronnraven",
-            "gronnraven+"
+            "rauorowl+"
         ],
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "color": "red",
+        "aka": "Rauorowl+",
+        "skill": "Red Tome, Mt:10"
+    },
+    {
+        "name": "rauorraven-",
+        "aliases": [],
         "content": "Grants weapon advantage vs. colorless foes.",
         "color": "red",
         "aka": "Rauorraven",
         "skill": "Red Tome, Mt:7"
     },
     {
+        "name": "rauorraven",
+        "aliases": [
+            "rauorraven+"
+        ],
+        "content": "Grants weapon advantage vs. colorless foes.",
+        "color": "red",
+        "aka": "Rauorraven+",
+        "skill": "Red Tome, Mt:11"
+    },
+    {
+        "name": "rauorwolf-",
+        "aliases": [],
+        "content": "Effective against cavalry units.",
+        "color": "red",
+        "aka": "Rauorwolf",
+        "skill": "Red Tome, Mt:6"
+    },
+    {
+        "name": "rauorwolf",
+        "aliases": [
+            "rauorwolf+"
+        ],
+        "content": "Effective against cavalry units.",
+        "color": "red",
+        "aka": "Rauorwolf+",
+        "skill": "Red Tome, Mt:10"
+    },
+    {
+        "name": "ruin",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Ruin",
+        "skill": "Red Tome, Mt:6"
+    },
+    {
         "name": "tomato tome-",
         "aliases": [
-            "maki tome-",
-            "tomato tome",
-            "maki tome",
-            "tomato tome+",
-            "maki tome+",
-            "sealife tome-",
-            "sealife tome",
-            "sealife tome+",
-            "lilith floatie-",
-            "lilith floatie",
-            "lilith floatie+",
-            "hibiscus tome-",
-            "hibiscus tome",
-            "hibiscus tome+"
+            "maki tome-"
         ],
         "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
         "color": "red",
         "aka": "Tomato Tome",
         "skill": "Red Tome, Mt:8"
+    },
+    {
+        "name": "tomato tome",
+        "aliases": [
+            "maki tome",
+            "tomato tome+",
+            "maki tome+"
+        ],
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "color": "red",
+        "aka": "Tomato Tome+",
+        "skill": "Red Tome, Mt:12"
     },
     {
         "name": "valflame",
@@ -701,37 +798,83 @@
         "skill": "Red Tome, Mt:14"
     },
     {
-        "name": "light breath-",
+        "name": "fire breath-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "grey",
+        "aka": "Fire Breath",
+        "skill": "Breath, Mt:6"
+    },
+    {
+        "name": "fire breath",
         "aliases": [
-            "light breath",
-            "light breath+"
+            "fire breath+"
         ],
+        "content": "No special effect.",
+        "color": "grey",
+        "aka": "Fire Breath+",
+        "skill": "Breath, Mt:8"
+    },
+    {
+        "name": "flametongue-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Flametongue",
+        "skill": "Breath, Mt:11"
+    },
+    {
+        "name": "flametongue",
+        "aliases": [
+            "flametongue+"
+        ],
+        "content": "No special effect.",
+        "color": "red",
+        "aka": "Flametongue+",
+        "skill": "Breath, Mt:15"
+    },
+    {
+        "name": "light breath-",
+        "aliases": [],
         "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.",
         "color": "grey",
         "aka": "Light Breath",
         "skill": "Breath, Mt:9"
     },
     {
-        "name": "lightning breath-",
+        "name": "light breath",
         "aliases": [
-            "lightning breath",
-            "lightning breath+",
-            "lb",
-            "lb+"
+            "light breath+"
         ],
+        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.",
+        "color": "grey",
+        "aka": "Light Breath+",
+        "skill": "Breath, Mt:13"
+    },
+    {
+        "name": "lightning breath-",
+        "aliases": [],
         "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).",
         "color": "grey",
         "aka": "Lightning Breath",
         "skill": "Breath, Mt:7"
     },
     {
+        "name": "lightning breath",
+        "aliases": [
+            "lightning breath+",
+            "lb",
+            "lb+"
+        ],
+        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).",
+        "color": "grey",
+        "aka": "Lightning Breath+",
+        "skill": "Breath, Mt:11"
+    },
+    {
         "name": "berkut's lance-",
         "aliases": [
-            "berkut's lance",
-            "berkut's lance+",
-            "berkuts lance-",
-            "berkuts lance",
-            "berkuts lance+"
+            "berkuts lance-"
         ],
         "content": "Grants Res+4 when the unit is under attack.",
         "color": "blue",
@@ -739,24 +882,52 @@
         "skill": "Blue Lance, Mt:10"
     },
     {
-        "name": "carrot lance-",
+        "name": "berkut's lance",
         "aliases": [
-            "carrot lance",
-            "carrot lance+",
-            "blue egg-",
-            "blue egg",
-            "blue egg+",
-            "carrot axe-",
-            "carrot axe",
-            "carrot axe+",
-            "green egg-",
-            "green egg",
-            "green egg+"
+            "berkut's lance+",
+            "berkuts lance",
+            "berkuts lance+"
         ],
+        "content": "Grants Res+4 when the unit is under attack.",
+        "color": "blue",
+        "aka": "Berkut's Lance+",
+        "skill": "Blue Lance, Mt:14"
+    },
+    {
+        "name": "brave lance-",
+        "aliases": [],
+        "content": "Spd-5. Attack twice when initiating combat.",
+        "color": "blue",
+        "aka": "Brave Lance",
+        "skill": "Blue Lance, Mt:5"
+    },
+    {
+        "name": "brave lance",
+        "aliases": [
+            "brave lance+"
+        ],
+        "content": "Spd-5. Attack twice when initiating combat.",
+        "color": "blue",
+        "aka": "Brave Lance+",
+        "skill": "Blue Lance, Mt:8"
+    },
+    {
+        "name": "carrot lance-",
+        "aliases": [],
         "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
         "color": "blue",
         "aka": "Carrot Lance",
         "skill": "Blue Lance, Mt:9"
+    },
+    {
+        "name": "carrot lance",
+        "aliases": [
+            "carrot lance+"
+        ],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "color": "blue",
+        "aka": "Carrot Lance+",
+        "skill": "Blue Lance, Mt:13"
     },
     {
         "name": "cursed lance",
@@ -768,25 +939,25 @@
     },
     {
         "name": "deft harpoon-",
-        "aliases": [
-            "deft harpoon",
-            "deft harpoon+",
-            "melon crusher-",
-            "melon crusher",
-            "melon crusher+",
-            "esports camilla"
-        ],
+        "aliases": [],
         "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
         "color": "blue",
         "aka": "Deft Harpoon",
         "skill": "Blue Lance, Mt:10"
     },
     {
-        "name": "fensalir",
+        "name": "deft harpoon",
         "aliases": [
-            "threaten atk 2",
-            "threaten attack 2"
+            "deft harpoon+"
         ],
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+        "color": "blue",
+        "aka": "Deft Harpoon+",
+        "skill": "Blue Lance, Mt:14"
+    },
+    {
+        "name": "fensalir",
+        "aliases": [],
         "content": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn.",
         "color": "blue",
         "aka": "Fensalir",
@@ -794,28 +965,39 @@
     },
     {
         "name": "firesweep lance-",
-        "aliases": [
-            "firesweep lance",
-            "firesweep lance+"
-        ],
+        "aliases": [],
         "content": "Unit and enemies cannot use counterattacks.",
         "color": "blue",
         "aka": "Firesweep Lance",
         "skill": "Blue Lance, Mt:11"
     },
     {
-        "name": "first bite-",
+        "name": "firesweep lance",
         "aliases": [
-            "first bite",
-            "first bite+",
-            "blessed bouquet-",
-            "blessed bouquet",
-            "blessed bouquet+"
+            "firesweep lance+"
         ],
+        "content": "Unit and enemies cannot use counterattacks.",
+        "color": "blue",
+        "aka": "Firesweep Lance+",
+        "skill": "Blue Lance, Mt:15"
+    },
+    {
+        "name": "first bite-",
+        "aliases": [],
         "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
         "color": "blue",
         "aka": "First Bite",
         "skill": "Blue Lance, Mt:10"
+    },
+    {
+        "name": "first bite",
+        "aliases": [
+            "first bite+"
+        ],
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
+        "color": "blue",
+        "aka": "First Bite+",
+        "skill": "Blue Lance, Mt:14"
     },
     {
         "name": "geirskogul",
@@ -824,6 +1006,150 @@
         "color": "blue",
         "aka": "Geirskogul",
         "skill": "Blue Lance, Mt:16"
+    },
+    {
+        "name": "gradivus",
+        "aliases": [],
+        "content": "Enables counterattack regardless of distance if this unit is attacked.",
+        "color": "blue",
+        "aka": "Gradivus",
+        "skill": "Blue Lance, Mt:16"
+    },
+    {
+        "name": "heavy spear-",
+        "aliases": [],
+        "content": "Effective against armored units.",
+        "color": "blue",
+        "aka": "Heavy Spear",
+        "skill": "Blue Lance, Mt:8"
+    },
+    {
+        "name": "heavy spear",
+        "aliases": [
+            "heavy spear+"
+        ],
+        "content": "Effective against armored units.",
+        "color": "blue",
+        "aka": "Heavy Spear+",
+        "skill": "Blue Lance, Mt:12"
+    },
+    {
+        "name": "iron lance",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "blue",
+        "aka": "Iron Lance",
+        "skill": "Blue Lance, Mt:6"
+    },
+    {
+        "name": "killer lance-",
+        "aliases": [],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "blue",
+        "aka": "Killer Lance",
+        "skill": "Blue Lance, Mt:7"
+    },
+    {
+        "name": "killer lance",
+        "aliases": [
+            "killer lance+"
+        ],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "blue",
+        "aka": "Killer Lance+",
+        "skill": "Blue Lance, Mt:11"
+    },
+    {
+        "name": "ridersbane-",
+        "aliases": [
+            "ridersbigguy-"
+        ],
+        "content": "Effective against cavalry units.",
+        "color": "blue",
+        "aka": "Ridersbane",
+        "skill": "Blue Lance, Mt:10"
+    },
+    {
+        "name": "ridersbane",
+        "aliases": [
+            "ridersbane+",
+            "ridersbigguy",
+            "ridersbigguy+"
+        ],
+        "content": "Effective against cavalry units.",
+        "color": "blue",
+        "aka": "Ridersbane+",
+        "skill": "Blue Lance, Mt:14"
+    },
+    {
+        "name": "sapphire lance-",
+        "aliases": [],
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "color": "blue",
+        "aka": "Sapphire Lance",
+        "skill": "Blue Lance, Mt:8"
+    },
+    {
+        "name": "sapphire lance",
+        "aliases": [
+            "sapphire lance+"
+        ],
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "color": "blue",
+        "aka": "Sapphire Lance+",
+        "skill": "Blue Lance, Mt:12"
+    },
+    {
+        "name": "siegmund",
+        "aliases": [],
+        "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
+        "color": "blue",
+        "aka": "Siegmund",
+        "skill": "Blue Lance, Mt:16"
+    },
+    {
+        "name": "silver lance-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "blue",
+        "aka": "Silver Lance",
+        "skill": "Blue Lance, Mt:11"
+    },
+    {
+        "name": "silver lance",
+        "aliases": [
+            "silver lance+"
+        ],
+        "content": "No special effect.",
+        "color": "blue",
+        "aka": "Silver Lance+",
+        "skill": "Blue Lance, Mt:15"
+    },
+    {
+        "name": "slaying lance-",
+        "aliases": [],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "blue",
+        "aka": "Slaying Lance",
+        "skill": "Blue Lance, Mt:10"
+    },
+    {
+        "name": "slaying lance",
+        "aliases": [
+            "slaying lance+"
+        ],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "blue",
+        "aka": "Slaying Lance+",
+        "skill": "Blue Lance, Mt:14"
+    },
+    {
+        "name": "steel lance",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "blue",
+        "aka": "Steel Lance",
+        "skill": "Blue Lance, Mt:8"
     },
     {
         "name": "vidofnir",
@@ -842,28 +1168,134 @@
         "skill": "Blue Tome, Mt:14"
     },
     {
+        "name": "blessed bouquet-",
+        "aliases": [],
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
+        "color": "blue",
+        "aka": "Blessed Bouquet",
+        "skill": "Blue Tome, Mt:8"
+    },
+    {
+        "name": "blessed bouquet",
+        "aliases": [
+            "blessed bouquet+"
+        ],
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
+        "color": "blue",
+        "aka": "Blessed Bouquet+",
+        "skill": "Blue Tome, Mt:12"
+    },
+    {
+        "name": "blue egg-",
+        "aliases": [],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "color": "blue",
+        "aka": "Blue Egg",
+        "skill": "Blue Tome, Mt:7"
+    },
+    {
+        "name": "blue egg",
+        "aliases": [
+            "blue egg+"
+        ],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "color": "blue",
+        "aka": "Blue Egg+",
+        "skill": "Blue Tome, Mt:11"
+    },
+    {
+        "name": "blarblade-",
+        "aliases": [],
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "color": "blue",
+        "aka": "Blarblade",
+        "skill": "Blue Tome, Mt:9"
+    },
+    {
+        "name": "blarblade",
+        "aliases": [
+            "blarblade+"
+        ],
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "color": "blue",
+        "aka": "Blarblade+",
+        "skill": "Blue Tome, Mt:13"
+    },
+    {
+        "name": "blarowl-",
+        "aliases": [],
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "color": "blue",
+        "aka": "Blarowl",
+        "skill": "Blue Tome, Mt:6"
+    },
+    {
+        "name": "blarowl",
+        "aliases": [
+            "blarowl+"
+        ],
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "color": "blue",
+        "aka": "Blarowl+",
+        "skill": "Blue Tome, Mt:10"
+    },
+    {
+        "name": "blarraven-",
+        "aliases": [],
+        "content": "Grants weapon advantage vs. colorless foes.",
+        "color": "blue",
+        "aka": "Blarraven",
+        "skill": "Blue Tome, Mt:7"
+    },
+    {
+        "name": "blarraven",
+        "aliases": [
+            "blarraven+"
+        ],
+        "content": "Grants weapon advantage vs. colorless foes.",
+        "color": "blue",
+        "aka": "Blarraven+",
+        "skill": "Blue Tome, Mt:11"
+    },
+    {
+        "name": "blarwolf-",
+        "aliases": [],
+        "content": "Effective against cavalry units.",
+        "color": "blue",
+        "aka": "Blarwolf",
+        "skill": "Blue Tome, Mt:6"
+    },
+    {
+        "name": "blarwolf",
+        "aliases": [
+            "blarwolf+"
+        ],
+        "content": "Effective against cavalry units.",
+        "color": "blue",
+        "aka": "Blarwolf+",
+        "skill": "Blue Tome, Mt:10"
+    },
+    {
         "name": "dancer's score-",
         "aliases": [
-            "dancer's score",
-            "dancer's score+",
-            "dancers score-",
-            "dancers score",
-            "dancers score+",
-            "dancer's ring-",
-            "dancer's ring",
-            "dancer's ring+",
-            "dancers ring-",
-            "dancers ring",
-            "dancers ring+",
-            "breath of life 3",
-            "breath of life",
-            "bol3",
-            "bol"
+            "dancers score-"
         ],
         "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
         "color": "blue",
         "aka": "Dancer's Score",
         "skill": "Blue Tome, Mt:8"
+    },
+    {
+        "name": "dancer's score",
+        "aliases": [
+            "dancer's score+",
+            "dancers score",
+            "dancers score+"
+        ],
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+        "color": "blue",
+        "aka": "Dancer's Score+",
+        "skill": "Blue Tome, Mt:12"
     },
     {
         "name": "dark aura",
@@ -872,6 +1304,66 @@
         "color": "blue",
         "aka": "Dark Aura",
         "skill": "Blue Tome, Mt:14"
+    },
+    {
+        "name": "dire thunder",
+        "aliases": [],
+        "content": "Spd-5. Attack twice when initiating combat.",
+        "color": "blue",
+        "aka": "Dire Thunder",
+        "skill": "Blue Tome, Mt:9"
+    },
+    {
+        "name": "elthunder",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "blue",
+        "aka": "Elthunder",
+        "skill": "Blue Tome, Mt:6"
+    },
+    {
+        "name": "sealife tome-",
+        "aliases": [],
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "color": "blue",
+        "aka": "Sealife Tome",
+        "skill": "Blue Tome, Mt:8"
+    },
+    {
+        "name": "sealife tome",
+        "aliases": [
+            "sealife tome+"
+        ],
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "color": "blue",
+        "aka": "Sealife Tome+",
+        "skill": "Blue Tome, Mt:12"
+    },
+    {
+        "name": "thoron-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "blue",
+        "aka": "Thoron",
+        "skill": "Blue Tome, Mt:9"
+    },
+    {
+        "name": "thoron",
+        "aliases": [
+            "thoron+"
+        ],
+        "content": "No special effect.",
+        "color": "blue",
+        "aka": "Thoron+",
+        "skill": "Blue Tome, Mt:13"
+    },
+    {
+        "name": "thunder",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "blue",
+        "aka": "Thunder",
+        "skill": "Blue Tome, Mt:4"
     },
     {
         "name": "valaskjalf",
@@ -901,19 +1393,170 @@
         "skill": "Green Axe, Mt:16"
     },
     {
+        "name": "brave axe-",
+        "aliases": [],
+        "content": "Spd-5. Attack twice when initiating combat.",
+        "color": "green",
+        "aka": "Brave Axe",
+        "skill": "Green Axe, Mt:5"
+    },
+    {
+        "name": "brave axe",
+        "aliases": [
+            "brave axe+"
+        ],
+        "content": "Spd-5. Attack twice when initiating combat.",
+        "color": "green",
+        "aka": "Brave Axe+",
+        "skill": "Green Axe, Mt:8"
+    },
+    {
+        "name": "carrot axe-",
+        "aliases": [],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "color": "green",
+        "aka": "Carrot Axe",
+        "skill": "Green Axe, Mt:9"
+    },
+    {
+        "name": "carrot axe",
+        "aliases": [
+            "carrot axe+"
+        ],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "color": "green",
+        "aka": "Carrot Axe+",
+        "skill": "Green Axe, Mt:13"
+    },
+    {
+        "name": "emerald axe-",
+        "aliases": [],
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "color": "green",
+        "aka": "Emerald Axe",
+        "skill": "Green Axe, Mt:8"
+    },
+    {
+        "name": "emerald axe",
+        "aliases": [
+            "emerald axe+"
+        ],
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "color": "green",
+        "aka": "Emerald Axe+",
+        "skill": "Green Axe, Mt:12"
+    },
+    {
+        "name": "hammer-",
+        "aliases": [],
+        "content": "Effective against armored units.",
+        "color": "green",
+        "aka": "Hammer",
+        "skill": "Green Axe, Mt:8"
+    },
+    {
+        "name": "hammer",
+        "aliases": [
+            "hammer+",
+            "banhammer"
+        ],
+        "content": "Effective against armored units.",
+        "color": "green",
+        "aka": "Hammer+",
+        "skill": "Green Axe, Mt:12"
+    },
+    {
+        "name": "hauteclere",
+        "aliases": [],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "green",
+        "aka": "Hauteclere",
+        "skill": "Green Axe, Mt:16"
+    },
+    {
+        "name": "iron axe",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "green",
+        "aka": "Iron Axe",
+        "skill": "Green Axe, Mt:6"
+    },
+    {
+        "name": "killer axe-",
+        "aliases": [],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "green",
+        "aka": "Killer Axe",
+        "skill": "Green Axe, Mt:7"
+    },
+    {
+        "name": "killer axe",
+        "aliases": [
+            "killer axe+"
+        ],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "green",
+        "aka": "Killer Axe+",
+        "skill": "Green Axe, Mt:11"
+    },
+    {
         "name": "legion's axe-",
         "aliases": [
-            "legion's axe",
-            "legion's axe+",
-            "legions axe-",
-            "legions axe",
-            "legions axe+",
-            "panic"
+            "legions axe-"
         ],
         "content": "After combat, bonuses on targeted foe become penalties through its next action.",
         "color": "green",
         "aka": "Legion's Axe",
         "skill": "Green Axe, Mt:10"
+    },
+    {
+        "name": "legion's axe",
+        "aliases": [
+            "legion's axe+",
+            "legions axe",
+            "legions axe+"
+        ],
+        "content": "After combat, bonuses on targeted foe become penalties through its next action.",
+        "color": "green",
+        "aka": "Legion's Axe+",
+        "skill": "Green Axe, Mt:14"
+    },
+    {
+        "name": "lilith floatie-",
+        "aliases": [],
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "color": "green",
+        "aka": "Lilith Floatie",
+        "skill": "Green Axe, Mt:10"
+    },
+    {
+        "name": "lilith floatie",
+        "aliases": [
+            "lilith floatie+"
+        ],
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "color": "green",
+        "aka": "Lilith Floatie+",
+        "skill": "Green Axe, Mt:14"
+    },
+    {
+        "name": "melon crusher-",
+        "aliases": [],
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+        "color": "green",
+        "aka": "Melon Crusher",
+        "skill": "Green Axe, Mt:10"
+    },
+    {
+        "name": "melon crusher",
+        "aliases": [
+            "melon crusher+",
+            "esports camilla"
+        ],
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+        "color": "green",
+        "aka": "Melon Crusher+",
+        "skill": "Green Axe, Mt:14"
     },
     {
         "name": "metal crusher",
@@ -932,6 +1575,50 @@
         "skill": "Green Axe, Mt:16"
     },
     {
+        "name": "silver axe-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "green",
+        "aka": "Silver Axe",
+        "skill": "Green Axe, Mt:11"
+    },
+    {
+        "name": "silver axe",
+        "aliases": [
+            "silver axe+"
+        ],
+        "content": "No special effect.",
+        "color": "green",
+        "aka": "Silver Axe+",
+        "skill": "Green Axe, Mt:15"
+    },
+    {
+        "name": "slaying axe-",
+        "aliases": [],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "green",
+        "aka": "Slaying Axe",
+        "skill": "Green Axe, Mt:10"
+    },
+    {
+        "name": "slaying axe",
+        "aliases": [
+            "slaying axe+"
+        ],
+        "content": "Accelerates Special trigger (cooldown count-1).",
+        "color": "green",
+        "aka": "Slaying Axe+",
+        "skill": "Green Axe, Mt:14"
+    },
+    {
+        "name": "steel axe",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "green",
+        "aka": "Steel Axe",
+        "skill": "Green Axe, Mt:8"
+    },
+    {
         "name": "urvan",
         "aliases": [],
         "content": "Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, damage from second attack onward reduced by 80%.",
@@ -946,6 +1633,28 @@
         "color": "green",
         "aka": "Uror",
         "skill": "Green Axe, Mt:16"
+    },
+    {
+        "name": "dancer's ring-",
+        "aliases": [
+            "dancers ring-"
+        ],
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+        "color": "green",
+        "aka": "Dancer's Ring",
+        "skill": "Green Tome, Mt:8"
+    },
+    {
+        "name": "dancer's ring",
+        "aliases": [
+            "dancer's ring+",
+            "dancers ring",
+            "dancers ring+"
+        ],
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+        "color": "green",
+        "aka": "Dancer's Ring+",
+        "skill": "Green Tome, Mt:12"
     },
     {
         "name": "dark excalibur",
@@ -972,18 +1681,31 @@
         "skill": "Green Tome, Mt:14"
     },
     {
+        "name": "elwind",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "green",
+        "aka": "Elwind",
+        "skill": "Green Tome, Mt:6"
+    },
+    {
         "name": "excalibur",
-        "aliases": [
-            "iron bow",
-            "silver bow-",
-            "silver bow",
-            "silver bow+",
-            "steel bow"
-        ],
+        "aliases": [],
         "content": "Effective against flying units.",
         "color": "green",
         "aka": "Excalibur",
         "skill": "Green Tome, Mt:14"
+    },
+    {
+        "name": "green egg-",
+        "aliases": [
+            "green egg",
+            "green egg+"
+        ],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "color": "green",
+        "aka": "Green Egg",
+        "skill": "Green Tome, Mt:7"
     },
     {
         "name": "green eggs and ham",
@@ -994,12 +1716,120 @@
         "skill": "Book, Yr: 1960"
     },
     {
+        "name": "gronnblade-",
+        "aliases": [],
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "color": "green",
+        "aka": "Gronnblade",
+        "skill": "Green Tome, Mt:9"
+    },
+    {
+        "name": "gronnblade",
+        "aliases": [
+            "gronnblade+"
+        ],
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "color": "green",
+        "aka": "Gronnblade+",
+        "skill": "Green Tome, Mt:13"
+    },
+    {
+        "name": "gronnowl-",
+        "aliases": [],
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "color": "green",
+        "aka": "Gronnowl",
+        "skill": "Green Tome, Mt:6"
+    },
+    {
+        "name": "gronnowl",
+        "aliases": [
+            "gronnowl+"
+        ],
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "color": "green",
+        "aka": "Gronnowl+",
+        "skill": "Green Tome, Mt:10"
+    },
+    {
+        "name": "gronnraven-",
+        "aliases": [],
+        "content": "Grants weapon advantage vs. colorless foes.",
+        "color": "green",
+        "aka": "Gronnraven",
+        "skill": "Green Tome, Mt:7"
+    },
+    {
+        "name": "gronnraven",
+        "aliases": [
+            "gronnraven+"
+        ],
+        "content": "Grants weapon advantage vs. colorless foes.",
+        "color": "green",
+        "aka": "Gronnraven+",
+        "skill": "Green Tome, Mt:11"
+    },
+    {
+        "name": "gronnwolf-",
+        "aliases": [],
+        "content": "Effective against cavalry units.",
+        "color": "green",
+        "aka": "Gronnwolf",
+        "skill": "Green Tome, Mt:6"
+    },
+    {
+        "name": "gronnwolf",
+        "aliases": [
+            "gronnwolf+"
+        ],
+        "content": "Effective against cavalry units.",
+        "color": "green",
+        "aka": "Gronnwolf+",
+        "skill": "Green Tome, Mt:10"
+    },
+    {
+        "name": "hibiscus tome-",
+        "aliases": [],
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "color": "green",
+        "aka": "Hibiscus Tome",
+        "skill": "Green Tome, Mt:8"
+    },
+    {
+        "name": "hibiscus tome",
+        "aliases": [
+            "hibiscus tome+"
+        ],
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "color": "green",
+        "aka": "Hibiscus Tome+",
+        "skill": "Green Tome, Mt:12"
+    },
+    {
         "name": "naga",
         "aliases": [],
         "content": "Effective against dragons. Grants Def/Res+2 when this unit is attacked.",
         "color": "green",
         "aka": "Naga",
         "skill": "Green Tome, Mt:14"
+    },
+    {
+        "name": "rexcalibur-",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "green",
+        "aka": "Rexcalibur",
+        "skill": "Green Tome, Mt:9"
+    },
+    {
+        "name": "rexcalibur",
+        "aliases": [
+            "rexcalibur+"
+        ],
+        "content": "No special effect.",
+        "color": "green",
+        "aka": "Rexcalibur+",
+        "skill": "Green Tome, Mt:13"
     },
     {
         "name": "wind",
@@ -1016,6 +1846,14 @@
         "color": "grey",
         "aka": "Absorb",
         "skill": "Colorless Staff, Mt:4*"
+    },
+    {
+        "name": "assault",
+        "aliases": [],
+        "content": "No special effect.",
+        "color": "grey",
+        "aka": "Assault",
+        "skill": "Colorless Staff, Mt:10*"
     },
     {
         "name": "battery",
@@ -1068,6 +1906,14 @@
         "skill": "Colorless Staff, Mt:3*"
     },
     {
+        "name": "panic",
+        "aliases": [],
+        "content": "After combat, bonuses on targeted foe become penalties through its next action.",
+        "color": "grey",
+        "aka": "Panic",
+        "skill": "Colorless Staff, Mt:7*"
+    },
+    {
         "name": "slow",
         "aliases": [],
         "content": "After any combat, inflicts Spd-6 on foe through its next action.",
@@ -1078,11 +1924,7 @@
     {
         "name": "assassin's bow-",
         "aliases": [
-            "assassin's bow",
-            "assassin's bow+",
-            "assassins bow-",
-            "assassins bow",
-            "assassins bow+"
+            "assassins bow-"
         ],
         "content": "Effective against flying units. If target has a dagger, it can't make a follow-up attack and this unit will.",
         "color": "grey",
@@ -1090,26 +1932,41 @@
         "skill": "Colorless Bow, Mt:7"
     },
     {
-        "name": "brave bow-",
+        "name": "assassin's bow",
         "aliases": [
-            "brave bow",
-            "brave bow+",
-            "bb",
-            "bb+"
+            "assassin's bow+",
+            "assassins bow",
+            "assassins bow+"
         ],
+        "content": "Effective against flying units. If target has a dagger, it can't make a follow-up attack and this unit will.",
+        "color": "grey",
+        "aka": "Assassin's Bow+",
+        "skill": "Colorless Bow, Mt:11"
+    },
+    {
+        "name": "brave bow-",
+        "aliases": [],
         "content": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat.",
         "color": "grey",
         "aka": "Brave Bow",
         "skill": "Colorless Bow, Mt:4"
     },
     {
+        "name": "brave bow",
+        "aliases": [
+            "brave bow+",
+            "bb",
+            "bb+"
+        ],
+        "content": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat.",
+        "color": "grey",
+        "aka": "Brave Bow+",
+        "skill": "Colorless Bow, Mt:7"
+    },
+    {
         "name": "clarisse's bow-",
         "aliases": [
-            "clarisse's bow",
-            "clarisse's bow+",
-            "clarisses bow-",
-            "clarisses bow",
-            "clarisses bow+"
+            "clarisses bow-"
         ],
         "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units.",
         "color": "grey",
@@ -1117,16 +1974,22 @@
         "skill": "Colorless Bow, Mt:7"
     },
     {
+        "name": "clarisse's bow",
+        "aliases": [
+            "clarisse's bow+",
+            "clarisses bow",
+            "clarisses bow+"
+        ],
+        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units.",
+        "color": "grey",
+        "aka": "Clarisse's Bow+",
+        "skill": "Colorless Bow, Mt:11"
+    },
+    {
         "name": "cupid arrow-",
         "aliases": [
-            "cupid arrow",
-            "cupid arrow+",
             "cupids arrow-",
-            "cupids arrow",
-            "cupids arrow+",
-            "cupid's arrow-",
-            "cupid's arrow",
-            "cupid's arrow+"
+            "cupid's arrow-"
         ],
         "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.",
         "color": "grey",
@@ -1134,15 +1997,36 @@
         "skill": "Colorless Bow, Mt:8"
     },
     {
-        "name": "firesweep bow-",
+        "name": "cupid arrow",
         "aliases": [
-            "firesweep bow",
-            "firesweep bow+"
+            "cupid arrow+",
+            "cupids arrow",
+            "cupids arrow+",
+            "cupid's arrow",
+            "cupid's arrow+"
         ],
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.",
+        "color": "grey",
+        "aka": "Cupid Arrow+",
+        "skill": "Colorless Bow, Mt:12"
+    },
+    {
+        "name": "firesweep bow-",
+        "aliases": [],
         "content": "Effective against fliers. Unit and enemies cannot use counterattacks.",
         "color": "grey",
         "aka": "Firesweep Bow",
         "skill": "Colorless Bow, Mt:7"
+    },
+    {
+        "name": "firesweep bow",
+        "aliases": [
+            "firesweep bow+"
+        ],
+        "content": "Effective against fliers. Unit and enemies cannot use counterattacks.",
+        "color": "grey",
+        "aka": "Firesweep Bow+",
+        "skill": "Colorless Bow, Mt:11"
     },
     {
         "name": "fujin yumi",
@@ -1153,18 +2037,30 @@
         "skill": "Colorless Bow, Mt:14"
     },
     {
+        "name": "iron bow",
+        "aliases": [],
+        "content": "Effective against flying units.",
+        "color": "grey",
+        "aka": "Iron Bow",
+        "skill": "Colorless Bow, Mt:4"
+    },
+    {
         "name": "killer bow-",
-        "aliases": [
-            "killer bow",
-            "killer bow+",
-            "slaying bow-",
-            "slaying bow",
-            "slaying bow+"
-        ],
+        "aliases": [],
         "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
         "color": "grey",
         "aka": "Killer Bow",
         "skill": "Colorless Bow, Mt:5"
+    },
+    {
+        "name": "killer bow",
+        "aliases": [
+            "killer bow+"
+        ],
+        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+        "color": "grey",
+        "aka": "Killer Bow+",
+        "skill": "Colorless Bow, Mt:9"
     },
     {
         "name": "mulagir",
@@ -1192,28 +2088,87 @@
     },
     {
         "name": "refreshing bolt-",
-        "aliases": [
-            "refreshing bolt",
-            "refreshing bolt+"
-        ],
+        "aliases": [],
         "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.",
         "color": "grey",
         "aka": "Refreshing Bolt",
         "skill": "Colorless Bow, Mt:8"
     },
     {
+        "name": "refreshing bolt",
+        "aliases": [
+            "refreshing bolt+"
+        ],
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.",
+        "color": "grey",
+        "aka": "Refreshing Bolt+",
+        "skill": "Colorless Bow, Mt:12"
+    },
+    {
+        "name": "silver bow-",
+        "aliases": [],
+        "content": "Effective against flying units.",
+        "color": "grey",
+        "aka": "Silver Bow",
+        "skill": "Colorless Bow, Mt:9"
+    },
+    {
+        "name": "silver bow",
+        "aliases": [
+            "silver bow+"
+        ],
+        "content": "Effective against flying units.",
+        "color": "grey",
+        "aka": "Silver Bow+",
+        "skill": "Colorless Bow, Mt:13"
+    },
+    {
+        "name": "slaying bow-",
+        "aliases": [],
+        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+        "color": "grey",
+        "aka": "Slaying Bow",
+        "skill": "Colorless Bow, Mt:8"
+    },
+    {
+        "name": "slaying bow",
+        "aliases": [
+            "slaying bow+"
+        ],
+        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+        "color": "grey",
+        "aka": "Slaying Bow+",
+        "skill": "Colorless Bow, Mt:12"
+    },
+    {
+        "name": "steel bow",
+        "aliases": [],
+        "content": "Effective against flying units.",
+        "color": "grey",
+        "aka": "Steel Bow",
+        "skill": "Colorless Bow, Mt:6"
+    },
+    {
         "name": "dancer's fan-",
         "aliases": [
-            "dancer's fan",
-            "dancer's fan+",
-            "dancers fan-",
-            "dancers fan",
-            "dancers fan+"
+            "dancers fan-"
         ],
         "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-5 after combat until the end of foe's next action.",
         "color": "grey",
         "aka": "Dancer's Fan",
         "skill": "Colorless Dagger, Mt:7"
+    },
+    {
+        "name": "dancer's fan",
+        "aliases": [
+            "dancer's fan+",
+            "dancers fan",
+            "dancers fan+"
+        ],
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-5 after combat until the end of foe's next action.",
+        "color": "grey",
+        "aka": "Dancer's Fan+",
+        "skill": "Colorless Dagger, Mt:10"
     },
     {
         "name": "deathly dagger",
@@ -1225,9 +2180,7 @@
     },
     {
         "name": "iron dagger",
-        "aliases": [
-            "steel dagger"
-        ],
+        "aliases": [],
         "content": "After combat, inflicts Def/Res-3 on foe through its next action.",
         "color": "grey",
         "aka": "Iron Dagger",
@@ -1235,58 +2188,101 @@
     },
     {
         "name": "poison dagger-",
-        "aliases": [
-            "poison dagger",
-            "poison dagger+"
-        ],
+        "aliases": [],
         "content": "Effective against infantry units. Infantry foes suffer Def/Res-4 after combat through their next actions.",
         "color": "grey",
         "aka": "Poison Dagger",
         "skill": "Colorless Dagger, Mt:2"
     },
     {
-        "name": "rogue dagger-",
+        "name": "poison dagger",
         "aliases": [
-            "rogue dagger",
-            "rogue dagger+"
+            "poison dagger+"
         ],
+        "content": "Effective against infantry units. Infantry foes suffer Def/Res-4 after combat through their next actions.",
+        "color": "grey",
+        "aka": "Poison Dagger+",
+        "skill": "Colorless Dagger, Mt:5"
+    },
+    {
+        "name": "rogue dagger-",
+        "aliases": [],
         "content": "After combat, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn.",
         "color": "grey",
         "aka": "Rogue Dagger",
         "skill": "Colorless Dagger, Mt:4"
     },
     {
-        "name": "seashell-",
+        "name": "rogue dagger",
         "aliases": [
-            "seashell",
-            "seashell+"
+            "rogue dagger+"
         ],
+        "content": "After combat, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn.",
+        "color": "grey",
+        "aka": "Rogue Dagger+",
+        "skill": "Colorless Dagger, Mt:7"
+    },
+    {
+        "name": "seashell-",
+        "aliases": [],
         "content": "Foe takes Def/Res-5 until end of foe's next action. If unit has 100% HP at start of combat, Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after.",
         "color": "grey",
         "aka": "Seashell",
         "skill": "Colorless Dagger, Mt:7"
     },
     {
-        "name": "silver dagger-",
+        "name": "seashell",
         "aliases": [
-            "silver dagger",
-            "silver dagger+"
+            "seashell+"
         ],
+        "content": "Foe takes Def/Res-5 until end of foe's next action. If unit has 100% HP at start of combat, Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after.",
+        "color": "grey",
+        "aka": "Seashell+",
+        "skill": "Colorless Dagger, Mt:10"
+    },
+    {
+        "name": "silver dagger-",
+        "aliases": [],
         "content": "After combat, inflicts Def/Res-5 on foe through its next action.",
         "color": "grey",
         "aka": "Silver Dagger",
         "skill": "Colorless Dagger, Mt:7"
     },
     {
-        "name": "smoke dagger-",
+        "name": "silver dagger",
         "aliases": [
-            "smoke dagger",
-            "smoke dagger+"
+            "silver dagger+"
         ],
+        "content": "After combat, inflicts Def/Res-5 on foe through its next action.",
+        "color": "grey",
+        "aka": "Silver Dagger+",
+        "skill": "Colorless Dagger, Mt:10"
+    },
+    {
+        "name": "smoke dagger-",
+        "aliases": [],
         "content": "After combat, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions.",
         "color": "grey",
         "aka": "Smoke Dagger",
         "skill": "Colorless Dagger, Mt:6"
+    },
+    {
+        "name": "smoke dagger",
+        "aliases": [
+            "smoke dagger+"
+        ],
+        "content": "After combat, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions.",
+        "color": "grey",
+        "aka": "Smoke Dagger+",
+        "skill": "Colorless Dagger, Mt:9"
+    },
+    {
+        "name": "steel dagger",
+        "aliases": [],
+        "content": "After combat, inflicts Def/Res-3 on foe through its next action.",
+        "color": "grey",
+        "aka": "Steel Dagger",
+        "skill": "Colorless Dagger, Mt:5"
     },
     {
         "name": "ardent sacrifice",
@@ -1306,9 +2302,7 @@
     },
     {
         "name": "dance",
-        "aliases": [
-            "sing"
-        ],
+        "aliases": [],
         "content": "Enables target to take another action. Cannot be used on units with Sing or Dance.",
         "color": "cyan",
         "aka": "Dance",
@@ -1521,6 +2515,14 @@
         "skill": "Assist"
     },
     {
+        "name": "sing",
+        "aliases": [],
+        "content": "Enables target to take another action. Cannot be used on units with Sing or Dance.",
+        "color": "cyan",
+        "aka": "Sing",
+        "skill": "Assist"
+    },
+    {
         "name": "smite",
         "aliases": [],
         "content": "Push adjacent ally 2 spaces farther away.",
@@ -1570,21 +2572,40 @@
     },
     {
         "name": "blazing flame",
-        "aliases": [
-            "blazing light",
-            "blazing thunder",
-            "blazing wind"
-        ],
+        "aliases": [],
         "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
         "color": "purple",
         "aka": "Blazing Flame",
         "skill": "Special, CD:4"
     },
     {
+        "name": "blazing light",
+        "aliases": [],
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
+        "color": "purple",
+        "aka": "Blazing Light",
+        "skill": "Special, CD:4"
+    },
+    {
+        "name": "blazing thunder",
+        "aliases": [],
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
+        "color": "purple",
+        "aka": "Blazing Thunder",
+        "skill": "Special, CD:4"
+    },
+    {
+        "name": "blazing wind",
+        "aliases": [],
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
+        "color": "purple",
+        "aka": "Blazing Wind",
+        "skill": "Special, CD:4"
+    },
+    {
         "name": "bonfire",
         "aliases": [
-            "childish gambino",
-            "glowing ember"
+            "childish gambino"
         ],
         "content": "Boosts damage dealt by 50% of unit's Def.",
         "color": "purple",
@@ -1593,9 +2614,7 @@
     },
     {
         "name": "buckler",
-        "aliases": [
-            "escutcheon"
-        ],
+        "aliases": [],
         "content": "Reduces damage inflicted by attacks from adjacent foes by 30%.",
         "color": "purple",
         "aka": "Buckler",
@@ -1603,9 +2622,7 @@
     },
     {
         "name": "chilling wind",
-        "aliases": [
-            "iceberg"
-        ],
+        "aliases": [],
         "content": "Boosts damage dealt by 50% of unit's Res.",
         "color": "purple",
         "aka": "Chilling Wind",
@@ -1613,10 +2630,7 @@
     },
     {
         "name": "daylight",
-        "aliases": [
-            "noontime",
-            "high noon"
-        ],
+        "aliases": [],
         "content": "Heal 30% of damage dealt.",
         "color": "purple",
         "aka": "Daylight",
@@ -1624,9 +2638,7 @@
     },
     {
         "name": "draconic aura",
-        "aliases": [
-            "dragon gaze"
-        ],
+        "aliases": [],
         "content": "Grants +30% to Atk.",
         "color": "purple",
         "aka": "Draconic Aura",
@@ -1639,6 +2651,22 @@
         "color": "purple",
         "aka": "Dragon Fang",
         "skill": "Special, CD:4"
+    },
+    {
+        "name": "dragon gaze",
+        "aliases": [],
+        "content": "Grants +30% to Atk.",
+        "color": "purple",
+        "aka": "Dragon Gaze",
+        "skill": "Special, CD:4"
+    },
+    {
+        "name": "escutcheon",
+        "aliases": [],
+        "content": "Reduces damage inflicted by attacks from adjacent foes by 30%.",
+        "color": "purple",
+        "aka": "Escutcheon",
+        "skill": "Special, CD:2"
     },
     {
         "name": "galeforce",
@@ -1658,19 +2686,23 @@
     },
     {
         "name": "glimmer",
-        "aliases": [
-            "night sky"
-        ],
+        "aliases": [],
         "content": "Grants +50% to damage dealt.",
         "color": "purple",
         "aka": "Glimmer",
         "skill": "Special, CD:2"
     },
     {
+        "name": "glowing ember",
+        "aliases": [],
+        "content": "Boosts damage dealt by 50% of unit's Def.",
+        "color": "purple",
+        "aka": "Glowing Ember",
+        "skill": "Special, CD:4"
+    },
+    {
         "name": "growing flame",
-        "aliases": [
-            "growing thunder"
-        ],
+        "aliases": [],
         "content": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
         "color": "purple",
         "aka": "Growing Flame",
@@ -1682,6 +2714,14 @@
         "content": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk - foe's Def or Res).",
         "color": "purple",
         "aka": "Growing Light",
+        "skill": "Special, CD:4"
+    },
+    {
+        "name": "growing thunder",
+        "aliases": [],
+        "content": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "color": "purple",
+        "aka": "Growing Thunder",
         "skill": "Special, CD:4"
     },
     {
@@ -1702,12 +2742,18 @@
     },
     {
         "name": "holy vestments",
-        "aliases": [
-            "sacred cowl"
-        ],
+        "aliases": [],
         "content": "Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
         "color": "purple",
         "aka": "Holy Vestments",
+        "skill": "Special, CD:3"
+    },
+    {
+        "name": "iceberg",
+        "aliases": [],
+        "content": "Boosts damage dealt by 50% of unit's Res.",
+        "color": "purple",
+        "aka": "Iceberg",
         "skill": "Special, CD:3"
     },
     {
@@ -1754,12 +2800,36 @@
     },
     {
         "name": "moonbow",
-        "aliases": [
-            "new moon"
-        ],
+        "aliases": [],
         "content": "Resolve combat as if foe suffered Def/Res-30%.",
         "color": "purple",
         "aka": "Moonbow",
+        "skill": "Special, CD:2"
+    },
+    {
+        "name": "new moon",
+        "aliases": [],
+        "content": "Resolve combat as if foe suffered Def/Res-30%.",
+        "color": "purple",
+        "aka": "New Moon",
+        "skill": "Special, CD:3"
+    },
+    {
+        "name": "night sky",
+        "aliases": [],
+        "content": "Grants +50% to damage dealt.",
+        "color": "purple",
+        "aka": "Night Sky",
+        "skill": "Special, CD:3"
+    },
+    {
+        "name": "noontime",
+        "aliases": [
+            "high noon"
+        ],
+        "content": "Heal 30% of damage dealt.",
+        "color": "purple",
+        "aka": "Noontime",
         "skill": "Special, CD:2"
     },
     {
@@ -1782,25 +2852,59 @@
     },
     {
         "name": "reprisal",
-        "aliases": [
-            "retribution"
-        ],
+        "aliases": [],
         "content": "Grants bonus to damage dealt equal to 30% of damage suffered.",
         "color": "purple",
         "aka": "Reprisal",
         "skill": "Special, CD:2"
     },
     {
+        "name": "retribution",
+        "aliases": [],
+        "content": "Grants bonus to damage dealt equal to 30% of damage suffered.",
+        "color": "purple",
+        "aka": "Retribution",
+        "skill": "Special, CD:3"
+    },
+    {
         "name": "rising flame",
-        "aliases": [
-            "rising light",
-            "rising thunder",
-            "rising wind"
-        ],
+        "aliases": [],
         "content": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
         "color": "purple",
         "aka": "Rising Flame",
         "skill": "Special, CD:4"
+    },
+    {
+        "name": "rising light",
+        "aliases": [],
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "color": "purple",
+        "aka": "Rising Light",
+        "skill": "Special, CD:4"
+    },
+    {
+        "name": "rising thunder",
+        "aliases": [],
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "color": "purple",
+        "aka": "Rising Thunder",
+        "skill": "Special, CD:4"
+    },
+    {
+        "name": "rising wind",
+        "aliases": [],
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "color": "purple",
+        "aka": "Rising Wind",
+        "skill": "Special, CD:4"
+    },
+    {
+        "name": "sacred cowl",
+        "aliases": [],
+        "content": "Reduces damage inflicted by attacks from foes 2 spaces away by 30%.",
+        "color": "purple",
+        "aka": "Sacred Cowl",
+        "skill": "Special, CD:2"
     },
     {
         "name": "sol",
@@ -2038,9 +3142,7 @@
     {
         "name": "close counter",
         "aliases": [
-            "cc",
-            "distant counter",
-            "dc"
+            "cc"
         ],
         "content": "Enables unit to counterattack regardless of distance to attacker.",
         "color": "orange",
@@ -2146,9 +3248,7 @@
             "defense 1",
             "def +1",
             "def+1",
-            "def 1",
-            "squad ace b 1",
-            "sab1"
+            "def 1"
         ],
         "content": "Grants Def+1.",
         "color": "orange",
@@ -2162,9 +3262,7 @@
             "defense 2",
             "def +2",
             "def+2",
-            "def 2",
-            "squad ace b 2",
-            "sab2"
+            "def 2"
         ],
         "content": "Grants Def+2.",
         "color": "orange",
@@ -2182,11 +3280,7 @@
             "defense",
             "def",
             "defense plus",
-            "def plus",
-            "squad ace b 3",
-            "sab3",
-            "squad ace b",
-            "sab"
+            "def plus"
         ],
         "content": "Grants Def+3.",
         "color": "orange",
@@ -2201,6 +3295,16 @@
         "content": "Grants Atk+3 at start of turn if unit's HP <= 50%.",
         "color": "orange",
         "aka": "Defiant Atk 1",
+        "skill": "A Skill"
+    },
+    {
+        "name": "defiant atk 2",
+        "aliases": [
+            "defiant attack 2"
+        ],
+        "content": "Grants Atk+5 at start of turn if unit's HP <= 50%.",
+        "color": "orange",
+        "aka": "Defiant Atk 2",
         "skill": "A Skill"
     },
     {
@@ -2309,6 +3413,16 @@
         "content": "Grants Spd+7 at start of turn if unit's HP <= 50%.",
         "color": "orange",
         "aka": "Defiant Spd 3",
+        "skill": "A Skill"
+    },
+    {
+        "name": "distant counter",
+        "aliases": [
+            "dc"
+        ],
+        "content": "Enables unit to counterattack regardless of distance to attacker.",
+        "color": "orange",
+        "aka": "Distant Counter",
         "skill": "A Skill"
     },
     {
@@ -2502,10 +3616,7 @@
     {
         "name": "grani's shield",
         "aliases": [
-            "granis shield",
-            "iote's shield",
-            "iotes shield",
-            "svalinn shield"
+            "granis shield"
         ],
         "content": "Neutralizes \"effective against\" bonuses.",
         "color": "orange",
@@ -2631,6 +3742,16 @@
         "skill": "A Skill"
     },
     {
+        "name": "iote's shield",
+        "aliases": [
+            "iotes shield"
+        ],
+        "content": "Neutralizes \"effective against\" bonuses.",
+        "color": "orange",
+        "aka": "Iote's Shield",
+        "skill": "A Skill"
+    },
+    {
         "name": "life and death 1",
         "aliases": [],
         "content": "Grants Atk/Spd+3. Inflicts Def/Res-3.",
@@ -2687,9 +3808,7 @@
             "resistance 1",
             "res +1",
             "res+1",
-            "res 1",
-            "squad ace c 1",
-            "sac1"
+            "res 1"
         ],
         "content": "Grants Res+1.",
         "color": "orange",
@@ -2703,9 +3822,7 @@
             "resistance 2",
             "res +2",
             "res+2",
-            "res 2",
-            "squad ace c 2",
-            "sac2"
+            "res 2"
         ],
         "content": "Grants Res+2.",
         "color": "orange",
@@ -2723,11 +3840,7 @@
             "resistance",
             "res",
             "resistance plus",
-            "res plus",
-            "squad ace c 3",
-            "sac3",
-            "squad ace c",
-            "sac"
+            "res plus"
         ],
         "content": "Grants Res+3.",
         "color": "orange",
@@ -2778,9 +3891,7 @@
             "speed 1",
             "spd +1",
             "spd+1",
-            "spd 1",
-            "squad ace d 1",
-            "sad1"
+            "spd 1"
         ],
         "content": "Grants Spd+1.",
         "color": "orange",
@@ -2794,9 +3905,7 @@
             "speed 2",
             "spd +2",
             "spd+2",
-            "spd 2",
-            "squad ace d 2",
-            "sad2"
+            "spd 2"
         ],
         "content": "Grants Spd+2.",
         "color": "orange",
@@ -2814,11 +3923,7 @@
             "speed",
             "spd",
             "speed plus",
-            "spd plus",
-            "squad ace d 3",
-            "sad3",
-            "squad ace d",
-            "sad"
+            "spd plus"
         ],
         "content": "Grants Spd+3.",
         "color": "orange",
@@ -2933,6 +4038,14 @@
         "skill": "A Skill"
     },
     {
+        "name": "svalinn shield",
+        "aliases": [],
+        "content": "Neutralizes \"effective against\" bonuses.",
+        "color": "orange",
+        "aka": "Svalinn Shield",
+        "skill": "A Skill"
+    },
+    {
         "name": "swift sparrow 1",
         "aliases": [],
         "content": "If unit initiates combat, unit granted Atk/Spd+2 during battle.",
@@ -2984,6 +4097,18 @@
         "content": "Gives Atk+15% if weapon-triangle advantage, Atk-15% if disadvantage.",
         "color": "orange",
         "aka": "Triangle Adept 2",
+        "skill": "A Skill"
+    },
+    {
+        "name": "triangle adept 3",
+        "aliases": [
+            "triangle adept",
+            "ta",
+            "ta3"
+        ],
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "color": "orange",
+        "aka": "Triangle Adept 3",
         "skill": "A Skill"
     },
     {
@@ -3338,14 +4463,6 @@
         "skill": "Song"
     },
     {
-        "name": "gangnam style",
-        "aliases": [],
-        "content": "The true music video that deserves #1 most viewed video on YouTube.",
-        "color": "yellow",
-        "aka": "op",
-        "skill": "Song"
-    },
-    {
         "name": "drag back",
         "aliases": [],
         "content": "If unit initiates attack, the unit moves 1 space away after combat. Foe moves into unit's previous space.",
@@ -3638,17 +4755,10 @@
     {
         "name": "obstruct 3",
         "aliases": [
-            "obstruct"
+            "obstruct",
+            "obstruct meme"
         ],
         "content": "Prevents foes from moving through adjacent spaces while this unit's HP >= 50%. (No effect on foes with a Pass skill.)",
-        "color": "orange",
-        "aka": "Obstruct 3",
-        "skill": "B Skill"
-    },
-    {
-        "name": "obstruct meme",
-        "aliases": [],
-        "content": "Prevents foes from moving through adjacent spaces while this unit's HP >= 50%. (No effect on Kelly.)",
         "color": "orange",
         "aka": "Obstruct 3",
         "skill": "B Skill"
@@ -4362,11 +5472,7 @@
         "name": "axe experience 1",
         "aliases": [
             "axe exp 1",
-            "axe xp 1",
-            "sword exp. 1",
-            "sword exp 1",
-            "sword xp 1",
-            "sword experience 1"
+            "axe xp 1"
         ],
         "content": "If unit survives, unit gets 1.5x EXP.\n(If similar skill effects also used, only highest multiplier applied.)",
         "color": "orange",
@@ -4478,17 +5584,10 @@
             "b tome experience",
             "blue tome exp.",
             "blue tome exp",
-            "blue tome xp"
+            "blue tome xp",
+            "blue tome experience"
         ],
         "content": "If unit survives combat, all blue magic users on team get 2x EXP.\n(If similar skill effects also used, only highest multiplier applied.)",
-        "color": "orange",
-        "aka": "B Tome Exp. 3",
-        "skill": "C Skill"
-    },
-    {
-        "name": "blue tome experience",
-        "aliases": [],
-        "content": "If unit survives combat, all blue magic users on team get 2x EXP. \nIf similar skill effects also used, only highest multiplier applied.)",
         "color": "orange",
         "aka": "B Tome Exp. 3",
         "skill": "C Skill"
@@ -4587,6 +5686,18 @@
         "content": "If unit initiates attack, adjacent allies recover 5 HP after combat.",
         "color": "orange",
         "aka": "Breath of Life 2",
+        "skill": "C Skill & Sacred Seal"
+    },
+    {
+        "name": "breath of life 3",
+        "aliases": [
+            "breath of life",
+            "bol3",
+            "bol"
+        ],
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+        "color": "orange",
+        "aka": "Breath of Life 3",
         "skill": "C Skill & Sacred Seal"
     },
     {
@@ -4923,6 +6034,16 @@
         "content": "Grants adjacent allies Atk+2 through their next actions at the start of each turn.",
         "color": "orange",
         "aka": "Hone Atk 1",
+        "skill": "C Skill"
+    },
+    {
+        "name": "hone atk 2",
+        "aliases": [
+            "hone attack 2"
+        ],
+        "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
+        "color": "orange",
+        "aka": "Hone Atk 2",
         "skill": "C Skill"
     },
     {
@@ -5373,6 +6494,18 @@
         "skill": "C Skill"
     },
     {
+        "name": "sword exp. 1",
+        "aliases": [
+            "sword exp 1",
+            "sword xp 1",
+            "sword experience 1"
+        ],
+        "content": "If unit survives, unit gets 1.5x EXP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "Sword Exp. 1",
+        "skill": "C Skill"
+    },
+    {
         "name": "sword exp. 2",
         "aliases": [
             "sword exp 2",
@@ -5443,6 +6576,16 @@
         "skill": "C Skill"
     },
     {
+        "name": "threaten atk 2",
+        "aliases": [
+            "threaten attack 2"
+        ],
+        "content": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn.",
+        "color": "orange",
+        "aka": "Threaten Atk 2",
+        "skill": "C Skill"
+    },
+    {
         "name": "threaten atk 3",
         "aliases": [
             "threaten attack 3",
@@ -5462,6 +6605,16 @@
         "content": "Inflicts Def-3 on foes within 2 spaces through their next actions at the start of each turn.",
         "color": "orange",
         "aka": "Threaten Def 1",
+        "skill": "C Skill"
+    },
+    {
+        "name": "threaten def 2",
+        "aliases": [
+            "threaten defense 2"
+        ],
+        "content": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn.",
+        "color": "orange",
+        "aka": "Threaten Def 2",
         "skill": "C Skill"
     },
     {
@@ -5758,6 +6911,70 @@
         "skill": "Sacred Seal"
     },
     {
+        "name": "squad ace b 1",
+        "aliases": [
+            "sab1"
+        ],
+        "content": "Grants Def+1.",
+        "color": "yellow",
+        "aka": "Squad Ace B 1",
+        "skill": "Sacred Seal"
+    },
+    {
+        "name": "squad ace b 2",
+        "aliases": [
+            "sab2"
+        ],
+        "content": "Grants Def+2.",
+        "color": "yellow",
+        "aka": "Squad Ace B 2",
+        "skill": "Sacred Seal"
+    },
+    {
+        "name": "squad ace b 3",
+        "aliases": [
+            "sab3",
+            "squad ace b",
+            "sab"
+        ],
+        "content": "Grants Def+3.",
+        "color": "yellow",
+        "aka": "Squad Ace B 3",
+        "skill": "Sacred Seal"
+    },
+    {
+        "name": "squad ace c 1",
+        "aliases": [
+            "sac1"
+        ],
+        "content": "Grants Res+1.",
+        "color": "yellow",
+        "aka": "Squad Ace C 1",
+        "skill": "Sacred Seal"
+    },
+    {
+        "name": "squad ace c 2",
+        "aliases": [
+            "sac2"
+        ],
+        "content": "Grants Res+2.",
+        "color": "yellow",
+        "aka": "Squad Ace C 2",
+        "skill": "Sacred Seal"
+    },
+    {
+        "name": "squad ace c 3",
+        "aliases": [
+            "sac3",
+            "squad ace c",
+            "sac"
+        ],
+        "content": "Grants Res+3.",
+        "color": "yellow",
+        "aka": "Squad Ace C 3",
+        "skill": "Sacred Seal"
+    },
+    {
         "name": "squad ace c 9",
         "aliases": [
             "squad ace c9",
@@ -5769,15 +6986,54 @@
         "skill": "eSports Team"
     },
     {
-        "name": "kitty paddle-",
+        "name": "squad ace d 1",
         "aliases": [
-            "kitty paddle",
-            "kitty paddle+"
+            "sad1"
         ],
+        "content": "Grants Spd+1.",
+        "color": "yellow",
+        "aka": "Squad Ace D 1",
+        "skill": "Sacred Seal"
+    },
+    {
+        "name": "squad ace d 2",
+        "aliases": [
+            "sad2"
+        ],
+        "content": "Grants Spd+2.",
+        "color": "yellow",
+        "aka": "Squad Ace D 2",
+        "skill": "Sacred Seal"
+    },
+    {
+        "name": "squad ace d 3",
+        "aliases": [
+            "sad3",
+            "squad ace d",
+            "sad"
+        ],
+        "content": "Grants Spd+3.",
+        "color": "yellow",
+        "aka": "Squad Ace D 3",
+        "skill": "Sacred Seal"
+    },
+    {
+        "name": "kitty paddle-",
+        "aliases": [],
         "content": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action",
         "color": "grey",
         "aka": "Kitty Paddle",
         "skill": "Colorless Dagger, Mt:5"
+    },
+    {
+        "name": "kitty paddle",
+        "aliases": [
+            "kitty paddle+"
+        ],
+        "content": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action",
+        "color": "grey",
+        "aka": "Kitty Paddle+",
+        "skill": "Colorless Dagger, Mt:8"
     },
     {
         "name": "warding stance 1",
@@ -5839,14 +7095,21 @@
     },
     {
         "name": "monstrous bow-",
-        "aliases": [
-            "monstrous bow",
-            "monstrous bow+"
-        ],
+        "aliases": [],
         "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
         "color": "grey",
         "aka": "Monstrous Bow",
         "skill": "Colorless Bow, Mt:8"
+    },
+    {
+        "name": "monstrous bow",
+        "aliases": [
+            "monstrous bow+"
+        ],
+        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
+        "color": "grey",
+        "aka": "Monstrous Bow+",
+        "skill": "Colorless Bow, Mt:12"
     },
     {
         "name": "bracing blow 1",
@@ -5868,14 +7131,21 @@
     },
     {
         "name": "spectral tome-",
-        "aliases": [
-            "spectral tome",
-            "spectral tome+"
-        ],
+        "aliases": [],
         "content": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
         "color": "green",
         "aka": "Spectral Tome",
         "skill": "Green Tome, Mt:8"
+    },
+    {
+        "name": "spectral tome",
+        "aliases": [
+            "spectral tome+"
+        ],
+        "content": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
+        "color": "green",
+        "aka": "Spectral Tome+",
+        "skill": "Green Tome, Mt:12"
     },
     {
         "name": "grimoire",
@@ -5924,6 +7194,14 @@
         "color": "orange",
         "aka": "Atk/Res Bond 3",
         "skill": "A Skill"
+    },
+    {
+        "name": "stout tomahawk",
+        "aliases": [],
+        "content": "Enables counterattack regardless of distance if this unit is attacked.",
+        "color": "green",
+        "aka": "Stout Tomahawk",
+        "skill": "Green Axe, Mt:16"
     },
     {
         "name": "fierce stance 1",
