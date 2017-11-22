@@ -55,7 +55,7 @@ def read_skill_commands() -> dict:
             }
             new_skills[old_skill['name']] = new_skill
             for a in old_skill['aliases']:
-                new_skills['a'] = new_skill
+                new_skills[a] = new_skill
         return new_skills
 
         
