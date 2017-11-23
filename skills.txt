@@ -1,3 +1,6 @@
+This is now a legacy file and is not used. Some things in this file are out of date or incomplete, or do not reflect the current state of the bot.
+Editing this file will have no consequence, and the script to convert it into a .json file is non-automatic; it will only be useful if you run it manually
+
 alphadk|Some Australian guy that developed this bot.$Use !report to tell me stuff|yellow|AlphaDK|Player
 stackoverflow|Grants lots of useful information to programmers, this bot would not be possible without it.|yellow|StackOverflow|Website
 mike|Best streamer NA, Tier 20 Player, King of Team Fae for 2 hours$http://twitch.tv/Nintendude92|red|Nintendude|Player

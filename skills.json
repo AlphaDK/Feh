@@ -83,14 +83,20 @@
     },
     {
         "name": "op",
-        "aliases": [
-            "gangnam style"
-        ],
+        "aliases": [],
         "content": "op",
         "color": "green",
         "aka": "op",
         "skill": "op, op: op"
     },
+	{
+		"name": "gangnam style",
+		"aliases": [],
+		"content": "The true music video that deserves #1 most viewed video on YouTube.",
+		"color": "yellow",
+		"aka": "op",
+		"skill": "Song"
+	},
     {
         "name": "3am",
         "aliases": [
@@ -7026,7 +7032,9 @@
     },
     {
         "name": "kitty paddle-",
-        "aliases": [],
+        "aliases": [
+			"kittuwu paddle-"
+		],
         "content": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action",
         "color": "grey",
         "aka": "Kitty Paddle",
@@ -7035,7 +7043,9 @@
     {
         "name": "kitty paddle",
         "aliases": [
-            "kitty paddle+"
+            "kitty paddle+",
+			"kittuwu paddle",
+			"kittuwu paddle+"
         ],
         "content": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action",
         "color": "grey",
@@ -7899,14 +7909,6 @@
         "skill": "Flying Lance"
     },
     {
-        "name": "anything boggy does should go below this line",
-        "aliases": [],
-        "content": "just so i can tell what he's contributed and whatever",
-        "color": "purple",
-        "aka": "What Boggy's Done",
-        "skill": "Credit Where Credit's Due"
-    },
-    {
         "name": "saber",
         "aliases": [],
         "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/8/5\n5\\* lv40: 40/31/33/32/22 (157~158)\n\n**Skills:**\nW: Slaying Edge+\nS: Aegis\nA: HP +3, HP Spd 2\nB: Shield Pulse 3\n(Unit only summonable at 5\\*)",
@@ -7914,12 +7916,223 @@
         "aka": "Saber: Driven Mercenary",
         "skill": "Infantry Sword"
     },
+	{
+        "name": "saizo",
+        "aliases": [
+			"kaizo"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/9/3\n5\\* lv40: 36/29/34/33/16 (147~149)\n\n**Skills:**\nW: Smoke Dagger+ (5\\*)\nAs: Harsh Command (3\\*)\nB: Poison Strike 3 (4\\*)\nC: Spur Spd 3 (5\\*)",
+        "color": "grey",
+        "aka": "Saizo: Angry Ninja",
+        "skill": "Infantry Dagger"
+    },
     {
-        "name": "this is just placeholder text because the last line is a little broken",
+        "name": "sakura",
+        "aliases": [
+			"regular sakura"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/8/5/8\n5\\* lv40: 36/28/30/24/30 (147~149)\n\n**Skills:**\nW: Fear+ (5\\*)\nAs: Physic+ (5\\*)\nS: Imbue, Still-Water Balm (4\\*)\nC: Fortify Def 3 (5\\*)",
+        "color": "grey",
+        "aka": "Sakura: Loving Priestess",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "h!sakura",
+        "aliases": [
+			"halloween sakura",
+			"trick or defeat sakura",
+			"sakura trick or defeat",
+			"kitty sakura",
+			"neko sakura",
+			"furry sakura",
+			"sakura 2",
+			"sakura undertale",
+			"limited sakura"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/8/4/8\n5\\* lv40: 33/32/34/14/34 (147~148)\n\n**Skills:**\nW: Kitty Paddle+\nS:Glacies\nA: Warding Stance 3\nB: Guard 3\nC: Dagger Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Sakura: Gentle Nekomata",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "sanaki",
         "aliases": [],
-        "content": "Like, I fixed it but you don't need to use this",
-        "color": "cyan",
-        "aka": "Why",
-        "skill": "Debug Tool "
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/7/4/8\n5\\* lv40: 33/37/26/17/34 (146~148)\n\n**Skills:**\nW: Cymbeline\nAs: Harsh Command\nA: Triangle Adept 3\nC: Hone Atk 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Sanaki: Begnion's Apostle",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "selena",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/8/6\n5\\* lv40: 37/25/35/32/28 (156~158)\n\n**Skills:**\nW: Armorslayer+ (5\\*)\nAs: Reposition (3\\*)\nA: Triangle Adept 3 (5\\*)\nC: Threaten Spd 3 (4\\*)",
+        "color": "red",
+        "aka": "Selena: Cutting Wit",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "seliph",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/7/8/5\n5\\* lv40: 47/34/24/30/22 (156~157)\n\n**Skills:**\nW: Tyrfing (5\\*)\nAs: Rally Speed (4\\*)\nA: HP +5 (4\\*)\nB: Brash Assault 3 (5\\*)",
+        "color": "red",
+        "aka": "Seliph: Heir of Light",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "serra",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/9/4/9\n5\\* lv40: 33/30/31/21/33 (147~148)\n\n**Skills:**\nW: Absorb (3\\*)\nAs: Recover (4\\*)\nS: Imbue, Swift-Winds Balm (3\\*)\nC: Hone Atk 3 (5\\*)",
+        "color": "grey",
+        "aka": "Serra: Outspoken Cleric",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "seth",
+        "aliases": [
+			"sethbling"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/8/5\n5\\* lv40: 37/32/31/32/22 (154~155)\n\n**Skills:**\nW: Ruby Sword+ (5\\*)\nAs: Swap (4\\*)\nA: Fortress Def 3 (4\\*)\nB: Seal Atk 1, Seal Atk Def 2 (5\\*)",
+        "color": "red",
+        "aka": "Seth: Silver Knight",
+        "skill": "Sword Cavalry"
+    },
+    {
+        "name": "setsuna",
+        "aliases": [
+			"i am setsuna"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/5/6\n5\\* lv40: 37/28/37/22/23 (146~148)\n\n**Skills:**\nW: Assassin's Bow+ (5\\*)\nAs: Reciprocal Aid (3\\*)\nA: HP+5 (5\\*)\nB: Bowbreaker 3 (4\\*)",
+        "color": "grey",
+        "aka": "Setsuna: Absent Archer",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "shanna",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/6/7\n5\\* lv40: 39/30/35/25/29 (157~159)\n\n**Skills:**\nW: Killer Lance+ (5\\*)\nS: Iceberg (4\\*)\nB: Desperation 3 (4\\*)\nC: Threaten Spd 3 (5\\*)",
+        "color": "blue",
+        "aka": "Shanna: Sprightly Flier",
+        "skill": "Flying Lance"
+    },
+    {
+        "name": "sharena",
+        "aliases": [],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/8/7/5\n5\\* lv40: 43/32/32/29/22 (158)\n\n**Skills:**\nW: Fensalir (5\\*)\nAs: Rally Atk (2\\*)\nA: Spd +3 (4\\*)\nC: Fortify Def 3 (5\\*)\n(Unit only obtainable through story, no IV variation)",
+        "color": "blue",
+        "aka": "Sharena: Princess of Askr",
+        "skill": "Infantry Lance"
+    },
+    {
+        "name": "sheena",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/8/6/12/7\n5\\* lv40: 45/30/25/36/33 (168~170)\n\n**Skills:**\nW: Killer Axe+ (5\\*)\nS: Escutcheon (4\\*)\nA: Svalinn Shield (4\\*)\nC: Fortify Def 2, Fortify Armor (4\\*)",
+        "color": "green",
+        "aka": "Sheena: Princess of Gra",
+        "skill": "Armored Axe"
+    },
+    {
+        "name": "p!shigure",
+        "aliases": [
+			"pa!shigure",
+			"shigure",
+			"shigure undertale",
+			"limited shigure",
+			"shigure performing arts",
+			"performing arts shigure"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/7/5/4/5\n5\\* lv40: 34/31/29/21/24 (139~140)\n\n**Skills:**\nW: Dancer's Score+\nAs: Sing\nB: Geyser Dance\nC: B Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "blue",
+        "aka": "Shigure: Dark Sky Singer",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "sigurd",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/8/6/4\n5\\* lv40: 41/35/32/34/17 (158~159)\n\n**Skills:**\nW: Divine Tyrfing\nS: Miracle\nA: Close Def 3\nB: Crusader's Ward\nC: Spd Smoke 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Sigurd: Holy Knight",
+        "skill": "Cavalry Sword"
+    },
+    {
+        "name": "sonya",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/7/5/8\n5\\* lv40: 36/33/31/15/32 (147~148)\n\n**Skills:**\nW: Dark Excalibur\nS: Moonbow\nA: Warding Blow 1, Mirror Strike 2\nC: Res Ploy 3\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Sonya: Vengeful Mage",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "sophia",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/4/6/7\n5\\* lv40: 40/33/19/28/29 (148~149)\n\n**Skills:**\nW: Fenrir+ (5\\*)\nS: Dragon Fang (4\\*)\nA: Warding Blow 3 (5\\*)\nC: Fortify Res 3 (4\\*)",
+        "color": "red",
+        "aka": "Sophia: Nabata Prophet",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "soren",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/4/7\n5\\* lv40: 36/33/33/17/29 (147~149)\n\n**Skills**\nW: Rexcalibur+ (5\\*)\nS: Growing Wind (4\\*)\nB: Watersweep 3 (5\\*)\nC: Fortify Res 3 (4\\*)",
+        "color": "green",
+        "aka": "Soren: Shrewd Strategist",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "stahl",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/7/8/5\n5\\* lv40: 45/31/26/30/22 (153~155)\n\n**Skills**\nW: Ruby Sword+ (5\\*)\nAs: Swap (3\\*)\nA: Defense +3 (4\\*)\nB: Obstruct 3 (5\\*)",
+        "color": "red",
+        "aka": "Stahl: Viridian Knight",
+        "skill": "Cavalry Sword"
+    },
+    {
+        "name": "subaki",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/9/5\n5\\* lv40: 40/25/35/35/22 (156~158)\n\n**Skills**\nW: Sapphire Lance+ (5\\*)\nAs: Swap (3\\*)\nA: Res +3 (4\\*)\nB: Quick Riposte 3 (5\\*)",
+        "color": "blue",
+        "aka": "Subaki: Perfect Expert",
+        "skill": "Flying Lance"
+    },
+    {
+        "name": "sully",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/7/6\n5\\* lv40: 42/26/34/24/28 (153~155)\n\n**Skills**\nW: Sapphire Lance+ (5\\*)\nAs: Draw Back (3\\*)\nB: Swordbreaker 3 (5\\*)\nC: Spur Def (4\\*)",
+        "color": "blue",
+        "aka": "Sully: Crimson Knight",
+        "skill": "Lance Cavalier"
+    },
+    {
+        "name": "tailtiu",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/4/6\n5\\* lv40: 39/32/35/17/25 (147~149)\n\n**Skills**\nW: Blarblade+ (5\\*)\nAs: Rally Speed Resistance (4\\*)\nA: Attack +1, Attack Res 2 (5\\*)\nC: Spur Spd 1, Drive Spd 2 (4\\*)",
+        "color": "blue",
+        "aka": "Tailtiu: Thunder Noble",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "takumi",
+        "aliases": [
+			"pineapple"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/6/5\n5\\* lv40: 40/32/33/25/18 (147~149)\n\n**Skills**\nW: Fujin Yumi\nS: Vengeance\nA: Close Counter\nC: Threaten Spd 3\n(Unit only summonable at 5\\*)",
+        "color": "grey",
+        "aka": "Takumi: Wild Card",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "tana",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/10/6/6\n5\\* lv40: 36/34/36/25/25 (156~157)\n\n**Skills**\nW: Vidofnir\nS: Moonbow\nA: Speed +1, Spd Def 2\nC: Guidance 3\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Tana: Winged Princess",
+        "skill": "Flying Lance"
+    },
+    {
+        "name": "tharja",
+        "aliases": [],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/8/6/5\n5\\* lv40: 39/32/34/23/20 (147~148)\n\n**Skills**\nW: Rauorblade+ (5\\*)\nS: Vengeance (4\\*)\nA: Darting Blow 3 (4\\*)\nC: Spur Res 3 (5\\*)",
+        "color": "red",
+        "aka": "Tharja: Dark Shadow",
+        "skill": "Infantry Tome"
     }
 ]
