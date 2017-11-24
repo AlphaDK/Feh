@@ -1,7 +1,9 @@
 [
     {
         "name": "alphadk",
-        "aliases": [],
+        "aliases": [
+			"alpha"
+		],
         "content": "Some Australian guy that developed this bot.\nUse !report to tell me stuff",
         "color": "yellow",
         "aka": "AlphaDK",
@@ -112,7 +114,7 @@
             "v=c-naa1hxedq",
             "c-naa1hxedq"
         ],
-        "content": "https://i.imgur.com/8715D9R.png",
+        "content": "https://i.imgur.com/RG5x9Lu.png",
         "color": "yellow",
         "aka": "3AM",
         "skill": "Player, AM: 3"
@@ -7908,6 +7910,83 @@
         "aka": "Est: Junior Whitewing",
         "skill": "Flying Lance"
     },
+	{
+		"name": "fae",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/5/4/6/8\n5\\* lv40: 46/33/28/25/30 (161~163)\n\n**Skills:**\nW: Light Breath+ (5\\*)\nAs: Draw Back (4\\*)\nB: Renewal 3 (4\\*)\nC: Threaten Atk 3 (5\\*)",
+		"color": "green",
+		"aka": "Fae: Divine Dragon",
+		"skill": "Infantry Breath"
+	},
+	{
+		"name": "faye",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/3/4/7\n5\\* lv40: 42/30/25/26/31 (153~154)\n\n**Skills:**\nW: Firesweep Bow+\nS: Noontime\nB: Wings of Mercy 3\nC: Bow Exp. 3\n(Unit only summonable at 5\\*)",
+		"color": "grey",
+		"aka": "Faye, Devoted Heart",
+		"skill": "Infantry Bow"
+	},
+	{
+		"name": "felicia",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/11/3/9\n5\\* lv40: 34/23/37/18/35 (147~148)\n\n**Skills:**\nW: Silver Dagger+ (5\\*)\nS: Glacies (4\\*)\nA: Resistance +3 (5\\*)\nC: Breath of Life 3 (4\\*)",
+		"color": "grey",
+		"aka": "Felicia: Maid Mayhem",
+		"skill": "Neutral Dagger"
+	},
+	{
+		"name": "fir",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/6/10/5/7\n5\\* lv40: 41/25/36/24/31 (156~158)\n\n**Skills:**\nW: Killing Edge+ (5\\*)\nS: Glacies (4\\*)\nA: Speed +3 (4\\*)\nB: Pass 3 (5\\*)",
+		"color": "red",
+		"aka": "Fir: Sword Student",
+		"skill": "Infantry Sword"
+	},
+	{
+		"name": "fjorm",
+		"aliases": [],
+		"content": "Well, we dunno. Watch this space.",
+		"color": "blue",
+		"aka": "Fjorm: Princess of Ice",
+		"skill": "Infantry Lance"
+	},
+	{
+		"name": "florina",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/6/8\n5\\* lv40: 42/29/27/25/34 (156~158)\n\n**Skills:**\nW: Heavy Spear (5\\*)\nAs: Ardent Sacrifice (3\\*)\nA: Darting Blow 3 (4\\*)\nC: Breath of Life 3 (5\\*)",
+		"color": "blue",
+		"aka": "Florina: Lovely Flier",
+		"skill": "Flying Lance"
+	},
+	{
+		"name": "frederick",
+		"aliases": [
+			"freddy",
+			"fred"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/4\n5\\* lv40: 43/35/25/36/14 (153~154)\n\n**Skills:**\nW: Hammer+ (5\\*)\nS: Luna (4\\*)\nB: Wings of Mercy 3 (5\\*)\nC: Fortify Def 3 (4\\*)",
+		"color": "green",
+		"aka": "Frederick: Polite Knight",
+		"skill": "Cavalry Axe"
+	},
+	{
+		"name": "s!frederick"
+		"aliases": [
+			"summer frederick",
+			"summer freddy",
+			"summer fred",
+			"s!fred",
+			"s!freddy",
+			"ylissean summer frederick",
+			"frederick ylissean summer",
+			"frederick undertale",
+			"frederick 2"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/6/5\n5\\* lv40: 40/32/31/28/18 (148~149)\n\n**Skills:**\nW: Seashell+\nAs: Ardent Sacrifice\nA: Armored Blow 3\nB: Seal Spd 1, Seal Atk Spd 2\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "grey",
+		"aka": "Frederick: Horizon Watcher",
+		"skill": "Infantry Dagger"
+	},
     {
         "name": "saber",
         "aliases": [],
