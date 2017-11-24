@@ -47,8 +47,6 @@ Here's the current full list of features;
 
 # Most recent changelog
 
-v1.4.1:
+v1.4.1.1:
 
--Removed mostly debug print statements
-
--Attempted to prevent a crash, probably works. Maybe.
+-Added a bunch of unit info
