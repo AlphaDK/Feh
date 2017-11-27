@@ -7323,6 +7323,62 @@
         "aka": "Flashing Blade 3",
         "skill": "A Skill"
     },
+	{
+		"name": "leiptr",
+		"aliases": [],
+		"content": "Unit can counterattack regardless of foe's range",
+		"color": "blue",
+		"aka": "Leiptr",
+		"skill": "Blue Lance, Mt:16"
+	},
+	{
+		"name": "ice mirror",
+		"aliases": [],
+		"content": "Reduces damage unit takes from foes 2 spaces away by 30%. If Special triggers, boosts unit's next attack by total damage was reduced (by any source, including other skills). Resets at end of combat. (Skill cannot be inherited)",
+		"color": "purple",
+		"aka": "Ice Mirror",
+		"skill": "Special, CD:2"
+	},
+	{
+		"name": "atk/def bond 1",
+		"aliases": [
+			"atk def bond 1",
+			"attack def bond 1",
+			"attack defense bond 1"
+		],
+		"content": "Grants Atk/Def+1 during combat if unit is adjacent to an ally.",
+		"color": "orange",
+		"aka": "Atk/Def Bond 1",
+		"skill": "A Skill"
+	},
+	{
+		"name": "atk/def bond 2",
+		"aliases": [
+			"atk def bond 2",
+			"attack def bond 2",
+			"attack defense bond 2"
+		],
+		"content": "Grants Atk/Def+3 during combat if unit is adjacent to an ally.",
+		"color": "orange",
+		"aka": "Atk/Def Bond 2",
+		"skill": "A Skill"
+	},
+	{
+		"name": "atk/def bond 3",
+		"aliases": [
+			"atk/def bond",
+			"atk def bond",
+			"attack def bond",
+			"attack defense bond",
+			"atk def bond 3",
+			"attack def bond 3",
+			"attack defense bond 3"
+		],
+		"content": "Grants Atk/Def+5 during combat if unit is adjacent to an ally.",
+		"color": "orange",
+		"aka": "Atk/Def Bond 3",
+		"skill": "A Skill"
+	},
     {
         "name": "abel",
         "aliases": [],
@@ -7945,7 +8001,7 @@
 	{
 		"name": "fjorm",
 		"aliases": [],
-		"content": "Well, we dunno. Watch this space.",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: ??/?/?/?/?\n5\\* lv40: 39/30/31/30/34 (164?)\n\n**Skills:**\nW: Leiptr\nS: Ice Mirror\nA: Atk/Def Bond 3\nB: Shield Pulse 3\nC: Spur Atk 1, Drive Atk 2\n(Unit only summonable at 5\\* in limited banner or from story)",
 		"color": "blue",
 		"aka": "Fjorm: Princess of Ice",
 		"skill": "Infantry Lance"
