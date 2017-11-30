@@ -170,8 +170,9 @@ async def on_message(message):
         except UnboundLocalError: #This will proc if they don't say a skill/seal/c slot etc
             asyncio.ensure_future(error(message))
     elif message.content.startswith("!playing ") and message.author.id == "126197907392167937": #Here starts the commands only I can use, this one is just to change the game Feh is playing
-        gaem = message.content[9:]
-        await client.change_presence(game=discord.Game(name=gaem))
+        playtype = message.content[9]
+        gaem = message.content[11:]
+        await client.change_presence(game=discord.Game(name=gaem, url="http://twitch.tv/Nintendude92", type=int(playtype)))
     elif message.content.startswith("!say ") and message.author.id == "126197907392167937": #Lets me talk to #feheroes, that's it
         messag = message.content[5:]
         await client.send_message(client.get_channel("333859340253396992"), messag)
