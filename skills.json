@@ -149,11 +149,9 @@
         "skill": "Bot"
     },
     {
-        "name": "josh",
-        "aliases": [
-            "mtn64"
-        ],
-        "content": "Mike's younger brother, good at rhythm games and interrupting streams with Clash Royale",
+        "name": "mtn64",
+        "aliases": [],
+        "content": "Mike's younger brother, good at rhythm games and netdecking",
         "color": "green",
         "aka": "Josh",
         "skill": "Player"
@@ -245,7 +243,9 @@
     },
     {
         "name": "brain power",
-        "aliases": [],
+        "aliases": [
+			"o-oooooooooo aaaae-a-a-i-a-u- jo-oooooooooooo aae-o-a-a-u-u-a- e-eee-ee-eee aaaae-a-e-i-e-a- jo-ooo-oo-oo-oo eeeeo-a-aaa-aaaa"
+		],
         "content": "O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA",
         "color": "purple",
         "aka": "Let the bass kick",
@@ -253,9 +253,7 @@
     },
     {
         "name": "the reinhardt",
-        "aliases": [
-            "the reinhardt\u00e2\u201e\u00a2"
-        ],
+        "aliases": [],
         "content": "@FE_Heroes_JP I no more money for you. I now use the Reinhardt.",
         "color": "blue",
         "aka": "Dylan Bricker",
@@ -272,6 +270,14 @@
         "color": "purple",
         "aka": "Kelly Emblem",
         "skill": "Team Formation"
+    },
+	{
+        "name": "sword art online",
+        "aliases": [],
+        "content": "Well known anime series made in 2009, what joke am I even making",
+        "color": "orange",
+        "aka": "Sword Art Online",
+        "skill": "Aniem, IMDB: 7.8"
     },
     {
         "name": "",
@@ -324,7 +330,7 @@
         "aliases": [
             "armoursmasher-"
         ],
-        "content": "Effective against armored units.\n\n**Available from:**\nArmorsmasher is obtained by evolving Armorslayer+ in the Weapon Refinery, and then using the worse version for some reason",
+        "content": "Effective against armored units.\n\n**Available from:**\nArmorsmasher is obtained by evolving Armorslayer+ in the Weapon Refinery, and then downgrading from Armorsmasher+",
         "color": "red",
         "aka": "Armorsmasher",
         "skill": "Red Sword, Mt:10"
@@ -660,7 +666,8 @@
     {
         "name": "wo dao",
         "aliases": [
-            "wo dao+"
+            "wo dao+",
+			"woah dao"
         ],
         "content": "Grants +10 to damage when Special triggers.\n\n**Available from:**\nAthena: Borderland Sword (5\\*)\nKarel: Sword Demon (5\\*)\n\n***Wo Dao+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Atk, +4 Res",
         "color": "red",
@@ -696,7 +703,7 @@
     {
         "name": "bolganone-",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nArvis: Emporer of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
         "color": "red",
         "aka": "Bolganone",
         "skill": "Red Tome, Mt:9"
@@ -706,7 +713,7 @@
         "aliases": [
             "bolganone+"
         ],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nLilina: Delightful Noble (5\\*)\n\n***Bolganone+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "red",
         "aka": "Bolganone+",
         "skill": "Red Tome, Mt:13"
@@ -714,7 +721,7 @@
     {
         "name": "brynhildr",
         "aliases": [],
-        "content": "If unit initiates attack, restricts foe's next-turn movement to 1 space or less.",
+        "content": "If unit initiates attack, restricts foe's next-turn movement to 1 space or less.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLeo: Sorcerous Prince (5\\*)",
         "color": "red",
         "aka": "Brynhildr",
         "skill": "Red Tome, Mt:14"
@@ -722,7 +729,7 @@
     {
         "name": "cymbeline",
         "aliases": [],
-        "content": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.",
+        "content": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSanaki: Begnion's Apostle (5\\*)",
         "color": "red",
         "aka": "Cymbeline",
         "skill": "Red Tome, Mt:14"
@@ -730,7 +737,7 @@
     {
         "name": "elfire",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nArvis: Emporer of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nKatarina: Wayward One (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
         "color": "red",
         "aka": "Elfire",
         "skill": "Red Tome, Mt:6"
@@ -738,7 +745,7 @@
     {
         "name": "fenrir-",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nLeo: Sorcerous Prince (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
         "color": "red",
         "aka": "Fenrir",
         "skill": "Red Tome, Mt:9"
@@ -748,7 +755,7 @@
         "aliases": [
             "fenrir+"
         ],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nSophia: Nabata Prophet (5\\*)\n\n***Fenrir+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "red",
         "aka": "Fenrir+",
         "skill": "Red Tome, Mt:13"
@@ -756,7 +763,7 @@
     {
         "name": "fire",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nArvis: Emporer of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nKatarina: Wayward One (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
         "color": "red",
         "aka": "Fire",
         "skill": "Red Tome, Mt:4"
@@ -764,33 +771,51 @@
     {
         "name": "flux",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)",
         "color": "red",
         "aka": "Flux",
         "skill": "Red Tome, Mt:4"
     },
+	{
+        "name": "grimoire",
+        "aliases": [],
+        "content": "If unit has >= 50% HP, unit can move to a space adjacent to an ally within 2 spaces.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)",
+        "color": "red",
+        "aka": "Grimoire",
+        "skill": "Red Tome, Mt:14"
+    },
+	{
+		"name": "keen rauorwolf-",
+		"aliases": [],
+		"content": "Effective against cavalry foes.\n\n**Available from:**Keen Rauorwolf is obtained by evolving Rauorwolf+ in the Weapon Refinery, and then downgrading from Keen Rauorwolf+",
+		"color": "red",
+		"aka": "Keen Rauorwolf",
+		"skill": "Red Tome, Mt:8"
+	},
+	{
+		"name": "keen rauorwolf",
+		"aliases": [
+			"keen rauorwolf+"
+		],
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Rauorwolf+ is obtained by evolving Rauorwolf+ in the Weapon Refinery\n\n***Keen Rauorwolf+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "red",
+		"aka": "Keen Rauorwolf+",
+		"skill": "Red Tome, Mt:12"
+	},
     {
         "name": "ragnarok",
         "aliases": [
             "ragnarok online"
         ],
-        "content": "If unit has 100% HP at the start of combat, unit receives Atk/Spd +5. If attacking, unit will receive 5 damage after combat.",
+        "content": "If unit has 100% HP at the start of combat, unit receives Atk/Spd +5. If attacking, unit will receive 5 damage after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCelica: Caring Princess (5\\*)",
         "color": "red",
         "aka": "Ragnarok",
         "skill": "Red Tome, Mt:14"
     },
     {
-        "name": "sword art online",
-        "aliases": [],
-        "content": "Well known anime series made in 2009, what joke am I even making",
-        "color": "orange",
-        "aka": "Sword Art Online",
-        "skill": "Aniem, IMDB: 7.8"
-    },
-    {
         "name": "rauorblade-",
         "aliases": [],
-        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nTharja: Dark Shadow (4\\*)",
         "color": "red",
         "aka": "Rauorblade",
         "skill": "Red Tome, Mt:9"
@@ -800,7 +825,7 @@
         "aliases": [
             "rauorblade+"
         ],
-        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nTharja: Dark Shadow (5\\*)",
         "color": "red",
         "aka": "Rauorblade+",
         "skill": "Red Tome, Mt:13"
@@ -808,7 +833,7 @@
     {
         "name": "rauorowl-",
         "aliases": [],
-        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)",
         "color": "red",
         "aka": "Rauorowl",
         "skill": "Red Tome, Mt:6"
@@ -818,7 +843,7 @@
         "aliases": [
             "rauorowl+"
         ],
-        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)\n\n***Rauorowl+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Atk, +3 Res",
         "color": "red",
         "aka": "Rauorowl+",
         "skill": "Red Tome, Mt:10"
@@ -826,7 +851,7 @@
     {
         "name": "rauorraven-",
         "aliases": [],
-        "content": "Grants weapon advantage vs. colorless foes.",
+        "content": "Grants weapon advantage vs. colorless foes.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)",
         "color": "red",
         "aka": "Rauorraven",
         "skill": "Red Tome, Mt:7"
@@ -836,7 +861,7 @@
         "aliases": [
             "rauorraven+"
         ],
-        "content": "Grants weapon advantage vs. colorless foes.",
+        "content": "Grants weapon advantage vs. colorless foes.\n\n**Available from:**\nHenry: Twisted Mind (5\\*)",
         "color": "red",
         "aka": "Rauorraven+",
         "skill": "Red Tome, Mt:11"
@@ -844,7 +869,7 @@
     {
         "name": "rauorwolf-",
         "aliases": [],
-        "content": "Effective against cavalry units.",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nRaigh: Dark Child (3\\*)",
         "color": "red",
         "aka": "Rauorwolf",
         "skill": "Red Tome, Mt:6"
@@ -854,7 +879,7 @@
         "aliases": [
             "rauorwolf+"
         ],
-        "content": "Effective against cavalry units.",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nRaigh: Dark Child (5\\*)\n\nRauorwolf+ may be evolved into Keen Raourwolf+ in the Weapon Refinery",
         "color": "red",
         "aka": "Rauorwolf+",
         "skill": "Red Tome, Mt:10"
@@ -862,7 +887,7 @@
     {
         "name": "ruin",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)",
         "color": "red",
         "aka": "Ruin",
         "skill": "Red Tome, Mt:6"
@@ -872,7 +897,7 @@
         "aliases": [
             "maki tome-"
         ],
-        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.\n\n**Available from:**\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)",
         "color": "red",
         "aka": "Tomato Tome",
         "skill": "Red Tome, Mt:8"
@@ -884,7 +909,7 @@
             "tomato tome+",
             "maki tome+"
         ],
-        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.\n\n**Available from:**\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\n\n***Tomato Tome+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, 1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "red",
         "aka": "Tomato Tome+",
         "skill": "Red Tome, Mt:12"
@@ -892,7 +917,7 @@
     {
         "name": "valflame",
         "aliases": [],
-        "content": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk/Res-4 until the end of foe's next action.",
+        "content": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk/Res-4 until the end of foe's next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nArvis: Emporer of Flame (5\\*)",
         "color": "red",
         "aka": "Valflame",
         "skill": "Red Tome, Mt:14"
@@ -7257,14 +7282,6 @@
         "color": "green",
         "aka": "Spectral Tome+",
         "skill": "Green Tome, Mt:12"
-    },
-    {
-        "name": "grimoire",
-        "aliases": [],
-        "content": "If unit has >= 50% HP, unit can move to a space adjacent to an ally within 2 spaces.",
-        "color": "red",
-        "aka": "Grimoire",
-        "skill": "Red Tome, Mt:14"
     },
     {
         "name": "atk/res bond 1",
