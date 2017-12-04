@@ -1,4 +1,4 @@
-#Feh v1.4.1.1, a Discord bot by AlphaDK#2649
+#Feh v1.4.2, a Discord bot by AlphaDK#2649
 #v0.1 created 9/10/17 (the 9th of October, not the 10th of September you silly Americans)
 #v1.0 released 19/10/17
 #Does Fire Emblem: Heroes stuff
@@ -71,7 +71,7 @@ def main(lastnews, lastgauntlet):
 
 @client.event
 async def on_ready():
-    print("Feh v1.4.1.1 online")
+    print("Feh v1.4.2 online")
     global mainhasbeenrunoncealready
     if not mainhasbeenrunoncealready:
         mainhasbeenrunoncealready = True
@@ -148,7 +148,7 @@ async def on_message(message):
                 tim = " times!"
             await client.send_message(message.channel, "<@" + message.author.id + "> You've pet Feh " + str(patcounts[message.author.id]) + tim)
     elif message.content.lower().startswith("!fehhelp"):
-        await client.send_message(message.channel, "Hi! I'm Feh (v1.4.1.1), a bot created to help out with Fire Emblem: Heroes content! <:feh:344700243910197259>\nI can provide information to you about various weapons, skills or units! Try {{Quickened Pulse}}!\nIf you have any suggestions for improvements or if I'm broken, tell AlphaDK!\n(Use `!report [issue]` and I'll let him know)")
+        await client.send_message(message.channel, "Hi! I'm Feh (v1.4.2), a bot created to help out with Fire Emblem: Heroes content! <:feh:344700243910197259>\nI can provide information to you about various weapons, skills or units! Try {{Quickened Pulse}}!\nIf you have any suggestions for improvements or if I'm broken, tell AlphaDK!\n(Use `!report [issue]` and I'll let him know)")
     elif message.content.lower().startswith("!report "):
         await client.send_message(client.get_channel("368631261071147009"), str(message.author) + " (" + message.author.id + ") in " + str(message.channel) + " (" + message.channel.id  + ") from " + message.server.name + ": " + str(message.content[8:]))
         await client.send_message(message.channel, "I've reported the issue! We hope you continue to enjoy Fire Emblem! Heroes.")

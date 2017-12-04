@@ -8,7 +8,7 @@
         "log_message": "{author} would use Selena!"
     },
     "6k": {
-        "message": "i got to 6k today! I just got my first tobin, I really hope I don't miss out on this seal, it looks very good and I'm new to this game VoHiYo",
+        "message": "i got to 6k today! I just got my first tobin, I really hope I don't miss out on this seal, it looks very good and I'm new to this game <:VoHiYo:261844012300763137>",
         "log_message": "{author} got to 6k today!"
     },
     "30k": {
@@ -17,10 +17,14 @@
     },
     "didntgetquickenedpulse": {
         "message": "Hello Mike, it is I, Mr. I-Didn't-Get-Quickened-Pulse, here to tell you what a wonderful life it is for me. The sun is always shining over here in Tier 17, and all my -atk/-spd units are smiling, and the fact I don't have Quickened Pulse only adds onto the boons of existence. You see, unlike you, I only need to choose 4 out of __**5**__ of my seals rather than 6, by god, I can only imagine your pain. Especially with only 4 units per team, what's even the point of having a 6th seal like Quickened Pulse, I see no real point, it only adds to the pain of choice. So you may laugh at the fact I may have missed QP by 13 points at the last minute, but I, my good sir, am delighted that whatever god was looking down on me that day, knew exactly how to make my Fire Emblem: Heroes gacha life better. Good day and hats off to you chap!",
-        "log_message": "{author} didn't get quickend pulse!"
+        "log_message": "{author} didn't get quickened pulse!"
     },
     "didntgetqp": {
         "message": "Hello Mike, it is I, Mr. I-Didn't-Get-Quickened-Pulse, here to tell you what a wonderful life it is for me. The sun is always shining over here in Tier 17, and all my -atk/-spd units are smiling, and the fact I don't have Quickened Pulse only adds onto the boons of existence. You see, unlike you, I only need to choose 4 out of __**5**__ of my seals rather than 6, by god, I can only imagine your pain. Especially with only 4 units per team, what's even the point of having a 6th seal like Quickened Pulse, I see no real point, it only adds to the pain of choice. So you may laugh at the fact I may have missed QP by 13 points at the last minute, but I, my good sir, am delighted that whatever god was looking down on me that day, knew exactly how to make my Fire Emblem: Heroes gacha life better. Good day and hats off to you chap!",
-        "log_message": "{author} didn't get quickend pulse!"
-    }
+        "log_message": "{author} didn't get quickened pulse!"
+    },
+	"esports": {
+		"message": "Stuck on ideas for builds? Check out Mike's built units!\nRed: <https://imgur.com/a/KE9Cz>\nBlue: <https://imgur.com/a/4yUuD>\nGreen: <https://imgur.com/a/Pb1zo>\nColorless: <https://imgur.com/a/Xd11K>",
+		"log_message": "{author} is now esports"
+	}
 }

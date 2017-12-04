@@ -20,7 +20,7 @@ Here's the current full list of features;
 # Active
 -Quick info for Skills, Weapons, and Units\*! Type {{Quickened Pulse}} to get information on Quickened Pulse
 
-\*Not all units supported yet but I'm getting there. Also planned: Listing units each skill is available from + inheritance restrictions
+\*Not all units supported yet but I'm getting there. Also planned: Listing units each skill is available from + inheritance restrictions. Weapon Refinery info is slowly being rolled out
 
 -!fehhelp: Basic help and information. (Planned: accept commands as arguments for specialised help)
 
@@ -31,6 +31,8 @@ Here's the current full list of features;
 -!pet, !pat, !headpat, !halfpet: Pets Feh. Feh will thank you. It will also track the number of pats you've made. Half petting will add half a pat to your total. That's the difference.
 
 -!checkpets, !checkpats: Tells you how many times you've pat Feh. Fairly simple.
+
+-!esports: Links Mike's album of built units, so that you too can be eSports.
 
 -!sit: Copypasta about sitting for a few days before spending orbs.
 
@@ -47,6 +49,10 @@ Here's the current full list of features;
 
 # Most recent changelog
 
-v1.4.1.1:
+v1.4.2:
 
--Added a bunch of unit info
+-Added !esports
+
+-Weapon Refinery info being slowly rolled out, currently for red weapons
+
+-Updated !6k to use an actual VoHiYo emote, so that's cool
