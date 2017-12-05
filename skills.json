@@ -451,7 +451,9 @@
 	{
 		"name": "firesweep sword",
 		"aliases": [
-			"firesweep sword+"
+			"firesweep sword+",
+			"fs sword",
+			"fs sword+"
 		],
 		"content": "Unit and foes cannot counterattack.\n\n**Available from:**\nSoleil: Adorable Adorer (5\\*)",
 		"color": "red",
@@ -572,7 +574,9 @@
     {
         "name": "ruby sword",
         "aliases": [
-            "ruby sword+"
+            "ruby sword+",
+			"gem sword",
+			"ta sword"
         ],
         "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.\n\n**Available from:**\nHinata: Wild Samurai (5\\*)\nPalla: Eldest Whitewing (5\\*)\nSeth: Silver Knight (5\\*)\nStahl: Viridian Knight (5\\*)",
         "color": "red",
@@ -634,7 +638,7 @@
     {
         "name": "sol katti",
         "aliases": [],
-        "content": "If wielder initiates attack at HP <= 50%, any follow-up occurs immediately.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Lady of the Plains (5\\*)\n\n***Sol Katti may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack. Unit makes a guaranteed follow-up attack when HP <= 75% and attacking a foe that can counter.\"\n**Atk:** +5HP, +2 Mt, and effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack.\n**Spd:** +5HP, +3 Spd, and effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack.\n**Def:** +5HP, +4 Def, and effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack.\n**Res:** +5HP, +4 Res, and effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack.\n",
+        "content": "If wielder initiates attack at HP <= 50%, any follow-up occurs immediately.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Lady of the Plains (5\\*)\n\n***Sol Katti may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack. Unit makes a guaranteed follow-up attack when HP <= 75% and attacking a foe that can counter.\"\n_(Any other variant's effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack.\")_\n**Atk:** +5HP, +2 Mt\n**Spd:** +5HP, +3 Spd\n**Def:** +5HP, +4 Def\n**Res:** +5HP, +4 Res",
         "color": "red",
         "aka": "Sol Katti",
         "skill": "Red Sword, Mt:16"
@@ -925,8 +929,8 @@
     {
         "name": "fire breath-",
         "aliases": [],
-        "content": "No special effect.",
-        "color": "grey",
+        "content": "No special effect.\n\nEvery breath unit in the game has Fire Breath, and there is therefore no need to inherit it.",
+        "color": "white",
         "aka": "Fire Breath",
         "skill": "Breath, Mt:6"
     },
@@ -935,16 +939,16 @@
         "aliases": [
             "fire breath+"
         ],
-        "content": "No special effect.",
-        "color": "grey",
+        "content": "No special effect.\n\nEvery breath unit in the game has Fire Breath+, and there is therefore no need to inherit it.",
+        "color": "white",
         "aka": "Fire Breath+",
         "skill": "Breath, Mt:8"
     },
     {
         "name": "flametongue-",
         "aliases": [],
-        "content": "No special effect.",
-        "color": "red",
+        "content": "No special effect.\n\n**Available from:**\nTiki: Dragon Scion (Young) (5\\*)",
+        "color": "white",
         "aka": "Flametongue",
         "skill": "Breath, Mt:11"
     },
@@ -953,16 +957,16 @@
         "aliases": [
             "flametongue+"
         ],
-        "content": "No special effect.",
-        "color": "red",
+        "content": "No special effect.\n\n**Available from:**\nTiki: Dragon Scion (Young) (5\\*)\n\n***Flametongue+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "color": "white",
         "aka": "Flametongue+",
         "skill": "Breath, Mt:15"
     },
     {
         "name": "light breath-",
         "aliases": [],
-        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.",
-        "color": "grey",
+        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.\n\n**Available from:**\nFae: Divine Dragon (4\\*)\nNinian: Oracle of Destiny (5\\*)",
+        "color": "white",
         "aka": "Light Breath",
         "skill": "Breath, Mt:9"
     },
@@ -971,16 +975,18 @@
         "aliases": [
             "light breath+"
         ],
-        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.",
-        "color": "grey",
+        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.\n\n**Available from:**\nFae: Divine Dragon (5\\*)\nNinian: Oracle of Destiny (5\\*)\n\n***Light Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "color": "white",
         "aka": "Light Breath+",
         "skill": "Breath, Mt:13"
     },
     {
         "name": "lightning breath-",
-        "aliases": [],
-        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).",
-        "color": "grey",
+        "aliases": [
+			"lb-"
+		],
+        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).\n\n**Available from:**\nNowi: Eternal Youth (4\\*)\nTiki: Naga's Voice (Adult) (3\\*)",
+        "color": "white",
         "aka": "Lightning Breath",
         "skill": "Breath, Mt:7"
     },
@@ -989,19 +995,38 @@
         "aliases": [
             "lightning breath+",
             "lb",
-            "lb+"
+            "lb+",
+			"luna bliss"
         ],
-        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).",
-        "color": "grey",
+        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).\n\n**Available from:**\nNowi: Eternal Youth (5\\*)\nTiki: Naga's Voice (Adult) (5\\*)\n\n***Lightning Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "color": "white",
         "aka": "Lightning Breath+",
         "skill": "Breath, Mt:11"
+    },
+	{
+        "name": "dark breath-",
+        "aliases": [],
+        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.\n\n**Available from: Corrin: Fateful Princess (F) (3\\*)",
+        "color": "white",
+        "aka": "Dark Breath",
+        "skill": "Breath, Mt: 9"
+    },
+	{
+        "name": "dark breath",
+        "aliases": [
+			"dark breath+"
+		],
+        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.\n\n**Available from: Corrin: Fateful Princess (F) (5\\*)\n\n***Dark Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, inflicts Atk/Spd-7 to target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "color": "white",
+        "aka": "Dark Breath+",
+        "skill": "Breath, Mt: 13"
     },
     {
         "name": "berkut's lance-",
         "aliases": [
             "berkuts lance-"
         ],
-        "content": "Grants Res+4 when the unit is under attack.",
+        "content": "Grants Res+4 when the unit is under attack.\n\n**Available from:**\nBerkut: Prideful Prince (3\\*)",
         "color": "blue",
         "aka": "Berkut's Lance",
         "skill": "Blue Lance, Mt:10"
@@ -1013,7 +1038,7 @@
             "berkuts lance",
             "berkuts lance+"
         ],
-        "content": "Grants Res+4 when the unit is under attack.",
+        "content": "Grants Res+4 when the unit is under attack.\n\n**Available from:**\nBerkut: Prideful Prince (5\\*)\n\n***Berkut's Lance+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Grants Res+7 when unit is attacked.\")_\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Berkut's Lance+",
         "skill": "Blue Lance, Mt:14"
@@ -1021,7 +1046,7 @@
     {
         "name": "brave lance-",
         "aliases": [],
-        "content": "Spd-5. Attack twice when initiating combat.",
+        "content": "Spd-5. Attack twice when initiating combat.\n\n**Available from:**\nAbel: The Panther (4\\*)\nCordelia:  Knight Paragon (4\\*)\nDonnel: Village Hero (3\\*)\nHinoka: Warrior Princess (5\\*)",
         "color": "blue",
         "aka": "Brave Lance",
         "skill": "Blue Lance, Mt:5"
@@ -1031,15 +1056,23 @@
         "aliases": [
             "brave lance+"
         ],
-        "content": "Spd-5. Attack twice when initiating combat.",
+        "content": "Spd-5. Attack twice when initiating combat.\n\n**Available from:**\nAbel: The Panther (5\\*)\nCordelia:  Knight Paragon (5\\*)\nDonnel: Village Hero (5\\*)\nHinoka: Warrior Princess (5\\*)",
         "color": "blue",
         "aka": "Brave Lance+",
         "skill": "Blue Lance, Mt:8"
     },
+	{
+		"name": "bright naginata",
+		"aliases": [],
+		"content": "Grants Atk/Def+4 during combat if foe initiates combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nShiro: Raw Talent (5\\*)",
+		"color": "blue",
+		"aka": "Bright Naginata",
+		"skill": "Blue Lance, Mt:16"
+	},
     {
         "name": "carrot lance-",
         "aliases": [],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nXander: Spring Prince (Spring Festival) (5\\*)",
         "color": "blue",
         "aka": "Carrot Lance",
         "skill": "Blue Lance, Mt:9"
@@ -1049,7 +1082,7 @@
         "aliases": [
             "carrot lance+"
         ],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nXander: Spring Prince (Spring Festival) (5\\*)\n\n***Carrot Lance+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Restores 4 HP after combat.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "blue",
         "aka": "Carrot Lance+",
         "skill": "Blue Lance, Mt:13"
@@ -1057,7 +1090,7 @@
     {
         "name": "cursed lance",
         "aliases": [],
-        "content": "Grants Atk/Spd+2 and accelerates Special trigger (cooldown count-1). Unit takes 4 damage after combat.",
+        "content": "Grants Atk/Spd+2 and accelerates Special trigger (cooldown count-1). Unit takes 4 damage after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nValter: Dark Moonstone (5\\*)",
         "color": "blue",
         "aka": "Cursed Lance",
         "skill": "Blue Lance, Mt:16"
@@ -1065,7 +1098,7 @@
     {
         "name": "deft harpoon-",
         "aliases": [],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Novice Vacationer (F) (Ylissean Summer) (5\\*)",
         "color": "blue",
         "aka": "Deft Harpoon",
         "skill": "Blue Lance, Mt:10"
@@ -1075,7 +1108,7 @@
         "aliases": [
             "deft harpoon+"
         ],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Novice Vacationer (F) (Ylissean Summer) (5\\*)\n\n***Deft Harpoon+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Deft Harpoon+",
         "skill": "Blue Lance, Mt:14"
@@ -1083,7 +1116,7 @@
     {
         "name": "fensalir",
         "aliases": [],
-        "content": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn.",
+        "content": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSharena: Princess of Askr (5\\*)",
         "color": "blue",
         "aka": "Fensalir",
         "skill": "Blue Lance, Mt:16"
@@ -1091,7 +1124,7 @@
     {
         "name": "firesweep lance-",
         "aliases": [],
-        "content": "Unit and enemies cannot use counterattacks.",
+        "content": "Unit and enemies cannot use counterattacks.\n\n**Available from:**\nRoderick: Steady Squire (4\\*)",
         "color": "blue",
         "aka": "Firesweep Lance",
         "skill": "Blue Lance, Mt:11"
@@ -1099,9 +1132,11 @@
     {
         "name": "firesweep lance",
         "aliases": [
-            "firesweep lance+"
+            "firesweep lance+",
+			"fs lance",
+			"fs lance+"
         ],
-        "content": "Unit and enemies cannot use counterattacks.",
+        "content": "Unit and enemies cannot use counterattacks.\n\n**Available from:**\nRoderick: Steady Squire (5\\*)",
         "color": "blue",
         "aka": "Firesweep Lance+",
         "skill": "Blue Lance, Mt:15"
@@ -1109,7 +1144,7 @@
     {
         "name": "first bite-",
         "aliases": [],
-        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.\n\n**Available from:**\nCharlotte: Money Maiden (Bridal Blessings) (5\\*)",
         "color": "blue",
         "aka": "First Bite",
         "skill": "Blue Lance, Mt:10"
@@ -1119,7 +1154,7 @@
         "aliases": [
             "first bite+"
         ],
-        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.\n\n**Available from:**\nCharlotte: Money Maiden (Bridal Blessings) (5\\*)\n\n***First Bite+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, grants Def/Res+5 to unit and allies within 2 spaces for 1 turn.\")_\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "First Bite+",
         "skill": "Blue Lance, Mt:14"
@@ -1127,15 +1162,18 @@
     {
         "name": "geirskogul",
         "aliases": [],
-        "content": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat.",
+        "content": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLucina: Brave Princess (Brave Heroes) (5\\*)",
         "color": "blue",
         "aka": "Geirskogul",
         "skill": "Blue Lance, Mt:16"
     },
     {
         "name": "gradivus",
-        "aliases": [],
-        "content": "Enables counterattack regardless of distance if this unit is attacked.",
+        "aliases": [
+			"gravidus",
+			"gradius"
+		],
+        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCamus: Sable Knight (5\\*)",
         "color": "blue",
         "aka": "Gradivus",
         "skill": "Blue Lance, Mt:16"
@@ -1143,7 +1181,7 @@
     {
         "name": "heavy spear-",
         "aliases": [],
-        "content": "Effective against armored units.",
+        "content": "Effective against armored units.\n\n**Available from:**\nEphraim: Restoration Lord (5\\*)\nEst: Junior Whitewing (3\\*)\nFlorina: Lovely Flier (3\\*)\nOboro: Fierce Fighter (3\\*)\nTana: Winged Princess (5\\*)",
         "color": "blue",
         "aka": "Heavy Spear",
         "skill": "Blue Lance, Mt:8"
@@ -1153,7 +1191,7 @@
         "aliases": [
             "heavy spear+"
         ],
-        "content": "Effective against armored units.",
+        "content": "Effective against armored units.\n\n**Available from:**\nEst: Junior Whitewing (5\\*)\nFlorina: Lovely Flier (5\\*)\nOboro: Fierce Fighter (5\\*)\n\nHeavy Spear+ may be evolved into Slaying Spear+ in the Weapon Refinery",
         "color": "blue",
         "aka": "Heavy Spear+",
         "skill": "Blue Lance, Mt:12"
@@ -1161,7 +1199,7 @@
     {
         "name": "iron lance",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\nEvery lance unit in the game has Iron Lance, and there is therefore no need to inherit it.",
         "color": "blue",
         "aka": "Iron Lance",
         "skill": "Blue Lance, Mt:6"
@@ -1169,7 +1207,7 @@
     {
         "name": "killer lance-",
         "aliases": [],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nCatria: Middle Whitewing (3\\*)\nGwendolyn: Adorable Knight (3\\*)\nLukas: Sharp Soldier (4\\*)\nPeri: Playful Slayer (4\\*)\nShanna: Sprightly Flier (3\\*)",
         "color": "blue",
         "aka": "Killer Lance",
         "skill": "Blue Lance, Mt:7"
@@ -1179,17 +1217,25 @@
         "aliases": [
             "killer lance+"
         ],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nCatria: Middle Whitewing (5\\*)\nGwendolyn: Adorable Knight (5\\*)\nLukas: Sharp Soldier (5\\*)\nPeri: Playful Slayer (5\\*)\nShanna: Sprightly Flier (5\\*)\n\nKiller Lance+ may be evolved into Slaying Lance+ in the Weapon Refinery",
         "color": "blue",
         "aka": "Killer Lance+",
         "skill": "Blue Lance, Mt:11"
     },
+	{
+		"name": "leiptr",
+		"aliases": [],
+		"content": "Unit can counterattack regardless of foe's range.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nFjorm: Princess of Ice (5\\*)",
+		"color": "blue",
+		"aka": "Leiptr",
+		"skill": "Blue Lance, Mt:16"
+	},
     {
         "name": "ridersbane-",
         "aliases": [
             "ridersbigguy-"
         ],
-        "content": "Effective against cavalry units.",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nMathilda: Legendary Knight (4\\*)",
         "color": "blue",
         "aka": "Ridersbane",
         "skill": "Blue Lance, Mt:10"
@@ -1201,7 +1247,7 @@
             "ridersbigguy",
             "ridersbigguy+"
         ],
-        "content": "Effective against cavalry units.",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nMathilda: Legendary Knight (5\\*)\n\n***Ridersbane+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Ridersbane+",
         "skill": "Blue Lance, Mt:14"
@@ -1209,7 +1255,7 @@
     {
         "name": "sapphire lance-",
         "aliases": [],
-        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.\n\n**Available from:**\nAzura: Lady of the Lake (5\\*)\nOscar: Agile Horseman (4\\*)\nSubaki: Perfect Expert (3\\*)\nSully: Crimson Knight (3\\*)",
         "color": "blue",
         "aka": "Sapphire Lance",
         "skill": "Blue Lance, Mt:8"
@@ -1217,9 +1263,11 @@
     {
         "name": "sapphire lance",
         "aliases": [
-            "sapphire lance+"
+            "sapphire lance+",
+			"gem lance",
+			"ta lance"
         ],
-        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.\n\n**Available from:**\nAzura: Lady of the Lake (5\\*)\nOscar: Agile Horseman (5\\*)\nSubaki: Perfect Expert (5\\*)\nSully: Crimson Knight (5\\*)",
         "color": "blue",
         "aka": "Sapphire Lance+",
         "skill": "Blue Lance, Mt:12"
@@ -1227,7 +1275,7 @@
     {
         "name": "siegmund",
         "aliases": [],
-        "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.",
+        "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEphraim: Restoration Lord (5\\*)\n\n***Siegmund may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and effect becomes \"Grants adjacent allies Atk+4 through their next actions at the start of each turn. Unit makes a guaranteed follow-up attack when HP >= 90% and attacking a foe that can counter\"\n_(Any other variant's effect becomes \"Grants adjacent allies Atk+4 through their next actions at the start of each turn.\")_\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Siegmund",
         "skill": "Blue Lance, Mt:16"
@@ -1235,7 +1283,7 @@
     {
         "name": "silver lance-",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nCamus: Sable Knight (3\\*)\nClair: Highborn Flier (4\\*)\nClive: Idealistic Knight (4\\*)\nEffie: Army of One (4\\*)\nFjorm: Princess of Ice (5\\*)\nJagen: Veteran Knight (3\\*)\nLucina: Brave Princess (5\\*)\nSharena: Princess of Askr (3\\*)\nShiro: Raw Talent (5\\*)\nValter: Dark Moonstone (3\\*)",
         "color": "blue",
         "aka": "Silver Lance",
         "skill": "Blue Lance, Mt:11"
@@ -1245,7 +1293,7 @@
         "aliases": [
             "silver lance+"
         ],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nClair: Highborn Flier (5\\*)\nClive: Idealistic Knight (5\\*)\nEffie: Army of One (5\\*)\nJagen: Veteran Knight (5\\*)\n\n***Silver Lance+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "blue",
         "aka": "Silver Lance+",
         "skill": "Blue Lance, Mt:15"
@@ -1253,7 +1301,7 @@
     {
         "name": "slaying lance-",
         "aliases": [],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nNephenee: Fierce Halberdier (5\\*)",
         "color": "blue",
         "aka": "Slaying Lance",
         "skill": "Blue Lance, Mt:10"
@@ -1263,15 +1311,33 @@
         "aliases": [
             "slaying lance+"
         ],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nNephenee: Fierce Halberdier (5\\*)\nSlaying Lance+ may also be obtained by evolving Killer Lance+ in the Weapon Refinery\n\n***Slaying Lance+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Slaying Lance+",
         "skill": "Blue Lance, Mt:14"
     },
+	{
+		"name": "slaying spear-",
+		"aliases": [],
+		"content": "Effective against armored units.\n\n**Available from:**\nSlaying Spear may be obtained by evolving Heavy Spear+ in the Weapon Refinery, then downgrading from Slaying Spear+",
+		"color": "blue",
+		"aka": "Slaying Spear",
+		"skill": "Blue Lance, Mt:10"
+	},
+	{
+		"name": "slaying spear",
+		"aliases": [
+			"slaying spear+"
+		],
+		"content": "Effective against armored foes.\n\n**Available from:**\nSlaying Spear+ may be obtained by evolving Heavy Spear+ in the Weapon Refinery\n\n***Slaying Spear+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "blue",
+		"aka": "Slaying Spear+",
+		"skill": "Blue Lance, Mt:14"
+	},
     {
         "name": "steel lance",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\nEvery lance unit in the game has Steel Lance, and there is therefore no need to inherit it.",
         "color": "blue",
         "aka": "Steel Lance",
         "skill": "Blue Lance, Mt:8"
@@ -1279,7 +1345,7 @@
     {
         "name": "vidofnir",
         "aliases": [],
-        "content": "If unit is attacked by foe using sword, axe or lance, unit receives Def+7 during combat.",
+        "content": "If unit is attacked by foe using sword, axe or lance, unit receives Def+7 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTana: Winged Princess (5\\*)",
         "color": "blue",
         "aka": "Vidofnir",
         "skill": "Blue Lance, Mt:16"
@@ -1499,17 +1565,6 @@
         "skill": "Blue Tome, Mt:14"
     },
     {
-        "name": "dark breath-",
-        "aliases": [
-            "dark breath",
-            "dark breath+"
-        ],
-        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.",
-        "color": "grey",
-        "aka": "Dark Breath",
-        "skill": "Breath, Mt: 9"
-    },
-    {
         "name": "armads",
         "aliases": [],
         "content": "Unit makes a guaranteed follow-up attack when attacked at HP >= 80%.",
@@ -1564,7 +1619,9 @@
     {
         "name": "emerald axe",
         "aliases": [
-            "emerald axe+"
+            "emerald axe+",
+			"gem axe",
+			"ta axe"
         ],
         "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
         "color": "green",
@@ -2146,7 +2203,9 @@
     {
         "name": "firesweep bow",
         "aliases": [
-            "firesweep bow+"
+            "firesweep bow+",
+			"fs bow",
+			"fs bow+"
         ],
         "content": "Effective against fliers. Unit and enemies cannot use counterattacks.",
         "color": "grey",
@@ -7424,14 +7483,6 @@
         "aka": "Flashing Blade 3",
         "skill": "A Skill"
     },
-	{
-		"name": "leiptr",
-		"aliases": [],
-		"content": "Unit can counterattack regardless of foe's range",
-		"color": "blue",
-		"aka": "Leiptr",
-		"skill": "Blue Lance, Mt:16"
-	},
 	{
 		"name": "ice mirror",
 		"aliases": [],

@@ -22,7 +22,8 @@ COLOR_TYPES = {
     'cyan': 0x28EFEF, 
     'purple': 0xA012ED, 
     'yellow': 0xDEC027, 
-    'orange': 0xEA803F
+    'orange': 0xEA803F,
+    'white': 0xDEDEDE
 }
 EMBED_ICON_URL = 'https://i.imgur.com/CyaOfZE.png'
 
