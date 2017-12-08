@@ -4,5 +4,6 @@ secret.py
 *.bat
 *.png
 pats.txt
+pats.json
 features.txt
 .vscode/
