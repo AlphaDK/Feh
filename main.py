@@ -17,7 +17,7 @@ import pytz
 from datetime import datetime
 from secret import *
 
-import commands
+from commands import CommandHandler
 
 loop = asyncio.get_event_loop()
 
@@ -26,7 +26,6 @@ auth.set_access_token(TWITTER_ACCESS1, TWITTER_ACCESS2)
 
 api = tweepy.API(auth)
 client = discord.Client()
-command_handler = commands.CommandHandler(client)
 
 mainhasbeenrunoncealready = False #So if the bot loses connection to Discord due to server outages on their end or something, it'll rerun on_ready() again. This is undesired behaviour, as it causes things like double posting of the daily reset, and this is the lowest effort solution to this problem, it'll set this to True once main() has been run once.
 
@@ -87,7 +86,8 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    await command_handler.handle_commands(message)
+    cmd_handler = CommandHandler(client, message)
+    await cmd_handler.handle_commands()
 
     if "\N{NERD FACE}" in message.content: #nerd into feh is a true combo
         await client.add_reaction(message, "feh:344700243910197259")
