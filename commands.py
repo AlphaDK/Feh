@@ -3,6 +3,7 @@ import json
 import re #only
 
 import utils
+import pat_manager
 
 # TODO: Create an instance - cmd_handler = CommandHandler(client)
 #       Call the member function - cmd_handler.handle_commands(message)
@@ -97,16 +98,40 @@ class CommandHandler:
     async def _handle_prefixed_commands(self):
         if not self.content.startswith(COMMAND_PREFIX):
             return
+
         msg_split = self.content.split(' ')
         command = msg_split[0][1:]
         args = msg_split[1:]
+
         await self._handle_static_commands(command)
+        await self._handle_pat_commands(command)
 
     async def _handle_static_commands(self, command):
         if command not in static_commands:
             return # Abandon ship if the command does not exist.
         command = static_commands[command]
         await self._send_response(command['message'])
+
+    async def _handle_pat_commands(self, command):
+        if command in ['checkpats', 'checkpets']:
+            count = pat_manager.get_pats(self.author.id)
+            if count == 0:
+                await self._send_reply("You haven't pet Feh yet :(")
+            else: 
+                time_str = 'time!'
+                if count > 1:
+                    time_str = 'times!'
+                reply = "You've pet Feh " + pat_manager.format_pat_count(count)
+                reply += " " + time_str
+                await self._send_reply(reply)
+
+        if command in ['pat', 'pet']:
+            pat_manager.add_pats(self.author.id, 1)
+            await self._send_response('Thanks! ^_^')
+
+        if command in ['halfpat', 'halfpet', 'halfp']:
+            pat_manager.add_pats(self.author.id, 0.5)
+            await self._send_response('Thanks! ^_^')
 
     async def _handle_skill_commands(self):
         if '{{' in self.content and '}}' in self.content:
@@ -125,6 +150,10 @@ class CommandHandler:
                                 color=int(COLOR_TYPES[skill['color']]))
             emb.set_author(name=skill['skill'], icon_url=EMBED_ICON_URL)
             await self.bot.send_message(self.channel, embed=emb)
+
+    async def _send_reply(self, response):
+        await self._send_response(
+                utils.mention(self.author) + ' ' + response)
 
     async def _send_response(self, response):
         await self.bot.send_message(self.channel, response)

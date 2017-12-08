@@ -94,59 +94,6 @@ async def on_message(message):
     
     if message.content.lower().startswith("!draug") or message.content.lower().startswith("!knowyourdraug"): #Source: reddit, it's important to be familiar with Draug and his variants
         await client.send_file(message.channel, "draug.jpg")
-    elif message.content.lower().startswith("!pat") or message.content.lower().startswith("!headpat") or message.content.lower().startswith("!pet") or message.content.lower().startswith("!halfp"): #Source: Trashy asked if Feh accepted headpats.
-        if message.content.lower().startswith("!halfp"):
-            await client.send_message(message.channel, "Thanks!")
-        else:
-            await client.send_message(message.channel, "Thanks! ^_^")
-        with open("pats.txt") as pats: #Then I track stats for how many times everyone's pat Feh for no good reason. Mostly just a thing I wanted to try doing
-            patcount = {}
-            for line in pats:
-                (user, count) = line.split("|")
-                patcount[user] = count
-            pats.close()
-            if message.author.id in patcount:
-                with open("pats.txt", "r+") as pats:
-                    data = pats.readlines()
-                bata = data
-                i = 0
-                for line in data:
-                    bata[i] = data[i]
-                    if line.startswith(str(message.author.id)):
-                        numbb = line.split("|")
-                        if message.content.lower().startswith("!halfp"): #A head pat is a head pat, you can't just call it a half. Works surprisingly well
-                            half = 0.5
-                        else:
-                            half = 1
-                        line = str(message.author.id) + "|" + str(float(numbb[1])+half)
-                        if line.endswith(".0"): #I only want the decimal to be there if it's a half, and float makes everything a decimal
-                            line = line[:-2] + "\n"
-                        else:
-                            line += "\n"
-                        bata[i] = line
-                    i += 1
-                with open("pats.txt", "w") as pats:
-                    pats.writelines(bata)
-            else: #If the user hasn't pet Feh, there's nothing to add to, so they get chucked on at the end of the document
-                with open("pats.txt", "a") as pats:
-                    if message.content.lower().startswith("!halfp"):
-                        pats.write(str(message.author.id) + "|0.5\n")
-                    else:
-                        pats.write(str(message.author.id) + "|1\n")
-    elif message.content.lower().startswith("!checkpets") or message.content.lower().startswith("!checkpats"): #Just tells them how many pats they have. I'm currently winning with 2^21 pats, my favourite number
-        patcounts = {}
-        with open("pats.txt") as pats:
-            for line in pats:
-                (user, count) = line.split("|")
-                patcounts[user] = str(count)[:-1]
-        if message.author.id not in patcounts: #Believe it or not, it didn't occur to me at first that people might try to check before petting, thankfully nobody tried it
-            await client.send_message(message.channel, "<@" + message.author.id + "> You haven't pet Feh yet :(")
-        else:
-            if patcounts[message.author.id] == "1": #Grammar is IMPORTANT!
-                tim = " time!"
-            else:
-                tim = " times!"
-            await client.send_message(message.channel, "<@" + message.author.id + "> You've pet Feh " + str(patcounts[message.author.id]) + tim)
     elif message.content.lower().startswith("!fehhelp"):
         await client.send_message(message.channel, "Hi! I'm Feh (v1.4.2), a bot created to help out with Fire Emblem: Heroes content! <:feh:344700243910197259>\nI can provide information to you about various weapons, skills or units! Try {{Quickened Pulse}}!\nIf you have any suggestions for improvements or if I'm broken, tell AlphaDK!\n(Use `!report [issue]` and I'll let him know)")
     elif message.content.lower().startswith("!report "):
