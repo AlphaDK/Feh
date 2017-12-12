@@ -1,4 +1,4 @@
-import json
+import utils
 
 # FIXME: Writing to files is not done asyncronously, these are blocking calls
 # that slow down the application!
@@ -32,14 +32,8 @@ def format_pat_count(count: float) -> str:
 
 
 def load_pats() -> dict:
-    with open(PAT_FILE) as f:
-        return json.load(f)
+    return utils.load_json(PAT_FILE)
 
 
 def save_pats(pats: dict):
-    with open(PAT_FILE, 'w') as f:
-        json.dump(pats, f, indent=4)
-
-
-
-
+    utils.save_json(PAT_FILE, pats)
