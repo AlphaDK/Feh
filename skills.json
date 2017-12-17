@@ -730,6 +730,16 @@
         "aka": "Brynhildr",
         "skill": "Red Tome, Mt:14"
     },
+	{
+		"name": "candelabra",
+		"aliases": [
+			"candelabra+"
+		],
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nTharja: \"Normal Girl\" (5\\*)",
+		"color": "red",
+		"aka": "Candelabra+",
+		"skill": "Red Tome, Mt:12"
+	},
     {
         "name": "cymbeline",
         "aliases": [],
@@ -1342,6 +1352,18 @@
         "aka": "Steel Lance",
         "skill": "Blue Lance, Mt:8"
     },
+	{
+		"name": "tannenboom!",
+		"aliases": [
+			"tannenboom",
+			"tannenboom!+",
+			"tannenboom+"
+		],
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nRobin: Festive Tactician (5\\*)",
+		"color": "blue",
+		"aka": "Tannenboom!+",
+		"skill": "Blue Lance, Mt:14"
+	},
     {
         "name": "vidofnir",
         "aliases": [],
@@ -1647,6 +1669,16 @@
         "aka": "Hammer+",
         "skill": "Green Axe, Mt:12"
     },
+	{
+		"name": "handbell",
+		"aliases": [
+			"handbell+"
+		],
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.",
+		"color": "green",
+		"aka": "Handbell+",
+		"skill": "Green Axe, Mt:14"
+	},
     {
         "name": "hauteclere",
         "aliases": [],
@@ -1756,6 +1788,21 @@
         "aka": "Noatun",
         "skill": "Green Axe, Mt:16"
     },
+	{
+		"name": "sack o' gifts",
+		"aliases": [
+			"sack o gifts",
+			"sack o' gifts+",
+			"sack o gifts+",
+			"gift sack",
+			"sacks axe",
+			"axe sack"
+		],
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.",
+		"color": "green",
+		"aka": "Sack O' Gifts+",
+		"skill": "Green Axe, Mt:14"
+	},
     {
         "name": "silver axe-",
         "aliases": [],
@@ -3323,6 +3370,44 @@
         "aka": "Atk Spd 2",
         "skill": "A Skill"
     },
+	{
+		"name": "brazen atk/def 3",
+		"aliases": [
+			"brazen atk def 3",
+			"brazen attack defense 3",
+			"brazen atkdef 3",
+			"brazen attack/defense 3",
+			"brazen attack def 3",
+			"brazen atk/def",
+			"brazen atk def",
+			"brazen attack def",
+			"brazen attack defense",
+			"brazen attack/defense"
+		],
+		"content": "If unit's HP <= 80% at the start of combat, grants Atk/Def+7 during combat.",
+		"color": "orange",
+		"aka": "Brazen Atk/Def 3",
+		"skill": "A Skill"
+	},
+	{
+		"name": "brazen atk/spd 3",
+		"aliases": [
+			"brazen atk spd 3",
+			"brazen attack speed 3",
+			"brazen atkspd 3",
+			"brazen attack/speed 3",
+			"brazen attack spd 3",
+			"brazen atk/spd",
+			"brazen atk spd",
+			"brazen attack spd",
+			"brazen attack speed",
+			"brazen attack/speed"
+		],
+		"content": "If unit's HP <= 80% at the start of combat, grants Atk/Spd+7 during combat.",
+		"color": "orange",
+		"aka": "Brazen Atk/Spd 3",
+		"skill": "A Skill"
+	},
     {
         "name": "close counter",
         "aliases": [
@@ -4469,6 +4554,16 @@
         "aka": "B Tomebreaker 3",
         "skill": "B Skill"
     },
+	{
+		"name": "bold fighter 3",
+		"aliases": [
+			"bold fighter"
+		],
+		"content": "If unit initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+		"color": "orange",
+		"aka": "Bold Fighter 3",
+		"skill": "B Skill"
+	},
     {
         "name": "bowbreaker 1",
         "aliases": [],
@@ -5398,6 +5493,16 @@
         "aka": "Vantage 3",
         "skill": "B Skill"
     },
+	{
+		"name": "vengeful fighter 3",
+		"aliases": [
+			"vengeful fighter"
+		],
+		"content": "If unit's HP >= 50% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+		"color": "orange",
+		"aka": "Vengeful Fighter 3",
+		"skill": "B Skill"
+	},
     {
         "name": "wary fighter 1",
         "aliases": [
@@ -6382,6 +6487,46 @@
         "color": "orange",
         "aka": "Panic Ploy 3",
         "skill": "C Skill & Sacred Seal"
+    },
+	{
+        "name": "r tome valor 1",
+        "aliases": [
+            "r tome valour 1",
+            "red tome valor 1",
+            "red tome valour 1"
+        ],
+        "content": "If unit survives and uses a red tome, unit gets 1.5x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "R Tome Valor 1",
+        "skill": "C Skill"
+    },
+    {
+        "name": "r tome valor 2",
+        "aliases": [
+            "r tome valour 2",
+            "red tome valor 2",
+            "red tome valour 2"
+        ],
+        "content": "If unit survives, all red tome users on team get 1.5x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "R Tome Valor 2",
+        "skill": "C Skill"
+    },
+    {
+        "name": "r tome valor 3",
+        "aliases": [
+            "r tome valour 3",
+            "red tome valor 3",
+            "red tome valour 3",
+            "r tome valor",
+            "r tome valour",
+            "red tome valor",
+            "red tome valour"
+        ],
+        "content": "If unit survives, all red tome users on team get 2x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "R Tome Valor 3",
+        "skill": "C Skill"
     },
     {
         "name": "res ploy 1",
@@ -7870,6 +8015,25 @@
         "aka": "Chrom: Spring Exalt",
         "skill": "Infantry Axe"
     },
+	{
+		"name": "chrom 3",
+		"aliases": [
+			"w!chrom",
+			"christmas chrom",
+			"chromstmas",
+			"chrom winter's envoy",
+			"chrom winters envoy",
+			"chrom (winter's envoy)",
+			"chrom (winters envoy)",
+			"winter's envoy chrom",
+			"winters envoy chrom",
+			"santa chrom"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\nprobably at least 2\n\n**Skills:**\nW: Sack O' Gifts+\nAs: Pivot\nA: Brazen Atk/Def 3\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "green",
+		"aka": "Chrom: Gifted Leader",
+		"skill": "Armored Axe"
+	},
     {
         "name": "clair",
         "aliases": [],
@@ -8127,7 +8291,7 @@
 		"aka": "Fae: Divine Dragon",
 		"skill": "Infantry Breath"
 	},
-	{
+    {
 		"name": "faye",
 		"aliases": [],
 		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/3/4/7\n5\\* lv40: 42/30/25/26/31 (153~154)\n\n**Skills:**\nW: Firesweep Bow+\nS: Noontime\nB: Wings of Mercy 3\nC: Bow Exp. 3\n(Unit only summonable at 5\\*)",
@@ -8196,6 +8360,46 @@
 		"aka": "Frederick: Horizon Watcher",
 		"skill": "Infantry Dagger"
 	},
+	{
+		"name": "c!lissa",
+		"aliases": [
+			"w!lissa",
+			"christmas lissa",
+			"chrissa",
+			"lissa winter's envoy",
+			"lissa winters envoy",
+			"lissa (winter's envoy)",
+			"lissa (winters envoy)",
+			"winter's envoy lissa",
+			"winters envoy lissa",
+			"lissa will never have a special costume",
+			"lissa undertale",
+			"lissa 2",
+			"limited lissa"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\nSomething idk\n\n**Skills:**\nW: Handbell+\nS: Bonfire\nB: Bold Fighter 3\nC: Fortify Def 2, Fortify Armor\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "green",
+		"aka": "Lissa: Pure Joy",
+		"skill": "Armored Axe"
+	},
+	{
+		"name": "c!robin",
+		"aliases": [
+			"w!robin",
+			"christmas robin",
+			"chrobin",
+			"robin winter's envoy",
+			"robin winters envoy",
+			"robin (winter's envoy)",
+			"robin (winters envoy)",
+			"winter's envoy robin",
+			"winters envoy robin"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n69/69/69/69/69\n\n**Skills:**\nW: Tannenboom!+\nAs: Reciprocal Aid\nA: Brazen Atk/Spd 3\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "blue",
+		"aka": "Robin: Festive Tactician",
+		"skill": "Armored Lance"
+	},
     {
         "name": "saber",
         "aliases": [],
@@ -8203,7 +8407,7 @@
         "color": "red",
         "aka": "Saber: Driven Mercenary",
         "skill": "Infantry Sword"
-    },
+	},
 	{
         "name": "saizo",
         "aliases": [
@@ -8422,5 +8626,25 @@
         "color": "red",
         "aka": "Tharja: Dark Shadow",
         "skill": "Infantry Tome"
-    }
+    },
+	{
+		"name": "c!tharja",
+		"aliases": [
+			"w!tharja",
+			"tharja why are you wearing a bikini it's christmas for crying out loud i know you wanted to be in the summer banner but this is strictly inappropriate for the workplace, why don't you put on some clothes and call me back when you're fit for this game, ok?",
+			"tharja winter's envoy",
+			"tharja winters envoy",
+			"tharja (winter's envoy)",
+			"tharja (winters envoy)",
+			"winter's envoy tharja",
+			"winters envoy tharja",
+			"tharja undertale",
+			"tharja 2",
+			"limited tharja"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\nBody Temperature: lower than average\n\n**Skills:**\nW: Candelabra+\nS: Iceberg\nA: Close Counter\nB: Vengeful Fighter 3\nC: R Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "red",
+		"aka": "Tharja: \"Normal Girl\"",
+		"skill": "Armored Tome"
+	}
 ]
