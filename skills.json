@@ -735,7 +735,7 @@
 		"aliases": [
 			"candelabra+"
 		],
-		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nTharja: \"Normal Girl\" (5\\*)",
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nTharja: \"Normal Girl\" (5\\*)\n\n***Tannenboom!+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +1 Mt\n**Spd:** +5 HP, +2 Spd\n**Def:** +3 HP, +4 Def\n**Res:** +5 HP, +3 Res",
 		"color": "red",
 		"aka": "Candelabra+",
 		"skill": "Red Tome, Mt:12"
@@ -1359,7 +1359,7 @@
 			"tannenboom!+",
 			"tannenboom+"
 		],
-		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nRobin: Festive Tactician (5\\*)",
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nRobin: Festive Tactician (5\\*)\n\n***Tannenboom!+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "blue",
 		"aka": "Tannenboom!+",
 		"skill": "Blue Lance, Mt:14"
