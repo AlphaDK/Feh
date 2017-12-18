@@ -266,7 +266,7 @@
             "pass emblem",
             "henry emblem"
         ],
-        "content": "Henry + Pass",
+        "content": "Traditionally a Halloween Henry with Pass 3, any unit with the Pass skill (especially Armored) is considered viable for Kelly Emblem.",
         "color": "purple",
         "aka": "Kelly Emblem",
         "skill": "Team Formation"
@@ -731,11 +731,19 @@
         "skill": "Red Tome, Mt:14"
     },
 	{
+		"name": "candelabra-",
+		"aliases": [],
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+		"color": "red",
+		"aka": "Candelabra",
+		"skill": "Red Tome, Mt:8"
+	},
+	{
 		"name": "candelabra",
 		"aliases": [
 			"candelabra+"
 		],
-		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nTharja: \"Normal Girl\" (5\\*)\n\n***Tannenboom!+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +1 Mt\n**Spd:** +5 HP, +2 Spd\n**Def:** +3 HP, +4 Def\n**Res:** +5 HP, +3 Res",
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)\n\n***Candelabra+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +1 Mt\n**Spd:** +5 HP, +2 Spd\n**Def:** +3 HP, +4 Def\n**Res:** +5 HP, +3 Res",
 		"color": "red",
 		"aka": "Candelabra+",
 		"skill": "Red Tome, Mt:12"
@@ -785,7 +793,7 @@
     {
         "name": "flux",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)",
+        "content": "No special effect.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "red",
         "aka": "Flux",
         "skill": "Red Tome, Mt:4"
@@ -893,7 +901,7 @@
         "aliases": [
             "rauorwolf+"
         ],
-        "content": "Effective against cavalry units.\n\n**Available from:**\nRaigh: Dark Child (5\\*)\n\nRauorwolf+ may be evolved into Keen Raourwolf+ in the Weapon Refinery",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nRaigh: Dark Child (5\\*)\n\nRauorwolf+ may be evolved into Keen Rauorwolf+ in the Weapon Refinery",
         "color": "red",
         "aka": "Rauorwolf+",
         "skill": "Red Tome, Mt:10"
@@ -901,7 +909,7 @@
     {
         "name": "ruin",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)",
+        "content": "No special effect.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "red",
         "aka": "Ruin",
         "skill": "Red Tome, Mt:6"
@@ -1108,7 +1116,7 @@
     {
         "name": "deft harpoon-",
         "aliases": [],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Novice Vacationer (F) (Ylissean Summer) (5\\*)",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Seaside Tactician (Ylissean Summer) (5\\*)",
         "color": "blue",
         "aka": "Deft Harpoon",
         "skill": "Blue Lance, Mt:10"
@@ -1118,7 +1126,7 @@
         "aliases": [
             "deft harpoon+"
         ],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Novice Vacationer (F) (Ylissean Summer) (5\\*)\n\n***Deft Harpoon+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Seaside Tactician (Ylissean Summer) (5\\*)\n\n***Deft Harpoon+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Deft Harpoon+",
         "skill": "Blue Lance, Mt:14"
@@ -1353,13 +1361,23 @@
         "skill": "Blue Lance, Mt:8"
     },
 	{
+		"name": "tannenboom!-",
+		"aliases": [
+			"tannenboom-"
+		],
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nRobin: Festive Tactician (Winter's Envoy) (5\\*)",
+		"color": "blue",
+		"aka": "Tannenboom!",
+		"skill": "Blue Lance, Mt:10"
+	},
+	{
 		"name": "tannenboom!",
 		"aliases": [
 			"tannenboom",
 			"tannenboom!+",
 			"tannenboom+"
 		],
-		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nRobin: Festive Tactician (5\\*)\n\n***Tannenboom!+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nRobin: Festive Tactician (Winter's Envoy) (5\\*)\n\n***Tannenboom!+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "blue",
 		"aka": "Tannenboom!+",
 		"skill": "Blue Lance, Mt:14"
@@ -1375,51 +1393,15 @@
     {
         "name": "aura",
         "aliases": [],
-        "content": "Restores 5 HP to adjacent allies after any combat this unit initiates.",
+        "content": "Restores 5 HP to adjacent allies after any combat this unit initiates.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLinde: Light Mage (5\\*)\n\nAura may be evolved into Dark Aura in the Weapon Refinery",
         "color": "blue",
         "aka": "Aura",
         "skill": "Blue Tome, Mt:14"
     },
     {
-        "name": "blessed bouquet-",
-        "aliases": [],
-        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
-        "color": "blue",
-        "aka": "Blessed Bouquet",
-        "skill": "Blue Tome, Mt:8"
-    },
-    {
-        "name": "blessed bouquet",
-        "aliases": [
-            "blessed bouquet+"
-        ],
-        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.",
-        "color": "blue",
-        "aka": "Blessed Bouquet+",
-        "skill": "Blue Tome, Mt:12"
-    },
-    {
-        "name": "blue egg-",
-        "aliases": [],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
-        "color": "blue",
-        "aka": "Blue Egg",
-        "skill": "Blue Tome, Mt:7"
-    },
-    {
-        "name": "blue egg",
-        "aliases": [
-            "blue egg+"
-        ],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
-        "color": "blue",
-        "aka": "Blue Egg+",
-        "skill": "Blue Tome, Mt:11"
-    },
-    {
         "name": "blarblade-",
         "aliases": [],
-        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nOdin: Potent Force (3\\*)\nTailtiu: Thunder Noble (4\\*)",
         "color": "blue",
         "aka": "Blarblade",
         "skill": "Blue Tome, Mt:9"
@@ -1429,7 +1411,7 @@
         "aliases": [
             "blarblade+"
         ],
-        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nOdin: Potent Force (5\\*)\nTailtiu: Thunder Noble (5\\*)",
         "color": "blue",
         "aka": "Blarblade+",
         "skill": "Blue Tome, Mt:13"
@@ -1437,7 +1419,7 @@
     {
         "name": "blarowl-",
         "aliases": [],
-        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Available from:**\nMae: Bundle of Energy (4\\*)",
         "color": "blue",
         "aka": "Blarowl",
         "skill": "Blue Tome, Mt:6"
@@ -1447,7 +1429,7 @@
         "aliases": [
             "blarowl+"
         ],
-        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Available from:**\nMae: Bundle of Energy (5\\*)\n\n***Blarowl+ may be upgarded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "blue",
         "aka": "Blarowl+",
         "skill": "Blue Tome, Mt:10"
@@ -1455,7 +1437,7 @@
     {
         "name": "blarraven-",
         "aliases": [],
-        "content": "Grants weapon advantage vs. colorless foes.",
+        "content": "Grants weapon advantage vs. colorless foes.\n\n**Available from:**\nRobin: High Deliverer (M) (3\\*)",
         "color": "blue",
         "aka": "Blarraven",
         "skill": "Blue Tome, Mt:7"
@@ -1465,7 +1447,7 @@
         "aliases": [
             "blarraven+"
         ],
-        "content": "Grants weapon advantage vs. colorless foes.",
+        "content": "Grants weapon advantage vs. colorless foes.\n\n**Available from:**\nRobin: High Deliverer (M) (5\\*)",
         "color": "blue",
         "aka": "Blarraven+",
         "skill": "Blue Tome, Mt:11"
@@ -1473,7 +1455,7 @@
     {
         "name": "blarwolf-",
         "aliases": [],
-        "content": "Effective against cavalry units.",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nUrsula: Blue Crow (3\\*)",
         "color": "blue",
         "aka": "Blarwolf",
         "skill": "Blue Tome, Mt:6"
@@ -1483,17 +1465,53 @@
         "aliases": [
             "blarwolf+"
         ],
-        "content": "Effective against cavalry units.",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nUrsula: Blue Crow (5\\*)\n\nBlarwolf+ may be evolved into Keen Blarwolf+ in the Weapon Refinery",
         "color": "blue",
         "aka": "Blarwolf+",
         "skill": "Blue Tome, Mt:10"
+    },
+	{
+        "name": "blessed bouquet-",
+        "aliases": [],
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.\n\n**Available from:**\nCaeda: Talys's Bride (Bridal Blessings) (5\\*)",
+        "color": "blue",
+        "aka": "Blessed Bouquet",
+        "skill": "Blue Tome, Mt:8"
+    },
+    {
+        "name": "blessed bouquet",
+        "aliases": [
+            "blessed bouquet+"
+        ],
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates.\n\n**Available from:**\nCaeda: Talys's Bride (Bridal Blessings) (5\\*)\n\n***Blessed Bouquet+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn.\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+        "color": "blue",
+        "aka": "Blessed Bouquet+",
+        "skill": "Blue Tome, Mt:12"
+    },
+    {
+        "name": "blue egg-",
+        "aliases": [],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nLucina: Spring Exalt (Spring Festival) (5\\*)",
+        "color": "blue",
+        "aka": "Blue Egg",
+        "skill": "Blue Tome, Mt:7"
+    },
+    {
+        "name": "blue egg",
+        "aliases": [
+            "blue egg+"
+        ],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nLucina: Spring Exalt (Spring Festival) (5\\*)\n\n***Blue Egg+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, restores 4 HP.\")_\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
+        "color": "blue",
+        "aka": "Blue Egg+",
+        "skill": "Blue Tome, Mt:11"
     },
     {
         "name": "dancer's score-",
         "aliases": [
             "dancers score-"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.\n\n**Available from:**\nShigure: Dark Sky Singer (Performing Arts) (5\\*)",
         "color": "blue",
         "aka": "Dancer's Score",
         "skill": "Blue Tome, Mt:8"
@@ -1505,7 +1523,7 @@
             "dancers score",
             "dancers score+"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.\n\n**Available from:**\nShigure: Dark Sky Singer (Performing Arts) (5\\*)\n\n***Dancer's Score+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "blue",
         "aka": "Dancer's Score+",
         "skill": "Blue Tome, Mt:12"
@@ -1513,7 +1531,7 @@
     {
         "name": "dark aura",
         "aliases": [],
-        "content": "Grants adjacent allies who use swords, axes, lances, or dragonstones Atk+6 through their next actions at the start of each turn.",
+        "content": "Grants adjacent allies who use swords, axes, lances, or dragonstones Atk+6 through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nDelthea: Free Spirit (5\\*)\nDark Aura may also be obtained by evolving Aura in the Weapon Refinery",
         "color": "blue",
         "aka": "Dark Aura",
         "skill": "Blue Tome, Mt:14"
@@ -1521,7 +1539,7 @@
     {
         "name": "dire thunder",
         "aliases": [],
-        "content": "Spd-5. Attack twice when initiating combat.",
+        "content": "Spd-5. Attack twice when initiating combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nOlwen: Blue Mage Knight (5\\*)\nReinhardt: Thunder's Fist (5\\*)",
         "color": "blue",
         "aka": "Dire Thunder",
         "skill": "Blue Tome, Mt:9"
@@ -1529,15 +1547,33 @@
     {
         "name": "elthunder",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\nEvery blue tome unit in the game has Elthunder, and there is therefore no need to inherit it.",
         "color": "blue",
         "aka": "Elthunder",
         "skill": "Blue Tome, Mt:6"
     },
+	{
+		"name": "keen blarwolf-",
+		"aliases": [],
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Blarwolf is obtained by evolving Blarwolf+ in the Weapon Refinery, and then downgrading from Keen Blarwolf+",
+		"color": "blue",
+		"aka": "Keen Blarwolf",
+		"skill": "Blue Tome, Mt:8"
+	},
+	{
+		"name": "keen blarwolf",
+		"aliases": [
+			"keen blarwolf+"
+		],
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Blarwolf+ is obtained by evolving Blarwolf+ in the Weapon Refinery\n\n***Keen Blarwolf+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "blue",
+		"aka": "Keen Blarwolf+",
+		"skill": "Blue Tome, Mt:12"
+	},
     {
         "name": "sealife tome-",
         "aliases": [],
-        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.\n\n**Available from:**\nCorrin: Novice Vacationer (Nohrian Summer) (5\\*)",
         "color": "blue",
         "aka": "Sealife Tome",
         "skill": "Blue Tome, Mt:8"
@@ -1547,25 +1583,25 @@
         "aliases": [
             "sealife tome+"
         ],
-        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.\n\n**Available from:**\nCorrin: Novice Vacationer (Nohrian Summer) (5\\*)\n\n***Sealife Tome+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "blue",
         "aka": "Sealife Tome+",
         "skill": "Blue Tome, Mt:12"
     },
     {
         "name": "thoron-",
-        "aliases": [],
-        "content": "No special effect.",
+        "aliases": [
+			"thoron"
+		],
+        "content": "No special effect.\n\n**Available from:**\nDelthea: Free Spirit (5\\*)\nLinde: Light Mage (5\\*)\nLute: Prodigy (5\\*)\nOlwen: Blue Mage Knight (5\\*)\nReinhardt: Thunder's Fist (4\\*)",
         "color": "blue",
         "aka": "Thoron",
         "skill": "Blue Tome, Mt:9"
     },
     {
-        "name": "thoron",
-        "aliases": [
-            "thoron+"
-        ],
-        "content": "No special effect.",
+        "name": "thoron+",
+        "aliases": [],
+        "content": "No special effect.\n\n**Available from:**\nNowhere. This weapon exists in game files but is not used.\n\n***That doesn't stop it from having Weapon Refinery upgrades. Variants?***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "blue",
         "aka": "Thoron+",
         "skill": "Blue Tome, Mt:13"
@@ -1573,7 +1609,7 @@
     {
         "name": "thunder",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\nEvery blue tome unit in the game has Thunder, and there is therefore no need to inherit it.",
         "color": "blue",
         "aka": "Thunder",
         "skill": "Blue Tome, Mt:4"
@@ -1581,9 +1617,17 @@
     {
         "name": "valaskjalf",
         "aliases": [],
-        "content": "Enables unit at <= 50% HP to strike first, even when attacked.",
+        "content": "Enables unit at <= 50% HP to strike first, even when attacked.\n\n**Used by:**\nBruno: Masked Knight\n\nThis weapon is exclusive to non-player units",
         "color": "blue",
         "aka": "Valaskjalf",
+        "skill": "Blue Tome, Mt:14"
+    },
+	{
+        "name": "weirding tome",
+        "aliases": [],
+        "content": "Grants Spd+3.\nAt start of turn, all foes in cardinal directions, and with Res 1 or more lower than unit, suffer Spd-5 until the end of foes' next actions.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLute: Prodigy (5\\*)",
+        "color": "blue",
+        "aka": "Weirding Tome",
         "skill": "Blue Tome, Mt:14"
     },
     {
@@ -7114,7 +7158,7 @@
         "aliases": [],
         "content": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 30%.",
         "color": "yellow",
-        "aka": "Deflect Missle 1",
+        "aka": "Deflect Missile 1",
         "skill": "Sacred Seal"
     },
     {
@@ -7122,7 +7166,7 @@
         "aliases": [],
         "content": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 50%.",
         "color": "yellow",
-        "aka": "Deflect Missle 2",
+        "aka": "Deflect Missile 2",
         "skill": "Sacred Seal"
     },
     {
@@ -7132,7 +7176,7 @@
         ],
         "content": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 80%.",
         "color": "yellow",
-        "aka": "Deflect Missle 3",
+        "aka": "Deflect Missile 3",
         "skill": "Sacred Seal"
     },
     {
@@ -7560,14 +7604,6 @@
         "color": "orange",
         "aka": "Fierce Stance 3",
         "skill": "A Skill"
-    },
-    {
-        "name": "weirding tome",
-        "aliases": [],
-        "content": "Grants Spd+3.\nAt start of turn, all foes in cardinal directions, and with Res 1 or more lower than unit, suffer Spd-5 until the end of foes' next actions.",
-        "color": "blue",
-        "aka": "Weirding Tome",
-        "skill": "Blue Tome, Mt:14"
     },
     {
         "name": "hp res 1",
@@ -8640,7 +8676,8 @@
 			"winters envoy tharja",
 			"tharja undertale",
 			"tharja 2",
-			"limited tharja"
+			"limited tharja",
+			"christmas tharja"
 		],
 		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/5/8/10\n5\\* lv40: 43/34/18/34/36 (164~165)\n\n**Skills:**\nW: Candelabra+\nS: Iceberg\nA: Close Counter\nB: Vengeful Fighter 3\nC: R Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "red",
