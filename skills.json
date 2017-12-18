@@ -443,7 +443,7 @@
 	{
 		"name": "firesweep sword-",
 		"aliases": [],
-		"content": "Unit and foes cannot counterattack.\n\n**Available from:**\nSoleil: Adorable Adorer (5\\*)",
+		"content": "Unit and foes cannot counterattack.\n\n**Available from:**\nSoleil: Adorable Adorer (4\\*)",
 		"color": "red",
 		"aka": "Firesweep Sword",
 		"skill": "Red Sword, Mt:11"
@@ -8029,7 +8029,7 @@
 			"winters envoy chrom",
 			"santa chrom"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\nprobably at least 2\n\n**Skills:**\nW: Sack O' Gifts+\nAs: Pivot\nA: Brazen Atk/Def 3\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 25/12/4/9/5\n5\\* lv40: 51/40/19/35/29 (174)\n\n**Skills:**\nW: Sack O' Gifts+\nAs: Pivot\nA: Brazen Atk/Def 3\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "green",
 		"aka": "Chrom: Gifted Leader",
 		"skill": "Armored Axe"
@@ -8377,7 +8377,7 @@
 			"lissa 2",
 			"limited lissa"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\nSomething idk\n\n**Skills:**\nW: Handbell+\nS: Bonfire\nB: Bold Fighter 3\nC: Fortify Def 2, Fortify Armor\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/9/8/9/8\n5\\* lv40: 43/33/30/35/34 (174~175)\n\n**Skills:**\nW: Handbell+\nS: Bonfire\nB: Bold Fighter 3\nC: Fortify Def 2, Fortify Armor\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "green",
 		"aka": "Lissa: Pure Joy",
 		"skill": "Armored Axe"
@@ -8395,7 +8395,7 @@
 			"winter's envoy robin",
 			"winters envoy robin"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n69/69/69/69/69\n\n**Skills:**\nW: Tannenboom!+\nAs: Reciprocal Aid\nA: Brazen Atk/Spd 3\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 23/9/8/9/6\n5\\* lv40: 45/35/34/35/25 (173~175)\n\n**Skills:**\nW: Tannenboom!+\nAs: Reciprocal Aid\nA: Brazen Atk/Spd 3\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "blue",
 		"aka": "Robin: Festive Tactician",
 		"skill": "Armored Lance"
@@ -8642,7 +8642,7 @@
 			"tharja 2",
 			"limited tharja"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\nBody Temperature: lower than average\n\n**Skills:**\nW: Candelabra+\nS: Iceberg\nA: Close Counter\nB: Vengeful Fighter 3\nC: R Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/5/8/10\n5\\* lv40: 43/34/18/34/36 (164~165)\n\n**Skills:**\nW: Candelabra+\nS: Iceberg\nA: Close Counter\nB: Vengeful Fighter 3\nC: R Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "red",
 		"aka": "Tharja: \"Normal Girl\"",
 		"skill": "Armored Tome"
