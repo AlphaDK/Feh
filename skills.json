@@ -743,7 +743,7 @@
 		"aliases": [
 			"candelabra+"
 		],
-		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)\n\n***Candelabra+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +1 Mt\n**Spd:** +5 HP, +2 Spd\n**Def:** +3 HP, +4 Def\n**Res:** +5 HP, +3 Res",
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)\n\n***Candelabra+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "red",
 		"aka": "Candelabra+",
 		"skill": "Red Tome, Mt:12"
