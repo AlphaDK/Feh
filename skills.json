@@ -3931,7 +3931,7 @@
         "aliases": [
             "granis shield"
         ],
-        "content": "Neutralizes \"effective against\" bonuses.",
+        "content": "Neutralizes \"effective against cavalry\" bonuses.",
         "color": "orange",
         "aka": "Grani's Shield",
         "skill": "A Skill"
@@ -4034,7 +4034,7 @@
         "content": "If unit's Atk - foe's Atk >= 5, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Heavy Blade 1",
-        "skill": "A Skill"
+        "skill": "A Skill & Sacred Seal"
     },
     {
         "name": "heavy blade 2",
@@ -4042,7 +4042,7 @@
         "content": "If unit's Atk - foe's Atk >= 3, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Heavy Blade 2",
-        "skill": "A Skill"
+        "skill": "A Skill & Sacred Seal"
     },
     {
         "name": "heavy blade 3",
@@ -4052,17 +4052,17 @@
         "content": "If unit's Atk - foe's Atk >= 1, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Heavy Blade 3",
-        "skill": "A Skill"
+        "skill": "A Skill & Sacred Seal"
     },
     {
         "name": "iote's shield",
         "aliases": [
             "iotes shield"
         ],
-        "content": "Neutralizes \"effective against\" bonuses.",
+        "content": "Neutralizes \"effective against fliers\" bonuses.",
         "color": "orange",
         "aka": "Iote's Shield",
-        "skill": "A Skill"
+        "skill": "A Skill & Sacred Seal"
     },
     {
         "name": "life and death 1",
@@ -4353,7 +4353,7 @@
     {
         "name": "svalinn shield",
         "aliases": [],
-        "content": "Neutralizes \"effective against\" bonuses.",
+        "content": "Neutralizes \"effective against armored\" bonuses.",
         "color": "orange",
         "aka": "Svalinn Shield",
         "skill": "A Skill"
@@ -7049,7 +7049,7 @@
         "content": "Inflicts Spd-3 on foes within 2 spaces through their next actions at the start of each turn.",
         "color": "orange",
         "aka": "Threaten Spd 1",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "threaten spd 2",
@@ -7059,7 +7059,7 @@
         "content": "Inflicts Spd-4 on foes within 2 spaces through their next actions at the start of each turn.",
         "color": "orange",
         "aka": "Threaten Spd 2",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "threaten spd 3",
@@ -7071,7 +7071,7 @@
         "content": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn.",
         "color": "orange",
         "aka": "Threaten Spd 3",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "ward armor",
