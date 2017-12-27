@@ -1907,6 +1907,16 @@
         "aka": "Uror",
         "skill": "Green Axe, Mt:16"
     },
+	{
+		"name": "blizzard",
+		"aliases": [
+			"blizzard entertainment"
+		],
+		"content": "Grants Res+3. Grants bonus to unit's Atk equal to total penalties on foe during combat.",
+		"color": "green",
+		"aka": "Blizzard",
+		"skill": "Green Tome, Mt:14"
+	},
     {
         "name": "dancer's ring-",
         "aliases": [
@@ -4686,6 +4696,14 @@
         "aka": "Cancel Affinity 3",
         "skill": "B Skill"
     },
+	{
+		"name": "chilling seal",
+		"aliases": [],
+		"content": "At the start of each turn, if unit's HP >= 50% inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited)",
+		"color": "orange",
+		"aka": "Chilling Seal",
+		"skill": "B Skill"
+	},
     {
         "name": "crusader's ward",
         "aliases": [
@@ -8354,7 +8372,7 @@
 	{
 		"name": "fjorm",
 		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/7/8/8\n5\\* lv40: 39/30/31/30/34 (163~164)\n\n**Skills:**\nW: Leiptr\nS: Ice Mirror\nA: Atk/Def Bond 3\nB: Shield Pulse 3\nC: Spur Atk 1, Drive Atk 2\n(Unit only summonable at 5\\* in limited banner or from story)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/7/8/8\n5\\* lv40: 39/30/31/30/34 (163~164)\n\n**Skills:**\nW: Leiptr\nS: Ice Mirror\nA: Atk/Def Bond 3\nB: Shield Pulse 3\nC: Spur Atk 1, Drive Atk 2\n(Unit only summonable at 5\\* in limited banner or from story)\n\nFjorm is a Legendary Hero for the Water Season",
 		"color": "blue",
 		"aka": "Fjorm: Princess of Ice",
 		"skill": "Infantry Lance"
@@ -8395,6 +8413,14 @@
 		"color": "grey",
 		"aka": "Frederick: Horizon Watcher",
 		"skill": "Infantry Dagger"
+	},
+	{
+		"name": "gunnthra",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: X/X/X/X/X\n5\\* lv40: Y/Y/Y/Y/Y (ZZZ~ZZZ)\n\n**Skills:**\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only summonable at 5\\* in limited banner or from story)\n\nGunnthra is a Legendary Hero for the Wind Season",
+		"color": "green",
+		"aka": "Gunnthra: Voice of Dreams",
+		"skill": "Cavalry Tome"
 	},
 	{
 		"name": "c!lissa",
