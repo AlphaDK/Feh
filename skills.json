@@ -8416,8 +8416,10 @@
 	},
 	{
 		"name": "gunnthra",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: X/X/X/X/X\n5\\* lv40: Y/Y/Y/Y/Y (ZZZ~ZZZ)\n\n**Skills:**\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only summonable at 5\\* in limited banner or from story)\n\nGunnthra is a Legendary Hero for the Wind Season",
+		"aliases": [
+			"enter the gunnthra"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: X/X/X/X/X\n5\\* lv40: Y/Y/Y/Y/Y (ZZZ~ZZZ)\n\n**Skills:**\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only summonable at 5\\* in limited banner)\n\nGunnthra is a Legendary Hero for the Wind Season",
 		"color": "green",
 		"aka": "Gunnthra: Voice of Dreams",
 		"skill": "Cavalry Tome"
