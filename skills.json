@@ -7859,6 +7859,22 @@
         "aka": "Azura: Lady of Ballads",
         "skill": "Infantry Axe"
     },
+	{
+		"name": "azura 3",
+		"aliases": [
+			"new year's azura",
+			"new years azura",
+			"new year azura",
+			"azura undertale 2",
+			"axura 2",
+			"azazel",
+			"ny!azura"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/9/5/4\n5\\* lv40: 37/30/35/22/26 (150)\n\n**Skills:**\nW: Hagoita+\nAs: Sing\nB: Earth Dance 3\nC: Hone Spd 2, Hone Fliers\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "green",
+		"aka": "Azura: Celebratory Spirit",
+		"skill": "Flying Axe"
+	},
     {
         "name": "barst",
         "aliases": [],
@@ -7990,6 +8006,22 @@
         "aka": "Camilla: Spring Princess",
         "skill": "Flying Tome"
     },
+	{
+		"name": "camilla 3",
+		"aliases": [
+			"camilla undertale 2",
+			"new years camilla",
+			"new year's camilla",
+			"new year camilla",
+			"sword camilla",
+			"while you were celebrating new year's, i studied the blade",
+			"ny!camilla"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/9/7/4\n5\\* lv40: 40/33/35/31/23 (162)\n\n**Skills:**\nW: Kadomatsu+\nS: Draconic Aura\nA: Spd/Def Bond\nC: Spur Def 2, Ward Fliers\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "red",
+		"aka": "Camilla: Holiday Traveler",
+		"skill": "Flying Sword"
+	},
     {
         "name": "camus",
         "aliases": [],
@@ -8201,10 +8233,25 @@
         "aka": "Corrin: Fateful Prince",
         "skill": "Infantry Sword"
     },
+	{
+		"name": "new year's corrin",
+		"aliases": [
+			"new years corrin",
+			"new year corrin",
+			"limited male corrin",
+			"ny!corrin",
+			"corrin: enjoying tradition",
+			"bow corrin"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5\n5\\* lv40: 37/32/30/34/18 (151)\n\n**Skills:**\nW: Hama Ya+\nAs: Rally Def/Res\nA: Attack/Def +2\nC: Spur Def/Res 2\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "grey",
+		"aka": "Corrin: Enjoying Tradition",
+		"skill": "Infantry Bow"
+	},
     {
         "name": "corrin",
         "aliases": [],
-        "content": "Corrin: Fateful Prince? (m!corrin)\nCorrin: Fateful Princess? (f!corrin)\nCorrin: Novice Vacationer? (s!corrin)",
+        "content": "Corrin: Fateful Prince? (m!corrin)\nCorrin: Fateful Princess? (f!corrin)\nCorrin: Novice Vacationer? (s!corrin)\nCorrin: Enjoying Tradition? (ny!corrin)",
         "color": "yellow",
         "aka": "Did you mean:",
         "skill": "Corrin (disambiguation)"
@@ -8419,7 +8466,7 @@
 		"aliases": [
 			"enter the gunnthra"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: X/X/X/X/X\n5\\* lv40: Y/Y/Y/Y/Y (ZZZ~ZZZ)\n\n**Skills:**\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only summonable at 5\\* in limited banner)\n\nGunnthra is a Legendary Hero for the Wind Season",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/7/9/6/6\n5\\* lv40: 37/31/33/19/25 (145)\n\n**Skills:**\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only summonable at 5\\* in limited banner)\n\nGunnthra is a Legendary Hero for the Wind Season",
 		"color": "green",
 		"aka": "Gunnthra: Voice of Dreams",
 		"skill": "Cavalry Tome"
@@ -8675,6 +8722,22 @@
         "aka": "Takumi: Wild Card",
         "skill": "Infantry Bow"
     },
+	{
+		"name": "takumi 2",
+		"aliases": [
+			"new year's takumi",
+			"new years takumi",
+			"new year takumi",
+			"takumi undertale",
+			"prince of soup",
+			"soups",
+			"ny!takumi"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/10/4/5\n5\\* lv40: 40/34/34/17/27 (152)\n\n**Skills:**\nW: Kagami Mochi+\nS: Moonbow\nA: Atk/Res Bond 3\nB: Bowbreaker 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "grey",
+		"aka": "Takumi: Prince of Soup",
+		"skill": "Infantry Dagger"
+	},
     {
         "name": "tana",
         "aliases": [],
@@ -8703,6 +8766,7 @@
 			"winter's envoy tharja",
 			"winters envoy tharja",
 			"tharja undertale",
+			"tharja fire emblem",
 			"tharja 2",
 			"limited tharja",
 			"christmas tharja"
