@@ -476,6 +476,24 @@
         "aka": "Iron Sword",
         "skill": "Red Sword, Mt:6"
     },
+	{
+		"name": "kadomatsu-",
+		"aliases": [],
+		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.\n\n**Available from:**\nCamilla: Holiday Traveler (Happy New Year!) (5\\*)",
+		"color": "red",
+		"aka": "Kadomatsu",
+		"skill": "Red Sword, Mt:10"
+	},
+	{
+		"name": "kadomatsu+",
+		"aliases": [
+			"kadomatsu"
+		],
+		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.\n\n**Available from:**\nCamilla: Holiday Traveler (Happy New Year!) (5\\*)\n\n***Kadomatsu+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "red",
+		"aka": "Kadomatsu+",
+		"skill": "Red Sword, Mt:14"
+	},
     {
         "name": "killing edge-",
         "aliases": [],
@@ -1694,6 +1712,24 @@
         "aka": "Emerald Axe+",
         "skill": "Green Axe, Mt:12"
     },
+	{
+		"name": "hagoita-",
+		"aliases": [],
+		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.",
+		"color": "green",
+		"aka": "Hagoita",
+		"skill": "Green Axe, Mt:10"
+	},
+	{
+		"name": "hagoita+",
+		"aliases": [
+			"hagoita"
+		],
+		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.",
+		"color": "green",
+		"aka": "Hagoita+",
+		"skill": "Green Axe, Mt:14"
+	},
     {
         "name": "hammer-",
         "aliases": [],
@@ -2471,6 +2507,24 @@
         "aka": "Iron Dagger",
         "skill": "Colorless Dagger, Mt:3"
     },
+	{
+		"name": "kagami mochi-",
+		"aliases": [],
+		"content": "Accelerates Special trigger (cooldown count-1. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.",
+		"color": "grey",
+		"aka": "Kagami Mochi",
+		"skill": "Colorless Dagger, Mt:8"
+	},
+	{
+		"name": "kagami mochi+",
+		"aliases": [
+			"kagami mochi"
+		],
+		"content": "Accelerates Special trigger (cooldown count-1. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.",
+		"color": "grey",
+		"aka": "Kagami Mochi",
+		"skill": "Colorless Dagger, Mt:12"
+	},
     {
         "name": "poison dagger-",
         "aliases": [],
@@ -4207,6 +4261,46 @@
         "aka": "Spd Def 2",
         "skill": "A Skill"
     },
+	{
+        "name": "spd/def bond 1",
+        "aliases": [
+            "spd def bond 1",
+            "speed def bond 1",
+            "speed defense bond 1"
+        ],
+        "content": "Grants Spd/Def+1 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Spd/Def Bond 1",
+        "skill": "A Skill"
+    },
+    {
+        "name": "spd/def bond 2",
+        "aliases": [
+            "spd def bond 2",
+            "speed def bond 2",
+            "speed defense bond 2"
+        ],
+        "content": "Grants Spd/Def+3 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Spd/Def Bond 2",
+        "skill": "A Skill"
+    },
+    {
+        "name": "spd/def bond 3",
+        "aliases": [
+            "spd def bond 3",
+            "speed def bond 3",
+            "speed defense bond 3",
+            "spd/def bond",
+            "spd def bond",
+            "speed def bond",
+            "speed defense bond"
+        ],
+        "content": "Grants Spd/Def+5 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Spd/Def Bond 3",
+        "skill": "A Skill"
+    },
     {
         "name": "speed +1",
         "aliases": [
@@ -4811,6 +4905,32 @@
         "aka": "Drag Back",
         "skill": "B Skill"
     },
+	{
+		"name": "earth dance 1",
+		"aliases": [],
+		"content": "If Sing or Dance is used, grants Def+1 to target.",
+		"color": "orange",
+		"aka": "Earth Dance 1",
+		"skill": "B Skill"
+	},
+	{
+		"name": "earth dance 2",
+		"aliases": [],
+		"content": "If Sing or Dance is used, grants Def+3 to target.",
+		"color": "orange",
+		"aka": "Earth Dance 2",
+		"skill": "B Skill"
+	},
+	{
+		"name": "earth dance 3",
+		"aliases": [
+			"earth dance"
+		],
+		"content": "If Sing or Dance is used, grants Def+5 to target.",
+		"color": "orange",
+		"aka": "Earth Dance 3",
+		"skill": "B Skill"
+	},
     {
         "name": "escape route 1",
         "aliases": [],
@@ -7870,7 +7990,7 @@
 			"azazel",
 			"ny!azura"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/9/5/4\n5\\* lv40: 37/30/35/22/26 (150)\n\n**Skills:**\nW: Hagoita+\nAs: Sing\nB: Earth Dance 3\nC: Hone Spd 2, Hone Fliers\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/9/5/4\n5\\* lv40: 37/30/35/22/26 (149~150)\n\n**Skills:**\nW: Hagoita+\nAs: Sing\nB: Earth Dance 3\nC: Hone Spd 2, Hone Fliers\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "green",
 		"aka": "Azura: Celebratory Spirit",
 		"skill": "Flying Axe"
@@ -8017,7 +8137,7 @@
 			"while you were celebrating new year's, i studied the blade",
 			"ny!camilla"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/9/7/4\n5\\* lv40: 40/33/35/31/23 (162)\n\n**Skills:**\nW: Kadomatsu+\nS: Draconic Aura\nA: Spd/Def Bond\nC: Spur Def 2, Ward Fliers\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/9/7/4\n5\\* lv40: 40/33/35/31/23 (161~163)\n\n**Skills:**\nW: Kadomatsu+\nS: Draconic Aura\nA: Spd/Def Bond\nC: Spur Def 2, Ward Fliers\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "red",
 		"aka": "Camilla: Holiday Traveler",
 		"skill": "Flying Sword"
@@ -8243,7 +8363,7 @@
 			"corrin: enjoying tradition",
 			"bow corrin"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5\n5\\* lv40: 37/32/30/34/18 (151)\n\n**Skills:**\nW: Hama Ya+\nAs: Rally Def/Res\nA: Attack/Def +2\nC: Spur Def/Res 2\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5\n5\\* lv40: 37/32/30/34/18 (150~152)\n\n**Skills:**\nW: Hama Ya+\nAs: Rally Def/Res\nA: Attack/Def +2\nC: Spur Def/Res 2\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "grey",
 		"aka": "Corrin: Enjoying Tradition",
 		"skill": "Infantry Bow"
@@ -8466,7 +8586,7 @@
 		"aliases": [
 			"enter the gunnthra"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/7/9/6/6\n5\\* lv40: 37/31/33/19/25 (145)\n\n**Skills:**\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only summonable at 5\\* in limited banner)\n\nGunnthra is a Legendary Hero for the Wind Season",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/7/9/6/6\n5\\* lv40: 37/31/33/19/25 (144~146)\n\n**Skills:**\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only summonable at 5\\* in limited banner)\n\nGunnthra is a Legendary Hero for the Wind Season",
 		"color": "green",
 		"aka": "Gunnthra: Voice of Dreams",
 		"skill": "Cavalry Tome"
@@ -8733,7 +8853,7 @@
 			"soups",
 			"ny!takumi"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/10/4/5\n5\\* lv40: 40/34/34/17/27 (152)\n\n**Skills:**\nW: Kagami Mochi+\nS: Moonbow\nA: Atk/Res Bond 3\nB: Bowbreaker 3\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/10/4/5\n5\\* lv40: 40/34/34/17/27 (151~152)\n\n**Skills:**\nW: Kagami Mochi+\nS: Moonbow\nA: Atk/Res Bond 3\nB: Bowbreaker 3\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "grey",
 		"aka": "Takumi: Prince of Soup",
 		"skill": "Infantry Dagger"
