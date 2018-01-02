@@ -1032,7 +1032,8 @@
             "lightning breath+",
             "lb",
             "lb+",
-			"luna bliss"
+			"luna bliss",
+			"best weapon in the game"
         ],
         "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).\n\n**Available from:**\nNowi: Eternal Youth (5\\*)\nTiki: Naga's Voice (Adult) (5\\*)\n\n***Lightning Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "white",
@@ -2159,12 +2160,22 @@
         "skill": "Green Tome, Mt:4"
     },
     {
-        "name": "absorb",
+        "name": "absorb-",
         "aliases": [],
         "content": "Recovers HP=50% of damage dealt.",
         "color": "grey",
         "aka": "Absorb",
-        "skill": "Colorless Staff, Mt:4*"
+        "skill": "Colorless Staff, Mt:4"
+    },
+	{
+        "name": "absorb+",
+        "aliases": [
+			"absorb"
+		],
+        "content": "Recovers HP=50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit.",
+        "color": "grey",
+        "aka": "Absorb",
+        "skill": "Colorless Staff, Mt:7"
     },
     {
         "name": "assault",
@@ -2172,7 +2183,7 @@
         "content": "No special effect.",
         "color": "grey",
         "aka": "Assault",
-        "skill": "Colorless Staff, Mt:10*"
+        "skill": "Colorless Staff, Mt:10"
     },
     {
         "name": "battery",
@@ -2183,12 +2194,22 @@
         "skill": "Magic: The Gathering Card, CC: {3G}"
     },
     {
-        "name": "candlelight",
+        "name": "candlelight-",
         "aliases": [],
-        "content": "After combat, foe inflicted with status preventing them from counterattacking.",
+        "content": "After combat, if unit attacked, inflicts status on foe preventing counterattacks through its next action.",
         "color": "grey",
         "aka": "Candlelight",
-        "skill": "Colorless Staff, Mt:7*"
+        "skill": "Colorless Staff, Mt:7"
+    },
+	{
+        "name": "candlelight+",
+        "aliases": [
+			"candlelight"
+		],
+        "content": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.",
+        "color": "grey",
+        "aka": "Candlelight",
+        "skill": "Colorless Staff, Mt:11"
     },
     {
         "name": "fear-",
@@ -2196,7 +2217,7 @@
         "content": "After combat, inflicts Atk-6 on targeted foe through its next action.",
         "color": "grey",
         "aka": "Fear",
-        "skill": "Colorless Staff, Mt:5*"
+        "skill": "Colorless Staff, Mt:5"
     },
     {
         "name": "fear",
@@ -2206,40 +2227,88 @@
         "content": "After combat, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions.",
         "color": "grey",
         "aka": "Fear+",
-        "skill": "Colorless Staff, Mt:12*"
+        "skill": "Colorless Staff, Mt:12"
     },
     {
-        "name": "gravity",
+        "name": "gravity-",
         "aliases": [],
         "content": "After any combat, prevents foe from moving more than 1 space through its next action.",
         "color": "grey",
         "aka": "Gravity",
-        "skill": "Colorless Staff, Mt:6*"
+        "skill": "Colorless Staff, Mt:6"
+    },
+	{
+        "name": "gravity+",
+        "aliases": [
+			"gravity"
+		],
+        "content": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions.",
+        "color": "grey",
+        "aka": "Gravity",
+        "skill": "Colorless Staff, Mt:10"
     },
     {
-        "name": "pain",
+        "name": "pain-",
         "aliases": [],
-        "content": "Inflicts 10 damage on targeted foe after combat.",
+        "content": "After combat, if unit attacked, deals 10 damage to foe.",
         "color": "grey",
         "aka": "Pain",
-        "skill": "Colorless Staff, Mt:3*"
+        "skill": "Colorless Staff, Mt:3"
+    },
+	{
+        "name": "pain+",
+        "aliases": [
+			"pain"
+		],
+        "content": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target.",
+        "color": "grey",
+        "aka": "Pain",
+        "skill": "Colorless Staff, Mt:10"
     },
     {
-        "name": "panic",
+        "name": "panic-",
         "aliases": [],
-        "content": "After combat, bonuses on targeted foe become penalties through its next action.",
+        "content": "After combat, if unit attacked, bonuses on foe become penalties through its next action.",
         "color": "grey",
         "aka": "Panic",
-        "skill": "Colorless Staff, Mt:7*"
+        "skill": "Colorless Staff, Mt:7"
+    },
+	{
+        "name": "panic+",
+        "aliases": [],
+        "content": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions.",
+        "color": "grey",
+        "aka": "Panic",
+        "skill": "Colorless Staff, Mt:11"
     },
     {
-        "name": "slow",
+        "name": "slow-",
         "aliases": [],
-        "content": "After any combat, inflicts Spd-6 on foe through its next action.",
+        "content": "After combat, if unit attacked, inflicts Spd-6 on foe through its next action.",
         "color": "grey",
         "aka": "Slow",
-        "skill": "Colorless Staff, Mt:5*"
+        "skill": "Colorless Staff, Mt:5"
     },
+	{
+        "name": "slow+",
+        "aliases": [
+			"slow"
+		],
+        "content": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions.",
+        "color": "grey",
+        "aka": "Slow",
+        "skill": "Colorless Staff, Mt:5"
+    },
+	{
+		"name": "thokk",
+		"aliases": [
+			"thicc"
+		],
+		"content": "Damage from staff calculated like other weapons.\nAt start of turn, foes with bow, daggers, magic, or staff in cardinal directions with HP 3 or more lower than unit's can move only 1 space through their next actions.",
+		"color": "grey",
+		"aka": "Thokk",
+		"skill": "Colorless Staff, Mt:14"
+	},
     {
         "name": "assassin's bow-",
         "aliases": [
@@ -2357,6 +2426,43 @@
         "aka": "Fujin Yumi",
         "skill": "Colorless Bow, Mt:14"
     },
+	{
+		"name": "guard bow-",
+		"aliases": [],
+		"content": "Effective against flying units.\nGrants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff.",
+		"color": "grey",
+		"aka": "Guard Bow",
+		"skill": "Colorless Bow, Mt:8"
+	},
+	{
+		"name": "guard bow+",
+		"aliases": [
+			"guard bow"
+		],
+		"content": "Effective against flying foes.\nGrants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff.",
+		"color": "grey",
+		"aka": "Guard Bow+",
+		"skill": "Colorless Bow, Mt:12"
+	},
+	{
+		"name": "hama ya-",
+		"aliases": [],
+		"content": "Effective against flying foes.\nGrants Def/Res+2 during combat to allies within 2 spaces.",
+		"color": "grey",
+		"aka": "Hama Ya",
+		"skill": "Colorless Bow, Mt:8"
+	},
+	{
+		"name": "hama ya+",
+		"aliases": [
+			"hama ya",
+			"corrin's bow"
+		],
+		"content": "Effective against flying foes.\nGrants Def/Res+2 during combat to allies within 2 spaces.",
+		"color": "grey",
+		"aka": "Hama Ya+",
+		"skill": "Colorless Bow, Mt:12"
+	},
     {
         "name": "iron bow",
         "aliases": [],
@@ -2382,6 +2488,24 @@
         "color": "grey",
         "aka": "Killer Bow+",
         "skill": "Colorless Bow, Mt:9"
+    },
+	{
+        "name": "monstrous bow-",
+        "aliases": [],
+        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
+        "color": "grey",
+        "aka": "Monstrous Bow",
+        "skill": "Colorless Bow, Mt:8"
+    },
+    {
+        "name": "monstrous bow",
+        "aliases": [
+            "monstrous bow+"
+        ],
+        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
+        "color": "grey",
+        "aka": "Monstrous Bow+",
+        "skill": "Colorless Bow, Mt:12"
     },
     {
         "name": "mulagir",
@@ -7614,24 +7738,6 @@
         "color": "orange",
         "aka": "Dagger Valor 3",
         "skill": "C Skill"
-    },
-    {
-        "name": "monstrous bow-",
-        "aliases": [],
-        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
-        "color": "grey",
-        "aka": "Monstrous Bow",
-        "skill": "Colorless Bow, Mt:8"
-    },
-    {
-        "name": "monstrous bow",
-        "aliases": [
-            "monstrous bow+"
-        ],
-        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
-        "color": "grey",
-        "aka": "Monstrous Bow+",
-        "skill": "Colorless Bow, Mt:12"
     },
     {
         "name": "bracing blow 1",
