@@ -2486,7 +2486,7 @@
             "dancers fan",
             "dancers fan+"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-5 after combat until the end of foe's next action.",
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-7 after combat until the end of foe's next action.",
         "color": "grey",
         "aka": "Dancer's Fan+",
         "skill": "Colorless Dagger, Mt:10"
@@ -2510,7 +2510,7 @@
 	{
 		"name": "kagami mochi-",
 		"aliases": [],
-		"content": "Accelerates Special trigger (cooldown count-1. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.",
+		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.",
 		"color": "grey",
 		"aka": "Kagami Mochi",
 		"skill": "Colorless Dagger, Mt:8"
@@ -2520,7 +2520,7 @@
 		"aliases": [
 			"kagami mochi"
 		],
-		"content": "Accelerates Special trigger (cooldown count-1. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.",
+		"content": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.",
 		"color": "grey",
 		"aka": "Kagami Mochi",
 		"skill": "Colorless Dagger, Mt:12"
@@ -2538,7 +2538,7 @@
         "aliases": [
             "poison dagger+"
         ],
-        "content": "Effective against infantry units. Infantry foes suffer Def/Res-4 after combat through their next actions.",
+        "content": "Effective against infantry units. Infantry foes suffer Def/Res-6 after combat through their next actions.",
         "color": "grey",
         "aka": "Poison Dagger+",
         "skill": "Colorless Dagger, Mt:5"
@@ -2546,7 +2546,7 @@
     {
         "name": "rogue dagger-",
         "aliases": [],
-        "content": "After combat, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn.",
+        "content": "After combat, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+3 for 1 turn.",
         "color": "grey",
         "aka": "Rogue Dagger",
         "skill": "Colorless Dagger, Mt:4"
@@ -2556,7 +2556,7 @@
         "aliases": [
             "rogue dagger+"
         ],
-        "content": "After combat, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn.",
+        "content": "After combat, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn.",
         "color": "grey",
         "aka": "Rogue Dagger+",
         "skill": "Colorless Dagger, Mt:7"
@@ -2564,7 +2564,7 @@
     {
         "name": "seashell-",
         "aliases": [],
-        "content": "Foe takes Def/Res-5 until end of foe's next action. If unit has 100% HP at start of combat, Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after.",
+        "content": "Foe takes Def/Res-5 until end of foe's next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat.",
         "color": "grey",
         "aka": "Seashell",
         "skill": "Colorless Dagger, Mt:7"
@@ -2574,7 +2574,7 @@
         "aliases": [
             "seashell+"
         ],
-        "content": "Foe takes Def/Res-5 until end of foe's next action. If unit has 100% HP at start of combat, Atk/Spd/Def/Res+2. If attacking, unit gets 2 damage after.",
+        "content": "Foe takes Def/Res-7 until end of foe's next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat.",
         "color": "grey",
         "aka": "Seashell+",
         "skill": "Colorless Dagger, Mt:10"
@@ -2592,7 +2592,7 @@
         "aliases": [
             "silver dagger+"
         ],
-        "content": "After combat, inflicts Def/Res-5 on foe through its next action.",
+        "content": "After combat, inflicts Def/Res-7 on foe through its next action.",
         "color": "grey",
         "aka": "Silver Dagger+",
         "skill": "Colorless Dagger, Mt:10"
@@ -2610,7 +2610,7 @@
         "aliases": [
             "smoke dagger+"
         ],
-        "content": "After combat, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions.",
+        "content": "After combat, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions.",
         "color": "grey",
         "aka": "Smoke Dagger+",
         "skill": "Colorless Dagger, Mt:9"
@@ -7540,7 +7540,7 @@
         "aliases": [
 			"kittuwu paddle-"
 		],
-        "content": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action",
+        "content": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-5 through foe's next action",
         "color": "grey",
         "aka": "Kitty Paddle",
         "skill": "Colorless Dagger, Mt:5"
