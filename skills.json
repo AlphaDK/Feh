@@ -2796,16 +2796,28 @@
         "skill": "Assist"
     },
     {
-        "name": "martyr",
+        "name": "martyr-",
         "aliases": [],
         "content": "Restores HP=7+ this unit's suffered damage. Unit heals HP=half suffered damage. Slows Special trigger (cooldown count+1).",
         "color": "cyan",
         "aka": "Martyr",
         "skill": "Assist"
     },
+	{
+        "name": "martyr+",
+        "aliases": [
+			"martyr"
+		],
+        "content": "Restores HP = this unit's suffered damage +50% of Atk. (Minimum of 7 HP.) Also restores HP to unit = half suffered damage.",
+        "color": "cyan",
+        "aka": "Martyr+",
+        "skill": "Assist"
+    },
     {
         "name": "mend",
-        "aliases": [],
+        "aliases": [
+			"eccs"
+		],
         "content": "Restores 10 HP.",
         "color": "cyan",
         "aka": "Mend",
@@ -2845,6 +2857,16 @@
         "content": "Grants Atk+4 to an adjacent ally until the end of the turn.",
         "color": "cyan",
         "aka": "Rally Attack",
+        "skill": "Assist"
+    },
+	{
+        "name": "rally attack defense",
+        "aliases": [
+            "rally atk def"
+        ],
+        "content": "Grants Atk/Def+3 to an adjacent ally until the end of the turn.",
+        "color": "cyan",
+        "aka": "Rally Attack Defense",
         "skill": "Assist"
     },
     {
@@ -2944,19 +2966,43 @@
         "skill": "Assist"
     },
     {
-        "name": "recover",
+        "name": "recover-",
         "aliases": [],
         "content": "Restores 15 HP. Slows Special trigger (cooldown count +1).",
         "color": "cyan",
         "aka": "Recover",
         "skill": "Assist"
     },
+	{
+        "name": "recover",
+        "aliases": [
+			"recover+"
+		],
+        "content": "Restores HP = 50% of Atk +10. (Minimum of 15 HP.)",
+        "color": "cyan",
+        "aka": "Recover+",
+        "skill": "Assist"
+    },
     {
-        "name": "rehabilitate",
-        "aliases": [],
+        "name": "rehabilitate-",
+        "aliases": [
+			"rehab-"
+		],
         "content": "Restores 7 HP or more the further below 50% the target's HP is. Slows special trigger (cooldown count+1).",
         "color": "cyan",
         "aka": "Rehabilitate",
+        "skill": "Assist"
+    },
+	{
+        "name": "rehabilitate",
+        "aliases": [
+			"rehab",
+			"rehabilitate+",
+			"rehab+"
+		],
+        "content": "Restores HP = 50% of Atk -10. (Minimum of 7 HP.) If target's HP is ≤ 50%, the lower the target's HP, the more HP is restored.",
+        "color": "cyan",
+        "aka": "Rehabilitate+",
         "skill": "Assist"
     },
     {
