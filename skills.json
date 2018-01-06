@@ -8402,7 +8402,9 @@
     },
     {
         "name": "clarine",
-        "aliases": [],
+        "aliases": [
+			"clarinet"
+		],
         "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/9/5/7\n5\\* lv40: 35/25/33/22/29 (143~145)\n\n**Skills:**\nW: Fear (3\\*)\nAs: Martyr (5\\*)\nS: Imbue, Swift-Winds Balm (3\\*)\nA: Resistance +3 (5\\*)",
         "color": "grey",
         "aka": "Clarine: Refined Noble",
