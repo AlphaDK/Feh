@@ -175,9 +175,11 @@
         "name": "yellowdragon101",
         "aliases": [
             "yellowdragon",
-            "yellow"
+            "yellow",
+			"classic yellow",
+			"classic yellow."
         ],
-        "content": "Tries his best, but he doesn't succeed.\nKing of sitting.",
+        "content": "Tries his best, but he doesn't succeed.\nFormer king of sitting.",
         "color": "yellow",
         "aka": "yellowdragon101",
         "skill": "Player"
@@ -185,7 +187,7 @@
     {
         "name": "%",
         "aliases": [],
-        "content": "Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head.\nGet.\nOut.\nOf.\nMy.\nHead.",
+        "content": "Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of \nGet.\nOut.\nOf.\nMy.\nHead.",
         "color": "purple",
         "aka": "%",
         "skill": "Poem"
@@ -279,6 +281,47 @@
         "aka": "Sword Art Online",
         "skill": "Aniem, IMDB: 7.8"
     },
+	{
+        "name": "metal crusher",
+        "aliases": [],
+        "content": "Track #050 in the UNDERTALE soundtrack, one of Mettaton's themes.",
+        "color": "yellow",
+        "aka": "Metal Crusher",
+        "skill": "Song"
+    },
+	{
+		"name": "c",
+		"aliases": [
+			"c skill",
+			"what c skill",
+			"what c",
+			"what c should i put on..."
+		],
+		"content": "Whatever your team needs",
+		"color": "yellow",
+		"aka": "What C Skill should I put on my []?",
+		"skill": "Life Advice"
+	},
+	{
+		"name": "amuno",
+		"aliases": [
+			"silvain",
+			"silvain gr",
+			"silvain grr",
+			"silvain grrr",
+			"silvain grrrr",
+			"sucribe",
+			"sucribe amuno",
+			"amuneau",
+			"twitter @amuneau",
+			"tour effeil",
+			"on voit ton paquet"
+		],
+		"content": "sucribe amuno\ntwitter @AMUNEAU",
+		"color": "purple",
+		"aka": "AMUNO",
+		"skill": "paris tour effeil"
+	},
     {
         "name": "",
         "aliases": [],
@@ -514,7 +557,9 @@
     },
 	{
 		"name": "laevatein",
-		"aliases": [],
+		"aliases": [
+			"leviathan"
+		],
 		"content": "Laevatein the unit? (u!laevatein)\nLaevatein the sword? (s!laevatein)",
 		"color": "yellow",
 		"aka": "Did you mean:",
@@ -1033,7 +1078,8 @@
             "lb",
             "lb+",
 			"luna bliss",
-			"best weapon in the game"
+			"best weapon in the game",
+			"rawr"
         ],
         "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).\n\n**Available from:**\nNowi: Eternal Youth (5\\*)\nTiki: Naga's Voice (Adult) (5\\*)\n\n***Lightning Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "white",
@@ -1063,7 +1109,7 @@
         "aliases": [
             "berkuts lance-"
         ],
-        "content": "Grants Res+4 when the unit is under attack.\n\n**Available from:**\nBerkut: Prideful Prince (3\\*)",
+        "content": "Grants Res+4 when the unit is under attack.\n\n**Unsurprisingly, available from:**\nBerkut: Prideful Prince (3\\*)",
         "color": "blue",
         "aka": "Berkut's Lance",
         "skill": "Blue Lance, Mt:10"
@@ -1652,7 +1698,7 @@
     {
         "name": "armads",
         "aliases": [],
-        "content": "Unit makes a guaranteed follow-up attack when attacked at HP >= 80%.",
+        "content": "Unit makes a guaranteed follow-up attack when attacked at HP >= 80%.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHector: General of Ostia (5\\*)",
         "color": "green",
         "aka": "Armads",
         "skill": "Green Axe, Mt:16"
@@ -1660,7 +1706,7 @@
     {
         "name": "brave axe-",
         "aliases": [],
-        "content": "Spd-5. Attack twice when initiating combat.",
+        "content": "Spd-5. Attack twice when initiating combat.\n\n**Available from:**\nBarst: The Hatchet (3\\*)\nCamilla: Bewitching Beauty (4\\*)\nRaven: Peerless Fighter (4\\*)",
         "color": "green",
         "aka": "Brave Axe",
         "skill": "Green Axe, Mt:5"
@@ -1670,7 +1716,7 @@
         "aliases": [
             "brave axe+"
         ],
-        "content": "Spd-5. Attack twice when initiating combat.",
+        "content": "Spd-5. Attack twice when initiating combat.\n\n**Available from:**\nBarst: The Hatchet (5\\*)\nCamilla: Bewitching Beauty (5\\*)\nRaven: Peerless Fighter (5\\*)",
         "color": "green",
         "aka": "Brave Axe+",
         "skill": "Green Axe, Mt:8"
@@ -1678,7 +1724,7 @@
     {
         "name": "carrot axe-",
         "aliases": [],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nChrom: Spring Exalt (Spring Festival) (5\\*)",
         "color": "green",
         "aka": "Carrot Axe",
         "skill": "Green Axe, Mt:9"
@@ -1688,7 +1734,7 @@
         "aliases": [
             "carrot axe+"
         ],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nChrom: Spring Exalt (Spring Festival) (5\\*)\n\n***Carrot Axe+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, resotres 4 HP.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "green",
         "aka": "Carrot Axe+",
         "skill": "Green Axe, Mt:13"
@@ -1696,7 +1742,7 @@
     {
         "name": "emerald axe-",
         "aliases": [],
-        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.\n\n**Available from:**\nArthur: Hapless Hero (3\\*)\nNarcian: Wyvern General (3\\*)\nTitania: Mighty Mercenary (4\\*)",
         "color": "green",
         "aka": "Emerald Axe",
         "skill": "Green Axe, Mt:8"
@@ -1708,7 +1754,7 @@
 			"gem axe",
 			"ta axe"
         ],
-        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.",
+        "content": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage.\n\n**Available from:**\nArthur: Hapless Hero (5\\*)\nNarcian: Wyvern General (5\\*)\nTitania: Mighty Mercenary (5\\*)",
         "color": "green",
         "aka": "Emerald Axe+",
         "skill": "Green Axe, Mt:12"
@@ -1716,7 +1762,7 @@
 	{
 		"name": "hagoita-",
 		"aliases": [],
-		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.",
+		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.\n\n**Available from:**\nAzura: Celebratory Spirit (Happy New Year!) (5\\*)",
 		"color": "green",
 		"aka": "Hagoita",
 		"skill": "Green Axe, Mt:10"
@@ -1726,7 +1772,7 @@
 		"aliases": [
 			"hagoita"
 		],
-		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.",
+		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.\n\n**Available from:**\nAzura: Celebratory Spirit (Happy New Year!) (5\\*)\n\n***Hagoita+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "green",
 		"aka": "Hagoita+",
 		"skill": "Green Axe, Mt:14"
@@ -1734,7 +1780,7 @@
     {
         "name": "hammer-",
         "aliases": [],
-        "content": "Effective against armored units.",
+        "content": "Effective against armored units.\n\n**Available from:**\nBartre: Fearless Warrior (3\\*)\nCherche: Wyvern Friend (3\\*)\nFrederick: Polite Knight (3\\*)",
         "color": "green",
         "aka": "Hammer",
         "skill": "Green Axe, Mt:8"
@@ -1745,17 +1791,25 @@
             "hammer+",
             "banhammer"
         ],
-        "content": "Effective against armored units.",
+        "content": "Effective against armored units.\n\n**Available from:**\nBartre: Fearless Warrior (5\\*)\nCherche: Wyvern Friend (5\\*)\nFrederick: Polite Knight (5\\*)\n\nHammer+ may be evolved into Slaying Hammer+ in the Weapon Refinery",
         "color": "green",
         "aka": "Hammer+",
         "skill": "Green Axe, Mt:12"
     },
 	{
+		"name": "handbell-",
+		"aliases": [],
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nLissa: Pure Joy (Winter's Envoy) (5\\*)",
+		"color": "green",
+		"aka": "Handbell",
+		"skill": "Green Axe, Mt:10"
+	},
+	{
 		"name": "handbell",
 		"aliases": [
 			"handbell+"
 		],
-		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.",
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nLissa: Pure Joy (Winter's Envoy) (5\\*)\n\n***Handbell+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "green",
 		"aka": "Handbell+",
 		"skill": "Green Axe, Mt:14"
@@ -1763,7 +1817,7 @@
     {
         "name": "hauteclere",
         "aliases": [],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Exclusive weapon, cannot be inherited.**\n**Available for:**\nMichalis: Ambitious King (5\\*)\nMinerva: Red Dragoon (5\\*)\n\n***Hauteclere may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"Deals +10 damage when Special triggers.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "green",
         "aka": "Hauteclere",
         "skill": "Green Axe, Mt:16"
@@ -1771,7 +1825,7 @@
     {
         "name": "iron axe",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\nEvery axe unit in the game has Iron Axe, and there is therefore no need to inherit it.",
         "color": "green",
         "aka": "Iron Axe",
         "skill": "Green Axe, Mt:6"
@@ -1779,7 +1833,7 @@
     {
         "name": "killer axe-",
         "aliases": [],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nBeruka: Quiet Assassin (3\\*)\nHawkeye: Desert Guardian (4\\*)\nSheena: Princess of Gra (4\\*)",
         "color": "green",
         "aka": "Killer Axe",
         "skill": "Green Axe, Mt:7"
@@ -1789,7 +1843,7 @@
         "aliases": [
             "killer axe+"
         ],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nBeruka: Quiet Assassin (5\\*)\nHawkeye: Desert Guardian (5\\*)\nSheena: Princess of Gra (5\\*)\n\nKiller Axe+ may be evolved into Slaying Axe+ in the Weapon Refinery",
         "color": "green",
         "aka": "Killer Axe+",
         "skill": "Green Axe, Mt:11"
@@ -1799,7 +1853,7 @@
         "aliases": [
             "legions axe-"
         ],
-        "content": "After combat, bonuses on targeted foe become penalties through its next action.",
+        "content": "After combat, bonuses on targeted foe become penalties through its next action.\n\n**Unsurprisingly, available from:**\nLegion: Masked Maniac (3\\*)",
         "color": "green",
         "aka": "Legion's Axe",
         "skill": "Green Axe, Mt:10"
@@ -1811,7 +1865,7 @@
             "legions axe",
             "legions axe+"
         ],
-        "content": "After combat, bonuses on targeted foe become penalties through its next action.",
+        "content": "After combat, bonuses on targeted foe become penalties through its next action.\n\n**Available from:**\nLegion: Masked Maniac (5\\*)\n\n**Legion's Axe+ may be upgraded in the Weapon Refinery. Variants:***\n_(All variants' effects become \"After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions.\")_\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "green",
         "aka": "Legion's Axe+",
         "skill": "Green Axe, Mt:14"
@@ -1819,7 +1873,7 @@
     {
         "name": "lilith floatie-",
         "aliases": [],
-        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.\n\n**Available from:**\nXander: Student Swimmer (Nohrian Summer) (5\\*)",
         "color": "green",
         "aka": "Lilith Floatie",
         "skill": "Green Axe, Mt:10"
@@ -1829,7 +1883,7 @@
         "aliases": [
             "lilith floatie+"
         ],
-        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.\n\n**Available from:**\nXander: Student Swimmer (Nohrian Summer) (5\\*)\n\n**Lilith Floatie+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "green",
         "aka": "Lilith Floatie+",
         "skill": "Green Axe, Mt:14"
@@ -1837,7 +1891,7 @@
     {
         "name": "melon crusher-",
         "aliases": [],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)",
         "color": "green",
         "aka": "Melon Crusher",
         "skill": "Green Axe, Mt:10"
@@ -1848,27 +1902,29 @@
             "melon crusher+",
             "esports camilla"
         ],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)\n\n**Melon Crusher+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "green",
         "aka": "Melon Crusher+",
         "skill": "Green Axe, Mt:14"
     },
     {
-        "name": "metal crusher",
-        "aliases": [],
-        "content": "Track #050 in the UNDERTALE soundtrack, one of Mettaton's themes.",
-        "color": "yellow",
-        "aka": "Metal Crusher",
-        "skill": "Song"
-    },
-    {
         "name": "noatun",
         "aliases": [],
-        "content": "Unit may move adjacent to any ally when HP <= 40%",
+        "content": "Unit may move adjacent to any ally when HP <= 40%\n\n**Exclusive weapon, cannot be inherited.**\n**Available for:**\nAnna: Commander (5\\*)",
         "color": "green",
         "aka": "Noatun",
         "skill": "Green Axe, Mt:16"
     },
+	{
+		"name": "sack o' gifts-",
+		"aliases": [
+			"sack o gifts-"
+		],
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nChrom: Gifted Leader (Winter's Envoy) (5\\*)",
+		"color": "green",
+		"aka": "Sack O' Gifts",
+		"skill": "Green Axe, Mt:10"
+	},
 	{
 		"name": "sack o' gifts",
 		"aliases": [
@@ -1879,7 +1935,7 @@
 			"sacks axe",
 			"axe sack"
 		],
-		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.",
+		"content": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.\n\n**Available from:**\nChrom: Gifted Leader (Winter's Envoy) (5\\*)\n\n***Sack O' Gifts+ may be upgraded in Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "green",
 		"aka": "Sack O' Gifts+",
 		"skill": "Green Axe, Mt:14"
@@ -1887,7 +1943,7 @@
     {
         "name": "silver axe-",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nAnna: Commander (3\\*)\nAzura: Lady of Ballads (Performing Arts) (5\\*)\nDorcas: Serene Warrior (5\\*)\nGunter: Inveterate Soldier (3\\*)\nHector: General of Ostia (5\\*)\nIke: Brave Mercenary (Brave Heroes) (5\\*)\nMichalis: Ambitious King (3\\*)\nMinerva: Red Dragoon (5\\*)",
         "color": "green",
         "aka": "Silver Axe",
         "skill": "Green Axe, Mt:11"
@@ -1897,15 +1953,23 @@
         "aliases": [
             "silver axe+"
         ],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nGunter: Inveterate Soldier (5\\*)\n\n***Silver Axe+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "green",
         "aka": "Silver Axe+",
         "skill": "Green Axe, Mt:15"
     },
+	{
+		"name": "sinmara",
+		"aliases": [],
+		"content": "Grants Def+3. Deals 20 damage to foes within 2 spaces at the start of each turn.\n\n**Used by:**\nSurtr: Ruler of Flame\n\nThis weapon is exclusive to non-player units",
+		"color": "green",
+		"aka": "Sinmara",
+		"skill": "Green Axe, Mt:16"
+	},
     {
         "name": "slaying axe-",
         "aliases": [],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nAmelia: Rose of the War (5\\*)",
         "color": "green",
         "aka": "Slaying Axe",
         "skill": "Green Axe, Mt:10"
@@ -1915,23 +1979,49 @@
         "aliases": [
             "slaying axe+"
         ],
-        "content": "Accelerates Special trigger (cooldown count-1).",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nAmelia: Rose of the War (5\\*)\nSlaying Axe+ may also be obtained by evolving Killer Axe+ in the Weapon Refinery\n\n***Slaying Axe+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "green",
         "aka": "Slaying Axe+",
         "skill": "Green Axe, Mt:14"
     },
+	{
+		"name": "slaying hammer-",
+		"aliases": [],
+		"content": "Effective against armored units.\n\n**Available from:**\nSlaying Hammer is obtained by evolving Hammer+ in the Weapon Refinery, and then downgrading from Slaying Hammer+",
+		"color": "green",
+		"aka": "Slaying Hammer",
+		"skill": "Green Axe, Mt:10"
+	},
+	{
+		"name": "slaying hammer",
+		"aliases": [
+			"slaying hammer+"
+		],
+		"content": "Effective against armored foes.\n\n**Available from:**\nSlaying Hammer+ is obtained by evolving Hammer+ in the Weapon Refinery\n\n***Slaying Hammer+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If in combat against an armored foe, nullifies doe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "green",
+		"aka": "Slaying Hammer+",
+		"skill": "Green Axe, Mt:14"
+	},
     {
         "name": "steel axe",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\nEvery axe unit in the game has Steel Axe, and there is therefore no need to inherit it.",
         "color": "green",
         "aka": "Steel Axe",
         "skill": "Green Axe, Mt:8"
     },
+	{
+        "name": "stout tomahawk",
+        "aliases": [],
+        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nDorcas: Serene Warrior (5\\*)",
+        "color": "green",
+        "aka": "Stout Tomahawk",
+        "skill": "Green Axe, Mt:16"
+    },
     {
         "name": "urvan",
         "aliases": [],
-        "content": "Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, damage from second attack onward reduced by 80%.",
+        "content": "Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, damage from second attack onward reduced by 80%.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nIke: Brave Mercenary (Brave Heroes) (5\\*)",
         "color": "green",
         "aka": "Urvan",
         "skill": "Green Axe, Mt:16"
@@ -1939,7 +2029,7 @@
     {
         "name": "uror",
         "aliases": [],
-        "content": "If Sing or Dance is used, target also granted Atk/Spd/Def/Res+3.",
+        "content": "If Sing or Dance is used, target also granted Atk/Spd/Def/Res+3.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAzura: Lady of Ballads (Performing Arts) (5\\*)",
         "color": "green",
         "aka": "Uror",
         "skill": "Green Axe, Mt:16"
@@ -2244,7 +2334,7 @@
 		],
         "content": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions.",
         "color": "grey",
-        "aka": "Gravity",
+        "aka": "Gravity+",
         "skill": "Colorless Staff, Mt:10"
     },
     {
@@ -7862,14 +7952,6 @@
         "skill": "A Skill"
     },
     {
-        "name": "stout tomahawk",
-        "aliases": [],
-        "content": "Enables counterattack regardless of distance if this unit is attacked.",
-        "color": "green",
-        "aka": "Stout Tomahawk",
-        "skill": "Green Axe, Mt:16"
-    },
-    {
         "name": "fierce stance 1",
         "aliases": [],
         "content": "Grants Atk+2 during combat when this unit is attacked.",
@@ -8577,7 +8659,11 @@
     },
     {
         "name": "effie",
-        "aliases": [],
+        "aliases": [
+			"rice",
+			"ricequeen",
+			"rice queen"
+		],
         "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 22/12/5/11/4\n5\\* lv40: 50/40/22/33/23 (167~169)\n\n**Skills:**\nW: Silver Lance+ (5\\*)\nAs: Smite (4\\*)\nA: Death Blow 3 (5\\*)\nB: Wary Fighter 3 (4\\*)",
         "color": "blue",
         "aka": "Effie: Army of One",
