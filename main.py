@@ -178,5 +178,7 @@ async def on_message(message):
         await client.send_message(client.get_channel("333859340253396992"), messag)
     elif message.content.startswith("!typing") and message.author.id == "126197907392167937": #This one just sucks I barely use it
         await client.send_typing(client.get_channel("333859340253396992"))
-
+    elif message.content.startswith("!nick ") and message.author.id == "126197907392167937":
+        await client.change_nickname(client.get_server(message.content[6:24]).get_member(user_id="374828080289808385"), message.content[25:])
+     
 client.run(DISCORD_CLIENT_ID)         

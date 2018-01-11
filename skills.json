@@ -333,7 +333,7 @@
     {
         "name": "alondite",
         "aliases": [],
-        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nBlack Knight: Sinister General (5\\*)",
+        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nBlack Knight: Sinister General (5\\*)\nZelgius: Jet-Black General (5\\*)",
         "color": "red",
         "aka": "Alondite",
         "skill": "Red Sword, Mt:16"
@@ -814,7 +814,7 @@
     {
         "name": "cymbeline",
         "aliases": [],
-        "content": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSanaki: Begnion's Apostle (5\\*)",
+        "content": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSanaki: Begnion's Apostle (5\\*)\n\n***Cymbeline may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"Grants Atk/Res+5 during combat if within 2 spaces of a flying ally.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "red",
         "aka": "Cymbeline",
         "skill": "Red Tome, Mt:14"
@@ -8599,7 +8599,7 @@
 			"corrin: enjoying tradition",
 			"bow corrin"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5\n5\\* lv40: 37/32/30/34/18 (150~152)\n\n**Skills:**\nW: Hama Ya+\nAs: Rally Def/Res\nA: Attack/Def +2\nC: Spur Def/Res 2\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5\n5\\* lv40: 37/32/30/34/18 (150~152)\n\n**Skills:**\nW: Hama Ya+ (5\\*)\nAs: Rally Def/Res (5\\*)\nA: Attack/Def +2 (5\\*)\nC: Spur Def/Res 2 (5\\*)\n(Unit not available lmao)",
 		"color": "grey",
 		"aka": "Corrin: Enjoying Tradition",
 		"skill": "Infantry Bow"
@@ -8854,6 +8854,29 @@
 		"skill": "Armored Axe"
 	},
 	{
+		"name": "micaiah",
+		"aliases": [
+			"micah",
+			"micaih",
+			"miciaah",
+			"miciaih"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/6/5/9\n5\\* lv40: 35/35/28/18/35 (151)\n\n**Skills:**\nW: Thani\nAs: Sacrifice\nA: Distant Def 3\nB: Guard 3\nC: Drive Atk 2\n(Unit only summonable at 5\\*)",
+		"color": "blue",
+		"aka": "Micaiah: Priestess of Dawn",
+		"skill": "Infantry Tome"
+	},
+	{
+		"name": "oliver",
+		"aliases": [
+			"not olivia",
+		]
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/5/6/8\n5\\* lv40: 42/32/20/23/34 (151)\n\n**Skills:**\nW: Coconut Gun+\nAs: Freeposition\nS: Moonbow 2\nA: Counter Counter\nB: Buick Biposte B\nC: Follow-Up Blessing 5",
+		"color": "blue",
+		"aka": "Oliver: Admirer of Beauty",
+		"skill": "Infantry Tome"
+	},
+	{
 		"name": "c!robin",
 		"aliases": [
 			"w!robin",
@@ -9040,6 +9063,14 @@
         "aka": "Soren: Shrewd Strategist",
         "skill": "Infantry Tome"
     },
+	{
+		"name": "sothe",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/10/9/5/4\n5\\* lv40: 39/36/33/22/21 (151)\n\n**Skills:**\nW: Peshkatz\nS: Glimmer\nA: Life and Death 3\nC: Spur Atk/Spd 2\n(Unit only summonable at 5\\*)",
+		"color": "grey",
+		"aka": "Sothe: Zephyr",
+		"skill": "Infantry Dagger"
+	},
     {
         "name": "stahl",
         "aliases": [],
@@ -9135,5 +9166,13 @@
 		"color": "red",
 		"aka": "Tharja: \"Normal Girl\"",
 		"skill": "Armored Tome"
+	},
+	{
+		"name": "zelgius",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 22/10/7/10/6\n5\\* lv40: 46/36/33/38/21 (174)\n\n**Skills:**\nW: Alondite\nS: Black Luna\nA: Fierce Stance 3\nB: Warp Powder\nC: Panic Ploy 3\n(Unit only summonable at 5\\*)",
+		"color": "red",
+		"aka": "Zelgius: Jet-Black General",
+		"skill": "Armored Sword"
 	}
 ]
