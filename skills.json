@@ -1609,6 +1609,14 @@
         "aka": "Dire Thunder",
         "skill": "Blue Tome, Mt:9"
     },
+	{
+		"name": "ellight",
+		"aliases": [],
+		"content": "No special effect.\n\n**Available from:**\nMicaiah: Priestess of Dawn (5\\*)\nOliver: Admirer of Beauty (3\\*)",
+		"color": "blue",
+		"aka": "Ellight",
+		"skill": "Blue Tome, Mt:6"
+	},
     {
         "name": "elthunder",
         "aliases": [],
@@ -1635,6 +1643,14 @@
 		"aka": "Keen Blarwolf+",
 		"skill": "Blue Tome, Mt:12"
 	},
+	{
+		"name": "light",
+		"aliases": [],
+		"content": "No special effect.\n\n**Available from:**\nMicaiah: Priestess of Dawn (5\\*)\nOliver: Admirer of Beauty (3\\*)",
+		"color": "blue",
+		"aka": "Light",
+		"skill": "Blue Tome, Mt:4"
+	},
     {
         "name": "sealife tome-",
         "aliases": [],
@@ -1653,6 +1669,33 @@
         "aka": "Sealife Tome+",
         "skill": "Blue Tome, Mt:12"
     },
+	{
+		"name": "shine-",
+		"aliases": [],
+		"content": "No special effect.\n\n**Available from:**\nMicaiah: Priestess of Light (5\\*)\nOliver: Admirer of Beauty (3\\*)",
+		"color": "blue",
+		"aka": "Shine",
+		"skill": "Blue Tome, Mt:9"
+	},
+	{
+		"name": "shine",
+		"aliases": [
+			"shine+",
+			"baby, it's time to make up your mind"
+		],
+		"content": "No special effect.\n\n**Available from:**\nOliver: Admirer of Beauty (5\\*)\n\n***Shine+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
+		"color": "blue",
+		"aka": "Shine+",
+		"skill": "Blue Tome, Mt:13"
+	},
+	{
+		"name": "thani",
+		"aliases": [],
+		"content": "Grants Res+3. Effective against armored and cavalry foes.\nAgainst armored and cavalry foes using bow, dagger, magic, or staff, damage from first attack received by unit during combat reduced by 30%.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMicaiah: Priestess of Light (5\\*)",
+		"color": "blue",
+		"aka": "Thani",
+		"skill": "Blue Tome, Mt:14"
+	},
     {
         "name": "thoron-",
         "aliases": [
@@ -2739,6 +2782,14 @@
 		"aka": "Kagami Mochi",
 		"skill": "Colorless Dagger, Mt:12"
 	},
+	{
+		"name": "peshkatz",
+		"aliases": [],
+		"content": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.",
+		"color": "grey",
+		"aka": "Peshkatz",
+		"skill": "Colorless Dagger, Mt:14"
+	},
     {
         "name": "poison dagger-",
         "aliases": [],
@@ -3105,6 +3156,14 @@
         "aka": "Reposition",
         "skill": "Assist"
     },
+	{
+		"name": "sacrifice",
+		"aliases": [],
+		"content": "Converts penalties on target into bonuses. Restores target's HP = unit's current HP -1. Unit's HP reduced by amount restored. (Skill cannot be inherited.)",
+		"color": "cyan",
+		"aka": "Sacrifice",
+		"skill": "Assist"
+	},
     {
         "name": "shove",
         "aliases": [],
@@ -5945,6 +6004,14 @@
 		"aka": "Vengeful Fighter 3",
 		"skill": "B Skill"
 	},
+	{
+		"name": "warp powder",
+		"aliases": [],
+		"content": "If unit's HP >= 80%, unit can move adjacent to any ally within 2 spaces. (Skill cannot be inherited.)",
+		"color": "orange",
+		"aka": "Warp Powder",
+		"skill": "B Skill"
+	},
     {
         "name": "wary fighter 1",
         "aliases": [
@@ -7124,6 +7191,31 @@
         "color": "orange",
         "aka": "Spur Atk 3",
         "skill": "C Skill & Sacred Seal"
+    },
+	{
+        "name": "spur atk spd 1",
+        "aliases": [
+            "spur attack spd 1",
+            "spur attack speed 1"
+        ],
+        "content": "Grants adjacent allies Atk/Spd +2 during combat",
+        "color": "orange",
+        "aka": "Spur Atk Spd 1",
+        "skill": "C Skill"
+    },
+    {
+        "name": "spur atk spd 2",
+        "aliases": [
+            "spur attack spd 2",
+            "spur attack speed 2",
+            "spur atk spd",
+            "spur attack spd",
+            "spur attack speed"
+        ],
+        "content": "Grants adjacent allies Atk/Spd +3 during combat",
+        "color": "orange",
+        "aka": "Spur Atk Spd 2",
+        "skill": "C Skill"
     },
     {
         "name": "spur def 1",
@@ -8861,7 +8953,7 @@
 			"miciaah",
 			"miciaih"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/6/5/9\n5\\* lv40: 35/35/28/18/35 (151)\n\n**Skills:**\nW: Thani\nAs: Sacrifice\nA: Distant Def 3\nB: Guard 3\nC: Drive Atk 2\n(Unit only summonable at 5\\*)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/6/5/9\n5\\* lv40: 35/35/28/18/35 (150~152)\n\n**Skills:**\nW: Thani\nAs: Sacrifice\nA: Distant Def 3\nB: Guard 3\nC: Drive Atk 2\n(Unit only summonable at 5\\*)",
 		"color": "blue",
 		"aka": "Micaiah: Priestess of Dawn",
 		"skill": "Infantry Tome"
@@ -8869,9 +8961,9 @@
 	{
 		"name": "oliver",
 		"aliases": [
-			"not olivia",
-		]
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/5/6/8\n5\\* lv40: 42/32/20/23/34 (151)\n\n**Skills:**\nW: Coconut Gun+\nAs: Freeposition\nS: Moonbow 2\nA: Counter Counter\nB: Buick Biposte B\nC: Follow-Up Blessing 5",
+			"not olivia"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/5/6/8\n5\\* lv40: 42/32/20/23/34 (151)\n\n**Skills:**\nW: Shine+\nS: Blazing Light\nA: Mirror Strike 2\nC: Atk Ploy 3\n(Unit only available from Grand Hero Battles, no IV variation)",
 		"color": "blue",
 		"aka": "Oliver: Admirer of Beauty",
 		"skill": "Infantry Tome"
@@ -9066,7 +9158,7 @@
 	{
 		"name": "sothe",
 		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/10/9/5/4\n5\\* lv40: 39/36/33/22/21 (151)\n\n**Skills:**\nW: Peshkatz\nS: Glimmer\nA: Life and Death 3\nC: Spur Atk/Spd 2\n(Unit only summonable at 5\\*)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/10/9/5/4\n5\\* lv40: 39/36/33/22/21 (150~151)\n\n**Skills:**\nW: Peshkatz\nS: Glimmer\nA: Life and Death 3\nC: Spur Atk/Spd 2\n(Unit only summonable at 5\\*)",
 		"color": "grey",
 		"aka": "Sothe: Zephyr",
 		"skill": "Infantry Dagger"
