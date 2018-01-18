@@ -5,3 +5,8 @@ secret.py
 *.png
 pats.txt
 features.txt
+
+# Visual Studio
+*.pyproj
+*.suo
+*.sln
