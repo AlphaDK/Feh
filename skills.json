@@ -485,7 +485,9 @@
     },
 	{
 		"name": "firesweep sword-",
-		"aliases": [],
+		"aliases": [
+			"firesweep s-"
+		],
 		"content": "Unit and foes cannot counterattack.\n\n**Available from:**\nSoleil: Adorable Adorer (4\\*)",
 		"color": "red",
 		"aka": "Firesweep Sword",
@@ -495,6 +497,8 @@
 		"name": "firesweep sword",
 		"aliases": [
 			"firesweep sword+",
+			"firesweep s+",
+			"firesweep s",
 			"fs sword",
 			"fs sword+"
 		],
@@ -1206,7 +1210,9 @@
     },
     {
         "name": "firesweep lance-",
-        "aliases": [],
+        "aliases": [
+			"firesweep l-"
+		],
         "content": "Unit and enemies cannot use counterattacks.\n\n**Available from:**\nRoderick: Steady Squire (4\\*)",
         "color": "blue",
         "aka": "Firesweep Lance",
@@ -1216,6 +1222,8 @@
         "name": "firesweep lance",
         "aliases": [
             "firesweep lance+",
+			"firesweep l+",
+			"firesweep l",
 			"fs lance",
 			"fs lance+"
         ],
@@ -2071,7 +2079,9 @@
     },
     {
         "name": "uror",
-        "aliases": [],
+        "aliases": [
+			"rally everything"
+		],
         "content": "If Sing or Dance is used, target also granted Atk/Spd/Def/Res+3.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAzura: Lady of Ballads (Performing Arts) (5\\*)",
         "color": "green",
         "aka": "Uror",
@@ -2082,7 +2092,7 @@
 		"aliases": [
 			"blizzard entertainment"
 		],
-		"content": "Grants Res+3. Grants bonus to unit's Atk equal to total penalties on foe during combat.",
+		"content": "Grants Res+3. Grants bonus to unit's Atk equal to total penalties on foe during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nGunnthra: Voice of Dreams (5\\*)",
 		"color": "green",
 		"aka": "Blizzard",
 		"skill": "Green Tome, Mt:14"
@@ -2092,7 +2102,7 @@
         "aliases": [
             "dancers ring-"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.\n\n**Available from:**\nInigo: Indigo Dancer (Performing Arts) (5\\*)",
         "color": "green",
         "aka": "Dancer's Ring",
         "skill": "Green Tome, Mt:8"
@@ -2104,7 +2114,7 @@
             "dancers ring",
             "dancers ring+"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.",
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat.\n\n**Available from:**\nInigo: Indigo Dancer (Performing Arts) (5\\*)\n\n***Dancer's Ring+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:**+2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "green",
         "aka": "Dancer's Ring+",
         "skill": "Green Tome, Mt:12"
@@ -2112,7 +2122,7 @@
     {
         "name": "dark excalibur",
         "aliases": [],
-        "content": "Grants +10 to damage when special triggers.",
+        "content": "Grants +10 to damage when special triggers.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSonya: Vengeful Mage (5\\*)\nDark Excalibur may also be obtained by evolving Excalibur in the Weapon Refinery",
         "color": "green",
         "aka": "Dark Excalibur",
         "skill": "Green Tome, Mt:14"
@@ -2120,7 +2130,7 @@
     {
         "name": "divine naga",
         "aliases": [],
-        "content": "Effective against dragons. Foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat.",
+        "content": "Effective against dragons. Foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nDeirdre: Lady of the Forest (5\\*)\nDivine Naga may also be obtained by evolving Naga in the Weapon Refinery",
         "color": "green",
         "aka": "Divine Naga",
         "skill": "Green Tome, Mt:14"
@@ -2128,7 +2138,7 @@
     {
         "name": "elivagar",
         "aliases": [],
-        "content": "If unit initiates attack, bonuses on foes within 2 spaces of the target become penalties through their next actions.",
+        "content": "If unit initiates attack, bonuses on foes within 2 spaces of the target become penalties through their next actions.\n\n**Used by:**\nVeronica: Emblian Princess\n\nThis weapon is exclusive to non-player units",
         "color": "green",
         "aka": "Elivagar",
         "skill": "Green Tome, Mt:14"
@@ -2136,7 +2146,7 @@
     {
         "name": "elwind",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\nEvery green tome unit in the game has Elwind, and there is therefore no need to inherit it.",
         "color": "green",
         "aka": "Elwind",
         "skill": "Green Tome, Mt:6"
@@ -2144,34 +2154,36 @@
     {
         "name": "excalibur",
         "aliases": [],
-        "content": "Effective against flying units.",
+        "content": "Effective against flying units.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMerric: Wind Mage (5\\*)\n\nExcalibur may be evolved into Dark Excalibur in the Weapon Refinery",
         "color": "green",
         "aka": "Excalibur",
         "skill": "Green Tome, Mt:14"
     },
     {
         "name": "green egg-",
-        "aliases": [
-            "green egg",
-            "green egg+"
-        ],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.",
+        "aliases": [],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nCamilla: Spring Princess (Spring Festival) (5\\*)",
         "color": "green",
         "aka": "Green Egg",
         "skill": "Green Tome, Mt:7"
     },
-    {
-        "name": "green eggs and ham",
-        "aliases": [],
-        "content": "A children's book written by Dr. Seuss in 1960.",
+	{
+        "name": "green egg",
+        "aliases": [
+			"green egg+",
+			"green eggs and ham",
+			"green eggs",
+			"ham"
+		],
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nCamilla: Spring Princess (Spring Festival) (5\\*)\n\n***Green Egg+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, restores 4 HP.\")_\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "green",
-        "aka": "Green Eggs and Ham",
-        "skill": "Book, Yr: 1960"
+        "aka": "Green Egg+",
+        "skill": "Green Tome, Mt:11"
     },
     {
         "name": "gronnblade-",
         "aliases": [],
-        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nNino: Pious Mage (3\\*)",
         "color": "green",
         "aka": "Gronnblade",
         "skill": "Green Tome, Mt:9"
@@ -2181,7 +2193,7 @@
         "aliases": [
             "gronnblade+"
         ],
-        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.",
+        "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nNino: Pious Mage (5\\*)",
         "color": "green",
         "aka": "Gronnblade+",
         "skill": "Green Tome, Mt:13"
@@ -2189,7 +2201,7 @@
     {
         "name": "gronnowl-",
         "aliases": [],
-        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Available from:**\nBoey: Skillful Survivor (4\\*)",
         "color": "green",
         "aka": "Gronnowl",
         "skill": "Green Tome, Mt:6"
@@ -2199,7 +2211,7 @@
         "aliases": [
             "gronnowl+"
         ],
-        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Available from:**\nBoey: Skillful Survivor (5\\*)\n\n***Gronnowl+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "green",
         "aka": "Gronnowl+",
         "skill": "Green Tome, Mt:10"
@@ -2207,7 +2219,7 @@
     {
         "name": "gronnraven-",
         "aliases": [],
-        "content": "Grants weapon advantage vs. colorless foes.",
+        "content": "Grants weapon advantage vs. colorless foes.\n\n**Available from:**\nCecilia: Etrurian General (3\\*)",
         "color": "green",
         "aka": "Gronnraven",
         "skill": "Green Tome, Mt:7"
@@ -2217,7 +2229,7 @@
         "aliases": [
             "gronnraven+"
         ],
-        "content": "Grants weapon advantage vs. colorless foes.",
+        "content": "Grants weapon advantage vs. colorless foes.\n\n**Available from:**\nCecilia: Etrurian General (5\\*)",
         "color": "green",
         "aka": "Gronnraven+",
         "skill": "Green Tome, Mt:11"
@@ -2225,7 +2237,7 @@
     {
         "name": "gronnwolf-",
         "aliases": [],
-        "content": "Effective against cavalry units.",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nRobin: Mystery Tactician (F) (3\\*)",
         "color": "green",
         "aka": "Gronnwolf",
         "skill": "Green Tome, Mt:6"
@@ -2235,7 +2247,7 @@
         "aliases": [
             "gronnwolf+"
         ],
-        "content": "Effective against cavalry units.",
+        "content": "Effective against cavalry units.\n\n**Available from:**\nRobin: Mystery Tactician (F) (5\\*)\n\nGronnwolf+ may be evolved into Keen Gronnwolf+ in the Weapon Refinery",
         "color": "green",
         "aka": "Gronnwolf+",
         "skill": "Green Tome, Mt:10"
@@ -2243,7 +2255,7 @@
     {
         "name": "hibiscus tome-",
         "aliases": [],
-        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.\n\n**Available from:**\nElise: Tropical Flower (Nohrian Summer) (5\\*)",
         "color": "green",
         "aka": "Hibiscus Tome",
         "skill": "Green Tome, Mt:8"
@@ -2253,15 +2265,33 @@
         "aliases": [
             "hibiscus tome+"
         ],
-        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.",
+        "content": "Grants allies within 2 spaces Atk/Spd+1 during combat.\n\n**Available from:**\nElise: Tropical Flower (Nohrian Summer) (5\\*)\n\n***Hibiscus Tome+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "green",
         "aka": "Hibiscus Tome+",
         "skill": "Green Tome, Mt:12"
     },
+	{
+		"name": "keen gronnwolf-",
+		"aliases": [],
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nRhajat: Black Magician (5\\*)",
+		"color": "green",
+		"aka": "Keen Gronnwolf",
+		"skill": "Green Tome, Mt:8"
+	},
+	{
+		"name": "keen gronnwolf",
+		"aliases": [
+			"keen gronnwolf+"
+		],
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nRhajat: Black Magician (5\\*)\nKeen Gronnwolf+ may also be obtained by evolving Gronnwolf+ in the Weapon Refinery\n\n***Keen Gronnwolf+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "green",
+		"aka": "Keen Gronnwolf+",
+		"skill": "Green Tome, Mt:12"
+	},
     {
         "name": "naga",
         "aliases": [],
-        "content": "Effective against dragons. Grants Def/Res+2 when this unit is attacked.",
+        "content": "Effective against dragons. Grants Def/Res+2 when this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available from:**\nJulia: Naga's Blood (5\\*)\n\nNaga may be evolved into Divine Naga in the Weapon Refinery",
         "color": "green",
         "aka": "Naga",
         "skill": "Green Tome, Mt:14"
@@ -2269,7 +2299,7 @@
     {
         "name": "rexcalibur-",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nDeirdre: Lady of the Forest (5\\*)\nGunnthra: Voice of Dreams (5\\*)\nJulia: Naga's Blood (5\\*)\nMerric: Wind Mage (4\\*)\nSonya: Vengeful Mage (5\\*)\nSoren: Shrewd Strategist (4\\*)",
         "color": "green",
         "aka": "Rexcalibur",
         "skill": "Green Tome, Mt:9"
@@ -2279,15 +2309,33 @@
         "aliases": [
             "rexcalibur+"
         ],
-        "content": "No special effect.",
+        "content": "No special effect.\n\n**Available from:**\nSoren: Shrewd Strategist (5\\*)\n\n***Rexcalibur+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "green",
         "aka": "Rexcalibur+",
         "skill": "Green Tome, Mt:13"
     },
+	{
+        "name": "spectral tome-",
+        "aliases": [],
+        "content": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.\n\n**Available from:**\nHenry: Happy Vampire (Trick or Defeat!) (5\\*)",
+        "color": "green",
+        "aka": "Spectral Tome",
+        "skill": "Green Tome, Mt:8"
+    },
+    {
+        "name": "spectral tome",
+        "aliases": [
+            "spectral tome+"
+        ],
+        "content": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.\n\n**Available from:**\nHenry: Happy Vampire (Trick or Defeat!) (5\\*)\n\n***Spectral Tome+ may be upgraded in the Weapon Refinery. Variants:***\n_(All variants' effects become \"After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions.\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+        "color": "green",
+        "aka": "Spectral Tome+",
+        "skill": "Green Tome, Mt:12"
+    },
     {
         "name": "wind",
         "aliases": [],
-        "content": "No special effect. Really. It's just wind. I promise. It has 4 Might. It costs 50SP. It's just wind, dude.",
+        "content": "No special effect. Really. It's just wind. I promise. It has 4 Might. It costs 50SP. It's just wind, dude.\n\nLiterally any green tome unit in the game can have Wind. Watch this.",
         "color": "green",
         "aka": "Wind",
         "skill": "Green Tome, Mt:4"
@@ -2533,7 +2581,9 @@
     },
     {
         "name": "firesweep bow-",
-        "aliases": [],
+        "aliases": [
+			"firesweep b-"
+		],
         "content": "Effective against fliers. Unit and enemies cannot use counterattacks.",
         "color": "grey",
         "aka": "Firesweep Bow",
@@ -2543,6 +2593,8 @@
         "name": "firesweep bow",
         "aliases": [
             "firesweep bow+",
+			"firesweep b",
+			"firesweep b+",
 			"fs bow",
 			"fs bow+"
         ],
@@ -5625,7 +5677,7 @@
         "content": "Unit automatically makes a follow-up attack if attacked at HP >= 90%.",
         "color": "orange",
         "aka": "Quick Riposte 1",
-        "skill": "B Skill"
+        "skill": "B Skill & Sacred Seal"
     },
     {
         "name": "quick riposte 2",
@@ -5633,7 +5685,7 @@
         "content": "Unit automatically makes a follow-up attack if attacked at HP >= 80%.",
         "color": "orange",
         "aka": "Quick Riposte 2",
-        "skill": "B Skill"
+        "skill": "B Skill & Sacred Seal"
     },
     {
         "name": "quick riposte 3",
@@ -5645,7 +5697,7 @@
         "content": "Unit automatically makes a follow-up attack if attacked at HP >= 70%.",
         "color": "orange",
         "aka": "Quick Riposte 3",
-        "skill": "B Skill"
+        "skill": "B Skill & Sacred Seal"
     },
     {
         "name": "recover ring",
@@ -5733,7 +5785,7 @@
         "content": "After combat, foe suffers Atk-3 through its next action.",
         "color": "orange",
         "aka": "Seal Atk 1",
-        "skill": "B Skill"
+        "skill": "B Skill & Sacred Seal"
     },
     {
         "name": "seal atk 2",
@@ -5743,7 +5795,7 @@
         "content": "After combat, foe suffers Atk-5 through its next action.",
         "color": "orange",
         "aka": "Seal Atk 2",
-        "skill": "B Skill"
+        "skill": "B Skill & Sacred Seal"
     },
     {
         "name": "seal atk 3",
@@ -5755,7 +5807,7 @@
         "content": "After combat, foe suffers Atk-7 through its next action.",
         "color": "orange",
         "aka": "Seal Atk 3",
-        "skill": "B Skill"
+        "skill": "B Skill & Sacred Seal"
     },
     {
         "name": "seal atk def 1",
@@ -6513,7 +6565,7 @@
         "content": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-3 until the end of foe's next action.",
         "color": "orange",
         "aka": "Def Ploy 1",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "def ploy 2",
@@ -6523,7 +6575,7 @@
         "content": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-4 until the end of foe's next action.",
         "color": "orange",
         "aka": "Def Ploy 2",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "def ploy 3",
@@ -6535,7 +6587,7 @@
         "content": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action.",
         "color": "orange",
         "aka": "Def Ploy 3",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "drive atk 1",
@@ -7986,24 +8038,6 @@
         "skill": "A Skill"
     },
     {
-        "name": "spectral tome-",
-        "aliases": [],
-        "content": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
-        "color": "green",
-        "aka": "Spectral Tome",
-        "skill": "Green Tome, Mt:8"
-    },
-    {
-        "name": "spectral tome",
-        "aliases": [
-            "spectral tome+"
-        ],
-        "content": "After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
-        "color": "green",
-        "aka": "Spectral Tome+",
-        "skill": "Green Tome, Mt:12"
-    },
-    {
         "name": "atk/res bond 1",
         "aliases": [
             "atk res bond 1",
@@ -8314,7 +8348,10 @@
 			"azura undertale 2",
 			"axura 2",
 			"azazel",
-			"ny!azura"
+			"ny!azura",
+			"airzura",
+			"flyzura",
+			"nyazura"
 		],
 		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/9/5/4\n5\\* lv40: 37/30/35/22/26 (149~150)\n\n**Skills:**\nW: Hagoita+\nAs: Sing\nB: Earth Dance 3\nC: Hone Spd 2, Hone Fliers\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "green",
@@ -8691,7 +8728,7 @@
 			"corrin: enjoying tradition",
 			"bow corrin"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5\n5\\* lv40: 37/32/30/34/18 (150~152)\n\n**Skills:**\nW: Hama Ya+ (5\\*)\nAs: Rally Def/Res (5\\*)\nA: Attack/Def +2 (5\\*)\nC: Spur Def/Res 2 (5\\*)\n(Unit not available lmao)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5\n5\\* lv40: 37/32/30/34/18 (151)\n\n**Skills:**\nW: Hama Ya+ (5\\*)\nAs: Rally Def/Res (4\\*)\nA: Attack/Def +2 (5\\*)\nC: Spur Def/Res 2 (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
 		"color": "grey",
 		"aka": "Corrin: Enjoying Tradition",
 		"skill": "Infantry Bow"
@@ -8963,7 +9000,7 @@
 		"aliases": [
 			"not olivia"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/5/6/8\n5\\* lv40: 42/32/20/23/34 (151)\n\n**Skills:**\nW: Shine+\nS: Blazing Light\nA: Mirror Strike 2\nC: Atk Ploy 3\n(Unit only available from Grand Hero Battles, no IV variation)",
+		"content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/5/6/8\n5\\* lv40: 42/32/20/23/34 (151)\n\n**Skills:**\nW: Shine+ (5\\*)\nS: Blazing Light (4\\*)\nA: Mirror Strike 2 (4\\*)\nC: Atk Ploy 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
 		"color": "blue",
 		"aka": "Oliver: Admirer of Beauty",
 		"skill": "Infantry Tome"
