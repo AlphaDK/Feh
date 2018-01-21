@@ -3,6 +3,7 @@ import json
 import re #only
 
 import utils
+import pat_manager
 
 # TODO: Create an instance - cmd_handler = CommandHandler(client)
 #       Call the member function - cmd_handler.handle_commands(message)
@@ -59,7 +60,8 @@ def read_skill_commands() -> dict:
                 new_skills[a] = new_skill
         return new_skills
 
-        
+static_commands = read_static_commands() 
+skill_commands = read_skill_commands()     
 
 class CommandHandler:
     """
@@ -67,68 +69,102 @@ class CommandHandler:
         commands.
     """
 
-    def __init__(self, bot):
+    def __init__(self, bot, message):
         """
         Constructor creating a new instance of a command handler. Only one
             instance is needed per bot object.
 
         :param bot: Discord bot object using this CommandHandler.
+        :param message: Discord message being handled.
         """
         # Instance variables.
         self.bot = bot
-        self.static_commands = read_static_commands()
-        self.skill_commands = read_skill_commands()
+        self.content = message.content
+        self.channel = message.channel
+        self.author = message.author
 
-    async def handle_commands(self, message):
+    async def handle_commands(self):
         """
         Handles responding to any commands present in a given message.
 
         :param message: Discord message object to search and respond to commands
             for. 
         """
-        await self._handle_static_commands(message)
-        await self._handle_skill_commands(message)
+        await self._handle_prefixed_commands()
+        await self._handle_skill_commands()
         # TODO: You'll probably add different functions for handling different
         # types of commands. I'm just using this as a small example.
 
-    async def _handle_static_commands(self, message):
-        msg_split = message.content.split(' ')
-        command_str = msg_split[0]
+    async def _handle_prefixed_commands(self):
+        if not self.content.startswith(COMMAND_PREFIX):
+            return
 
-        if command_str.startswith(COMMAND_PREFIX):
-            command_str = command_str[1:] # Get rid of that nasty prefix.
+        msg_split = self.content.split(' ')
+        command = msg_split[0][1:]
+        args = msg_split[1:]
 
-            if command_str not in self.static_commands:
-                return # Abandon ship if the command does not exist.
+        await self._handle_static_commands(command)
+        await self._handle_pat_commands(command)
 
-            command = self.static_commands[command_str]
-            await self.bot.send_message(message.channel, command['message'])
+    async def _handle_static_commands(self, command):
+        if command not in static_commands:
+            return # Abandon ship if the command does not exist.
+        command = static_commands[command]
+        await self._send_response(command['message'])
 
-    async def _handle_skill_commands(self, message):
-        if '{{' in message.content and '}}' in message.content:
+    async def _handle_pat_commands(self, command):
+        if command in ['checkpats', 'checkpets']:
+            count = pat_manager.get_pats(self.author.id)
+            if count == 0:
+                await self._send_reply("You haven't pet Feh yet :(")
+            else: 
+                time_str = 'time!'
+                if count > 1:
+                    time_str = 'times!'
+                reply = "You've pet Feh " + pat_manager.format_pat_count(count)
+                reply += " " + time_str
+                await self._send_reply(reply)
+
+        if command in ['pat', 'pet']:
+            pat_manager.add_pats(self.author.id, 1)
+            await self._send_response('Thanks! ^_^')
+
+        if command in ['halfpat', 'halfpet', 'halfp']:
+            pat_manager.add_pats(self.author.id, 0.5)
+            await self._send_response('Thanks! ^_^')
+
+    async def _handle_skill_commands(self):
+        if '{{' in self.content and '}}' in self.content:
             start = '{{'
             end = '}}'
             query = re.search(
-                    '%s(.*)%s' % (start, end), message.content).group(1).lower()
+                    '%s(.*)%s' % (start, end), self.content).group(1).lower()
             
-            if query not in self.skill_commands:
-                await self._handle_error(message)
+            if query not in skill_commands:
+                await self._handle_error()
                 return
 
-            skill = self.skill_commands[query]
+            skill = skill_commands[query]
             emb = discord.Embed(title=skill['aka'],
                                 description=skill['content'],
                                 color=int(COLOR_TYPES[skill['color']]))
             emb.set_author(name=skill['skill'], icon_url=EMBED_ICON_URL)
-            await self.bot.send_message(message.channel, embed=emb)
+            await self.bot.send_message(self.channel, embed=emb)
 
-    async def _handle_error(self, message):
+    async def _send_reply(self, response):
+        await self._send_response(
+                utils.mention(self.author) + ' ' + response)
+
+    async def _send_response(self, response):
+        await self.bot.send_message(self.channel, response)
+
+    async def _handle_error(self):
         """
         Tells a user they messed up.
         """
-        if message.author.id == "188123523691053060": #Yellow
-            await self.bot.send_message(message.channel, "<@188123523691053060> I don't think you typed that correctly! Classic yellow.")
-        elif message.author.id == "126197907392167937": #Me
-            await self.bot.send_message(message.channel, "lol alpha doesn't know how to use his own bot")
+        if self.author.id == "188123523691053060": #Yellow
+            await self._send_response("<@188123523691053060> I don't think you typed that correctly! Classic yellow.")
+        elif self.author.id == "126197907392167937": #Me
+            await self._send_response("lol alpha doesn't know how to use his own bot")
         else: #@everyone else
-             await self.bot.send_message(message.channel, "<@" + message.author.id + "> I don't know what you mean! If you think I should, use !report to tell Alpha to fix it")
+            await self._send_response("<@" + self.author.id + "> I don't know what you mean! If you think I should, use !report to tell Alpha to fix it")

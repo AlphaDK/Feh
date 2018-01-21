@@ -4,9 +4,11 @@ secret.py
 *.bat
 *.png
 pats.txt
+pats.json
 features.txt
 
 # Visual Studio
 *.pyproj
 *.suo
 *.sln
+.vscode/
