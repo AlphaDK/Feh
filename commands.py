@@ -125,13 +125,13 @@ class CommandHandler:
                 reply += " " + time_str
                 await self._send_reply(reply)
 
-        if command in ['pat', 'pet']:
+        if command in ['pat', 'pet', 'headpat']:
             pat_manager.add_pats(self.author.id, 1)
             await self._send_response('Thanks! ^_^')
 
-        if command in ['halfpat', 'halfpet', 'halfp']:
+        if command in ['halfpat', 'halfpet']:
             pat_manager.add_pats(self.author.id, 0.5)
-            await self._send_response('Thanks! ^_^')
+            await self._send_response('Thanks!')
 
     async def _handle_skill_commands(self):
         if '{{' in self.content and '}}' in self.content:
