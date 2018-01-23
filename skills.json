@@ -322,6 +322,14 @@
 		"aka": "AMUNO",
 		"skill": "paris tour effeil"
 	},
+	{
+        "name": "battery",
+        "aliases": [],
+        "content": "Create a 3/3 green Elephant creature token.",
+        "color": "green",
+        "aka": "Battery",
+        "skill": "Magic: The Gathering Card, CC: {3G}"
+    },
     {
         "name": "",
         "aliases": [],
@@ -2343,7 +2351,7 @@
     {
         "name": "absorb-",
         "aliases": [],
-        "content": "Recovers HP=50% of damage dealt.",
+        "content": "Recovers HP=50% of damage dealt.\n\n**Available from:**\nLachesis: Lionheart's Sister (4\\*)\nSerra: Outspoken Cleric (3\\*)",
         "color": "grey",
         "aka": "Absorb",
         "skill": "Colorless Staff, Mt:4"
@@ -2353,31 +2361,23 @@
         "aliases": [
 			"absorb"
 		],
-        "content": "Recovers HP=50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit.",
+        "content": "Recovers HP=50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit.\n\n**Available from:**\nLachesis: Lionheart's Sister (5\\*)\nSerra: Outspoken Cleric (5\\*)\n\n***Absorb+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
         "color": "grey",
-        "aka": "Absorb",
+        "aka": "Absorb+",
         "skill": "Colorless Staff, Mt:7"
     },
     {
         "name": "assault",
         "aliases": [],
-        "content": "No special effect.",
+        "content": "No special effect.\n\nEvery staff unit in the game has Assault, and there is therefore no need to inherit it.",
         "color": "grey",
         "aka": "Assault",
         "skill": "Colorless Staff, Mt:10"
     },
     {
-        "name": "battery",
-        "aliases": [],
-        "content": "Create a 3/3 green Elephant creature token.",
-        "color": "green",
-        "aka": "Battery",
-        "skill": "Magic: The Gathering Card, CC: {3G}"
-    },
-    {
         "name": "candlelight-",
         "aliases": [],
-        "content": "After combat, if unit attacked, inflicts status on foe preventing counterattacks through its next action.",
+        "content": "After combat, if unit attacked, inflicts status on foe preventing counterattacks through its next action.\n\n**Available from:**\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)\n\nCandlelight may be evolved to Candlelight+ in the Weapon Refinery, but only if the unit inherited Candlelight without Candlelight+",
         "color": "grey",
         "aka": "Candlelight",
         "skill": "Colorless Staff, Mt:7"
@@ -2387,15 +2387,15 @@
         "aliases": [
 			"candlelight"
 		],
-        "content": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.",
+        "content": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.\n\n**Available from:**\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)\n\n***Candlelight+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
         "color": "grey",
-        "aka": "Candlelight",
+        "aka": "Candlelight+",
         "skill": "Colorless Staff, Mt:11"
     },
     {
         "name": "fear-",
         "aliases": [],
-        "content": "After combat, inflicts Atk-6 on targeted foe through its next action.",
+        "content": "After combat, inflicts Atk-6 on targeted foe through its next action.\n\n**Available from:**\nClarine: Refined Noble (3\\*)\nSakura: Loving Priestess (4\\*)",
         "color": "grey",
         "aka": "Fear",
         "skill": "Colorless Staff, Mt:5"
@@ -2405,7 +2405,7 @@
         "aliases": [
             "fear+"
         ],
-        "content": "After combat, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions.",
+        "content": "After combat, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions.\n\n**Available from:**\nClarine: Refined Noble (5\\*)\nSakura: Loving Priestess (5\\*)\n\n***Fear+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
         "color": "grey",
         "aka": "Fear+",
         "skill": "Colorless Staff, Mt:12"
@@ -2413,7 +2413,7 @@
     {
         "name": "gravity-",
         "aliases": [],
-        "content": "After any combat, prevents foe from moving more than 1 space through its next action.",
+        "content": "After any combat, prevents foe from moving more than 1 space through its next action.\n\n**Available from:**\nElise: Budding Flower (5\\*)\nGenny: Endearing Ally (5\\*)\nLissa: Sprightly Cleric (3\\*)",
         "color": "grey",
         "aka": "Gravity",
         "skill": "Colorless Staff, Mt:6"
@@ -2423,7 +2423,7 @@
         "aliases": [
 			"gravity"
 		],
-        "content": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions.",
+        "content": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions.\n\n**Available from:**\nElise: Budding Flower (5\\*)\nGenny: Endearing Ally (5\\*)\nLissa: Sprightly Cleric (5\\*)\n\n***Gravity+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
         "color": "grey",
         "aka": "Gravity+",
         "skill": "Colorless Staff, Mt:10"
@@ -2431,7 +2431,7 @@
     {
         "name": "pain-",
         "aliases": [],
-        "content": "After combat, if unit attacked, deals 10 damage to foe.",
+        "content": "After combat, if unit attacked, deals 10 damage to foe.\n\n**Available from:**\nAzama: Carefree Monk (3\\*)\nLucius: The Light (4\\*)",
         "color": "grey",
         "aka": "Pain",
         "skill": "Colorless Staff, Mt:3"
@@ -2441,31 +2441,33 @@
         "aliases": [
 			"pain"
 		],
-        "content": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target.",
+        "content": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target.\n\n**Available from:**\nAzama: Carefree Monk (5\\*)\nLucius: The Light (5\\*)\n\n***Pain+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
         "color": "grey",
-        "aka": "Pain",
+        "aka": "Pain+",
         "skill": "Colorless Staff, Mt:10"
     },
     {
         "name": "panic-",
         "aliases": [],
-        "content": "After combat, if unit attacked, bonuses on foe become penalties through its next action.",
+        "content": "After combat, if unit attacked, bonuses on foe become penalties through its next action.\n\n**Available from:**\nMaria: Minerva's Sister (4\\*)\nPriscilla: Delicate Princess (4\\*)",
         "color": "grey",
         "aka": "Panic",
         "skill": "Colorless Staff, Mt:7"
     },
 	{
         "name": "panic+",
-        "aliases": [],
-        "content": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions.",
+        "aliases": [
+			"panic"
+		],
+        "content": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions.\n\n**Available from:**\nMaria: Minerva's Sister (5\\*)\nPriscilla: Delicate Princess (5\\*)\n\n***Panic+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
         "color": "grey",
-        "aka": "Panic",
+        "aka": "Panic+",
         "skill": "Colorless Staff, Mt:11"
     },
     {
         "name": "slow-",
         "aliases": [],
-        "content": "After combat, if unit attacked, inflicts Spd-6 on foe through its next action.",
+        "content": "After combat, if unit attacked, inflicts Spd-6 on foe through its next action.\n\n**Available from:**\nMist: Helpful Sister (5\\*)\nWrys: Kindly Priest (3\\*)",
         "color": "grey",
         "aka": "Slow",
         "skill": "Colorless Staff, Mt:5"
@@ -2475,9 +2477,9 @@
         "aliases": [
 			"slow"
 		],
-        "content": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions.",
+        "content": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions.\n\n**Available from:**\nMist: Helpful Sister (5\\*)\nWrys: Kindly Priest (5\\*)\n\n***Slow+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
         "color": "grey",
-        "aka": "Slow",
+        "aka": "Slow+",
         "skill": "Colorless Staff, Mt:5"
     },
 	{
@@ -2485,7 +2487,7 @@
 		"aliases": [
 			"thicc"
 		],
-		"content": "Damage from staff calculated like other weapons.\nAt start of turn, foes with bow, daggers, magic, or staff in cardinal directions with HP 3 or more lower than unit's can move only 1 space through their next actions.",
+		"content": "Damage from staff calculated like other weapons.\nAt start of turn, foes with bow, daggers, magic, or staff in cardinal directions with HP 3 or more lower than unit's can move only 1 space through their next actions.\n\n**Used by:**\nLoki: The Trickster\n\nThis weapon is exclusive to non-player units",
 		"color": "grey",
 		"aka": "Thokk",
 		"skill": "Colorless Staff, Mt:14"
@@ -3201,7 +3203,11 @@
     {
         "name": "reposition",
         "aliases": [
-            "repos"
+            "repos",
+			"what assist should i take",
+			"what's the best assist",
+			"best assist",
+			"what's that weird shield thing?"
         ],
         "content": "Moves adjacent ally to opposite side of unit.",
         "color": "cyan",
