@@ -57,7 +57,7 @@
         "content": "Should be upgraded as soon as possible!",
         "color": "grey",
         "aka": "The Castle",
-        "skill": "Mechanic"
+        "skill": "Game Mechanic"
     },
     {
         "name": "golden axe",
@@ -301,6 +301,14 @@
 		"color": "yellow",
 		"aka": "What C Skill should I put on my []?",
 		"skill": "Life Advice"
+	},
+	{
+		"name": "magic",
+		"aliases": [],
+		"content": "When the game refers to \"magic\" attacks, it refers exclusively to tomes.\nRed, Green, and Blue tomes fall under \"magic\", but breaths and staves do not.",
+		"color": "yellow",
+		"aka": "\"Magic\"",
+		"skill": "Game Mechanic"
 	},
 	{
 		"name": "amuno",
@@ -826,7 +834,7 @@
     {
         "name": "cymbeline",
         "aliases": [],
-        "content": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSanaki: Begnion's Apostle (5\\*)\n\n***Cymbeline may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"Grants Atk/Res+5 during combat if within 2 spaces of a flying ally.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+        "content": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSanaki: Begnion's Apostle (5\\*)\n\n***Cymbeline may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Effect becomes \"Grants allies within 2 spaces Atk+3 during combat. Grants Atk/Res+5 during combat if within 2 spaces of a flying ally.\"\n_(Any other variant's effect becomes \"Grants allies within 2 spaces Atk+3 during combat\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "red",
         "aka": "Cymbeline",
         "skill": "Red Tome, Mt:14"
@@ -2387,7 +2395,7 @@
         "aliases": [
 			"candlelight"
 		],
-        "content": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.\n\n**Available from:**\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)\n\n***Candlelight+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
+        "content": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions.\n\n**Available from:**\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)\nCandlelight+ may also be obtained by evolving Candlelight in the Weapon Refinery on a unit without this skill\n\n***Candlelight+ may be upgraded in the Weapon Refinery. Variants:***\n**Wrathful:** Gains \"Damage from unit's staff will be calculated the same as other weapons\"\n**Dazzling:** Gains \"The enemy cannot counterattack\"",
         "color": "grey",
         "aka": "Candlelight+",
         "skill": "Colorless Staff, Mt:11"
@@ -2497,7 +2505,7 @@
         "aliases": [
             "assassins bow-"
         ],
-        "content": "Effective against flying units. If target has a dagger, it can't make a follow-up attack and this unit will.",
+        "content": "Effective against flying units. If target has a dagger, it can't make a follow-up attack and this unit will.\n\n**Available from:**\nSetsuna: Absent Archer (3\\*)",
         "color": "grey",
         "aka": "Assassin's Bow",
         "skill": "Colorless Bow, Mt:7"
@@ -2509,7 +2517,7 @@
             "assassins bow",
             "assassins bow+"
         ],
-        "content": "Effective against flying units. If target has a dagger, it can't make a follow-up attack and this unit will.",
+        "content": "Effective against flying units. If target has a dagger, it can't make a follow-up attack and this unit will.\n\n**Available from:**\nSetsuna: Absent Archer (5\\*)\n\nAssassin's Bow+ may be evolved into Guard Bow+ in the Weapon Refinery",
         "color": "grey",
         "aka": "Assassin's Bow+",
         "skill": "Colorless Bow, Mt:11"
@@ -2517,7 +2525,7 @@
     {
         "name": "brave bow-",
         "aliases": [],
-        "content": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat.",
+        "content": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat.\n\n**Available from:**\nGordin: Atlean Archer (3\\*)\nKlein: Silver Nobleman (4\\*)",
         "color": "grey",
         "aka": "Brave Bow",
         "skill": "Colorless Bow, Mt:4"
@@ -2529,7 +2537,7 @@
             "bb",
             "bb+"
         ],
-        "content": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat.",
+        "content": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat.\n\n**Available from:**\nGordin: Atlean Archer (5\\*)\nKlein: Silver Nobleman (5\\*)",
         "color": "grey",
         "aka": "Brave Bow+",
         "skill": "Colorless Bow, Mt:7"
@@ -2539,7 +2547,7 @@
         "aliases": [
             "clarisses bow-"
         ],
-        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units.",
+        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units.\n\n**Unsurprisingly, available from:**\nClarisse: Sniper in the Dark (3\\*)",
         "color": "grey",
         "aka": "Clarisse's Bow",
         "skill": "Colorless Bow, Mt:7"
@@ -2551,7 +2559,7 @@
             "clarisses bow",
             "clarisses bow+"
         ],
-        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units.",
+        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units.\n\n**Available from:**\nClarisse: Sniper in the Dark (5\\*)\n\n***Clarisse's Bow+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions.\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Clarisse's Bow+",
         "skill": "Colorless Bow, Mt:11"
@@ -2562,7 +2570,7 @@
             "cupids arrow-",
             "cupid's arrow-"
         ],
-        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.",
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.\n\n**Available from:**\nCordelia: Perfect Bride (Bridal Blessings) (5\\*)",
         "color": "grey",
         "aka": "Cupid Arrow",
         "skill": "Colorless Bow, Mt:8"
@@ -2576,7 +2584,7 @@
             "cupid's arrow",
             "cupid's arrow+"
         ],
-        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.",
+        "content": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates. Effective against fliers.\n\n**Available from:**\nCordelia: Perfect Bride (Bridal Blessings) (5\\*)\n\n***Cupid Arrow+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn.\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Cupid Arrow+",
         "skill": "Colorless Bow, Mt:12"
@@ -2586,7 +2594,7 @@
         "aliases": [
 			"firesweep b-"
 		],
-        "content": "Effective against fliers. Unit and enemies cannot use counterattacks.",
+        "content": "Effective against fliers. Unit and enemies cannot use counterattacks.\n\n**Available from:**\nFaye: Devoted Heart (5\\*)",
         "color": "grey",
         "aka": "Firesweep Bow",
         "skill": "Colorless Bow, Mt:7"
@@ -2600,7 +2608,7 @@
 			"fs bow",
 			"fs bow+"
         ],
-        "content": "Effective against fliers. Unit and enemies cannot use counterattacks.",
+        "content": "Effective against fliers. Unit and enemies cannot use counterattacks.\n\n**Available from:**\nFaye: Devoted Heart (5\\*)",
         "color": "grey",
         "aka": "Firesweep Bow+",
         "skill": "Colorless Bow, Mt:11"
@@ -2608,7 +2616,7 @@
     {
         "name": "fujin yumi",
         "aliases": [],
-        "content": "Effective against flying units. Unit can pass though foes if own HP >= 50%.",
+        "content": "Effective against flying units. Unit can pass though foes if own HP >= 50%.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTakumi: Wild Card (5\\*)\n\n***Fujin Yumi may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Effect becomes \"Effective against flying foes. If unit's HP >= 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.) If unit's HP >= 50%, unit can move adjacent to any ally within 2 spaces.\"\n_(Any other variant's effect becomes \"Effective against flying foes. If unit's HP >= 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Fujin Yumi",
         "skill": "Colorless Bow, Mt:14"
@@ -2616,7 +2624,7 @@
 	{
 		"name": "guard bow-",
 		"aliases": [],
-		"content": "Effective against flying units.\nGrants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff.",
+		"content": "Effective against flying units.\nGrants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff.\n\n**Available from:**\nGuard Bow is obtained by evolving Assassin's Bow+ in the Weapon Refinery, and then downgrading from Guard Bow+",
 		"color": "grey",
 		"aka": "Guard Bow",
 		"skill": "Colorless Bow, Mt:8"
@@ -2626,7 +2634,7 @@
 		"aliases": [
 			"guard bow"
 		],
-		"content": "Effective against flying foes.\nGrants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff.",
+		"content": "Effective against flying foes.\nGrants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff.\n\n**Available from:**\nGuard Bow+ is obtained by evolving Assassin's Bow+ in the Weapon Refinery\n\n***Guard Bow+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "grey",
 		"aka": "Guard Bow+",
 		"skill": "Colorless Bow, Mt:12"
@@ -2634,7 +2642,7 @@
 	{
 		"name": "hama ya-",
 		"aliases": [],
-		"content": "Effective against flying foes.\nGrants Def/Res+2 during combat to allies within 2 spaces.",
+		"content": "Effective against flying foes.\nGrants Def/Res+2 during combat to allies within 2 spaces.\n\n**Available from:**\nCorrin: Enjoying Tradition (M) (Happy New Year!) (4\\*)",
 		"color": "grey",
 		"aka": "Hama Ya",
 		"skill": "Colorless Bow, Mt:8"
@@ -2645,7 +2653,7 @@
 			"hama ya",
 			"corrin's bow"
 		],
-		"content": "Effective against flying foes.\nGrants Def/Res+2 during combat to allies within 2 spaces.",
+		"content": "Effective against flying foes.\nGrants Def/Res+2 during combat to allies within 2 spaces.\n\n**Available from:**\nCorrin: Enjoying Tradition (M) (Happy New Year!) (5\\*)\n\n***Hama Ya+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "grey",
 		"aka": "Hama Ya+",
 		"skill": "Colorless Bow, Mt:12"
@@ -2653,7 +2661,7 @@
     {
         "name": "iron bow",
         "aliases": [],
-        "content": "Effective against flying units.",
+        "content": "Effective against flying units.\n\nEvery bow unit in the game has Iron Bow, and there is therefore no need to inherit it.",
         "color": "grey",
         "aka": "Iron Bow",
         "skill": "Colorless Bow, Mt:4"
@@ -2661,7 +2669,7 @@
     {
         "name": "killer bow-",
         "aliases": [],
-        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nNiles: Cruel to be Kind (3\\*)",
         "color": "grey",
         "aka": "Killer Bow",
         "skill": "Colorless Bow, Mt:5"
@@ -2671,7 +2679,7 @@
         "aliases": [
             "killer bow+"
         ],
-        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nNiles: Cruel to be Kind (5\\*)\n\nKiller Bow+ may be evolved into Slaying Bow+ in the Weapon Refinery",
         "color": "grey",
         "aka": "Killer Bow+",
         "skill": "Colorless Bow, Mt:9"
@@ -2679,7 +2687,7 @@
 	{
         "name": "monstrous bow-",
         "aliases": [],
-        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
+        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.\n\n**Available from:**\nJakob: Devoted Monster (Trick or Defeat!) (5\\*)",
         "color": "grey",
         "aka": "Monstrous Bow",
         "skill": "Colorless Bow, Mt:8"
@@ -2689,7 +2697,7 @@
         "aliases": [
             "monstrous bow+"
         ],
-        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.",
+        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.\n\n**Available from:**\nJakob: Devoted Monster (Trick or Defeat!) (5\\*)\n\n***Monstrous Bow+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions.\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Monstrous Bow+",
         "skill": "Colorless Bow, Mt:12"
@@ -2697,7 +2705,7 @@
     {
         "name": "mulagir",
         "aliases": [],
-        "content": "Effective against flying units. Grants Spd+3. If foe is magic user, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat.",
+        "content": "Effective against flying units. Grants Spd+3. If foe is magic user, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Brave Lady (Brave Heroes) (5\\*)",
         "color": "grey",
         "aka": "Mulagir",
         "skill": "Colorless Bow, Mt:14"
@@ -2705,7 +2713,7 @@
     {
         "name": "nidhogg",
         "aliases": [],
-        "content": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.",
+        "content": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nInnes: Regal Strategician (5\\*)",
         "color": "grey",
         "aka": "Nidhogg",
         "skill": "Colorless Bow, Mt:14"
@@ -2713,7 +2721,7 @@
     {
         "name": "parthia",
         "aliases": [],
-        "content": "Effective against flying units. Grants Res+4 during combat if initiating attack.",
+        "content": "Effective against flying units. Grants Res+4 during combat if initiating attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nJeorge: Perfect Shot (5\\*)\n\n***Parthia may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Effect becomes \"Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%. Grants Atk+6 during combat if foe uses bow, dagger, magic, or staff.\"\n_(Any other variant's effect becomes \"Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Parthia",
         "skill": "Colorless Bow, Mt:14"
@@ -2721,7 +2729,7 @@
     {
         "name": "refreshing bolt-",
         "aliases": [],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.\n\n**Available from:**\nGaius: Thief Exposed (Ylissean Summer) (5\\*)",
         "color": "grey",
         "aka": "Refreshing Bolt",
         "skill": "Colorless Bow, Mt:8"
@@ -2731,7 +2739,7 @@
         "aliases": [
             "refreshing bolt+"
         ],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers.\n\n**Available from:**\nGaius: Thief Exposed (Ylissean Summer) (5\\*)\n\n***Refreshing Bolt+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Refreshing Bolt+",
         "skill": "Colorless Bow, Mt:12"
@@ -2739,7 +2747,7 @@
     {
         "name": "silver bow-",
         "aliases": [],
-        "content": "Effective against flying units.",
+        "content": "Effective against flying units.\n\n**Available from:**\nInnes: Regal Strategician (5\\*)\nJeorge: Perfect Shot (4\\*)\nLyn: Brave Lady (Brave Heroes) (5\\*)\nRebecca: Wildflower (4\\*)\nTakumi: Wild Card (5\\*)\nVirion: Elite Archer (3\\*)",
         "color": "grey",
         "aka": "Silver Bow",
         "skill": "Colorless Bow, Mt:9"
@@ -2749,7 +2757,7 @@
         "aliases": [
             "silver bow+"
         ],
-        "content": "Effective against flying units.",
+        "content": "Effective against flying units.\n\n**Available from:**\nRebecca: Wildflower (5\\*)\nVirion: Elite Archer (5\\*)\n\n***Silver Bow+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "grey",
         "aka": "Silver Bow+",
         "skill": "Colorless Bow, Mt:13"
@@ -2757,7 +2765,7 @@
     {
         "name": "slaying bow-",
         "aliases": [],
-        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nLeon: True of Heart (4\\*)",
         "color": "grey",
         "aka": "Slaying Bow",
         "skill": "Colorless Bow, Mt:8"
@@ -2767,7 +2775,7 @@
         "aliases": [
             "slaying bow+"
         ],
-        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).",
+        "content": "Effective against flying units. Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nLeon: True of Heart (5\\*)\nSlaying Bow+ may also be obtained by evolving Killer Bow+ in the Weapon Refinery.\n\n***Slaying Bow+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Slaying Bow+",
         "skill": "Colorless Bow, Mt:12"
@@ -2775,7 +2783,7 @@
     {
         "name": "steel bow",
         "aliases": [],
-        "content": "Effective against flying units.",
+        "content": "Effective against flying units.\n\nEvery bow unit in the game has Steel Bow, and there is therefore no need to inherit it.",
         "color": "grey",
         "aka": "Steel Bow",
         "skill": "Colorless Bow, Mt:6"
