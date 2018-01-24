@@ -882,6 +882,14 @@
         "skill": "Red Tome, Mt:4"
     },
 	{
+		"name": "gleipnir",
+		"aliases": [],
+		"content": "Grants Res+3. If foe's HP = 100% at start of combat, grants Atk/Spd+3 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEirika: Anamnesis Lady (5\\*)",
+		"color": "red",
+		"aka": "Gleipnir",
+		"skill": "Red Tome, Mt:14"
+	},
+	{
         "name": "grimoire",
         "aliases": [],
         "content": "If unit has >= 50% HP, unit can move to a space adjacent to an ally within 2 spaces.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)",
@@ -1063,6 +1071,16 @@
         "aka": "Flametongue+",
         "skill": "Breath, Mt:15"
     },
+	{
+		"name": "great flame",
+		"aliases": [
+			"great days"
+		],
+		"content": "Grants Atk+3. If unit's Def - foe's Def >= 5, foe can't make a follow-up attack. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMyrrh: Great Dragon (5\\*)",
+		"color": "green",
+		"aka": "Great Flame",
+		"skill": "Breath, Mt:16"
+	},
     {
         "name": "light breath-",
         "aliases": [],
@@ -1649,6 +1667,16 @@
         "aka": "Elthunder",
         "skill": "Blue Tome, Mt:6"
     },
+	{
+		"name": "ivaldi",
+		"aliases": [
+			"vivaldi"
+		],
+		"content": "Grants Def+3. If foe's HP = 100% at start of combat, grants Atk/Spd+3 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nL'Arachel: Princess of Light (5\\*)",
+		"color": "blue",
+		"aka": "Ivaldi",
+		"skill": "Blue Tome, Mt:14"
+	},
 	{
 		"name": "keen blarwolf-",
 		"aliases": [],
@@ -3085,7 +3113,8 @@
     {
         "name": "rally attack speed",
         "aliases": [
-            "rally atk spd"
+            "rally atk spd",
+			"rally atk/spd"
         ],
         "content": "Grants Atk/Spd+3 to an adjacent ally until the end of the turn.",
         "color": "cyan",
@@ -6339,6 +6368,38 @@
         "aka": "Atk Smoke 3",
         "skill": "C Skill & Sacred Seal"
     },
+	{
+		"name": "atk tactic 1",
+		"aliases": [
+			"attack tactic 1"
+		],
+		"content": "At start of turn, grants Atk+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Atk Tactic 1",
+		"skill": "C Skill"
+	},
+	{
+		"name": "atk tactic 2",
+		"aliases": [
+			"attack tactic 2"
+		],
+		"content": "At start of turn, grants Atk+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Atk Tactic 2",
+		"skill": "C Skill"
+	},
+	{
+		"name": "atk tactic 3",
+		"aliases": [
+			"attack tactic 3",
+			"attack tactic",
+			"atk tactic"
+		],
+		"content": "At start of turn, grants Atk+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Atk Tactic 3",
+		"skill": "C Skill"
+	},
     {
         "name": "axe experience 1",
         "aliases": [
@@ -6571,6 +6632,38 @@
         "aka": "Breath of Life 3",
         "skill": "C Skill & Sacred Seal"
     },
+	{
+        "name": "dagger valor 1",
+        "aliases": [
+            "dagger valour 1"
+        ],
+        "content": "If unit survives and uses a dagger, unit gets 1.5x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "Dagger Valor 1",
+        "skill": "C Skill"
+    },
+    {
+        "name": "dagger valor 2",
+        "aliases": [
+            "dagger valour 2"
+        ],
+        "content": "If unit survives, all dagger users on team get 1.5x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "Dagger Valor 2",
+        "skill": "C Skill"
+    },
+    {
+        "name": "dagger valor 3",
+        "aliases": [
+            "dagger valor",
+            "dagger valour 3",
+            "dagger valour"
+        ],
+        "content": "If unit survives, all dagger users on team get 2x SP.\n(If similar skill effects also used, only highest multiplier applies.)",
+        "color": "orange",
+        "aka": "Dagger Valor 3",
+        "skill": "C Skill"
+    },
     {
         "name": "def ploy 1",
         "aliases": [
@@ -6603,6 +6696,38 @@
         "aka": "Def Ploy 3",
         "skill": "C Skill & Sacred Seal"
     },
+	{
+		"name": "def tactic 1",
+		"aliases": [
+			"defense tactic 1"
+		],
+		"content": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Def Tactic 1",
+		"skill": "C Skill"
+	},
+	{
+		"name": "def tactic 2",
+		"aliases": [
+			"defense tactic 2"
+		],
+		"content": "At start of turn, grants Def+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Def Tactic 2",
+		"skill": "C Skill"
+	},
+	{
+		"name": "def tactic 3",
+		"aliases": [
+			"defense tactic 3",
+			"defense tactic",
+			"def tactic"
+		],
+		"content": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Def Tactic 3",
+		"skill": "C Skill"
+	},
     {
         "name": "drive atk 1",
         "aliases": [
@@ -6939,6 +7064,14 @@
         "aka": "Hone Cavalry",
         "skill": "C Skill"
     },
+	{
+        "name": "hone dragons",
+        "aliases": [],
+        "content": "Grants adjacent dragon allies Atk/Spd+6 through their next actions at the start of each turn.",
+        "color": "orange",
+        "aka": "Hone Dragons",
+        "skill": "C Skill"
+    },
     {
         "name": "hone fliers",
         "aliases": [],
@@ -7064,6 +7197,62 @@
         "skill": "C Skill & Sacred Seal"
     },
 	{
+        "name": "r tome exp. 1",
+        "aliases": [
+            "r tome exp 1",
+            "r tome xp 1",
+            "r tome experience 1",
+            "red tome exp. 1",
+            "red tome exp 1",
+            "red tome xp 1",
+            "red tome experience 1"
+        ],
+        "content": "If unit survives and uses a red tome, unit gets 1.5x EXP.\n(Only highest multiplier applied. Does not stack.)",
+        "color": "orange",
+        "aka": "R Tome Exp. 1",
+        "skill": "C Skill"
+    },
+    {
+        "name": "r tome exp. 2",
+        "aliases": [
+            "r tome exp 2",
+            "r tome xp 2",
+            "r tome experience 2",
+            "red tome exp. 2",
+            "red tome exp 2",
+            "red tome xp 2",
+            "red tome experience 2"
+        ],
+        "content": "If unit survives and uses a red tome, all red tome allies on team get 1.5x EXP.\n(Only highest multiplier applied. Does not stack.)",
+        "color": "orange",
+        "aka": "R Tome Exp. 2",
+        "skill": "C Skill"
+    },
+    {
+        "name": "r tome exp. 3",
+        "aliases": [
+            "r tome exp 3",
+            "r tome xp 3",
+            "r tome experience 3",
+            "red tome exp. 3",
+            "red tome exp 3",
+            "red tome xp 3",
+            "red tome experience 3",
+            "r tome exp.",
+            "r tome exp",
+            "r tome xp",
+            "r tome experience",
+            "red tome exp.",
+            "red tome exp",
+            "red tome xp",
+            "red tome experience"
+        ],
+        "content": "If unit survives and uses a red tome, all red tome allies on team get 2x EXP.\n(Only highest multiplier applied. Does not stack.)",
+        "color": "orange",
+        "aka": "R Tome Exp. 3",
+        "skill": "C Skill"
+    },
+	{
         "name": "r tome valor 1",
         "aliases": [
             "r tome valour 1",
@@ -7135,13 +7324,45 @@
         "aka": "Res Ploy 3",
         "skill": "C Skill"
     },
+	{
+		"name": "res tactic 1",
+		"aliases": [
+			"resistance tactic 1"
+		],
+		"content": "At start of turn, grants Res+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Res Tactic 1",
+		"skill": "C Skill"
+	},
+	{
+		"name": "res tactic 2",
+		"aliases": [
+			"resistance tactic 2"
+		],
+		"content": "At start of turn, grants Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Res Tactic 2",
+		"skill": "C Skill"
+	},
+	{
+		"name": "res tactic 3",
+		"aliases": [
+			"resistance tactic 3",
+			"resistance tactic",
+			"res tactic"
+		],
+		"content": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"color": "orange",
+		"aka": "Res Tactic 3",
+		"skill": "C Skill"
+	},
     {
         "name": "savage blow 1",
         "aliases": [],
         "content": "If unit initiates attack, foes within 2 spaces of target take 3 damage after combat.",
         "color": "orange",
         "aka": "Savage Blow 1",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "savage blow 2",
@@ -7149,7 +7370,7 @@
         "content": "If unit initiates attack, foes within 2 spaces of target take 5 damage after combat.",
         "color": "orange",
         "aka": "Savage Blow 2",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "savage blow 3",
@@ -7160,7 +7381,7 @@
         "content": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat.",
         "color": "orange",
         "aka": "Savage Blow 3",
-        "skill": "C Skill"
+        "skill": "C Skill & Sacred Seal"
     },
     {
         "name": "spd ploy 1",
@@ -8002,38 +8223,6 @@
         "skill": "A Skill"
     },
     {
-        "name": "dagger valor 1",
-        "aliases": [
-            "dagger valour 1"
-        ],
-        "content": "If unit survives and uses a dagger, unit gets 1.5x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
-        "color": "orange",
-        "aka": "Dagger Valor 1",
-        "skill": "C Skill"
-    },
-    {
-        "name": "dagger valor 2",
-        "aliases": [
-            "dagger valour 2"
-        ],
-        "content": "If unit survives, all dagger users on team get 1.5x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
-        "color": "orange",
-        "aka": "Dagger Valor 2",
-        "skill": "C Skill"
-    },
-    {
-        "name": "dagger valor 3",
-        "aliases": [
-            "dagger valor",
-            "dagger valour 3",
-            "dagger valour"
-        ],
-        "content": "If unit survives, all dagger users on team get 2x SP.\n(If similar skill effects also used, only highest multiplier applies.)",
-        "color": "orange",
-        "aka": "Dagger Valor 3",
-        "skill": "C Skill"
-    },
-    {
         "name": "bracing blow 1",
         "aliases": [],
         "content": "Grants Def/Res+2 during combat if unit initiates combat.",
@@ -8814,12 +9003,31 @@
     },
     {
         "name": "eirika",
-        "aliases": [],
+        "aliases": [
+			"old eirika"
+		],
         "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/7/6\n5\\* lv40: 42/26/35/26/28 (156~158)\n\n**Skills:**\nW: Sieglinde (5\\*)\nAs: Pivot (4\\*)\nB: Drag Back (4\\*)\nC: Hone Spd 3 (4\\*)",
         "color": "red",
         "aka": "Eirika: Restoration Lady",
         "skill": "Infantry Sword"
     },
+	{
+		"name": "eirika 2",
+		"aliases": [
+			"eirika undertale",
+			"the cool eirika",
+			"cool eirika",
+			"tome eirika",
+			"horse eirika",
+			"the other eirika",
+			"new eirika",
+			"erka"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: erika pokemon\n5\\* lv40: eirika undertale (bst)\n\n**Skills:**\nW: Gleipnir\nAs: Rally Atk/Spd\nA: Swift Sparrow 2\nB: Desperation 3\nC: R Tome Exp. 3\n(Unit only summonable at 5\\*)",
+		"color": "red",
+		"aka": "Eirika: Anamnesis Lady",
+		"skill": "Cavalry Tome"
+	},
     {
         "name": "eldigan",
         "aliases": [],
@@ -8975,6 +9183,16 @@
 		"skill": "Cavalry Tome"
 	},
 	{
+		"name": "l'arachel",
+		"aliases": [
+			"larachel"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: reinhardt 2 lol\n5\\* lv40: or maybe owain? (thinking)\n\n**Skills:**\nW: Ivaldi\nS: Growing Light\nB: Renewal 3\nC: Res Tactic 3\n(Unit only summonable at 5\\*)",
+		"color": "blue",
+		"aka": "L'Arachel: Princess of Light",
+		"skill": "Cavalry Tome"
+	},
+	{
 		"name": "c!lissa",
 		"aliases": [
 			"w!lissa",
@@ -9008,6 +9226,14 @@
 		"color": "blue",
 		"aka": "Micaiah: Priestess of Dawn",
 		"skill": "Infantry Tome"
+	},
+	{
+		"name": "myrrh",
+		"aliases": [],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: probably not much\n5\\* lv40: 1,000,000 (420)\n\n**Skills:**\nW: Great Flame\nS: Bonfire\nA: Fury 3\nC: Hone Dragons\n(Unit only summonable at 5\\*)",
+		"color": "green",
+		"aka": "Myrrh: Great Dragon",
+		"skill": "Flying Breath"
 	},
 	{
 		"name": "oliver",
