@@ -1,4 +1,4 @@
-#Feh v1.4.2, a Discord bot by AlphaDK#2649
+#Feh v1.4.2, a Discord bot by AlphaDK#3800
 #v0.1 created 9/10/17 (the 9th of October, not the 10th of September you silly Americans)
 #v1.0 released 19/10/17
 #Does Fire Emblem: Heroes stuff

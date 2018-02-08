@@ -1079,7 +1079,7 @@
 		"content": "Grants Atk+3. If unit's Def - foe's Def >= 5, foe can't make a follow-up attack. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMyrrh: Great Dragon (5\\*)",
 		"color": "green",
 		"aka": "Great Flame",
-		"skill": "Breath, Mt:16"
+		"skill": "Green Breath, Mt:16"
 	},
     {
         "name": "light breath-",
@@ -1137,7 +1137,7 @@
         "aliases": [
 			"dark breath+"
 		],
-        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.\n\n**Available from: Corrin: Fateful Princess (F) (5\\*)\n\n***Dark Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, inflicts Atk/Spd-7 to target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.\n\n**Available from:**\nCorrin: Fateful Princess (F) (5\\*)\n\n***Dark Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, inflicts Atk/Spd-7 to target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "white",
         "aka": "Dark Breath+",
         "skill": "Breath, Mt: 13"
@@ -1613,6 +1613,16 @@
         "aka": "Blue Egg+",
         "skill": "Blue Tome, Mt:11"
     },
+	{
+		"name": "blue gift",
+		"aliases": [
+			"blue gift+"
+		],
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nLyn: Wind's Embrace (Love Abounds) (5\\*)",
+		"color": "blue",
+		"aka": "Blue Gift+",
+		"skill": "Blue Tome, Mt:12"
+	},
     {
         "name": "dancer's score-",
         "aliases": [
@@ -1798,6 +1808,17 @@
         "aka": "Armads",
         "skill": "Green Axe, Mt:16"
     },
+	{
+		"name": "berserk armads",
+		"aliases": [
+			"armads 2",
+			"armads undertale"
+		],
+		"content": "Accelerates Special trigger (cooldown count-1). If unit's HP <= 75% and Special triggers by attacking, Special cooldown count-1 at start of turn. Deals +10 damage when Special triggers\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHector: Just Here to Fight (Love Abounds) (5\\*)",
+		"color": "green",
+		"aka": "Berserk Armads",
+		"skill": "Green Axe, Mt:16"
+	},
     {
         "name": "brave axe-",
         "aliases": [],
@@ -1829,7 +1850,7 @@
         "aliases": [
             "carrot axe+"
         ],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nChrom: Spring Exalt (Spring Festival) (5\\*)\n\n***Carrot Axe+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, resotres 4 HP.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nChrom: Spring Exalt (Spring Festival) (5\\*)\n\n***Carrot Axe+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, restores 4 HP.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "green",
         "aka": "Carrot Axe+",
         "skill": "Green Axe, Mt:13"
@@ -2224,6 +2245,16 @@
         "aka": "Green Egg+",
         "skill": "Green Tome, Mt:11"
     },
+	{
+		"name": "green gift",
+		"aliases": [
+			"green gift+"
+		],
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nLilina: Blush of Youth (Love Abounds) (5\\*)",
+		"color": "green",
+		"aka": "Green Gift+",
+		"skill": "Green Tome, Mt:12"
+	},
     {
         "name": "gronnblade-",
         "aliases": [],
@@ -2650,6 +2681,16 @@
         "skill": "Colorless Bow, Mt:14"
     },
 	{
+		"name": "gratia",
+		"aliases": [
+			"gratia+"
+		],
+		"content": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nRoy: Youthful Gifts (Love Abounds) (5\\*)",
+		"color": "grey",
+		"aka": "Gratia+",
+		"skill": "Colorless Bow, Mt:12"
+	},
+	{
 		"name": "guard bow-",
 		"aliases": [],
 		"content": "Effective against flying units.\nGrants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff.\n\n**Available from:**\nGuard Bow is obtained by evolving Assassin's Bow+ in the Weapon Refinery, and then downgrading from Guard Bow+",
@@ -2821,7 +2862,7 @@
         "aliases": [
             "dancers fan-"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-5 after combat until the end of foe's next action.",
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-5 after combat until the end of foe's next action.\n\n**Available from:**\nOlivia: Festival Dancer (Performing Arts) (5\\*)",
         "color": "grey",
         "aka": "Dancer's Fan",
         "skill": "Colorless Dagger, Mt:7"
@@ -2833,7 +2874,7 @@
             "dancers fan",
             "dancers fan+"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-7 after combat until the end of foe's next action.",
+        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-7 after combat until the end of foe's next action.\n\n**Available from:**\nOlivia: Festival Dancer (Performing Arts) (5\\*)\n\n***Dancer's Fan+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.\")_\n**Atk:** +2 HP, +3 Mt\n**Spd:** +2 HP, +2 Mt, +2 Spd\n**Def:** +2 HP, +2 Mt, +3 Def\n**Res:** +2 HP, +2 Mt, +3 Res",
         "color": "grey",
         "aka": "Dancer's Fan+",
         "skill": "Colorless Dagger, Mt:10"
@@ -3855,6 +3896,46 @@
         "aka": "Attack Res 2",
         "skill": "A Skill"
     },
+	{
+        "name": "atk/res bond 1",
+        "aliases": [
+            "atk res bond 1",
+            "attack res bond 1",
+            "attack resistance bond 1"
+        ],
+        "content": "Grants Atk/Res+1 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Atk/Res Bond 1",
+        "skill": "A Skill"
+    },
+    {
+        "name": "atk/res bond 2",
+        "aliases": [
+            "atk res bond 2",
+            "attack res bond 2",
+            "attack resistance bond 2"
+        ],
+        "content": "Grants Atk/Res+3 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Atk/Res Bond 2",
+        "skill": "A Skill"
+    },
+    {
+        "name": "atk/res bond 3",
+        "aliases": [
+            "atk res bond 3",
+            "attack res bond 3",
+            "attack resistance bond 3",
+            "atk/res bond",
+            "atk res bond",
+            "attack res bond",
+            "attack resistance bond"
+        ],
+        "content": "Grants Atk/Res+5 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Atk/Res Bond 3",
+        "skill": "A Skill"
+    },
     {
         "name": "atk spd 1",
         "aliases": [
@@ -3890,6 +3971,46 @@
         "content": "Grants Atk/Spd+2",
         "color": "orange",
         "aka": "Atk Spd 2",
+        "skill": "A Skill"
+    },
+	{
+        "name": "atk/spd bond 1",
+        "aliases": [
+            "atk spd bond 1",
+            "attack spd bond 1",
+            "attack speed bond 1"
+        ],
+        "content": "Grants Atk/Spd+1 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Atk/Spd Bond 1",
+        "skill": "A Skill"
+    },
+    {
+        "name": "atk/spd bond 2",
+        "aliases": [
+            "atk spd bond 2",
+            "attack spd bond 2",
+            "attack speed bond 2"
+        ],
+        "content": "Grants Atk/Spd+3 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Atk/Spd Bond 2",
+        "skill": "A Skill"
+    },
+    {
+        "name": "atk/spd bond 3",
+        "aliases": [
+            "atk spd bond 3",
+            "attack spd bond 3",
+            "attack speed bond 3",
+            "atk/spd bond",
+            "atk spd bond",
+            "attack spd bond",
+            "attack speed bond"
+        ],
+        "content": "Grants Atk/Spd+5 to this unit during combat if unit is adjacent to an ally",
+        "color": "orange",
+        "aka": "Atk/Spd Bond 3",
         "skill": "A Skill"
     },
 	{
@@ -4412,6 +4533,36 @@
         "content": "Neutralizes \"effective against cavalry\" bonuses.",
         "color": "orange",
         "aka": "Grani's Shield",
+        "skill": "A Skill"
+    },
+	{
+        "name": "hp atk 1",
+        "aliases": [
+            "hp atk +1",
+            "hp atk+1",
+            "hp attack 1",
+            "hp attack +1",
+            "hp attack+1"
+        ],
+        "content": "Grants HP+3, Atk+1.",
+        "color": "orange",
+        "aka": "HP Atk 1",
+        "skill": "A Skill"
+    },
+    {
+        "name": "hp atk 2",
+        "aliases": [
+            "hp atk +2",
+            "hp atk+2",
+            "hp attack 2",
+            "hp attack +2",
+            "hp attack+2",
+            "hp atk",
+            "hp attack"
+        ],
+        "content": "Grants HP+4, Atk+2.",
+        "color": "orange",
+        "aka": "HP Atk 2",
         "skill": "A Skill"
     },
     {
@@ -6602,6 +6753,38 @@
         "content": "If unit survives, all bow users on team get 2x EXP.\n(If similar skill effects also used, only highest multiplier applies.)",
         "color": "orange",
         "aka": "Bow Exp. 3",
+        "skill": "C Skill"
+    },
+	{
+        "name": "bow valor 1",
+        "aliases": [
+            "bow valour 1"
+        ],
+        "content": "If unit survives and uses a bow, unit gets 1.5x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "Bow Valor 1",
+        "skill": "C Skill"
+    },
+    {
+        "name": "bow valor 2",
+        "aliases": [
+            "bow valour 2"
+        ],
+        "content": "If unit survives, all bow users on team get 1.5x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "Bow Valor 2",
+        "skill": "C Skill"
+    },
+    {
+        "name": "bow valor 3",
+        "aliases": [
+            "bow valour 3",
+            "bow valor",
+            "bow valour"
+        ],
+        "content": "If unit survives, all bow users on team get 2x SP.\n(If similar skill effects also used, only highest multiplier applied.)",
+        "color": "orange",
+        "aka": "Bow Valor 3",
         "skill": "C Skill"
     },
     {
@@ -9023,7 +9206,7 @@
 			"new eirika",
 			"erka"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: erika pokemon\n5\\* lv40: eirika undertale (bst)\n\n**Skills:**\nW: Gleipnir\nAs: Rally Atk/Spd\nA: Swift Sparrow 2\nB: Desperation 3\nC: R Tome Exp. 3\n(Unit only summonable at 5\\*)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/5/5\n5\\* lv40: 36/31/35/20/22 (144~145)\n\n**Skills:**\nW: Gleipnir\nAs: Rally Atk/Spd\nA: Swift Sparrow 2\nB: Desperation 3\nC: R Tome Exp. 3\n(Unit only summonable at 5\\*)",
 		"color": "red",
 		"aka": "Eirika: Anamnesis Lady",
 		"skill": "Cavalry Tome"
@@ -9183,13 +9366,48 @@
 		"skill": "Cavalry Tome"
 	},
 	{
+		"name": "hector 2",
+		"aliases": [
+			"valentine's hector",
+			"valentines hector",
+			"v!hector",
+			"hector love abounds",
+			"hector (love abounds)",
+			"love abounds hector",
+			"hector undertale",
+			"note: this version of hector: just here to fight is not the special version of the character that won choose your legends: round 2 in january.",
+			"just here to fight"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 24/8/4/12/7\n5\\* lv40: 50/38/21/40/24 (173)\n\n**Skills:**\nW: Berserk Armads\nS: Glimmer\nA: Distant Counter\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "green",
+		"aka": "Hector: Just Here to Fight",
+		"skill": "Armored Axe"
+	},
+	{
 		"name": "l'arachel",
 		"aliases": [
-			"larachel"
+			"larachel",
+			"l'acherche"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: reinhardt 2 lol\n5\\* lv40: or maybe owain? (thinking)\n\n**Skills:**\nW: Ivaldi\nS: Growing Light\nB: Renewal 3\nC: Res Tactic 3\n(Unit only summonable at 5\\*)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/7/4/7\n5\\* lv40: 33/33/31/17/31 (144~145)\n\n**Skills:**\nW: Ivaldi\nS: Growing Light\nB: Renewal 3\nC: Res Tactic 3\n(Unit only summonable at 5\\*)",
 		"color": "blue",
 		"aka": "L'Arachel: Princess of Light",
+		"skill": "Cavalry Tome"
+	},
+	{
+		"name": "v!lilina",
+		"aliases": [
+			"valentine's lilina",
+			"valentines lilina",
+			"horse lilina",
+			"cavalry lilina",
+			"lilina undertale",
+			"green lilina",
+			"lilina 2"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/8/5/4\n5\\* lv40: 34/35/30/20/26 (145)\n\n**Skills:**\nW: Green Gift+\nS: Blazing Flame\nA: HP/Atk 2\nC: Atk Tactic 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "green",
+		"aka": "Lilina: Blush of Youth",
 		"skill": "Cavalry Tome"
 	},
 	{
@@ -9215,6 +9433,20 @@
 		"skill": "Armored Axe"
 	},
 	{
+		"name": "v!lyn",
+		"aliases": [
+			"valentine's lyn",
+			"valentines lyn",
+			"lyn 4",
+			"lyn undertale 3",
+			"i can't believe lyn got her 4th unit while [x] still isn't in the game"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/10/5/10\n5\\* lv40: 37/31/36/27/34 (165)\n\n**Skills:**\nW: Blue Gift+\nAs: Ardent Sacrifice\nA: Atk/Spd Bond 3\nB: Guard 3\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "blue",
+		"aka": "Lyn: Wind's Embrace",
+		"skill": "Armored Tome"
+	},
+	{
 		"name": "micaiah",
 		"aliases": [
 			"micah",
@@ -9230,7 +9462,7 @@
 	{
 		"name": "myrrh",
 		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: probably not much\n5\\* lv40: 1,000,000 (420)\n\n**Skills:**\nW: Great Flame\nS: Bonfire\nA: Fury 3\nC: Hone Dragons\n(Unit only summonable at 5\\*)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/6/3/7\n5\\* lv40: 42/33/25/36/31 (166~168)\n\n**Skills:**\nW: Great Flame\nS: Bonfire\nA: Fury 3\nC: Hone Dragons\n(Unit only summonable at 5\\*)",
 		"color": "green",
 		"aka": "Myrrh: Great Dragon",
 		"skill": "Flying Breath"
@@ -9262,6 +9494,20 @@
 		"color": "blue",
 		"aka": "Robin: Festive Tactician",
 		"skill": "Armored Lance"
+	},
+	{
+		"name": "v!roy",
+		"aliases": [
+			"valentine's roy",
+			"valentines roy",
+			"roy 3",
+			"roy undertale 2",
+			"roy except he's brave lyn"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/6/5/6\n5\\* lv40: 34/35/19/27/30 (145)\n\n**Skills:**\nW: Gratia+\nAs: Reciprocal Aid\nA: Death Blow 3\nC: Bow Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "grey",
+		"aka": "Roy: Youthful Gifts",
+		"skill": "Cavalry Bow"
 	},
     {
         "name": "saber",
