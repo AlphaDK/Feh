@@ -2018,7 +2018,7 @@
             "melon crusher+",
             "esports camilla"
         ],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)\n\n**Melon Crusher+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)\n\n***Melon Crusher+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "green",
         "aka": "Melon Crusher+",
         "skill": "Green Axe, Mt:14"
@@ -2910,7 +2910,7 @@
 		],
 		"content": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.",
 		"color": "grey",
-		"aka": "Kagami Mochi",
+		"aka": "Kagami Mochi+",
 		"skill": "Colorless Dagger, Mt:12"
 	},
 	{
@@ -4718,7 +4718,9 @@
             "l&d",
             "l+d",
             "l&d3",
-            "l+d3"
+            "l+d3",
+			"lnd",
+			"lnd3"
         ],
         "content": "Grants Atk/Spd+5. Inflicts Def/Res-5.",
         "color": "orange",

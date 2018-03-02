@@ -48,8 +48,11 @@ def post_daily():
 
 async def check_tweets(lastnews, lastgauntlet):
     while True:
-        tweetsnews = api.user_timeline("FEHeroes_News", since_id=lastnews)
-        tweetsgauntlet = api.user_timeline("FEHGauntletBot", since_id=lastgauntlet)
+        try:
+            tweetsnews = api.user_timeline("FEHeroes_News", since_id=lastnews)
+            tweetsgauntlet = api.user_timeline("FEHGauntletBot", since_id=lastgauntlet)
+        except:
+            continue #Sometimes requests to tweepy just time out, and I have determined that this solution is the least effort to implement.
         for tweet in tweetsnews[::-1]: #Reads tweets from timeline in chronological order, since api.user_timeline gives them in reverse chronological
             await client.send_message(client.get_channel("333859340253396992"), "@FEHeroes_News: <http://twitter.com/FEHeroes_News/status/" + str(tweet.id) + ">\n" + str(tweet.text))
             lastnews = tweet.id
