@@ -425,6 +425,14 @@
         "aka": "Ayra's Blade",
         "skill": "Red Sword, Mt:16"
     },
+	{
+		"name": "beloved zofia",
+		"aliases": [],
+		"content": "Grants Def+3. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+4, but if unit attacked, unit takes 4 damage after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCelica: Imprisoned Soul (Fallen Heroes) (5\\*)",
+		"color": "red",
+		"aka": "Beloved Zofia",
+		"skill": "Red Sword, Mt:16"
+	},
     {
         "name": "binding blade",
         "aliases": [],
@@ -486,15 +494,17 @@
     {
         "name": "eckesachs",
         "aliases": [],
-        "content": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nZephiel: The Liberator (5\\*)",
+        "content": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nZephiel: The Liberator (5\\*)\n\n***Eckesachs may be refined in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions.\")_\n**Special:** +3 HP, and gains \"If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "red",
         "aka": "Eckesachs",
         "skill": "Red Sword, Mt:16"
     },
     {
         "name": "falchion",
-        "aliases": [],
-        "content": "Effective against dragons. At the start of every third turn, unit recovers 10 HP.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAlm: Hero of Prophecy (5\\*)\nChrom: Exalted Prince (5\\*)\nLucina: Future Witness (5\\*)\nMarth: Atlean Prince (5\\*)\nMarth: Enigmatic Blade (Masked) (5\\*)",
+        "aliases": [
+			"longest skill description"
+		],
+        "content": "Effective against dragons. At the start of every third turn, unit recovers 10 HP.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAlm: Hero of Prophecy (5\\*)\nChrom: Exalted Prince (5\\*)\nLucina: Future Witness (5\\*)\nMarth: Atlean Prince (5\\*)\nMarth: Enigmatic Blade (Masked) (5\\*)\n\n***Falchion may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against dragon foes. Restores 10 HP at the start of every second turn.\")_\n**Marth:** +3 HP, and gains \"Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat.\"\n**Alm:** +3 HP, and gains \"If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice then takes 5 damage after combat.\"\n**Lucina, Chrom, Masked Marth:** +3 HP, and gains \"Grants Atk/Spd/Def/Res+4 during combat if unit is adjacent to an ally.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res\n_(The named variants are exclusive to the units matching those names)_",
         "color": "red",
         "aka": "Falchion",
         "skill": "Red Sword, Mt:16"
@@ -612,10 +622,18 @@
         "aka": "Mystletainn",
         "skill": "Red Sword, Mt:16"
     },
+	{
+		"name": "niu",
+		"aliases": [],
+		"content": "Grants Spd+3. Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat.\n\n**Used by:**\nLaegjarn: Sheathed Steel\n\nThis weapon is exclusive to non-player units",
+		"color": "red",
+		"aka": "Niu",
+		"skill": "Red Sword, Mt:16"
+	},
     {
         "name": "ragnell",
         "aliases": [],
-        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nIke: Young Mercenary (5\\*)",
+        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nIke: Young Mercenary (5\\*)\nIke: Vanguard Legend (5\\*)",
         "color": "red",
         "aka": "Ragnell",
         "skill": "Red Sword, Mt:16"
@@ -685,7 +703,7 @@
     {
         "name": "silver sword-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nAlfonse, Alm, Ayra, Black Knight, Chrom, Corrin (M), Eirika, Elincia, Eliwood, Ike, Laevatein, Laslow, Lloyd, Lucina, Lyn, Marth, Marth (Masked), Olivia, Roy, Roy (Brave Heroes), Ryoma, Seliph, Siegbert, Sigurd, Xander, Zephiel",
+        "content": "No special effect.\n\n**Available from:**\nAlfonse, Alm, Ayra, Black Knight, Celica (Fallen Heroes), Chrom, Corrin (M), Eirika, Elincia, Eliwood, Ike, Ike (Vanguard Legend), Laslow, Lloyd, Lucina, Lyn, Marth, Marth (Masked), Olivia, Roy, Roy (Brave Heroes), Ryoma, Seliph, Siegbert, Sigurd, Xander, Zelgius, Zephiel",
         "color": "red",
         "aka": "Silver Sword",
         "skill": "Red Sword, Mt:11"
@@ -721,7 +739,7 @@
     {
         "name": "sol katti",
         "aliases": [],
-        "content": "If wielder initiates attack at HP <= 50%, any follow-up occurs immediately.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Lady of the Plains (5\\*)\n\n***Sol Katti may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack. Unit makes a guaranteed follow-up attack when HP <= 75% and attacking a foe that can counter.\"\n_(Any other variant's effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack.\")_\n**Atk:** +5HP, +2 Mt\n**Spd:** +5HP, +3 Spd\n**Def:** +5HP, +4 Def\n**Res:** +5HP, +4 Res",
+        "content": "If wielder initiates attack at HP <= 50%, any follow-up occurs immediately.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Lady of the Plains (5\\*)\n\n***Sol Katti may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack.\")_\n**Special:** +3 HP, and gains \"Unit makes a guaranteed follow-up attack when HP <= 75% and attacking a foe that can counter.\"\n**Atk:** +5HP, +2 Mt\n**Spd:** +5HP, +3 Spd\n**Def:** +5HP, +4 Def\n**Res:** +5HP, +4 Res",
         "color": "red",
         "aka": "Sol Katti",
         "skill": "Red Sword, Mt:16"
@@ -742,10 +760,18 @@
         "aka": "Tyrfing",
         "skill": "Red Sword, Mt:16"
     },
+	{
+		"name": "wing sword",
+		"aliases": [],
+		"content": "Effective against armored and cavalry foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCaeda: Talys's Heart (5\\*)\n\n***Wing Sword may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If unit's Spd - foe's Spd >= 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "red",
+		"aka": "Wing Sword",
+		"skill": "Red Sword, Mt:16"
+	},
     {
         "name": "wo dao-",
         "aliases": [],
-        "content": "Grants +10 to damage when Special triggers.\n\n**Available from:**\nAthena: Borderland Sword (4\\*)\nKarel: Sword Demon (5\\*)\nMia: Lady of Blades (5\\*)",
+        "content": "Grants +10 to damage when Special triggers.\n\n**Available from:**\nAthena: Borderland Sword (4\\*)\nKarel: Sword Demon (5\\*)\nMarisa: Crimson Flash (4\\*)\nMia: Lady of Blades (5\\*)",
         "color": "red",
         "aka": "Wo Dao",
         "skill": "Red Sword, Mt:9"
@@ -756,7 +782,7 @@
             "wo dao+",
 			"woah dao"
         ],
-        "content": "Grants +10 to damage when Special triggers.\n\n**Available from:**\nAthena: Borderland Sword (5\\*)\nKarel: Sword Demon (5\\*)\n\n***Wo Dao+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Atk, +4 Res",
+        "content": "Grants +10 to damage when Special triggers.\n\n**Available from:**\nAthena: Borderland Sword (5\\*)\nKarel: Sword Demon (5\\*)\nMarisa: Crimson Flash (5\\*)\n\n***Wo Dao+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Atk, +4 Res",
         "color": "red",
         "aka": "Wo Dao+",
         "skill": "Red Sword, Mt:13"
@@ -850,7 +876,7 @@
     {
         "name": "fenrir-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nLeo: Sorcerous Prince (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nLeo: Sorcerous Prince (5\\*)\nLyon: Shadow Prince (3\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
         "color": "red",
         "aka": "Fenrir",
         "skill": "Red Tome, Mt:9"
@@ -876,7 +902,7 @@
     {
         "name": "flux",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "red",
         "aka": "Flux",
         "skill": "Red Tome, Mt:4"
@@ -914,6 +940,16 @@
 		"color": "red",
 		"aka": "Keen Rauorwolf+",
 		"skill": "Red Tome, Mt:12"
+	},
+	{
+		"name": "naglfar",
+		"aliases": [
+			"lyon's tome"
+		],
+		"content": "Grants weapon advantage vs colorless foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyon: Shadow Prince (5\\*)",
+		"color": "red",
+		"aka": "Naglfar",
+		"skill": "Red Tome, Mt:14"
 	},
     {
         "name": "ragnarok",
@@ -1000,7 +1036,7 @@
     {
         "name": "ruin",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "red",
         "aka": "Ruin",
         "skill": "Red Tome, Mt:6"
@@ -1034,113 +1070,6 @@
         "color": "red",
         "aka": "Valflame",
         "skill": "Red Tome, Mt:14"
-    },
-    {
-        "name": "fire breath-",
-        "aliases": [],
-        "content": "No special effect.\n\nEvery breath unit in the game has Fire Breath, and there is therefore no need to inherit it.",
-        "color": "white",
-        "aka": "Fire Breath",
-        "skill": "Breath, Mt:6"
-    },
-    {
-        "name": "fire breath",
-        "aliases": [
-            "fire breath+"
-        ],
-        "content": "No special effect.\n\nEvery breath unit in the game has Fire Breath+, and there is therefore no need to inherit it.",
-        "color": "white",
-        "aka": "Fire Breath+",
-        "skill": "Breath, Mt:8"
-    },
-    {
-        "name": "flametongue-",
-        "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nTiki: Dragon Scion (Young) (5\\*)",
-        "color": "white",
-        "aka": "Flametongue",
-        "skill": "Breath, Mt:11"
-    },
-    {
-        "name": "flametongue",
-        "aliases": [
-            "flametongue+"
-        ],
-        "content": "No special effect.\n\n**Available from:**\nTiki: Dragon Scion (Young) (5\\*)\n\n***Flametongue+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
-        "color": "white",
-        "aka": "Flametongue+",
-        "skill": "Breath, Mt:15"
-    },
-	{
-		"name": "great flame",
-		"aliases": [
-			"great days"
-		],
-		"content": "Grants Atk+3. If unit's Def - foe's Def >= 5, foe can't make a follow-up attack. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMyrrh: Great Dragon (5\\*)",
-		"color": "green",
-		"aka": "Great Flame",
-		"skill": "Green Breath, Mt:16"
-	},
-    {
-        "name": "light breath-",
-        "aliases": [],
-        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.\n\n**Available from:**\nFae: Divine Dragon (4\\*)\nNinian: Oracle of Destiny (5\\*)",
-        "color": "white",
-        "aka": "Light Breath",
-        "skill": "Breath, Mt:9"
-    },
-    {
-        "name": "light breath",
-        "aliases": [
-            "light breath+"
-        ],
-        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.\n\n**Available from:**\nFae: Divine Dragon (5\\*)\nNinian: Oracle of Destiny (5\\*)\n\n***Light Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
-        "color": "white",
-        "aka": "Light Breath+",
-        "skill": "Breath, Mt:13"
-    },
-    {
-        "name": "lightning breath-",
-        "aliases": [
-			"lb-"
-		],
-        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).\n\n**Available from:**\nNowi: Eternal Youth (4\\*)\nTiki: Naga's Voice (Adult) (3\\*)",
-        "color": "white",
-        "aka": "Lightning Breath",
-        "skill": "Breath, Mt:7"
-    },
-    {
-        "name": "lightning breath",
-        "aliases": [
-            "lightning breath+",
-            "lb",
-            "lb+",
-			"luna bliss",
-			"best weapon in the game",
-			"rawr"
-        ],
-        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).\n\n**Available from:**\nNowi: Eternal Youth (5\\*)\nTiki: Naga's Voice (Adult) (5\\*)\n\n***Lightning Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
-        "color": "white",
-        "aka": "Lightning Breath+",
-        "skill": "Breath, Mt:11"
-    },
-	{
-        "name": "dark breath-",
-        "aliases": [],
-        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.\n\n**Available from: Corrin: Fateful Princess (F) (3\\*)",
-        "color": "white",
-        "aka": "Dark Breath",
-        "skill": "Breath, Mt: 9"
-    },
-	{
-        "name": "dark breath",
-        "aliases": [
-			"dark breath+"
-		],
-        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.\n\n**Available from:**\nCorrin: Fateful Princess (F) (5\\*)\n\n***Dark Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, inflicts Atk/Spd-7 to target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
-        "color": "white",
-        "aka": "Dark Breath+",
-        "skill": "Breath, Mt: 13"
     },
     {
         "name": "berkut's lance-",
@@ -1203,11 +1132,29 @@
         "aliases": [
             "carrot lance+"
         ],
-        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nXander: Spring Prince (Spring Festival) (5\\*)\n\n***Carrot Lance+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Restores 4 HP after combat.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nXander: Spring Prince (Spring Festival) (5\\*)\n\n***Carrot Lance+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, restores 4 HP.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
         "color": "blue",
         "aka": "Carrot Lance+",
         "skill": "Blue Lance, Mt:13"
     },
+	{
+		"name": "casa blanca-",
+		"aliases": [],
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nEliwood: Devoted Love (Love Abounds) (4\\*)",
+		"color": "blue",
+		"aka": "Casa Blanca",
+		"skill": "Blue Lance, Mt:10"
+	},
+	{
+		"name": "casa blanca",
+		"aliases": [
+			"casa blanca+"
+		],
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nEliwood: Devoted Love (Love Abounds) (5\\*)\n\n***Casa Blanca+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "blue",
+		"aka": "Casa Blanca+",
+		"skill": "Blue Lance, Mt:14"
+	},
     {
         "name": "cursed lance",
         "aliases": [],
@@ -1219,7 +1166,7 @@
     {
         "name": "deft harpoon-",
         "aliases": [],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Seaside Tactician (Ylissean Summer) (5\\*)",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Seaside Tactician (F) (Ylissean Summer) (5\\*)",
         "color": "blue",
         "aka": "Deft Harpoon",
         "skill": "Blue Lance, Mt:10"
@@ -1229,7 +1176,7 @@
         "aliases": [
             "deft harpoon+"
         ],
-        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Seaside Tactician (Ylissean Summer) (5\\*)\n\n***Deft Harpoon+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+        "content": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat.\n\n**Available from:**\nRobin: Seaside Tactician (F) (Ylissean Summer) (5\\*)\n\n***Deft Harpoon+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Deft Harpoon+",
         "skill": "Blue Lance, Mt:14"
@@ -1284,6 +1231,16 @@
         "aka": "First Bite+",
         "skill": "Blue Lance, Mt:14"
     },
+	{
+		"name": "flame siegmund",
+		"aliases": [
+			"flame swordsman"
+		],
+		"content": "Grants Atk+3. If the number of foes within 2 spaces (excluding target) >= the number of allies within 2 spaces (excluding unit), unit makes a guaranteed follow-up attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEphraim: Legendary Lord (5\\*)",
+		"color": "blue",
+		"aka": "Flame Siegmund",
+		"skill": "Blue Lance, Mt:16"
+	},
     {
         "name": "geirskogul",
         "aliases": [],
@@ -1298,7 +1255,7 @@
 			"gravidus",
 			"gradius"
 		],
-        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCamus: Sable Knight (5\\*)",
+        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCamus: Sable Knight (5\\*)\nHardin: Dark Emporer (Fallen Heroes) (5\\*)",
         "color": "blue",
         "aka": "Gradivus",
         "skill": "Blue Lance, Mt:16"
@@ -1321,6 +1278,16 @@
         "aka": "Heavy Spear+",
         "skill": "Blue Lance, Mt:12"
     },
+	{
+		"name": "hinoka's spear",
+		"aliases": [
+			"hinokas spear"
+		],
+		"content": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHinoka: Warrior Princess (5\\*)\n\n***Hinoka's Spear may be upgraded in Weapon Refinery. Variants:***\n**Special:** +3 HP and gains \"Infantry and flying allies within 2 spaces can move to a space adjacent to unit.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "blue",
+		"aka": "Hinoka's Spear",
+		"skill": "Blue Lance, Mt:16"
+	},
     {
         "name": "iron lance",
         "aliases": [],
@@ -1400,7 +1367,7 @@
     {
         "name": "siegmund",
         "aliases": [],
-        "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEphraim: Restoration Lord (5\\*)\n\n***Siegmund may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and effect becomes \"Grants adjacent allies Atk+4 through their next actions at the start of each turn. Unit makes a guaranteed follow-up attack when HP >= 90% and attacking a foe that can counter\"\n_(Any other variant's effect becomes \"Grants adjacent allies Atk+4 through their next actions at the start of each turn.\")_\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+        "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEphraim: Restoration Lord (5\\*)\n\n***Siegmund may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Grants adjacent allies Atk+4 through their next actions at the start of each turn.\")_\n**Special:** +3 HP, and gains \"Unit makes a guaranteed follow-up attack when HP >= 90% and attacking a foe that can counter\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Siegmund",
         "skill": "Blue Lance, Mt:16"
@@ -1408,7 +1375,7 @@
     {
         "name": "silver lance-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nCamus: Sable Knight (3\\*)\nClair: Highborn Flier (4\\*)\nClive: Idealistic Knight (4\\*)\nEffie: Army of One (4\\*)\nFjorm: Princess of Ice (5\\*)\nJagen: Veteran Knight (3\\*)\nLucina: Brave Princess (5\\*)\nSharena: Princess of Askr (3\\*)\nShiro: Raw Talent (5\\*)\nValter: Dark Moonstone (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nCamus: Sable Knight (3\\*)\nClair: Highborn Flier (4\\*)\nClive: Idealistic Knight (4\\*)\nEffie: Army of One (4\\*)\nEphraim: Legendary Lord (5\\*)\nFjorm: Princess of Ice (5\\*)\nHardin: Dark Emporer (5\\*)\nJagen: Veteran Knight (3\\*)\nLucina: Brave Princess (5\\*)\nSharena: Princess of Askr (3\\*)\nShiro: Raw Talent (5\\*)\nValter: Dark Moonstone (3\\*)",
         "color": "blue",
         "aka": "Silver Lance",
         "skill": "Blue Lance, Mt:11"
@@ -1614,11 +1581,19 @@
         "skill": "Blue Tome, Mt:11"
     },
 	{
+		"name": "blue gift-",
+		"aliases": [],
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nLyn: Wind's Embrace (Love Abounds) (5\\*)",
+		"color": "blue",
+		"aka": "Blue Gift",
+		"skill": "Blue Tome, Mt:8"
+	},
+	{
 		"name": "blue gift",
 		"aliases": [
 			"blue gift+"
 		],
-		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nLyn: Wind's Embrace (Love Abounds) (5\\*)",
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nLyn: Wind's Embrace (Love Abounds) (5\\*)\n\n***Blue Gift+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "blue",
 		"aka": "Blue Gift+",
 		"skill": "Blue Tome, Mt:12"
@@ -1664,7 +1639,7 @@
 	{
 		"name": "ellight",
 		"aliases": [],
-		"content": "No special effect.\n\n**Available from:**\nMicaiah: Priestess of Dawn (5\\*)\nOliver: Admirer of Beauty (3\\*)",
+		"content": "No special effect.\n\n**Available from:**\nL'Arachel: Princess of Light (4\\*)\nLyn: Wind's Embrace (Love Abounds (5\\*)\nMicaiah: Priestess of Dawn (5\\*)\nOliver: Admirer of Beauty (3\\*)",
 		"color": "blue",
 		"aka": "Ellight",
 		"skill": "Blue Tome, Mt:6"
@@ -1708,7 +1683,7 @@
 	{
 		"name": "light",
 		"aliases": [],
-		"content": "No special effect.\n\n**Available from:**\nMicaiah: Priestess of Dawn (5\\*)\nOliver: Admirer of Beauty (3\\*)",
+		"content": "No special effect.\n\n**Available from:**\nL'Arachel: Princess of Light (4\\*)\nLyn: Wind's Embrace (Love Abounds) (5\\*)\nMicaiah: Priestess of Dawn (5\\*)\nOliver: Admirer of Beauty (3\\*)",
 		"color": "blue",
 		"aka": "Light",
 		"skill": "Blue Tome, Mt:4"
@@ -1734,7 +1709,7 @@
 	{
 		"name": "shine-",
 		"aliases": [],
-		"content": "No special effect.\n\n**Available from:**\nMicaiah: Priestess of Light (5\\*)\nOliver: Admirer of Beauty (3\\*)",
+		"content": "No special effect.\n\n**Available from:**\nL'Arachel: Princess of Light (4\\*)\nMicaiah: Priestess of Light (5\\*)\nOliver: Admirer of Beauty (3\\*)",
 		"color": "blue",
 		"aka": "Shine",
 		"skill": "Blue Tome, Mt:9"
@@ -1808,6 +1783,14 @@
         "aka": "Armads",
         "skill": "Green Axe, Mt:16"
     },
+	{
+		"name": "basilikos",
+		"aliases": [],
+		"content": "Accelerates Special trigger (cooldown count-1)\n\n**Exclusive weapon, cannot be inherited**\nRaven: Peerless Fighter (5\\*)\n\n***Basilikos may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"Grants Atk/Spd+5. Inflicts Def/Res-5\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "green",
+		"aka": "Basilikos",
+		"skill": "Green Axe, Mt:16"
+	},
 	{
 		"name": "berserk armads",
 		"aliases": [
@@ -2059,7 +2042,7 @@
     {
         "name": "silver axe-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nAnna: Commander (3\\*)\nAzura: Lady of Ballads (Performing Arts) (5\\*)\nDorcas: Serene Warrior (5\\*)\nGunter: Inveterate Soldier (3\\*)\nHector: General of Ostia (5\\*)\nIke: Brave Mercenary (Brave Heroes) (5\\*)\nMichalis: Ambitious King (3\\*)\nMinerva: Red Dragoon (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nAnna: Commander (3\\*)\nAzura: Lady of Ballads (Performing Arts) (5\\*)\nDorcas: Serene Warrior (5\\*)\nGunter: Inveterate Soldier (3\\*)\nHector: General of Ostia (5\\*)\nHector: Just Here to Fight (Love Abounds) (5\\*)\nIke: Brave Mercenary (Brave Heroes) (5\\*)\nMichalis: Ambitious King (3\\*)\nMinerva: Red Dragoon (5\\*)",
         "color": "green",
         "aka": "Silver Axe",
         "skill": "Green Axe, Mt:11"
@@ -2246,11 +2229,19 @@
         "skill": "Green Tome, Mt:11"
     },
 	{
+		"name": "green gift-",
+		"aliases": [],
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nLilina: Blush of Youth (Love Abounds (5\\*)",
+		"color": "green",
+		"aka": "Green Gift",
+		"skill": "Green Tome, Mt:8"
+	},
+	{
 		"name": "green gift",
 		"aliases": [
 			"green gift+"
 		],
-		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nLilina: Blush of Youth (Love Abounds) (5\\*)",
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nLilina: Blush of Youth (Love Abounds) (5\\*)\n\n***Green Gift+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "green",
 		"aka": "Green Gift+",
 		"skill": "Green Tome, Mt:12"
@@ -2414,6 +2405,132 @@
         "color": "green",
         "aka": "Wind",
         "skill": "Green Tome, Mt:4"
+    },
+	{
+		"name": "wind's brand",
+		"aliases": [],
+		"content": "Upcoming weapon to be used by Soren: Shrewd Strategist",
+		"color": "green",
+		"aka": "Wind's Brand",
+		"skill": "Green Tome: Mt:14"
+	},
+	{
+        "name": "dark breath-",
+        "aliases": [],
+        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.\n\n**Available from: Corrin: Fateful Princess (F) (3\\*)",
+        "color": "white",
+        "aka": "Dark Breath",
+        "skill": "Breath, Mt: 9"
+    },
+	{
+        "name": "dark breath",
+        "aliases": [
+			"dark breath+"
+		],
+        "content": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions.\n\n**Available from:**\nCorrin: Fateful Princess (F) (5\\*)\n\n***Dark Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, inflicts Atk/Spd-7 to target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "color": "white",
+        "aka": "Dark Breath+",
+        "skill": "Breath, Mt: 13"
+    },
+	{
+		"name": "expiration",
+		"aliases": [
+			"expiration date",
+			"the tf2 shorts were definitely much better than overwatch's lore videos"
+		],
+		"content": "If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nRobin: Fell Reincarnation (M) (Fallen Heroes) (5\\*)",
+		"color": "green",
+		"aka": "Expiration",
+		"skill": "Breath, Mt:16"
+	},
+    {
+        "name": "fire breath-",
+        "aliases": [],
+        "content": "No special effect.\n\nEvery breath unit in the game has Fire Breath, and there is therefore no need to inherit it.",
+        "color": "white",
+        "aka": "Fire Breath",
+        "skill": "Breath, Mt:6"
+    },
+    {
+        "name": "fire breath",
+        "aliases": [
+            "fire breath+"
+        ],
+        "content": "No special effect.\n\nEvery breath unit in the game has Fire Breath+, and there is therefore no need to inherit it.",
+        "color": "white",
+        "aka": "Fire Breath+",
+        "skill": "Breath, Mt:8"
+    },
+    {
+        "name": "flametongue-",
+        "aliases": [],
+        "content": "No special effect.\n\n**Available from:**\nMyrrh: Great Dragon (5\\*)\nRobin: Fell Reincarnation (M) (Fallen Heroes) (5\\*)\nTiki: Dragon Scion (Young) (5\\*)",
+        "color": "white",
+        "aka": "Flametongue",
+        "skill": "Breath, Mt:11"
+    },
+    {
+        "name": "flametongue",
+        "aliases": [
+            "flametongue+"
+        ],
+        "content": "No special effect.\n\n**Available from:**\nTiki: Dragon Scion (Young) (5\\*)\n\n***Flametongue+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "color": "white",
+        "aka": "Flametongue+",
+        "skill": "Breath, Mt:15"
+    },
+	{
+		"name": "great flame",
+		"aliases": [
+			"great days"
+		],
+		"content": "Grants Atk+3. If unit's Def - foe's Def >= 5, foe can't make a follow-up attack. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMyrrh: Great Dragon (5\\*)",
+		"color": "green",
+		"aka": "Great Flame",
+		"skill": "Green Breath, Mt:16"
+	},
+    {
+        "name": "light breath-",
+        "aliases": [],
+        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.\n\n**Available from:**\nFae: Divine Dragon (4\\*)\nNinian: Oracle of Destiny (5\\*)",
+        "color": "white",
+        "aka": "Light Breath",
+        "skill": "Breath, Mt:9"
+    },
+    {
+        "name": "light breath",
+        "aliases": [
+            "light breath+"
+        ],
+        "content": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates.\n\n**Available from:**\nFae: Divine Dragon (5\\*)\nNinian: Oracle of Destiny (5\\*)\n\n***Light Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "color": "white",
+        "aka": "Light Breath+",
+        "skill": "Breath, Mt:13"
+    },
+    {
+        "name": "lightning breath-",
+        "aliases": [
+			"lb-"
+		],
+        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).\n\n**Available from:**\nNowi: Eternal Youth (4\\*)\nTiki: Naga's Voice (Adult) (3\\*)",
+        "color": "white",
+        "aka": "Lightning Breath",
+        "skill": "Breath, Mt:7"
+    },
+    {
+        "name": "lightning breath",
+        "aliases": [
+            "lightning breath+",
+            "lb",
+            "lb+",
+			"luna bliss",
+			"best weapon in the game",
+			"rawr"
+        ],
+        "content": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1).\n\n**Available from:**\nNowi: Eternal Youth (5\\*)\nTiki: Naga's Voice (Adult) (5\\*)\n\n***Lightning Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
+        "color": "white",
+        "aka": "Lightning Breath+",
+        "skill": "Breath, Mt:11"
     },
     {
         "name": "absorb-",
@@ -2675,17 +2792,25 @@
     {
         "name": "fujin yumi",
         "aliases": [],
-        "content": "Effective against flying units. Unit can pass though foes if own HP >= 50%.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTakumi: Wild Card (5\\*)\n\n***Fujin Yumi may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Effect becomes \"Effective against flying foes. If unit's HP >= 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.) If unit's HP >= 50%, unit can move adjacent to any ally within 2 spaces.\"\n_(Any other variant's effect becomes \"Effective against flying foes. If unit's HP >= 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+        "content": "Effective against flying units. Unit can pass though foes if own HP >= 50%.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTakumi: Wild Card (5\\*)\n\n***Fujin Yumi may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. If unit's HP >= 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)\")_\n**Special:** Gains \"If unit's HP >= 50%, unit can move adjacent to any ally within 2 spaces.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Fujin Yumi",
         "skill": "Colorless Bow, Mt:14"
     },
 	{
+		"name": "gratia-",
+		"aliases": [],
+		"content": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nRoy: Youthful Gifts (Love Abounds) (5\\*)",
+		"color": "grey",
+		"aka": "Gratia",
+		"skill": "Colorless Bow, Mt:8"
+	},
+	{
 		"name": "gratia",
 		"aliases": [
 			"gratia+"
 		],
-		"content": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nRoy: Youthful Gifts (Love Abounds) (5\\*)",
+		"content": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\n\n**Available from:**\nRoy: Youthful Gifts (Love Abounds) (5\\*)\n\n***Gratia+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "grey",
 		"aka": "Gratia+",
 		"skill": "Colorless Bow, Mt:12"
@@ -2756,7 +2881,7 @@
 	{
         "name": "monstrous bow-",
         "aliases": [],
-        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.\n\n**Available from:**\nJakob: Devoted Monster (Trick or Defeat!) (5\\*)",
+        "content": "Effective against flying foes. After combat, if unit attacked, bonuses on all foes within 2 spaces of target become penalties  through foes' next actions.\n\n**Available from:**\nJakob: Devoted Monster (Trick or Defeat!) (5\\*)",
         "color": "grey",
         "aka": "Monstrous Bow",
         "skill": "Colorless Bow, Mt:8"
@@ -2766,7 +2891,7 @@
         "aliases": [
             "monstrous bow+"
         ],
-        "content": "Effective against fliers. After combat, bonuses become penalties on all foes within 2 spaces through foe's next action.\n\n**Available from:**\nJakob: Devoted Monster (Trick or Defeat!) (5\\*)\n\n***Monstrous Bow+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions.\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+        "content": "Effective against flying foes. After combat, if unit attacked, bonuses on all foes within 2 spaces of target become penalties  through foes' next actions.\n\n**Available from:**\nJakob: Devoted Monster (Trick or Defeat!) (5\\*)\n\n***Monstrous Bow+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions.\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Monstrous Bow+",
         "skill": "Colorless Bow, Mt:12"
@@ -2790,7 +2915,7 @@
     {
         "name": "parthia",
         "aliases": [],
-        "content": "Effective against flying units. Grants Res+4 during combat if initiating attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nJeorge: Perfect Shot (5\\*)\n\n***Parthia may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Effect becomes \"Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%. Grants Atk+6 during combat if foe uses bow, dagger, magic, or staff.\"\n_(Any other variant's effect becomes \"Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%\")_\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+        "content": "Effective against flying units. Grants Res+4 during combat if initiating attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nJeorge: Perfect Shot (5\\*)\n\n***Parthia may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%\")_\n**Special:** Gains \"Grants Atk+6 during combat if foe uses bow, dagger, magic, or staff.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Parthia",
         "skill": "Colorless Bow, Mt:14"
@@ -2816,7 +2941,7 @@
     {
         "name": "silver bow-",
         "aliases": [],
-        "content": "Effective against flying units.\n\n**Available from:**\nInnes: Regal Strategician (5\\*)\nJeorge: Perfect Shot (4\\*)\nLyn: Brave Lady (Brave Heroes) (5\\*)\nRebecca: Wildflower (4\\*)\nTakumi: Wild Card (5\\*)\nVirion: Elite Archer (3\\*)",
+        "content": "Effective against flying units.\n\n**Available from:**\nInnes: Regal Strategician (5\\*)\nJeorge: Perfect Shot (4\\*)\nLyn: Brave Lady (Brave Heroes) (5\\*)\nRebecca: Wildflower (4\\*)\nTakumi: Wild Card (5\\*)\nTakumi: Empty Vessel (Fallen Heroes) (3\\*)\nVirion: Elite Archer (3\\*)",
         "color": "grey",
         "aka": "Silver Bow",
         "skill": "Colorless Bow, Mt:9"
@@ -2831,6 +2956,14 @@
         "aka": "Silver Bow+",
         "skill": "Colorless Bow, Mt:13"
     },
+	{
+		"name": "skadi",
+		"aliases": [],
+		"content": "Effective against flying foes. Grants Spd+3. At the start of turn 3, foes within 3 columns centered on unit take 10 damage and bonuses on those foes become penalties through their next actions.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTakumi: Empty Vessel (Fallen Heroes) (5\\*)",
+		"color": "grey",
+		"aka": "Skadi",
+		"skill": "Colorless Bow, Mt:14"
+	},
     {
         "name": "slaying bow-",
         "aliases": [],
@@ -2862,7 +2995,7 @@
         "aliases": [
             "dancers fan-"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-5 after combat until the end of foe's next action.\n\n**Available from:**\nOlivia: Festival Dancer (Performing Arts) (5\\*)",
+        "content": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action.\n\n**Available from:**\nOlivia: Festival Dancer (Performing Arts) (5\\*)",
         "color": "grey",
         "aka": "Dancer's Fan",
         "skill": "Colorless Dagger, Mt:7"
@@ -2874,7 +3007,7 @@
             "dancers fan",
             "dancers fan+"
         ],
-        "content": "If unit initiates attack, adjacent allies recover 7 HP after combat. Also, enemy suffers Def/Res-7 after combat until the end of foe's next action.\n\n**Available from:**\nOlivia: Festival Dancer (Performing Arts) (5\\*)\n\n***Dancer's Fan+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.\")_\n**Atk:** +2 HP, +3 Mt\n**Spd:** +2 HP, +2 Mt, +2 Spd\n**Def:** +2 HP, +2 Mt, +3 Def\n**Res:** +2 HP, +2 Mt, +3 Res",
+        "content": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action.\n\n**Available from:**\nOlivia: Festival Dancer (Performing Arts) (5\\*)\n\n***Dancer's Fan+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.\")_\n**Atk:** +2 HP, +3 Mt\n**Spd:** +2 HP, +2 Mt, +2 Spd\n**Def:** +2 HP, +2 Mt, +3 Def\n**Res:** +2 HP, +2 Mt, +3 Res",
         "color": "grey",
         "aka": "Dancer's Fan+",
         "skill": "Colorless Dagger, Mt:10"
@@ -2882,15 +3015,25 @@
     {
         "name": "deathly dagger",
         "aliases": [],
-        "content": "After combat, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, 7 damage to foe after battle.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, deals 7 damage to foe after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nJaffar: Angel of Death (5\\*)\n\n***Deathly Dagger may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions\")_\n**Special:** +3 Mt, and gains \"Foes using magic cannot counterattack.\"\n**Atk:** +2 HP, +4 Mt\n**Spd:** +2 HP, +3 Mt, +2 Spd\n**Def:** +2 HP, +3 Mt, +3 Def\n**Res:** +2 HP, +3 Mt, +3 Res",
         "color": "grey",
         "aka": "Deathly Dagger",
         "skill": "Colorless Dagger, Mt:11"
     },
+	{
+		"name": "felicia's plate",
+		"aliases": [
+			"felicias plate"
+		],
+		"content": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nFelicia: Maid Mayhem (5\\*)\n\n***Felicia's Plate may be upgaded in the Weapon Refinery. Variants:***\n**Special:** Gains \"Grants Special cooldown charge +1 if foe uses magic. (Only highest value applied. Does not stack.)\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "grey",
+		"aka": "Felicia's Plate",
+		"skill": "Colorless Dagger, Mt:14"
+	},
     {
         "name": "iron dagger",
         "aliases": [],
-        "content": "After combat, inflicts Def/Res-3 on foe through its next action.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action.\n\nEvery dagger unit in the game has Iron Dagger, and there is therefore no need to inherit it.",
         "color": "grey",
         "aka": "Iron Dagger",
         "skill": "Colorless Dagger, Mt:3"
@@ -2898,7 +3041,7 @@
 	{
 		"name": "kagami mochi-",
 		"aliases": [],
-		"content": "Grants Def/Res+2 during combat to allies within 2 spaces.",
+		"content": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces through their next actions.\n\n**Available from:**\nTakumi: Prince of Soup (Happy New Year!) (5\\*)",
 		"color": "grey",
 		"aka": "Kagami Mochi",
 		"skill": "Colorless Dagger, Mt:8"
@@ -2908,15 +3051,37 @@
 		"aliases": [
 			"kagami mochi"
 		],
-		"content": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.",
+		"content": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions.\n\n**Available from:**\nTakumi: Prince of Soup (Happy New Year!) (5\\*)\n\n***Kagami Mochi+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "grey",
 		"aka": "Kagami Mochi+",
 		"skill": "Colorless Dagger, Mt:12"
 	},
 	{
+        "name": "kitty paddle-",
+        "aliases": [
+			"kittuwu paddle-"
+		],
+        "content": "Effective against magic foes. After combat, if unit attacked and if foe uses magic, inflicts Def/Res-5 on foe through its next action\n\n**Available from:**\nSakura: Gentle Nekomata (Trick or Defeat!) (5\\*)",
+        "color": "grey",
+        "aka": "Kitty Paddle",
+        "skill": "Colorless Dagger, Mt:5"
+    },
+    {
+        "name": "kitty paddle",
+        "aliases": [
+            "kitty paddle+",
+			"kittuwu paddle",
+			"kittuwu paddle+"
+        ],
+        "content": "Effective against magic foes. After combat, if unit attacked and if foe uses magic, inflicts Def/Res-7 on foe through its next action\n\n**Available from:**\nSakura: Gentle Nekomata (Trick or Defeat!) (5\\*)",
+        "color": "grey",
+        "aka": "Kitty Paddle+",
+        "skill": "Colorless Dagger, Mt:8"
+    },
+	{
 		"name": "peshkatz",
 		"aliases": [],
-		"content": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.",
+		"content": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSothe: Zephyr (5\\*)",
 		"color": "grey",
 		"aka": "Peshkatz",
 		"skill": "Colorless Dagger, Mt:14"
@@ -2924,7 +3089,7 @@
     {
         "name": "poison dagger-",
         "aliases": [],
-        "content": "Effective against infantry units. Infantry foes suffer Def/Res-4 after combat through their next actions.",
+        "content": "Effective against infantry foes. After combat, if unit attacked, inflicts Def/Res-4 on infantry foe through its next action.\n\n**Available from:**\nKagero: Honorable Ninja (4\\*)",
         "color": "grey",
         "aka": "Poison Dagger",
         "skill": "Colorless Dagger, Mt:2"
@@ -2934,7 +3099,7 @@
         "aliases": [
             "poison dagger+"
         ],
-        "content": "Effective against infantry units. Infantry foes suffer Def/Res-6 after combat through their next actions.",
+        "content": "Effective against infantry foes. After combat, if unit attacked, inflicts Def/Res-6 on infantry foe through its next action.\n\n**Available from:**\nKagero: Honorable Ninja (5\\*)",
         "color": "grey",
         "aka": "Poison Dagger+",
         "skill": "Colorless Dagger, Mt:5"
@@ -2942,7 +3107,7 @@
     {
         "name": "rogue dagger-",
         "aliases": [],
-        "content": "After combat, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+3 for 1 turn.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action. Grants unit Def/Res+3 for 1 turn.\n\n**Available from:**\nGaius: Candy Stealer (3\\*)\nMatthew: Faithful Spy (3\\*)",
         "color": "grey",
         "aka": "Rogue Dagger",
         "skill": "Colorless Dagger, Mt:4"
@@ -2952,7 +3117,7 @@
         "aliases": [
             "rogue dagger+"
         ],
-        "content": "After combat, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn.\n\n**Available from:**\nGaius: Candy Stealer (5\\*)\nMatthew: Faithful Spy (5\\*)\n\n***Rogue Dagger+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes\"After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn.\")_\n**Atk:** +2 HP, +6 Mt\n**Spd:** +2 HP, +5 Mt, +2 Spd\n**Def:** +2 HP, +5 Mt, +3 Def\n**Res:** +2 HP, +5 Mt, +3 Res",
         "color": "grey",
         "aka": "Rogue Dagger+",
         "skill": "Colorless Dagger, Mt:7"
@@ -2960,7 +3125,7 @@
     {
         "name": "seashell-",
         "aliases": [],
-        "content": "Foe takes Def/Res-5 until end of foe's next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat.\n\n**Available from:**\nFrederick: Horizon Watcher (Ylissean Summer) (5\\*)",
         "color": "grey",
         "aka": "Seashell",
         "skill": "Colorless Dagger, Mt:7"
@@ -2970,7 +3135,7 @@
         "aliases": [
             "seashell+"
         ],
-        "content": "Foe takes Def/Res-7 until end of foe's next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat.\n\n**Available from:**\nFrederick: Horizon Watcher (Ylissean Summer) (5\\*)\n\n***Seashell+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat.\")_\n**Atk:** +2 HP, +3 Mt\n**Spd:** +2 HP, +2 Mt, +2 Spd\n**Def:** +2 HP, +2 Mt, +3 Def\n**Res:** +2 HP, +2 Mt, +3 Res",
         "color": "grey",
         "aka": "Seashell+",
         "skill": "Colorless Dagger, Mt:10"
@@ -2978,7 +3143,7 @@
     {
         "name": "silver dagger-",
         "aliases": [],
-        "content": "After combat, inflicts Def/Res-5 on foe through its next action.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action.\n\n**Available from:**\nFelicia: Maid Mayhem (3\\*)\nJaffar: Angel of Death (5\\*)\nJakob: Devoted Servant (4\\*)\nSothe: Zephyr (4\\*)",
         "color": "grey",
         "aka": "Silver Dagger",
         "skill": "Colorless Dagger, Mt:7"
@@ -2988,7 +3153,7 @@
         "aliases": [
             "silver dagger+"
         ],
-        "content": "After combat, inflicts Def/Res-7 on foe through its next action.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action.\n\n**Available from:**\nFelicia: Maid Mayhem (5\\*)\nJakob: Devoted Servant (5\\*)\n\n***Silver Dagger+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.\")_\n**Atk:** +2 HP, +5 Mt\n**Spd:** +2 HP, +4 Mt, +2 Spd\n**Def:** +2 HP, +4 Mt, +3 Def\n**Res:** +2 HP, +4 Mt, +3 Res",
         "color": "grey",
         "aka": "Silver Dagger+",
         "skill": "Colorless Dagger, Mt:10"
@@ -2996,7 +3161,7 @@
     {
         "name": "smoke dagger-",
         "aliases": [],
-        "content": "After combat, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions.\n\n**Available from:**\nSaizo: Angry Ninja (3\\*)",
         "color": "grey",
         "aka": "Smoke Dagger",
         "skill": "Colorless Dagger, Mt:6"
@@ -3006,7 +3171,7 @@
         "aliases": [
             "smoke dagger+"
         ],
-        "content": "After combat, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions.\n\n**Available from:**\nSaizo: Angry Ninja (5\\*)\n\n***Smoke Dagger+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions.\")_\n**Atk:** +2 HP, +4 Mt\n**Spd:** +2 HP, +3 Mt, +2 Spd\n**Def:** +2 HP, +3 Mt, +3 Def\n**Res:** +2 HP, +3 Mt, +3 Res",
         "color": "grey",
         "aka": "Smoke Dagger+",
         "skill": "Colorless Dagger, Mt:9"
@@ -3014,7 +3179,7 @@
     {
         "name": "steel dagger",
         "aliases": [],
-        "content": "After combat, inflicts Def/Res-3 on foe through its next action.",
+        "content": "After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action.\n\nEvery dagger unit in the game has Iron Dagger, and there is therefore no need to inherit it.",
         "color": "grey",
         "aka": "Steel Dagger",
         "skill": "Colorless Dagger, Mt:5"
@@ -3342,7 +3507,9 @@
     },
     {
         "name": "aether",
-        "aliases": [],
+        "aliases": [
+			"i'll eat fjorm's ass"
+		],
         "content": "Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP=half damage dealt.",
         "color": "purple",
         "aka": "Aether",
@@ -8358,28 +8525,6 @@
         "color": "yellow",
         "aka": "Squad Ace D 3",
         "skill": "Sacred Seal"
-    },
-    {
-        "name": "kitty paddle-",
-        "aliases": [
-			"kittuwu paddle-"
-		],
-        "content": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-5 through foe's next action",
-        "color": "grey",
-        "aka": "Kitty Paddle",
-        "skill": "Colorless Dagger, Mt:5"
-    },
-    {
-        "name": "kitty paddle",
-        "aliases": [
-            "kitty paddle+",
-			"kittuwu paddle",
-			"kittuwu paddle+"
-        ],
-        "content": "Effective against foe using magic. After combat, if foe uses magic, foe suffers Def/Res-7 through foe's next action",
-        "color": "grey",
-        "aka": "Kitty Paddle+",
-        "skill": "Colorless Dagger, Mt:8"
     },
     {
         "name": "warding stance 1",

@@ -18,13 +18,13 @@ Here's the current full list of features;
 
 
 # Active
--Quick info for Skills, Weapons, and Units\*! Type {{Quickened Pulse}} to get information on Quickened Pulse
+-Quick info for Skills, Weapons, and Units\*! Type {{Quickened Pulse}} to get information on Quickened Pulse, aliases are available for shortcuts or the Queen's True English
 
-\*Not all units supported yet but I'm getting there. Also planned: Listing units each skill is available from + inheritance restrictions. Weapon Refinery info is slowly being rolled out
+\*Not all units supported yet but I'm getting there. Currently working on: "Quick Info 2.0" for assists, specials and passives. Weapons are finally all to Quick Info 2.0
 
 -!fehhelp: Basic help and information. (Planned: accept commands as arguments for specialised help)
 
--!report: Feedback command, this will message me with a copy of your message. This will also track your username and the channel it was reported in.
+-!report: Feedback command, this will message me with a copy of your message. This will also track your username and the channel it was reported in. Embedded images are not sent, please use links instead.
 
 -@Feh what x: Saying "@Feh what " and then A Skill/Slot, B Skill/Slot, C Skill/Slot, or (Sacred) Seal, with any more message optional, will respond with a random one of those skills. ie AlphaDK: @Feh what seal should i put on hector. Feh: @AlphaDK Brash Assault 3
 
@@ -49,10 +49,8 @@ Here's the current full list of features;
 
 # Most recent changelog
 
-v1.4.2:
+v1.5:
 
--Added !esports
+-Weapons are completely up to date with Quick Info 2.0!
 
--Weapon Refinery info being slowly rolled out, currently for red weapons
-
--Updated !6k to use an actual VoHiYo emote, so that's cool
+-The bot no longer crashes. This was an important change

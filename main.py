@@ -1,4 +1,4 @@
-#Feh v1.4.2, a Discord bot by AlphaDK#3800
+#Feh v1.5, a Discord bot by AlphaDK#3800
 #v0.1 created 9/10/17 (the 9th of October, not the 10th of September you silly Americans)
 #v1.0 released 19/10/17
 #Does Fire Emblem: Heroes stuff
@@ -52,7 +52,7 @@ async def check_tweets(lastnews, lastgauntlet):
             tweetsnews = api.user_timeline("FEHeroes_News", since_id=lastnews)
             tweetsgauntlet = api.user_timeline("FEHGauntletBot", since_id=lastgauntlet)
         except:
-            continue #Sometimes requests to tweepy just time out, and I have determined that this solution is the least effort to implement.
+            continue #Sometimes requests to tweepy liked to time out and crash the bot, and I have determined that this solution is the least effort to implement.
         for tweet in tweetsnews[::-1]: #Reads tweets from timeline in chronological order, since api.user_timeline gives them in reverse chronological
             await client.send_message(client.get_channel("333859340253396992"), "@FEHeroes_News: <http://twitter.com/FEHeroes_News/status/" + str(tweet.id) + ">\n" + str(tweet.text))
             lastnews = tweet.id
@@ -73,7 +73,7 @@ def main(lastnews, lastgauntlet):
 
 @client.event
 async def on_ready():
-    print("Feh v1.4.2 online")
+    print("Feh v1.5 online")
     global mainhasbeenrunoncealready
     if not mainhasbeenrunoncealready:
         mainhasbeenrunoncealready = True
@@ -98,7 +98,7 @@ async def on_message(message):
     if message.content.lower().startswith("!draug") or message.content.lower().startswith("!knowyourdraug"): #Source: reddit, it's important to be familiar with Draug and his variants
         await client.send_file(message.channel, "draug.jpg")
     elif message.content.lower().startswith("!fehhelp"):
-        await client.send_message(message.channel, "Hi! I'm Feh (v1.4.2), a bot created to help out with Fire Emblem: Heroes content! <:feh:344700243910197259>\nI can provide information to you about various weapons, skills or units! Try {{Quickened Pulse}}!\nIf you have any suggestions for improvements or if I'm broken, tell AlphaDK!\n(Use `!report [issue]` and I'll let him know)")
+        await client.send_message(message.channel, "Hi! I'm Feh (v1.5), a bot created to help out with Fire Emblem: Heroes content! <:feh:344700243910197259>\nI can provide information to you about various weapons, skills or units! Try {{Quickened Pulse}}!\nIf you have any suggestions for improvements or if I'm broken, tell AlphaDK!\n(Use `!report [issue]` and I'll let him know)")
     elif message.content.lower().startswith("!report "):
         await client.send_message(client.get_channel("368631261071147009"), str(message.author) + " (" + message.author.id + ") in " + str(message.channel) + " (" + message.channel.id  + ") from " + message.server.name + ": " + str(message.content[8:]))
         await client.send_message(message.channel, "I've reported the issue! We hope you continue to enjoy Fire Emblem! Heroes.")
