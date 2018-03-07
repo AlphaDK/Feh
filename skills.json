@@ -338,6 +338,14 @@
         "aka": "Battery",
         "skill": "Magic: The Gathering Card, CC: {3G}"
     },
+	{
+        "name": "arden sacrifice",
+        "aliases": [],
+        "content": "Heals adjacent ally 10 HP. Arden loses 10 HP (but cannot reach 0 this way).\n\n**Exclusive skill, cannot be inherited**\n**Available for:**\nArden: Strong and Tough (6\\*)",
+        "color": "cyan",
+        "aka": "Arden Sacrifice",
+        "skill": "Assist"
+    },
     {
         "name": "",
         "aliases": [],
@@ -3187,23 +3195,15 @@
     {
         "name": "ardent sacrifice",
         "aliases": [],
-        "content": "Heals adjacent ally 10 HP. Unit loses 10 HP (but cannot reach 0 this way).",
+        "content": "Heals adjacent ally 10 HP. Unit loses 10 HP (but cannot reach 0 this way).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nFlorina: Lovely Flier (3\\*)\nRebecca: Wildflower (4\\*)\nDeirdre: Lady of the Forest (5\\*)\nElincia: Lost Princess (5\\*)\nLinde: Light Mage (5\\*)\nMicaiah: Priestess of Dawn (5\\*)\nFrederick: Horizon Watcher (Ylissean Summer) (5\\*)\nLyn: Wind's Embrace (Love Abounds) (5\\*)",
         "color": "cyan",
         "aka": "Ardent Sacrifice",
         "skill": "Assist"
     },
     {
-        "name": "arden sacrifice",
-        "aliases": [],
-        "content": "Heals adjacent ally 10 HP. Arden loses 10 HP (but cannot reach 0 this way).",
-        "color": "cyan",
-        "aka": "Arden Sacrifice",
-        "skill": "Assist"
-    },
-    {
         "name": "dance",
         "aliases": [],
-        "content": "Enables target to take another action. Cannot be used on units with Sing or Dance.",
+        "content": "Enables target to take another action. Cannot be used on units with Sing or Dance.\n\n**Inheritance restriction:** Exclusive\n**Available for:**\nOlivia: Blushing Beauty (3\\*)\nNinian: Oracle of Destiny (5\\*)\nInigo: Indigo Dancer (Performing Arts) (5\\*)\nOlivia: Festival Dancer (Performing Arts) (5\\*)\n\nSee also: Sing",
         "color": "cyan",
         "aka": "Dance",
         "skill": "Assist"
@@ -3211,7 +3211,7 @@
     {
         "name": "draw back",
         "aliases": [],
-        "content": "Unit moves 1 space away from target ally, who moves to unit's former position.",
+        "content": "Unit moves 1 space away from target ally, who moves to unit's former position.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nNino: Pious Mage (3\\*)\nSully: Crimson Knight (3\\*)\nFae: Divine Dragon (4\\*)\nMae: Bundle of Energy (4\\*)",
         "color": "cyan",
         "aka": "Draw Back",
         "skill": "Assist"
@@ -3219,7 +3219,7 @@
     {
         "name": "harsh command",
         "aliases": [],
-        "content": "Converts penalties on target into bonuses.",
+        "content": "Converts penalties on target into bonuses.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nGunter: Inveterate Soldier (3\\*)\nSaizo: Angry Ninja (3\\*)\nClair: Highborn Flier (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
         "color": "cyan",
         "aka": "Harsh Command",
         "skill": "Assist"
@@ -3227,7 +3227,7 @@
     {
         "name": "heal",
         "aliases": [],
-        "content": "Restores 5 HP.",
+        "content": "Restores 5 HP.\n\n**Available from:**\nEvery staff user in the game has Heal, and it cannot be inherited to non-staff users, therefore there is no need to inherit it",
         "color": "cyan",
         "aka": "Heal",
         "skill": "Assist"
@@ -3235,7 +3235,7 @@
     {
         "name": "martyr-",
         "aliases": [],
-        "content": "Restores HP=7+ this unit's suffered damage. Unit heals HP=half suffered damage. Slows Special trigger (cooldown count+1).",
+        "content": "Restores HP=7+ this unit's suffered damage. Unit heals HP=half suffered damage. Slows Special trigger (cooldown count+1).\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nAzama: Carefree Monk (4\\*)\nClarine: Refined Noble (4\\*)\nLucius: The Light (4\\*)",
         "color": "cyan",
         "aka": "Martyr",
         "skill": "Assist"
@@ -3245,7 +3245,7 @@
         "aliases": [
 			"martyr"
 		],
-        "content": "Restores HP = this unit's suffered damage +50% of Atk. (Minimum of 7 HP.) Also restores HP to unit = half suffered damage.",
+        "content": "Restores HP = this unit's suffered damage +50% of Atk. (Minimum of 7 HP.) Also restores HP to unit = half suffered damage.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nAzama: Carefree Monk (5\\*)\nClarine: Refined Noble (5\\*)\nLucius: The Light (5\\*)",
         "color": "cyan",
         "aka": "Martyr+",
         "skill": "Assist"
@@ -3255,7 +3255,7 @@
         "aliases": [
 			"eccs"
 		],
-        "content": "Restores 10 HP.",
+        "content": "Restores 10 HP.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nSerra: Outspoken Cleric (3\\*)\nLachesis: Lionheart's Sister (4\\*)\nMaria: Minerva's Sister (4\\*)\nSakura: Loving Priestess (4\\*)\nElise: Budding Flower (5\\*)\nGenny: Endearing Ally (5\\*)\nMist: Helpful Sister (5\\*)",
         "color": "cyan",
         "aka": "Mend",
         "skill": "Assist"
@@ -3263,7 +3263,7 @@
     {
         "name": "physic-",
         "aliases": [],
-        "content": "Restores 8 HP. Rng: 2.",
+        "content": "Restores 8 HP. Rng: 2.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nLachesis: Lionheart's Sister (4\\*)\nMaria: Minerva's Sister (4\\*)\nSakura: Loving Priestess (4\\*)\nGenny: Endearing Ally (5\\*)",
         "color": "cyan",
         "aka": "Physic",
         "skill": "Assist"
@@ -3273,7 +3273,7 @@
         "aliases": [
             "physic+"
         ],
-        "content": "Restores HP = 50% of Atk. (Minimum of 8 HP.) Rng: 2.",
+        "content": "Restores HP = 50% of Atk. (Minimum of 8 HP.) Rng: 2.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nGenny: Endearing Ally (5\\*)\nLachesis: Lionheart's Sister (5\\*)\nMaria: Minerva's Sister (5\\*)\nSakura: Loving Priestess (5\\*)",
         "color": "cyan",
         "aka": "Physic+",
         "skill": "Assist"
@@ -3281,7 +3281,7 @@
     {
         "name": "pivot",
         "aliases": [],
-        "content": "Unit moves to opposite side of adjacent ally.",
+        "content": "Unit moves to opposite side of adjacent ally.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nCherche: Wyvern Friend (3\\*)\nEirika: Restoration Lady (4\\*)\nMarth: Atlean Prince (4\\*)\nTobin: The Clueless One (4\\*)\nChrom: Gifted Leader (Winter's Envoy) (5\\*)",
         "color": "cyan",
         "aka": "Pivot",
         "skill": "Assist"
@@ -3291,7 +3291,7 @@
         "aliases": [
             "rally atk"
         ],
-        "content": "Grants Atk+4 to an adjacent ally until the end of the turn.",
+        "content": "Grants Atk+4 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nSharena: Princess of Askr (2\\*)\nHana: Focused Samurai (3\\*)\nRaigh: Dark Child (3\\*)\nEliwood: Devoted Love (Love Abounds) (4\\*)\nLute: Prodigy (5\\*)\nCamilla: Spring Princess (Spring Festival) (5\\*)\nCordelia: Perfect Bride (Bridal Blessings) (5\\*)\nElise: Tropical Flower (Nohrian Summer) (5\\*)",
         "color": "cyan",
         "aka": "Rally Attack",
         "skill": "Assist"
@@ -3301,7 +3301,7 @@
         "aliases": [
             "rally atk def"
         ],
-        "content": "Grants Atk/Def+3 to an adjacent ally until the end of the turn.",
+        "content": "Grants Atk/Def+3 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nEliwood: Devoted Love (Love Abounds) (4\\*)\nRhajat: Black Magician (5\\*)",
         "color": "cyan",
         "aka": "Rally Attack Defense",
         "skill": "Assist"
@@ -3311,7 +3311,7 @@
         "aliases": [
             "rally atk res"
         ],
-        "content": "Grants Atk/Res+3 to an adjacent ally until the end of the turn.",
+        "content": "Grants Atk/Res+3 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nLute: Prodigy (5\\*)\nElise: Tropical Flower (Nohrian Summer) (5\\*)",
         "color": "cyan",
         "aka": "Rally Attack Resistance",
         "skill": "Assist"
@@ -3322,7 +3322,7 @@
             "rally atk spd",
 			"rally atk/spd"
         ],
-        "content": "Grants Atk/Spd+3 to an adjacent ally until the end of the turn.",
+        "content": "Grants Atk/Spd+3 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nCordelia: Perfect Bride (Bridal Blessings) (5\\*)",
         "color": "cyan",
         "aka": "Rally Attack Speed",
         "skill": "Assist"
@@ -3332,7 +3332,7 @@
         "aliases": [
             "rally def"
         ],
-        "content": "Grants Def+4 to an adjacent ally until the end of the turn.",
+        "content": "Grants Def+4 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nOboro: Fierce Fighter (3\\*)\nNowi: Eternal Youth (4\\*)\nRoderick: Steady Squire (4\\*)\nCorrin: Enjoying Tradition (M) (Happy New Year!) (4\\*)\nRhajat: Black Magician (5\\*)",
         "color": "cyan",
         "aka": "Rally Defense",
         "skill": "Assist"
@@ -3342,7 +3342,7 @@
         "aliases": [
             "rally def res"
         ],
-        "content": "Grants Def/Res+3 to an adjacent ally until the end of the turn.",
+        "content": "Grants Def/Res+3 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nRoderick: Steady Squire (4\\*)\nCorrin: Enjoying Tradition (M) (Happy New Year!) (4\\*)",
         "color": "cyan",
         "aka": "Rally Defense Resistance",
         "skill": "Assist"
@@ -3352,7 +3352,7 @@
         "aliases": [
             "rally res"
         ],
-        "content": "Grants Res+4 to an adjacent ally until the end of the turn.",
+        "content": "Grants Res+4 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nCecilia: Etrurian General (3\\*)\nJakob: Devoted Servant (4\\*)\nMathilda: Legendary Knight (4\\*)\nTailtiu: Thunder Noble (4\\*)",
         "color": "cyan",
         "aka": "Rally Resistance",
         "skill": "Assist"
@@ -3362,7 +3362,7 @@
         "aliases": [
             "rally spd"
         ],
-        "content": "Grants Spd+4 to an adjacent ally until the end of the turn.",
+        "content": "Grants Spd+4 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nGaius: Candy Stealer (3\\*)\nCaeda: Talys's Heart (4\\*)\nOscar: Agile Horseman (4\\*)\nSeliph: Heir of Light (4\\*)\nEirika: Anamnesis Lady (5\\*)\nLucina: Spring Exalt (Spring Festival) (5\\*)",
         "color": "cyan",
         "aka": "Rally Speed",
         "skill": "Assist"
@@ -3372,7 +3372,7 @@
         "aliases": [
             "rally spd def"
         ],
-        "content": "Grants Spd/Def+3 to an adjacent ally until the end of the turn.",
+        "content": "Grants Spd/Def+3 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nOscar: Agile Horseman (4\\*)",
         "color": "cyan",
         "aka": "Rally Speed Defense",
         "skill": "Assist"
@@ -3382,7 +3382,7 @@
         "aliases": [
             "rally spd res"
         ],
-        "content": "Grants Spd/Res+3 to an adjacent ally until the end of the turn.",
+        "content": "Grants Spd/Res+3 to an adjacent ally until the end of the turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nTailtiu: Thunder Noble (4\\*)",
         "color": "cyan",
         "aka": "Rally Speed Resistance",
         "skill": "Assist"
@@ -3390,7 +3390,7 @@
     {
         "name": "reciprocal aid",
         "aliases": [],
-        "content": "Swap HP with adjacent ally (neither unit can go above their max HP).",
+        "content": "Swap HP with adjacent ally (neither unit can go above their max HP).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nDonnel: Village Hero (3\\*)\nMatthew: Faithful Spy (3\\*)\nSetsuna: Absent Archer (3\\*)\nTitania: Mighty Mercenary (4\\*)\nRobin: Festive Tactician (M) (Winter's Envoy) (5\\*)\nRoy: Youthful Gifts (Love Abounds) (5\\*)",
         "color": "cyan",
         "aka": "Reciprocal Aid",
         "skill": "Assist"
@@ -3398,7 +3398,7 @@
     {
         "name": "reconcile",
         "aliases": [],
-        "content": "Restores 7 HP each to target and this unit.",
+        "content": "Restores 7 HP each to target and this unit.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nLissa: Sprightly Cleric (2\\*)\nWrys: Kindly Priest (2\\*)\nAzama: Carefree Monk (3\\*)\nClarine: Refined Noble (3\\*)\nLucius: The Light (4\\*)\nPriscilla: Delicate Princess (4\\*)\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)",
         "color": "cyan",
         "aka": "Reconcile",
         "skill": "Assist"
@@ -3406,7 +3406,7 @@
     {
         "name": "recover-",
         "aliases": [],
-        "content": "Restores 15 HP. Slows Special trigger (cooldown count +1).",
+        "content": "Restores 15 HP. Slows Special trigger (cooldown count +1).\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nSerra: Outspoken Cleric (4\\*)\nElise: Budding Flower (5\\*)\nMist: Helpful Sister (5\\*)",
         "color": "cyan",
         "aka": "Recover",
         "skill": "Assist"
@@ -3416,7 +3416,7 @@
         "aliases": [
 			"recover+"
 		],
-        "content": "Restores HP = 50% of Atk +10. (Minimum of 15 HP.)",
+        "content": "Restores HP = 50% of Atk +10. (Minimum of 15 HP.)\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nElise: Budding Flower (5\\*)\nMist: Helpful Sister (5\\*)\nSerra: Outspoken Cleric (5\\*)",
         "color": "cyan",
         "aka": "Recover+",
         "skill": "Assist"
@@ -3426,7 +3426,7 @@
         "aliases": [
 			"rehab-"
 		],
-        "content": "Restores 7 HP or more the further below 50% the target's HP is. Slows special trigger (cooldown count+1).",
+        "content": "Restores 7 HP or more the further below 50% the target's HP is. Slows special trigger (cooldown count+1).\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nLissa: Sprightly Cleric (4\\*)\nPriscilla: Delicate Princess (4\\*)\nWrys: Kindly Priest (4\\*)\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)",
         "color": "cyan",
         "aka": "Rehabilitate",
         "skill": "Assist"
@@ -3438,7 +3438,7 @@
 			"rehabilitate+",
 			"rehab+"
 		],
-        "content": "Restores HP = 50% of Atk -10. (Minimum of 7 HP.) If target's HP is ≤ 50%, the lower the target's HP, the more HP is restored.",
+        "content": "Restores HP = 50% of Atk -10. (Minimum of 7 HP.) If target's HP is ≤ 50%, the lower the target's HP, the more HP is restored.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nLissa: Sprightly Cleric (5\\*)\nPriscilla: Delicate Princess (5\\*)\nWrys: Kindly Priest (5\\*)\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)",
         "color": "cyan",
         "aka": "Rehabilitate+",
         "skill": "Assist"
@@ -3452,7 +3452,7 @@
 			"best assist",
 			"what's that weird shield thing?"
         ],
-        "content": "Moves adjacent ally to opposite side of unit.",
+        "content": "Moves adjacent ally to opposite side of unit.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nBarst: The Hatchet (3\\*)\nSelena: Cutting Wit (3\\*)\nOlwen: Blue Mage Knight (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRobin: Seaside Tactician (F) (Ylissean Summer) (5\\*)",
         "color": "cyan",
         "aka": "Reposition",
         "skill": "Assist"
@@ -3460,7 +3460,7 @@
 	{
 		"name": "sacrifice",
 		"aliases": [],
-		"content": "Converts penalties on target into bonuses. Restores target's HP = unit's current HP -1. Unit's HP reduced by amount restored. (Skill cannot be inherited.)",
+		"content": "Converts penalties on target into bonuses. Restores target's HP = unit's current HP -1. Unit's HP reduced by amount restored. (Skill cannot be inherited.)\n\n**Inheritance restriction:** Exclusive\n**Available for:**\nMicaiah: Priestess of Dawn (5\\*)",
 		"color": "cyan",
 		"aka": "Sacrifice",
 		"skill": "Assist"
@@ -3468,7 +3468,7 @@
     {
         "name": "shove",
         "aliases": [],
-        "content": "Push adjacent ally 1 space farther away.",
+        "content": "Push adjacent ally 1 space farther away.\n\n**Inheritance restriction:** No staff users\nEst: Junior Whitewing (3\\*)\nGordin: Atlean Archer (3\\*)\nRoy: Young Lion (4\\*)\nChrom: Spring Exalt (Spring Festival) (5\\*)",
         "color": "cyan",
         "aka": "Shove",
         "skill": "Assist"
@@ -3476,7 +3476,7 @@
     {
         "name": "sing",
         "aliases": [],
-        "content": "Enables target to take another action. Cannot be used on units with Sing or Dance.",
+        "content": "Enables target to take another action. Cannot be used on units with Sing or Dance.\n\n**Inheritance restriction:** Exclusive\nAzura: Lady of the Lake (5\\*)\nAzura: Celebratory Spirit (Happy New Year!) (5\\*)\nAzura: Lady of Ballads (Performing Arts) (5\\*)\nShigure: Dark Sky Singer (Performing Arts) (5\\*)\n\nSee also: Dance",
         "color": "cyan",
         "aka": "Sing",
         "skill": "Assist"
@@ -3484,7 +3484,7 @@
     {
         "name": "smite",
         "aliases": [],
-        "content": "Push adjacent ally 2 spaces farther away.",
+        "content": "Push adjacent ally 2 spaces farther away.\n\n**Inheritance restriction:** No staff users\nBartre: Fearless Warrior (3\\*)\nEffie: Army of One (4\\*)\nCharlotte: Money Maiden (Bridal Blessings) (5\\*)",
         "color": "cyan",
         "aka": "Smite",
         "skill": "Assist"
@@ -3492,7 +3492,7 @@
     {
         "name": "swap",
         "aliases": [],
-        "content": "Swap places with an adjacent ally.",
+        "content": "Swap places with an adjacent ally.\n\n**Inheritance restriction:** No staff users\nArthur: Hapless Hero (3\\*)\nStahl: Viridian Knight (3\\*)\nSubaki: Perfect Expert (3\\*)\nSeth: Silver Knight (4\\*)\nGray: Wry Comrade (5\\*)\nShiro: Raw Talent (5\\*)\nXander: Spring Prince (Spring Festival) (5\\*)",
         "color": "cyan",
         "aka": "Swap",
         "skill": "Assist"
