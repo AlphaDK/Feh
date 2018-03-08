@@ -692,6 +692,16 @@
         "aka": "Ruby Sword+",
         "skill": "Red Sword, Mt:12"
     },
+	{
+		"name": "sealed falchion",
+		"aliases": [
+			"falchion 2"
+		],
+		"content": "Effective against dragon foes. If unit's HP < 100% at start of combat, grants Atk/Spd/Def/Res+5 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nChrom: Knight Exalt (5\\*)",
+		"color": "red",
+		"aka": "Sealed Falchion",
+		"skill": "Red Sword, Mt:16"
+	},
     {
         "name": "siegfried",
         "aliases": [],
@@ -703,7 +713,7 @@
     {
         "name": "sieglinde",
         "aliases": [],
-        "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEirika: Restoration Lady (5\\*)",
+        "content": "Grants adjacent allies Atk+3 through their next actions at the start of each turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEirika: Restoration Lady (5\\*)\n\n***Sieglinde may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"At start of turn, grants adjacent allies Atk+4 for 1 turn.\")_\n**Special:** +3 HP, and gains \"During combat, grants bonus to Atk/Spd/Def/Res = highest bonus on allies within 2 spaces. Each stat bonus calculated independently.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "red",
         "aka": "Sieglinde",
         "skill": "Red Sword, Mt:16"
@@ -842,7 +852,7 @@
     {
         "name": "brynhildr",
         "aliases": [],
-        "content": "If unit initiates attack, restricts foe's next-turn movement to 1 space or less.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLeo: Sorcerous Prince (5\\*)",
+        "content": "If unit initiates attack, restricts foe's next-turn movement to 1 space or less.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLeo: Sorcerous Prince (5\\*)\n\n***Brynhildr may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If in combat against magic foe, reduces damage from foe's first attack by 30%\")_\n**Special:** Gains \"If foe uses bow, dagger, magic, or staff and unit's Def >= foe's Def+1, foe cannot make a follow-up attack.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "red",
         "aka": "Brynhildr",
         "skill": "Red Tome, Mt:14"
@@ -921,6 +931,16 @@
 		"content": "Grants Res+3. If foe's HP = 100% at start of combat, grants Atk/Spd+3 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEirika: Anamnesis Lady (5\\*)",
 		"color": "red",
 		"aka": "Gleipnir",
+		"skill": "Red Tome, Mt:14"
+	},
+	{
+		"name": "grima's truth",
+		"aliases": [
+			"grimas truth"
+		],
+		"content": "Grants Def+3. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd+5 to unit and allies within 2 spaces for 1 turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMorgan: Lad from Afar (5\\*)",
+		"color": "red",
+		"aka": "Grima's Truth",
 		"skill": "Red Tome, Mt:14"
 	},
 	{
@@ -1534,6 +1554,24 @@
         "aka": "Blarraven+",
         "skill": "Blue Tome, Mt:11"
     },
+	{
+		"name": "blarserpent-",
+		"aliases": [],
+		"content": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff.\n\n**Available from:**\nMorgan: Lass from Afar (5\\*)",
+		"color": "blue",
+		"aka": "Blarserpent",
+		"skill": "Blue Tome, Mt:8"
+	},
+	{
+		"name": "blarserpent",
+		"aliases": [
+			"blarserpent+"
+		],
+		"content": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff.\n\n**Available from:**\nMorgan: Lass from Afar (5\\*)",
+		"color": "blue",
+		"aka": "Blarserpent+",
+		"skill": "Blue Tome, Mt:12"
+	},
     {
         "name": "blarwolf-",
         "aliases": [],
@@ -2417,7 +2455,7 @@
 	{
 		"name": "wind's brand",
 		"aliases": [],
-		"content": "Upcoming weapon to be used by Soren: Shrewd Strategist",
+		"content": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSoren: Shrewd Strategist (5\\*)\n\n***Wind's Brand may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"During combat, boosts Atk/Spd/Def/Res by number of adjacent allies x 2.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "green",
 		"aka": "Wind's Brand",
 		"skill": "Green Tome: Mt:14"
@@ -9129,7 +9167,8 @@
 			"chrom (winters envoy)",
 			"winter's envoy chrom",
 			"winters envoy chrom",
-			"santa chrom"
+			"santa chrom",
+			"chrom undertale 2"
 		],
 		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 25/12/4/9/5\n5\\* lv40: 51/40/19/35/29 (174)\n\n**Skills:**\nW: Sack O' Gifts+\nAs: Pivot\nA: Brazen Atk/Def 3\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "green",
