@@ -721,7 +721,7 @@
     {
         "name": "silver sword-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nAlfonse, Alm, Ayra, Black Knight, Celica (Fallen Heroes), Chrom, Corrin (M), Eirika, Elincia, Eliwood, Ike, Ike (Vanguard Legend), Laslow, Lloyd, Lucina, Lyn, Marth, Marth (Masked), Olivia, Roy, Roy (Brave Heroes), Ryoma, Seliph, Siegbert, Sigurd, Xander, Zelgius, Zephiel",
+        "content": "No special effect.\n\n**Available from:**\nAlfonse, Alm, Ayra, Black Knight, Celica (Fallen Heroes), Chrom, Chrom (Branded King), Corrin (M), Eirika, Elincia, Eliwood, Ike, Ike (Vanguard Legend), Laslow, Lloyd, Lucina, Lyn, Marth, Marth (Masked), Olivia, Roy, Roy (Brave Heroes), Ryoma, Seliph, Siegbert, Sigurd, Xander, Zelgius, Zephiel",
         "color": "red",
         "aka": "Silver Sword",
         "skill": "Red Sword, Mt:11"
@@ -894,7 +894,7 @@
     {
         "name": "fenrir-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nLeo: Sorcerous Prince (5\\*)\nLyon: Shadow Prince (3\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nLeo: Sorcerous Prince (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
         "color": "red",
         "aka": "Fenrir",
         "skill": "Red Tome, Mt:9"
@@ -920,7 +920,7 @@
     {
         "name": "flux",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "red",
         "aka": "Flux",
         "skill": "Red Tome, Mt:4"
@@ -953,7 +953,9 @@
     },
 	{
 		"name": "keen rauorwolf-",
-		"aliases": [],
+		"aliases": [
+			"keen raudrwolf-"
+		],
 		"content": "Effective against cavalry foes.\n\n**Available from:**Keen Rauorwolf is obtained by evolving Rauorwolf+ in the Weapon Refinery, and then downgrading from Keen Rauorwolf+",
 		"color": "red",
 		"aka": "Keen Rauorwolf",
@@ -962,7 +964,9 @@
 	{
 		"name": "keen rauorwolf",
 		"aliases": [
-			"keen rauorwolf+"
+			"keen rauorwolf+",
+			"keen raudrwolf",
+			"keen raudrwolf+"
 		],
 		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Rauorwolf+ is obtained by evolving Rauorwolf+ in the Weapon Refinery\n\n***Keen Rauorwolf+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "red",
@@ -991,7 +995,9 @@
     },
     {
         "name": "rauorblade-",
-        "aliases": [],
+        "aliases": [
+			"raudrblade-"
+		],
         "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nTharja: Dark Shadow (4\\*)",
         "color": "red",
         "aka": "Rauorblade",
@@ -1000,7 +1006,9 @@
     {
         "name": "rauorblade",
         "aliases": [
-            "rauorblade+"
+            "rauorblade+",
+			"raudrblade",
+			"raudrblade+"
         ],
         "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nTharja: Dark Shadow (5\\*)",
         "color": "red",
@@ -1009,7 +1017,9 @@
     },
     {
         "name": "rauorowl-",
-        "aliases": [],
+        "aliases": [
+			"raudrowl-"
+		],
         "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)",
         "color": "red",
         "aka": "Rauorowl",
@@ -1018,7 +1028,9 @@
     {
         "name": "rauorowl",
         "aliases": [
-            "rauorowl+"
+            "rauorowl+",
+			"raudrowl",
+			"raudrowl+"
         ],
         "content": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)\n\n***Rauorowl+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Atk, +3 Res",
         "color": "red",
@@ -1027,7 +1039,9 @@
     },
     {
         "name": "rauorraven-",
-        "aliases": [],
+        "aliases": [
+			"raudrraven-"
+		],
         "content": "Grants weapon advantage vs. colorless foes.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)",
         "color": "red",
         "aka": "Rauorraven",
@@ -1036,7 +1050,9 @@
     {
         "name": "rauorraven",
         "aliases": [
-            "rauorraven+"
+            "rauorraven+",
+			"raudrraven",
+			"raudrraven+"
         ],
         "content": "Grants weapon advantage vs. colorless foes.\n\n**Available from:**\nHenry: Twisted Mind (5\\*)",
         "color": "red",
@@ -1045,7 +1061,9 @@
     },
     {
         "name": "rauorwolf-",
-        "aliases": [],
+        "aliases": [
+			"raudrwolf-"
+		],
         "content": "Effective against cavalry units.\n\n**Available from:**\nRaigh: Dark Child (3\\*)",
         "color": "red",
         "aka": "Rauorwolf",
@@ -1054,7 +1072,9 @@
     {
         "name": "rauorwolf",
         "aliases": [
-            "rauorwolf+"
+            "rauorwolf+",
+			"raudrwolf",
+			"raudrwolf+"
         ],
         "content": "Effective against cavalry units.\n\n**Available from:**\nRaigh: Dark Child (5\\*)\n\nRauorwolf+ may be evolved into Keen Rauorwolf+ in the Weapon Refinery",
         "color": "red",
@@ -1064,7 +1084,7 @@
     {
         "name": "ruin",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "red",
         "aka": "Ruin",
         "skill": "Red Tome, Mt:6"
@@ -1567,7 +1587,7 @@
 		"aliases": [
 			"blarserpent+"
 		],
-		"content": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff.\n\n**Available from:**\nMorgan: Lass from Afar (5\\*)",
+		"content": "Grants Def/Res+6 during combat if foe initiates combat and uses bow, dagger, magic, or staff.\n\n**Available from:**\nMorgan: Lass from Afar (5\\*)\n\n***Blarserpent+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "blue",
 		"aka": "Blarserpent+",
 		"skill": "Blue Tome, Mt:12"
@@ -2174,7 +2194,8 @@
     {
         "name": "uror",
         "aliases": [
-			"rally everything"
+			"rally everything",
+			"urdr"
 		],
         "content": "If Sing or Dance is used, target also granted Atk/Spd/Def/Res+3.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAzura: Lady of Ballads (Performing Arts) (5\\*)",
         "color": "green",
@@ -4932,6 +4953,24 @@
         "aka": "Life and Death 3",
         "skill": "A Skill"
     },
+	{
+		"name": "mirror stance 1",
+		"aliases": [],
+		"content": "Grants Atk/Res+2 during combat when this unit is attacked.",
+		"color": "orange",
+		"aka": "Mirror Stance 1",
+		"skill": "A Skill"
+	},
+	{
+		"name": "mirror stance 2",
+		"aliases": [
+			"mirror stance"
+		],
+		"content": "Grants Atk/Res+4 during combat when this unit is attacked.",
+		"color": "orange",
+		"aka": "Mirror Stance 2",
+		"skill": "A Skill"
+	},
     {
         "name": "mirror strike 1",
         "aliases": [],
@@ -5555,13 +5594,46 @@
     {
         "name": "cancel affinity 3",
         "aliases": [
-            "cancel affinity"
+            "cancel affinity",
+			"ca"
         ],
         "content": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed.",
         "color": "orange",
         "aka": "Cancel Affinity 3",
         "skill": "B Skill"
     },
+	{
+		"name": "chill def 1",
+		"aliases": [
+			"chill defense 1"
+		],
+		"content": "At the start of each turn, inflicts Def-3 on foe on the enemy team with the highest Def through its next action.",
+		"color": "orange",
+		"aka": "Chill Def 1",
+		"skill": "B Skill"
+	},
+	{
+		"name": "chill def 2",
+		"aliases": [
+			"chill defense 2"
+		],
+		"content": "At the start of each turn, inflicts Def-5 on foe on the enemy team with the highest Def through its next action.",
+		"color": "orange",
+		"aka": "Chill Def 2",
+		"skill": "B Skill"
+	},
+	{
+		"name": "chill def 3",
+		"aliases": [
+			"chill def",
+			"chill defense 3",
+			"chill defense"
+		],
+		"content": "At the start of each turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action.",
+		"color": "orange",
+		"aka": "Chill Def 3",
+		"skill": "B Skill"
+	},
 	{
 		"name": "chilling seal",
 		"aliases": [],
@@ -5677,6 +5749,38 @@
         "aka": "Drag Back",
         "skill": "B Skill"
     },
+	{
+		"name": "dull ranged 1",
+		"aliases": [
+			"dull range 1"
+		],
+		"content": "If unit's HP = 100% at start of combat and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+		"color": "orange",
+		"aka": "Dull Ranged 1",
+		"skill": "B Skill"
+	},
+	{
+		"name": "dull ranged 2",
+		"aliases": [
+			"dull range 2"
+		],
+		"content": "If unit's HP >= 50% at start of combat and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+		"color": "orange",
+		"aka": "Dull Ranged 2",
+		"skill": "B Skill"
+	},
+	{
+		"name": "dull ranged 3",
+		"aliases": [
+			"dull range 3",
+			"dull ranged",
+			"dull range"
+		],
+		"content": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skill like Fortify, Rally, etc.) during combat",
+		"color": "orange",
+		"aka": "Dull Ranged 3",
+		"skill": "B Skill"
+	},
 	{
 		"name": "earth dance 1",
 		"aliases": [],
