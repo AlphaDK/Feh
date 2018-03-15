@@ -2081,6 +2081,24 @@
         "skill": "Green Axe, Mt:16"
     },
 	{
+		"name": "poleaxe-",
+		"aliases": [],
+		"content": "Effective against cavalry units.\n\n**Available from:**\nGerome: Masked Rider (4\\*)",
+		"color": "green",
+		"aka": "Poleaxe",
+		"skill": "Green Axe, Mt:10"
+	},
+	{
+		"name": "poleaxe",
+		"aliases": [
+			"poleaxe+"
+		],
+		"content": "Effective against cavalry units.\n\n**Available from:**\nGerome: Masked Rider (5\\*)\n\n***Poleaxe+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "green",
+		"aka": "Poleaxe",
+		"skill": "Green Axe, Mt:14"
+	},
+	{
 		"name": "sack o' gifts-",
 		"aliases": [
 			"sack o gifts-"
