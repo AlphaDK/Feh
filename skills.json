@@ -44,10 +44,10 @@
     {
         "name": "feh",
         "aliases": [],
-        "content": "That's me! Provides help where needed!",
+        "content": "That's me! I'm ready to help!",
         "color": "grey",
         "aka": "Feh: Messenger Owl",
-        "skill": "Bot"
+        "skill": "Bot, Birthday: January 18th"
     },
     {
         "name": "castle",
@@ -1639,7 +1639,8 @@
     {
         "name": "blue egg",
         "aliases": [
-            "blue egg+"
+            "blue egg+",
+			"egg!"
         ],
         "content": "If unit initiates attack, unit recovers 4 HP after the battle.\n\n**Available from:**\nLucina: Spring Exalt (Spring Festival) (5\\*)\n\n***Blue Egg+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"After combat, if unit attacked, restores 4 HP.\")_\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "blue",
@@ -1718,6 +1719,22 @@
         "aka": "Elthunder",
         "skill": "Blue Tome, Mt:6"
     },
+	{
+		"name": "huginn's egg",
+		"aliases": [
+			"huginns egg",
+			"huggin's egg",
+			"huggins egg",
+			"hugginn's egg",
+			"hugginns egg",
+			"hugin's egg",
+			"hugins egg"
+		],
+		"content": "Grants Res+3. At start of turn, if unit's HP >= 50%, inflicts Atk/Def-5 on foe on the enemy team with the lowest Res through its next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCatria: Spring Whitewing (Hares at the Fair) (5\\*)",
+		"color": "blue",
+		"aka": "Huginn's Egg",
+		"skill": "Blue Tome, Mt:14"
+	},
 	{
 		"name": "ivaldi",
 		"aliases": [
@@ -1924,6 +1941,24 @@
         "aka": "Emerald Axe+",
         "skill": "Green Axe, Mt:12"
     },
+	{
+		"name": "giant spoon-",
+		"aliases": [],
+		"content": "Deals +10 damage when Special triggers.\n\n**Available from:**\nAlfonse: Spring Prince (Hares at the Fair) (5\\*)",
+		"color": "green",
+		"aka": "Giant Spoon",
+		"skill": "Green Axe, Mt:9"
+	},
+	{
+		"name": "giant spoon",
+		"aliases": [
+			"giant spoon+"
+		],
+		"content": "Deals +10 damage when Special triggers.\n\n**Available from:**\nAlfonse: Spring Prince (Hares at the Fair) (5\\*)\n\n***You can probably refine this but I'm writing this before it goes live so I can't confirm***",
+		"color": "green",
+		"aka": "Giant Spoon+",
+		"skill": "Green Axe, Mt:13"
+	},
 	{
 		"name": "hagoita-",
 		"aliases": [],
@@ -2438,6 +2473,16 @@
 		"color": "green",
 		"aka": "Keen Gronnwolf+",
 		"skill": "Green Tome, Mt:12"
+	},
+	{
+		"name": "muninn's egg",
+		"aliases": [
+			"muninns egg"
+		],
+		"content": "Grants Res+3. At start of turn, if unit's HP >= 50%, inflicts Atk/Res-5 on foe on the enemy team with the lowest Spd through its next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSharena: Spring Princess (Hares at the Fair) (5\\*)",
+		"color": "green",
+		"aka": "Muninn's Egg",
+		"skill": "Green Tome, Mt:14"
 	},
     {
         "name": "naga",
@@ -3163,6 +3208,24 @@
         "aka": "Kitty Paddle+",
         "skill": "Colorless Dagger, Mt:8"
     },
+	{
+		"name": "lethal carrot-",
+		"aliases": [],
+		"content": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.\n\n**Available from:**\nKagero: Spring Ninja (Hares at the Fair) (5\\*)",
+		"color": "grey",
+		"aka": "Lethal Carrot",
+		"skill": "Colorless Dagger, Mt:8"
+	},
+	{
+		"name": "lethal carrot",
+		"aliases": [
+			"lethal carrot+"
+		],
+		"content": "Deals +10 damage when Special triggers. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.\n\n**Available from:**\nKagero: Spring Ninja (Hares at the Fair) (5\\*)\n\n***You can probably refine this, but I'm writing this before the weapon is out***",
+		"color": "grey",
+		"aka": "Lethal Carrot+",
+		"skill": "Colorless Dagger, Mt:12"
+	},
 	{
 		"name": "peshkatz",
 		"aliases": [],
