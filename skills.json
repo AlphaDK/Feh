@@ -834,7 +834,7 @@
     {
         "name": "bolganone-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nArvis: Emporer of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nArvis: Emperor of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
         "color": "red",
         "aka": "Bolganone",
         "skill": "Red Tome, Mt:9"
@@ -886,7 +886,7 @@
     {
         "name": "elfire",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nArvis: Emporer of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nKatarina: Wayward One (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nArvis: Emperor of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nKatarina: Wayward One (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
         "color": "red",
         "aka": "Elfire",
         "skill": "Red Tome, Mt:6"
@@ -894,7 +894,7 @@
     {
         "name": "fenrir-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nLeo: Sorcerous Prince (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nLeo: Sorcerous Prince (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (4\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
         "color": "red",
         "aka": "Fenrir",
         "skill": "Red Tome, Mt:9"
@@ -912,7 +912,7 @@
     {
         "name": "fire",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nArvis: Emporer of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nKatarina: Wayward One (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nArvis: Emperor of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nKatarina: Wayward One (5\\*)\nLilina: Delightful Noble (4\\*)\nSanaki: Begnion's Apostle (5\\*)",
         "color": "red",
         "aka": "Fire",
         "skill": "Red Tome, Mt:4"
@@ -920,7 +920,7 @@
     {
         "name": "flux",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (4\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "red",
         "aka": "Flux",
         "skill": "Red Tome, Mt:4"
@@ -1084,7 +1084,7 @@
     {
         "name": "ruin",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (5\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (4\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (4\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "red",
         "aka": "Ruin",
         "skill": "Red Tome, Mt:6"
@@ -1114,7 +1114,7 @@
     {
         "name": "valflame",
         "aliases": [],
-        "content": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk/Res-4 until the end of foe's next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nArvis: Emporer of Flame (5\\*)",
+        "content": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk/Res-4 until the end of foe's next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nArvis: Emperor of Flame (5\\*)",
         "color": "red",
         "aka": "Valflame",
         "skill": "Red Tome, Mt:14"
@@ -1303,7 +1303,7 @@
 			"gravidus",
 			"gradius"
 		],
-        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCamus: Sable Knight (5\\*)\nHardin: Dark Emporer (Fallen Heroes) (5\\*)",
+        "content": "Enables counterattack regardless of distance if this unit is attacked.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCamus: Sable Knight (5\\*)\nHardin: Dark Emperor (Fallen Heroes) (5\\*)",
         "color": "blue",
         "aka": "Gradivus",
         "skill": "Blue Lance, Mt:16"
@@ -1423,7 +1423,7 @@
     {
         "name": "silver lance-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nCamus: Sable Knight (3\\*)\nClair: Highborn Flier (4\\*)\nClive: Idealistic Knight (4\\*)\nEffie: Army of One (4\\*)\nEphraim: Legendary Lord (5\\*)\nFjorm: Princess of Ice (5\\*)\nHardin: Dark Emporer (5\\*)\nJagen: Veteran Knight (3\\*)\nLucina: Brave Princess (5\\*)\nSharena: Princess of Askr (3\\*)\nShiro: Raw Talent (5\\*)\nValter: Dark Moonstone (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nCamus: Sable Knight (3\\*)\nClair: Highborn Flier (4\\*)\nClive: Idealistic Knight (4\\*)\nEffie: Army of One (4\\*)\nEphraim: Legendary Lord (5\\*)\nFjorm: Princess of Ice (5\\*)\nHardin: Dark Emperor (5\\*)\nJagen: Veteran Knight (3\\*)\nLucina: Brave Princess (5\\*)\nSharena: Princess of Askr (3\\*)\nShiro: Raw Talent (5\\*)\nValter: Dark Moonstone (3\\*)",
         "color": "blue",
         "aka": "Silver Lance",
         "skill": "Blue Lance, Mt:11"
@@ -9029,7 +9029,7 @@
         "aliases": [],
         "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/4/7\n%\\* lv40: 33/34/31/17/33 (148)\n\n**Skills:**\nW: Valflame (5\\*)\nS: Growing Flame (4\\*)\nB: Recover Ring (5\\*)\nC: Def Ploy 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
         "color": "red",
-        "aka": "Arvis: Emporer of Flame",
+        "aka": "Arvis: Emperor of Flame",
         "skill": "Infantry Tome"
     },
     {
