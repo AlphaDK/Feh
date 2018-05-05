@@ -1,5 +1,8 @@
 import json
 
+# Change this to give the spellcheck more or less leeway for suggestions
+EDIT_LIMIT = 1.0
+
 """
 This module provides some functions you may find useful.
 """
@@ -83,7 +86,12 @@ def spellcheck(word, w_dict):
     else:
         matches = [(x, edit_dist(word, x)) for x in w_dict.keys()]
         try:
-            sorted(matches, key=lambda x: (x[1], x[0]))[0][0]
+            suggest, dist = sorted(matches, key=lambda x: (x[1], x[0]))[0]
+            if dist/len(word) <= EDIT_LIMIT:
+                return suggest
+            else:
+                return word
+            
         except Exception as e:
             return e
 
