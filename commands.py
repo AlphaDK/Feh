@@ -61,7 +61,8 @@ def read_skill_commands() -> dict:
         return new_skills
 
 static_commands = read_static_commands() 
-skill_commands = read_skill_commands()     
+skill_commands = read_skill_commands()    
+skill_command_list = [c for c in skill_commands] 
 
 class CommandHandler:
     """
@@ -140,7 +141,7 @@ class CommandHandler:
             query = re.search(
                     '%s(.*)%s' % ('{{', '}}'), self.content).group(1).lower()
 
-            query = utils.spellcheck(query, skill_commands)
+            query = utils.command_match(query, skill_command_list)
 
             # just in case it errors
             if query not in skill_commands:
