@@ -1,7 +1,11 @@
 import json
 
 # Change this to give the spellcheck more or less leeway for suggestions
+# 1.0 means if num edits required is <= 100% of original length, return
 EDIT_LIMIT = 1.0
+
+# Hard limit for edits, incase short words
+HARD_LIM = 2
 
 """
 This module provides some functions you may find useful.
@@ -87,7 +91,7 @@ def spellcheck(word, w_dict):
         matches = [(x, edit_dist(word, x)) for x in w_dict.keys()]
         try:
             suggest, dist = sorted(matches, key=lambda x: (x[1], x[0]))[0]
-            if dist/len(word) <= EDIT_LIMIT:
+            if (dist/len(word) <= EDIT_LIMIT) or (dist <= HARD_LIM):
                 return suggest
             else:
                 return word
