@@ -1,6 +1,6 @@
 import discord
 import json
-import re #only
+import re
 
 import utils
 import pat_manager
@@ -135,11 +135,14 @@ class CommandHandler:
 
     async def _handle_skill_commands(self):
         if '{{' in self.content and '}}' in self.content:
-            start = '{{'
-            end = '}}'
+
+            # regex the skill
             query = re.search(
-                    '%s(.*)%s' % (start, end), self.content).group(1).lower()
-            
+                    '%s(.*)%s' % ('{{', '}}'), self.content).group(1).lower()
+
+            query = utils.spellcheck(query, skill_commands)
+
+            # just in case it errors
             if query not in skill_commands:
                 await self._handle_error()
                 return
