@@ -18,7 +18,7 @@ Here's the current full list of features;
 
 
 # Active
--Quick info for Skills, Weapons, and Units\*! Type {{Quickened Pulse}} to get information on Quickened Pulse, aliases are available for shortcuts or the Queen's True English
+-Quick info for Skills, Weapons, and Units\*! Type {{Quickened Pulse}} to get information on Quickened Pulse, aliases are available for shortcuts or the Queen's True English (+ versions of weapons are default when unspecified. Use {{pain-}} to see Pain, as {{pain}} will direct to Pain+)
 
 \*Not all units supported yet but I'm getting there. Currently working on: "Quick Info 2.0" for assists, specials and passives. Weapons are finally all to Quick Info 2.0
 

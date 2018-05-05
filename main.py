@@ -3,7 +3,7 @@
 #v1.0 released 19/10/17
 #Does Fire Emblem: Heroes stuff
 #Made originally for Mike's Discord, just to link tweets
-#Special thanks: Struct, D'Amour, Boggy, 3AM, Mike, StackOverflow, Intelligent Systems, Nintendo
+#Special thanks: Struct, D'Amour, Tsy, Boggy, 3AM, Mike, StackOverflow, Intelligent Systems, Nintendo
 
 import discord
 from discord.ext.commands import Bot
