@@ -43,7 +43,9 @@
     },
     {
         "name": "feh",
-        "aliases": [],
+        "aliases": [
+			"\u79C1"
+		],
         "content": "That's me! I'm ready to help!",
         "color": "grey",
         "aka": "Feh: Messenger Owl",
@@ -72,7 +74,7 @@
         "aliases": [],
         "content": "Known for her famed +10 Frederick\n\\ ^ w^/",
         "color": "yellow",
-        "aka": "Trashy",
+        "aka": "Trashy\u2606",
         "skill": "Player"
     },
     {
@@ -150,12 +152,24 @@
     },
     {
         "name": "mtn64",
-        "aliases": [],
+        "aliases": [
+			"\u304C\u3093\u3070\u308A\u307F"
+		],
         "content": "Mike's younger brother, good at rhythm games and netdecking",
         "color": "green",
         "aka": "Josh",
         "skill": "Player"
     },
+	{
+		"name": "snop",
+		"aliases": [
+			"weed"
+		],
+		"content": "<a:snop:393561709161480192>",
+		"color": "green",
+		"aka": "",
+		"skill": ""
+	},
     {
         "name": "lightninggrey",
         "aliases": [
@@ -304,7 +318,10 @@
 	},
 	{
 		"name": "magic",
-		"aliases": [],
+		"aliases": [
+			"friendship",
+			"everything"
+		],
 		"content": "When the game refers to \"magic\" attacks, it refers exclusively to tomes.\nRed, Green, and Blue tomes fall under \"magic\", but breaths and staves do not.",
 		"color": "yellow",
 		"aka": "\"Magic\"",
@@ -344,7 +361,7 @@
         "content": "Heals adjacent ally 10 HP. Arden loses 10 HP (but cannot reach 0 this way).\n\n**Exclusive skill, cannot be inherited**\n**Available for:**\nArden: Strong and Tough (6\\*)",
         "color": "cyan",
         "aka": "Arden Sacrifice",
-        "skill": "Assist"
+        "skill": "Assist, SP:400"
     },
     {
         "name": "",
@@ -444,7 +461,7 @@
     {
         "name": "binding blade",
         "aliases": [],
-        "content": "If foe initiates combat, grants Def/Res+2 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nRoy: Young Lion (5\\*)\n\n***Binding Blade may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat.\")_\n**Special:** +3 HP, and gains \"If unit's HP >= 50% and foe initiates combat, unit makes a guaranteed follow-up attack.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:**+5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+        "content": "If foe initiates combat, grants Def/Res+2 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nRoy: Young Lion (5\\*)\n\n***Binding Blade may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against dragon foes. If foe initiates combat, grants Def/Res+4 during combat.\")_\n**Special:** +3 HP, and gains \"If unit's HP \u2265 50% and foe initiates combat, unit makes a guaranteed follow-up attack.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:**+5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "red",
         "aka": "Binding Blade",
         "skill": "Red Sword, Mt:16, SP:400"
@@ -481,6 +498,17 @@
 		"content": "If unit initiates combat, grants Atk/Spd+4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSiegbert: Future King (5\\*)",
 		"color": "red",
 		"aka": "Dark Greatsword",
+		"skill": "Red Sword, Mt:16, SP:400"
+	},
+	{
+		"name": "dark mystletainn",
+		"aliases": [
+			"mystletainn 2",
+			"mystletainn undertale"
+		],
+		"content": "Accelerates Special trigger (cooldown count-1). If Special triggers before or during combat, grants Special cooldown count-2 after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAres: Black Knight (5\\*)",
+		"color": "red",
+		"aka": "Dark Mystletainn",
 		"skill": "Red Sword, Mt:16, SP:400"
 	},
     {
@@ -544,9 +572,9 @@
     {
         "name": "folkvangr",
         "aliases": [],
-        "content": "At start of turn, if unit's HP <= 50%, grants Atk+5 for 1 turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAlfonse: Prince of Askr (5\\*)",
+        "content": "At start of turn, if unit's HP \u2264 50%, grants Atk+5 for 1 turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAlfonse: Prince of Askr (5\\*)",
         "color": "red",
-        "aka": "Folkvangr",
+        "aka": "F\u00F3lkvangr",
         "skill": "Red Sword, Mt:16, SP:400"
     },
     {
@@ -624,7 +652,7 @@
 	{
 		"name": "light brand",
 		"aliases": [],
-		"content": "Grants Def+3. If foe's Def >= foe's Res+5, deals +7 damage.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLeif: Prince of Leonster (5\\*)",
+		"content": "Grants Def+3. If foe's Def \u2265 foe's Res+5, deals +7 damage.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLeif: Prince of Leonster (5\\*)",
 		"color": "red",
 		"aka": "Light Brand",
 		"skill": "Red Sword, Mt:16, SP:400"
@@ -660,7 +688,7 @@
 		"aliases": [],
 		"content": "Grants Spd+3. Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat.\n\n**Used by:**\nLaegjarn: Sheathed Steel\n\nThis weapon is exclusive to non-player units",
 		"color": "red",
-		"aka": "Niu",
+		"aka": "N\u00EDu",
 		"skill": "Red Sword, Mt:16, SP:400"
 	},
     {
@@ -718,6 +746,24 @@
         "skill": "Red Sword, Mt:12, SP:300"
     },
 	{
+		"name": "safeguard-",
+		"aliases": [],
+		"content": "If foe initiates combat, grants Def+7 during combat.\n\n**Available from:**\nLene: Yearning Dancer (5\\*)",
+		"color": "red",
+		"aka": "Safeguard",
+		"skill": "Red Sword, Mt:10, SP:200"
+	},
+	{
+		"name": "safeguard",
+		"aliases": [
+			"safeguard"
+		],
+		"content": "If foe initiates combat, grants Def+7 during combat.\n\n**Available from:**\nLene: Yearning Dancer (5\\*)\n\n***Safeguard+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "red",
+		"aka": "Safeguard+",
+		"skill": "Red Sword, Mt:14, SP:300"
+	},
+	{
 		"name": "sealed falchion",
 		"aliases": [
 			"falchion 2",
@@ -765,7 +811,7 @@
     {
         "name": "slaying edge-",
         "aliases": [],
-        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nJoshua: Tempest King (4\\*)\nSaber: Driven Mercenary (5\\*)",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nJoshua: Tempest King (4\\*)\nAres: Black Knight (5\\*)\nSaber: Driven Mercenary (5\\*)",
         "color": "red",
         "aka": "Slaying Edge",
         "skill": "Red Sword, Mt:10, SP:200"
@@ -783,7 +829,7 @@
     {
         "name": "sol katti",
         "aliases": [],
-        "content": "If wielder initiates attack at HP <= 50%, any follow-up occurs immediately.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Lady of the Plains (5\\*)\n\n***Sol Katti may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If unit's HP <= 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.\")_\n**Special:** +3 HP, and gains \"If unit initiates combat against a foe that can counter and unit's HP <= 75%, unit makes a guaranteed follow-up attack.\"\n**Atk:** +5HP, +2 Mt\n**Spd:** +5HP, +3 Spd\n**Def:** +5HP, +4 Def\n**Res:** +5HP, +4 Res",
+        "content": "If wielder initiates attack at HP \u2264 50%, any follow-up occurs immediately.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Lady of the Plains (5\\*)\n\n***Sol Katti may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.\")_\n**Special:** +3 HP, and gains \"If unit initiates combat against a foe that can counter and unit's HP \u2264 75%, unit makes a guaranteed follow-up attack.\"\n**Atk:** +5HP, +2 Mt\n**Spd:** +5HP, +3 Spd\n**Def:** +5HP, +4 Def\n**Res:** +5HP, +4 Res",
         "color": "red",
         "aka": "Sol Katti",
         "skill": "Red Sword, Mt:16, SP:400"
@@ -799,7 +845,7 @@
     {
         "name": "tyrfing",
         "aliases": [],
-        "content": "If unit's HP <= 50%, grants Def+4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSeliph: Heir of Light (5\\*)\n\nTyrfing may be evolved into Divine Tyrfing in the Weapon Refinery",
+        "content": "If unit's HP \u2264 50%, grants Def+4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSeliph: Heir of Light (5\\*)\n\nTyrfing may be evolved into Divine Tyrfing in the Weapon Refinery",
         "color": "red",
         "aka": "Tyrfing",
         "skill": "Red Sword, Mt:16, SP:400"
@@ -807,7 +853,7 @@
 	{
 		"name": "wing sword",
 		"aliases": [],
-		"content": "Effective against armored and cavalry foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCaeda: Talys's Heart (5\\*)\n\n***Wing Sword may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If unit's Spd - foe's Spd >= 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"content": "Effective against armored and cavalry foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCaeda: Talys's Heart (5\\*)\n\n***Wing Sword may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If unit's Spd - foe's Spd \u2265 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "red",
 		"aka": "Wing Sword",
 		"skill": "Red Sword, Mt:16, SP:400"
@@ -838,7 +884,7 @@
 			"noragami",
 			"noragami joke"
 		],
-        "content": "If unit initiates combat, grants Spd+4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCorrin: Fateful Prince (M) (5\\*)\n\n***Yato may be upgraded in the Weapon Refinery. Variants:***\nuh, they haven't actually been announced, we just know it's getting a refine",
+        "content": "If unit initiates combat, grants Spd+4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCorrin: Fateful Prince (M) (5\\*)\n\n***Yato may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Grants Atk/Spd/Def/Res+2.\")_\n**Special:** +3 HP, and gains \"If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+4 to that ally during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "red",
         "aka": "Yato",
         "skill": "Red Sword, Mt:16, SP:400"
@@ -924,7 +970,7 @@
     {
         "name": "fenrir-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nLeo: Sorcerous Prince (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (M) (4\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nJulius: Scion of Darkness (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (M) (4\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
         "color": "red",
         "aka": "Fenrir",
         "skill": "Red Tome, Mt:9, SP:200"
@@ -986,7 +1032,7 @@
 	{
         "name": "grimoire",
         "aliases": [],
-        "content": "If unit has >= 50% HP, unit can move to a space adjacent to an ally within 2 spaces.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)",
+        "content": "If unit has \u2265 50% HP, unit can move to a space adjacent to an ally within 2 spaces.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)",
         "color": "red",
         "aka": "Grimoire",
         "skill": "Red Tome, Mt:14, SP:400"
@@ -996,9 +1042,9 @@
 		"aliases": [
 			"keen raudrwolf-"
 		],
-		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Raudrwolf is obtained by evolving Raudrwolf+ in the Weapon Refinery, and then downgrading from Keen Raudrwolf+",
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Rau\u00F0rwolf is obtained by evolving Rau\u00F0rwolf+ in the Weapon Refinery, and then downgrading from Keen Rau\u00F0rwolf+",
 		"color": "red",
-		"aka": "Keen Raudrwolf",
+		"aka": "Keen Rau\u00F0rwolf",
 		"skill": "Red Tome, Mt:8, SP:200"
 	},
 	{
@@ -1008,10 +1054,18 @@
 			"keen raudrwolf",
 			"keen raudrwolf+"
 		],
-		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Raudrwolf+ is obtained by evolving Raudrwolf+ in the Weapon Refinery\n\n***Keen Raudrwolf+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Rau\u00F0rwolf+ is obtained by evolving Rau\u00F0rwolf+ in the Weapon Refinery\n\n***Keen Rau\u00F0rwolf+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "red",
-		"aka": "Keen Raudrwolf+",
+		"aka": "Keen Rau\u00F0rwolf+",
 		"skill": "Red Tome, Mt:12, SP:300"
+	},
+	{
+		"name": "loptous",
+		"aliases": [],
+		"content": "Grants Res+3. Skills with \"effective against dragons\" are effective against unit. If foe has no skills with \"effective against dragons,\" inflicts Atk-6 on foe during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nJulius: Scion of Darkness (5\\*)",
+		"color": "red",
+		"aka": "Loptous",
+		"skill": "Red Tome, Mt:14, SP:400"
 	},
 	{
 		"name": "naglfar",
@@ -1040,7 +1094,7 @@
 		],
         "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nTharja: Dark Shadow (3\\*)",
         "color": "red",
-        "aka": "Raudrblade",
+        "aka": "Rau\u00F0rblade",
         "skill": "Red Tome, Mt:9, SP:200"
     },
     {
@@ -1052,17 +1106,17 @@
         ],
         "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nTharja: Dark Shadow (5\\*)",
         "color": "red",
-        "aka": "Raudrblade+",
+        "aka": "Rau\u00F0rblade+",
         "skill": "Red Tome, Mt:13, SP:300"
     },
     {
         "name": "rauorowl-",
         "aliases": [
-			"raudrowl-"
+			"rau\u00F0rowl-"
 		],
         "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)",
         "color": "red",
-        "aka": "Raudrowl",
+        "aka": "Rau\u00F0rowl",
         "skill": "Red Tome, Mt:6, SP:200"
     },
     {
@@ -1072,9 +1126,9 @@
 			"raudrowl",
 			"raudrowl+"
         ],
-        "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)\n\n***Raudrowl+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Atk, +3 Res",
+        "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)\n\n***Rau\u00F0rowl+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Atk, +3 Res",
         "color": "red",
-        "aka": "Raudrowl+",
+        "aka": "Rau\u00F0rowl+",
         "skill": "Red Tome, Mt:10, SP:300"
     },
     {
@@ -1084,7 +1138,7 @@
 		],
         "content": "Grants weapon-triangle advantage against colorless foes. Inflicts weapon-triangle disadvantage against colorless foes.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)",
         "color": "red",
-        "aka": "Raudrraven",
+        "aka": "Rau\u00F0rraven",
         "skill": "Red Tome, Mt:7, SP:200"
     },
     {
@@ -1096,7 +1150,7 @@
         ],
         "content": "Grants weapon-triangle advantage against colorless foes. Inflicts weapon-triangle disadvantage against colorless foes.\n\n**Available from:**\nHenry: Twisted Mind (5\\*)",
         "color": "red",
-        "aka": "Raudrraven+",
+        "aka": "Rau\u00F0rraven+",
         "skill": "Red Tome, Mt:11, SP:300"
     },
     {
@@ -1106,7 +1160,7 @@
 		],
         "content": "Effective against cavalry foes.\n\n**Available from:**\nRaigh: Dark Child (3\\*)",
         "color": "red",
-        "aka": "Raudrwolf",
+        "aka": "Rau\u00F0rwolf",
         "skill": "Red Tome, Mt:6, SP:200"
     },
     {
@@ -1116,9 +1170,9 @@
 			"raudrwolf",
 			"raudrwolf+"
         ],
-        "content": "Effective against cavalry foes.\n\n**Available from:**\nRaigh: Dark Child (5\\*)\n\nRaudrwolf+ may be evolved into Keen Raudrwolf+ in the Weapon Refinery",
+        "content": "Effective against cavalry foes.\n\n**Available from:**\nRaigh: Dark Child (5\\*)\n\nRau\u00F0rwolf+ may be evolved into Keen Rau\u00F0rwolf+ in the Weapon Refinery",
         "color": "red",
-        "aka": "Raudrwolf+",
+        "aka": "Rau\u00F0rwolf+",
         "skill": "Red Tome, Mt:10, SP:300"
     },
     {
@@ -1324,7 +1378,7 @@
 		"aliases": [
 			"flame swordsman"
 		],
-		"content": "Grants Atk+3. If the number of foes within 2 spaces (excluding target) >= the number of allies within 2 spaces (excluding unit), unit makes a guaranteed follow-up attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEphraim: Legendary Lord (5\\*)",
+		"content": "Grants Atk+3. If the number of foes within 2 spaces (excluding target) \u2265 the number of allies within 2 spaces (excluding unit), unit makes a guaranteed follow-up attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEphraim: Legendary Lord (5\\*)",
 		"color": "blue",
 		"aka": "Flame Siegmund",
 		"skill": "Blue Lance, Mt:16, SP:400"
@@ -1334,7 +1388,7 @@
         "aliases": [],
         "content": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLucina: Brave Princess (Brave Heroes) (5\\*)",
         "color": "blue",
-        "aka": "Geirskogul",
+        "aka": "Geirsk\u00F6gul",
         "skill": "Blue Lance, Mt:16, SP:400"
     },
     {
@@ -1351,7 +1405,7 @@
 	{
 		"name": "harmonic lance-",
 		"aliases": [],
-		"content": "Deals +10 damage when Special triggers.\n\n**Available from:**\nShigure: Uplifting Artist (5\\*)",
+		"content": "Deals +10 damage when Special triggers.\n\n**Available from:**\nShigure: Uplifting Artist (4\\*)",
 		"color": "blue",
 		"aka": "Harmonic Lance",
 		"skill": "Blue Lance, Mt:9, SP:200"
@@ -1389,7 +1443,7 @@
 		"aliases": [
 			"hinokas spear"
 		],
-		"content": "If unit is within 2 spaces of a flying or infantry ally, grants Atk/Spd+4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHinoka: Warrior Princess (5\\*)\n\n***Hinoka's Spear may be upgraded in Weapon Refinery. Variants:***\n**Special:** +3 HP and gains \"Infantry and flying allies within 2 spaces can move to a space adjacent to unit.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"content": "If unit is within 2 spaces of a flying or infantry ally, grants Atk/Spd+4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHinoka: Warrior Princess (5\\*)\n\n***Hinoka's Spear may be upgraded in Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"Infantry and flying allies within 2 spaces can move to a space adjacent to unit.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "blue",
 		"aka": "Hinoka's Spear",
 		"skill": "Blue Lance, Mt:16, SP:400"
@@ -1431,7 +1485,7 @@
 	{
 		"name": "rhomphaia",
 		"aliases": [],
-		"content": "This weapon isn't in the game yet as of writing, but iirc Clair gets it. Go Clair!",
+		"content": "Effective against armored and cavalry foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nClair: Highborn Flier (5\\*)\n\n***Rhomphaia may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "blue",
 		"aka": "Rhomphaia",
 		"skill": "Blue Lance, Mt:16, SP:400"
@@ -1481,7 +1535,7 @@
     {
         "name": "siegmund",
         "aliases": [],
-        "content": "At start of turn, grants Atk+3 to adjacent allies for 1 turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEphraim: Restoration Lord (5\\*)\n\n***Siegmund may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"At the start of turn, grants adjacent allies Atk+4 for 1 turn.\")_\n**Special:** +3 HP, and gains \"If unit initiates combat and unit's HP >= 90%, unit makes a guaranteed follow-up attack.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+        "content": "At start of turn, grants Atk+3 to adjacent allies for 1 turn.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nEphraim: Restoration Lord (5\\*)\n\n***Siegmund may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"At the start of turn, grants adjacent allies Atk+4 for 1 turn.\")_\n**Special:** +3 HP, and gains \"If unit initiates combat and unit's HP \u2265 90%, unit makes a guaranteed follow-up attack.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Siegmund",
         "skill": "Blue Lance, Mt:16, SP:400"
@@ -1591,7 +1645,7 @@
         "aliases": [],
         "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nOdin: Potent Force (3\\*)\nTailtiu: Thunder Noble (4\\*)",
         "color": "blue",
-        "aka": "Blarblade",
+        "aka": "Bl\u00E1rblade",
         "skill": "Blue Tome, Mt:9, SP:200"
     },
     {
@@ -1601,7 +1655,7 @@
         ],
         "content": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt.\n\n**Available from:**\nOdin: Potent Force (5\\*)\nTailtiu: Thunder Noble (5\\*)",
         "color": "blue",
-        "aka": "Blarblade+",
+        "aka": "Bl\u00E1rblade+",
         "skill": "Blue Tome, Mt:13, SP:300"
     },
     {
@@ -1609,7 +1663,7 @@
         "aliases": [],
         "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nMae: Bundle of Energy (3\\*)",
         "color": "blue",
-        "aka": "Blarowl",
+        "aka": "Bl\u00E1rowl",
         "skill": "Blue Tome, Mt:6, SP:200"
     },
     {
@@ -1617,9 +1671,9 @@
         "aliases": [
             "blarowl+"
         ],
-        "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nMae: Bundle of Energy (5\\*)\n\n***Blarowl+ may be upgarded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
+        "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nMae: Bundle of Energy (5\\*)\n\n***Bl\u00E1rowl+ may be upgarded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "blue",
-        "aka": "Blarowl+",
+        "aka": "Bl\u00E1rowl+",
         "skill": "Blue Tome, Mt:10, SP:300"
     },
     {
@@ -1627,7 +1681,7 @@
         "aliases": [],
         "content": "Grants weapon-triangle advantage against colorless foes. Inflicts weapon-triangle disadvantage against colorless foes.\n\n**Available from:**\nRobin: High Deliverer (M) (3\\*)",
         "color": "blue",
-        "aka": "Blarraven",
+        "aka": "Bl\u00E1rraven",
         "skill": "Blue Tome, Mt:7, SP:200"
     },
     {
@@ -1637,7 +1691,7 @@
         ],
         "content": "Grants weapon-triangle advantage against colorless foes. Inflicts weapon-triangle disadvantage against colorless foes.\n\n**Available from:**\nRobin: High Deliverer (M) (5\\*)",
         "color": "blue",
-        "aka": "Blarraven+",
+        "aka": "Bl\u00E1rraven+",
         "skill": "Blue Tome, Mt:11, SP:300"
     },
 	{
@@ -1645,7 +1699,7 @@
 		"aliases": [],
 		"content": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.\n\n**Available from:**\nMorgan: Lass from Afar (F) (5\\*)",
 		"color": "blue",
-		"aka": "Blarserpent",
+		"aka": "Bl\u00E1rserpent",
 		"skill": "Blue Tome, Mt:8, SP:200"
 	},
 	{
@@ -1653,9 +1707,9 @@
 		"aliases": [
 			"blarserpent+"
 		],
-		"content": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.\n\n**Available from:**\nMorgan: Lass from Afar (F) (5\\*)\n\n***Blarserpent+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"content": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.\n\n**Available from:**\nMorgan: Lass from Afar (F) (5\\*)\n\n***Bl\u00E1rserpent+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "blue",
-		"aka": "Blarserpent+",
+		"aka": "Bl\u00E1rserpent+",
 		"skill": "Blue Tome, Mt:12, SP:300"
 	},
     {
@@ -1663,7 +1717,7 @@
         "aliases": [],
         "content": "Effective against cavalry foes.\n\n**Available from:**\nUrsula: Blue Crow (3\\*)",
         "color": "blue",
-        "aka": "Blarwolf",
+        "aka": "Bl\u00E1rwolf",
         "skill": "Blue Tome, Mt:6, SP:200"
     },
     {
@@ -1671,9 +1725,9 @@
         "aliases": [
             "blarwolf+"
         ],
-        "content": "Effective against cavalry foes.\n\n**Available from:**\nUrsula: Blue Crow (5\\*)\n\nBlarwolf+ may be evolved into Keen Blarwolf+ in the Weapon Refinery",
+        "content": "Effective against cavalry foes.\n\n**Available from:**\nUrsula: Blue Crow (5\\*)\n\nBl\u00E1rwolf+ may be evolved into Keen Bl\u00E1rwolf+ in the Weapon Refinery",
         "color": "blue",
-        "aka": "Blarwolf+",
+        "aka": "Bl\u00E1rwolf+",
         "skill": "Blue Tome, Mt:10, SP:300"
     },
 	{
@@ -1796,7 +1850,7 @@
 			"hugin's egg",
 			"hugins egg"
 		],
-		"content": "Grants Res+3. At start of turn, if unit's HP >= 50%, inflicts Atk/Def-5 on foe on the enemy team with the lowest Res through its next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCatria: Spring Whitewing (Hares at the Fair) (5\\*)",
+		"content": "Grants Res+3. At start of turn, if unit's HP \u2265 50%, inflicts Atk/Def-5 on foe on the enemy team with the lowest Res through its next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCatria: Spring Whitewing (Hares at the Fair) (5\\*)",
 		"color": "blue",
 		"aka": "Huginn's Egg",
 		"skill": "Blue Tome, Mt:14, SP:400"
@@ -1814,9 +1868,9 @@
 	{
 		"name": "keen blarwolf-",
 		"aliases": [],
-		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Blarwolf is obtained by evolving Blarwolf+ in the Weapon Refinery, and then downgrading from Keen Blarwolf+",
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Bl\u00E1rwolf is obtained by evolving Bl\u00E1rwolf+ in the Weapon Refinery, and then downgrading from Keen Bl\u00E1rwolf+",
 		"color": "blue",
-		"aka": "Keen Blarwolf",
+		"aka": "Keen Bl\u00E1rwolf",
 		"skill": "Blue Tome, Mt:8, SP:200"
 	},
 	{
@@ -1824,9 +1878,9 @@
 		"aliases": [
 			"keen blarwolf+"
 		],
-		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Blarwolf+ is obtained by evolving Blarwolf+ in the Weapon Refinery\n\n***Keen Blarwolf+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Bl\u00E1rwolf+ is obtained by evolving Bl\u00E1rwolf+ in the Weapon Refinery\n\n***Keen Bl\u00E1rwolf+ may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"Neutralizes cavalry foe's bonuses (from skills like Fortify, Rally, etc.) during combat.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "blue",
-		"aka": "Keen Blarwolf+",
+		"aka": "Keen Bl\u00E1rwolf+",
 		"skill": "Blue Tome, Mt:12, SP:300"
 	},
 	{
@@ -1836,6 +1890,16 @@
 		"color": "blue",
 		"aka": "Light",
 		"skill": "Blue Tome, Mt:4, SP:50"
+	},
+	{
+		"name": "mjolnir",
+		"aliases": [
+			"thor's hammer"
+		],
+		"content": "Accelerates Special trigger (cooldown count-1). If unit initiates combat, grants Spd+6 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nIshtar: Thunder Goddess (5\\*)",
+		"color": "blue",
+		"aka": "Mj\u00F6lnir",
+		"skill": "Blue Tome, Mt:14, SP:400"
 	},
     {
         "name": "sealife tome-",
@@ -1887,7 +1951,7 @@
         "aliases": [
 			"thoron"
 		],
-        "content": "No special effect.\n\n**Available from:**\nCatria: Spring Whitewing (Hares at the Fair) (5\\*)\nDelthea: Free Spirit (5\\*)\nLinde: Light Mage (5\\*)\nLute: Prodigy (5\\*)\nOlwen: Blue Mage Knight (5\\*)\nReinhardt: Thunder's Fist (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nCatria: Spring Whitewing (Hares at the Fair) (5\\*)\nDelthea: Free Spirit (5\\*)\nIshtar: Thunder Goddess (5\\*)\nLinde: Light Mage (5\\*)\nLute: Prodigy (5\\*)\nOlwen: Blue Mage Knight (5\\*)\nReinhardt: Thunder's Fist (3\\*)",
         "color": "blue",
         "aka": "Thoron",
         "skill": "Blue Tome, Mt:9, SP:200"
@@ -1911,9 +1975,9 @@
     {
         "name": "valaskjalf",
         "aliases": [],
-        "content": "If unit's HP <= 50% and foe initiates combat, unit can counterattack before foe's first attack.\n\n**Used by:**\nBruno: Masked Knight\n\nThis weapon is exclusive to non-player units",
+        "content": "If unit's HP \u2264 50% and foe initiates combat, unit can counterattack before foe's first attack.\n\n**Used by:**\nBruno: Masked Knight\n\nThis weapon is exclusive to non-player units",
         "color": "blue",
-        "aka": "Valaskjalf",
+        "aka": "Valaskj\u00E1lf",
         "skill": "Blue Tome, Mt:14, SP:400"
     },
 	{
@@ -1937,7 +2001,7 @@
     {
         "name": "armads",
         "aliases": [],
-        "content": "If unit's HP >= 80% and foe initiates combat, unit makes a guaranteed follow-up attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHector: General of Ostia (5\\*)\n\nArmads may be evolved into Berserk Armads in the Weapon Refinery.",
+        "content": "If unit's HP \u2265 80% and foe initiates combat, unit makes a guaranteed follow-up attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHector: General of Ostia (5\\*)\n\nArmads may be evolved into Berserk Armads in the Weapon Refinery.",
         "color": "green",
         "aka": "Armads",
         "skill": "Green Axe, Mt:16, SP:400"
@@ -1956,7 +2020,7 @@
 			"armads 2",
 			"armads undertale"
 		],
-		"content": "Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP <= 75% and unit's attack triggers Special, grants Special cooldown count-1. Deals +10 damage when Special triggers.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHector: Just Here to Fight (Love Abounds) (5\\*)\nBerserk Armads may also be obtained by evolving Armads in the Weapon Refinery",
+		"content": "Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP \u2264 75% and unit's attack triggers Special, grants Special cooldown count-1. Deals +10 damage when Special triggers.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHector: Just Here to Fight (Love Abounds) (5\\*)\nBerserk Armads may also be obtained by evolving Armads in the Weapon Refinery",
 		"color": "green",
 		"aka": "Berserk Armads",
 		"skill": "Green Axe, Mt:16, SP:400"
@@ -1980,11 +2044,19 @@
         "skill": "Green Axe, Mt:8, SP:300"
     },
 	{
+		"name": "byleistr",
+		"aliases": [],
+		"content": "At start of odd-numbered turns, grants Atk/Spd/Def/Res+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)\n\n**Used by:**\nHelbindi: Savage Scourge\n\nThis weapon is exclusive to non-player units",
+		"color": "green",
+		"aka": "B\u00FDleistr",
+		"skill": "Green Axe, Mt:16, SP:400"
+	},
+	{
 		"name": "camilla's axe",
 		"aliases": [
 			"camillas axe"
 		],
-		"content": "It's not in the game yet as of writing this but i'm 140% certain Camilla gets it and it's better than iron axe",
+		"content": "If unit is within 2 spaces of a cavalry or flying ally, grants Atk/Spd +4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCamilla: Bewitching Beauty (5\\*)\n\n***Camilla's Axe may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"Grants Atk/Spd+3 to cavalry and flying allies within 2 spaces during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "green",
 		"aka": "Camilla's Axe",
 		"skill": "Green Axe, Mt:16, SP:400"
@@ -2196,9 +2268,9 @@
     {
         "name": "noatun",
         "aliases": [],
-        "content": "If unit's HP <= 40%, unit can move to a space adjacent to any ally.\n\n**Exclusive weapon, cannot be inherited.**\n**Available for:**\nAnna: Commander (5\\*)",
+        "content": "If unit's HP \u2264 40%, unit can move to a space adjacent to any ally.\n\n**Exclusive weapon, cannot be inherited.**\n**Available for:**\nAnna: Commander (5\\*)",
         "color": "green",
-        "aka": "Noatun",
+        "aka": "N\u00F3at\u00FAn",
         "skill": "Green Axe, Mt:16, SP:400"
     },
 	{
@@ -2340,7 +2412,7 @@
 		],
         "content": "If Sing or Dance is used, grants Atk/Spd/Def/Res+3 to target.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAzura: Lady of Ballads (Performing Arts) (5\\*)",
         "color": "green",
-        "aka": "Urdr",
+        "aka": "Ur\u00F0r",
         "skill": "Green Axe, Mt:16, SP:400"
     },
 	{
@@ -2396,7 +2468,7 @@
         "aliases": [],
         "content": "If unit initiates combat, converts bonuses on foes within 2 spaces of target into penalties through their next actions.\n\n**Used by:**\nVeronica: Emblian Princess\n\nThis weapon is exclusive to non-player units",
         "color": "green",
-        "aka": "Elivagar",
+        "aka": "\u00C9liv\u00E1gar",
         "skill": "Green Tome, Mt:14, SP:400"
     },
     {
@@ -2567,7 +2639,7 @@
 		"aliases": [
 			"muninns egg"
 		],
-		"content": "Grants Res+3. At start of turn, if unit's HP >= 50%, inflicts Atk/Res-5 on foe on the enemy team with the lowest Spd through its next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSharena: Spring Princess (Hares at the Fair) (5\\*)",
+		"content": "Grants Res+3. At start of turn, if unit's HP \u2265 50%, inflicts Atk/Res-5 on foe on the enemy team with the lowest Spd through its next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSharena: Spring Princess (Hares at the Fair) (5\\*)",
 		"color": "green",
 		"aka": "Muninn's Egg",
 		"skill": "Green Tome, Mt:14, SP:400"
@@ -2710,7 +2782,7 @@
 		"aliases": [
 			"great days"
 		],
-		"content": "Grants Atk+3. If unit's Def >= foe's Def + 5, foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMyrrh: Great Dragon (5\\*)",
+		"content": "Grants Atk+3. If unit's Def \u2265 foe's Def + 5, foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMyrrh: Great Dragon (5\\*)",
 		"color": "green",
 		"aka": "Great Flame",
 		"skill": "Breath, Mt:16, SP:400"
@@ -2915,9 +2987,9 @@
 		"aliases": [
 			"thicc"
 		],
-		"content": "Calculates damage from staff like other weapons. At start of turn, if foe's HP <= unit's HP+3 and foe is in cardinal direction and uses bow, dagger, magic, or staff, foe cannot move more than 1 space through its action.\n\n**Used by:**\nLoki: The Trickster\n\nThis weapon is exclusive to non-player units",
+		"content": "Calculates damage from staff like other weapons. At start of turn, if foe's HP \u2264 unit's HP+3 and foe is in cardinal direction and uses bow, dagger, magic, or staff, foe cannot move more than 1 space through its action.\n\n**Used by:**\nLoki: The Trickster\n\nThis weapon is exclusive to non-player units",
 		"color": "grey",
-		"aka": "Thokk",
+		"aka": "Th\u00F6kk",
 		"skill": "Colorless Staff, Mt:14, SP:400"
 	},
     {
@@ -3036,7 +3108,7 @@
     {
         "name": "fujin yumi",
         "aliases": [],
-        "content": "Effective against flying foes. If unit's HP >= 50%, unit can move through foes' spaces.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTakumi: Wild Card (5\\*)\n\n***Fujin Yumi may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. If unit's HP >= 50%, unit cannot be slowed by terrain. (Does not apply to impassable terrain.)\")_\n**Special:** Gains \"If unit's HP >= 50%, unit can move to a space adjacent to any ally within 2 spaces.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+        "content": "Effective against flying foes. If unit's HP \u2265 50%, unit can move through foes' spaces.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTakumi: Wild Card (5\\*)\n\n***Fujin Yumi may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying foes. If unit's HP \u2265 50%, unit cannot be slowed by terrain. (Does not apply to impassable terrain.)\")_\n**Special:** Gains \"If unit's HP \u2265 50%, unit can move to a space adjacent to any ally within 2 spaces.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "grey",
         "aka": "Fujin Yumi",
         "skill": "Colorless Bow, Mt:14, SP:400"
@@ -3493,7 +3565,7 @@
     {
         "name": "dance",
         "aliases": [],
-        "content": "Grants another action to target ally. (Cannot target an ally with Sing or Dance.)\n\n**Inheritance restriction:** Exclusive\n**Available for:**\nOlivia: Blushing Beauty (3\\*)\nNinian: Oracle of Destiny (5\\*)\nInigo: Indigo Dancer (Performing Arts) (5\\*)\nOlivia: Festival Dancer (Performing Arts) (5\\*)\n\nSee also: Sing",
+        "content": "Grants another action to target ally. (Cannot target an ally with Sing or Dance.)\n\n**Inheritance restriction:** Exclusive\n**Available for:**\nOlivia: Blushing Beauty (3\\*)\nLene: Yearning Dancer (5\\*)\nNinian: Oracle of Destiny (5\\*)\nInigo: Indigo Dancer (Performing Arts) (5\\*)\nOlivia: Festival Dancer (Performing Arts) (5\\*)\n\nSee also: Sing",
         "color": "cyan",
         "aka": "Dance",
         "skill": "Assist, SP:150"
@@ -3724,7 +3796,7 @@
         "aliases": [
 			"rehab-"
 		],
-        "content": "Slows Special trigger (cooldown count+1). If target's HP is <= 50%, the lower the target's HP, the more HP is restored. (Minimum of 7 HP.)\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nLissa: Sprightly Cleric (4\\*)\nPriscilla: Delicate Princess (4\\*)\nWrys: Kindly Priest (4\\*)\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)",
+        "content": "Slows Special trigger (cooldown count+1). If target's HP is \u2264 50%, the lower the target's HP, the more HP is restored. (Minimum of 7 HP.)\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nLissa: Sprightly Cleric (4\\*)\nPriscilla: Delicate Princess (4\\*)\nWrys: Kindly Priest (4\\*)\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)",
         "color": "cyan",
         "aka": "Rehabilitate",
         "skill": "Assist, SP:200"
@@ -3850,7 +3922,7 @@
     {
         "name": "blazing flame",
         "aliases": [],
-        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nJeorge: Perfect Shot (4\\*)\nBerkut: Prideful Prince (4\\*)\nLilina: Blush of Youth (5\\*)\n\nBlazing Flame's area of effect includes foe, two spaces to their left, and two spaces to their right",
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nJeorge: Perfect Shot (4\\*)\nBerkut: Prideful Prince (4\\*)\nLilina: Blush of Youth (5\\*)\n\nBlazing Flame's area of effect includes foe, two spaces to their left, and two spaces to their right\n<:Special:443763485063774209><:Special:443763485063774209><:Enemy:443763485080551424><:Special:443763485063774209><:Special:443763485063774209>",
         "color": "purple",
         "aka": "Blazing Flame",
         "skill": "Special, CD:4, SP:300"
@@ -3858,7 +3930,7 @@
     {
         "name": "blazing light",
         "aliases": [],
-        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nOliver: Admirer of Beauty (4\\*)\nXander: Paragon Knight (4\\*)\nCelica: Caring Princess (5\\*)\nLeif: Prince of Leonster (5\\*)\nLeo: Sorcerous Prince (5\\*)\n\nBlazing Light's are of effect includes foe, and one space diagonally from foe in each direction",
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nOliver: Admirer of Beauty (4\\*)\nXander: Paragon Knight (4\\*)\nCelica: Caring Princess (5\\*)\nLeif: Prince of Leonster (5\\*)\nLeo: Sorcerous Prince (5\\*)\n\nBlazing Light's are of effect includes foe, and one space diagonally from foe in each direction\n<:Special:443763485063774209><:Tile:443763484589555724><:Special:443763485063774209>\n<:Tile:443763484589555724><:Enemy:443763485080551424>\n<:Special:443763485063774209><:Tile:443763484589555724><:Special:443763485063774209>",
         "color": "purple",
         "aka": "Blazing Light",
         "skill": "Special, CD:4, SP:300"
@@ -3866,7 +3938,7 @@
     {
         "name": "blazing thunder",
         "aliases": [],
-        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nReinhardt: Thunder's Fist (4\\*)\nMichalis: Ambitious King (4\\*)\n\nBlazing Thunder's area of effect includes foe, two spaces above them, and two spaces beneath them",
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nReinhardt: Thunder's Fist (4\\*)\nMichalis: Ambitious King (4\\*)\n\nBlazing Thunder's area of effect includes foe, two spaces above them, and two spaces beneath them\n<:Special:443763485063774209>\n<:Special:443763485063774209>\n<:Enemy:443763485080551424>\n<:Special:443763485063774209>\n<:Special:443763485063774209>",
         "color": "purple",
         "aka": "Blazing Thunder",
         "skill": "Special, CD:4, SP:300"
@@ -3874,7 +3946,7 @@
     {
         "name": "blazing wind",
         "aliases": [],
-        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nSoleil: Adorable Adorer (4\\*)\nNavarre: Scarlet Sword (4\\*)\nHinoka: Warrior Princess (5\\*)\nOlwen: Righteous Knight (5\\*)\n\nBlazing Wind's area of effect includes foe, and one space cardinally from foe in each direction",
+        "content": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nSoleil: Adorable Adorer (4\\*)\nNavarre: Scarlet Sword (4\\*)\nHinoka: Warrior Princess (5\\*)\nOlwen: Righteous Knight (5\\*)\n\nBlazing Wind's area of effect includes foe, and one space cardinally from foe in each direction\n<:Tile:443763484589555724><:Special:443763485063774209><:Tile:443763484589555724>\n<:Special:443763485063774209><:Enemy:443763485080551424><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209><:Tile:443763484589555724>",
         "color": "purple",
         "aka": "Blazing Wind",
         "skill": "Special, CD:4, SP:300"
@@ -4510,7 +4582,7 @@
 			"brazen attack defense",
 			"brazen attack/defense"
 		],
-		"content": "If unit's HP <= 80% at the start of combat, grants Atk/Def+7 during combat.",
+		"content": "If unit's HP \u2264 80% at the start of combat, grants Atk/Def+7 during combat.",
 		"color": "orange",
 		"aka": "Brazen Atk/Def 3",
 		"skill": "A Skill"
@@ -4529,7 +4601,7 @@
 			"brazen attack speed",
 			"brazen attack/speed"
 		],
-		"content": "If unit's HP <= 80% at the start of combat, grants Atk/Spd+7 during combat.",
+		"content": "If unit's HP \u2264 80% at the start of combat, grants Atk/Spd+7 during combat.",
 		"color": "orange",
 		"aka": "Brazen Atk/Spd 3",
 		"skill": "A Skill"
@@ -4687,7 +4759,7 @@
         "aliases": [
             "defiant attack 1"
         ],
-        "content": "Grants Atk+3 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Atk+3 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Atk 1",
         "skill": "A Skill"
@@ -4697,7 +4769,7 @@
         "aliases": [
             "defiant attack 2"
         ],
-        "content": "Grants Atk+5 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Atk+5 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Atk 2",
         "skill": "A Skill"
@@ -4709,7 +4781,7 @@
             "defiant atk",
             "defiant attack"
         ],
-        "content": "Grants Atk+7 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Atk+7 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Atk 3",
         "skill": "A Skill"
@@ -4719,7 +4791,7 @@
         "aliases": [
             "defiant defense 1"
         ],
-        "content": "Grants Def+3 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Def+3 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Def 1",
         "skill": "A Skill"
@@ -4729,7 +4801,7 @@
         "aliases": [
             "defiant defense 2"
         ],
-        "content": "Grants Def+5 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Def+5 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Def 2",
         "skill": "A Skill"
@@ -4741,7 +4813,7 @@
             "defiant def",
             "defiant defense"
         ],
-        "content": "Grants Def+7 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Def+7 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Def 3",
         "skill": "A Skill"
@@ -4751,7 +4823,7 @@
         "aliases": [
             "defiant resistance 1"
         ],
-        "content": "Grants Res+3 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Res+3 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Res 1",
         "skill": "A Skill"
@@ -4761,7 +4833,7 @@
         "aliases": [
             "defiant resistance 2"
         ],
-        "content": "Grants Res+5 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Res+5 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Res 2",
         "skill": "A Skill"
@@ -4773,7 +4845,7 @@
             "defiant res",
             "defiant resistance"
         ],
-        "content": "Grants Res+7 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Res+7 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Res 3",
         "skill": "A Skill"
@@ -4783,7 +4855,7 @@
         "aliases": [
             "defiant speed 1"
         ],
-        "content": "Grants Spd+3 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Spd+3 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Spd 1",
         "skill": "A Skill"
@@ -4793,7 +4865,7 @@
         "aliases": [
             "defiant speed 2"
         ],
-        "content": "Grants Spd+5 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Spd+5 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Spd 2",
         "skill": "A Skill"
@@ -4805,7 +4877,7 @@
             "defiant spd",
             "defiant speed"
         ],
-        "content": "Grants Spd+7 at start of turn if unit's HP <= 50%.",
+        "content": "Grants Spd+7 at start of turn if unit's HP \u2264 50%.",
         "color": "orange",
         "aka": "Defiant Spd 3",
         "skill": "A Skill"
@@ -5143,7 +5215,7 @@
     {
         "name": "heavy blade 1",
         "aliases": [],
-        "content": "If unit's Atk - foe's Atk >= 5, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
+        "content": "If unit's Atk - foe's Atk \u2265 5, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Heavy Blade 1",
         "skill": "A Skill & Sacred Seal"
@@ -5151,7 +5223,7 @@
     {
         "name": "heavy blade 2",
         "aliases": [],
-        "content": "If unit's Atk - foe's Atk >= 3, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
+        "content": "If unit's Atk - foe's Atk \u2265 3, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Heavy Blade 2",
         "skill": "A Skill & Sacred Seal"
@@ -5161,7 +5233,7 @@
         "aliases": [
             "heavy blade"
         ],
-        "content": "If unit's Atk - foe's Atk >= 1, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
+        "content": "If unit's Atk - foe's Atk \u2265 1, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Heavy Blade 3",
         "skill": "A Skill & Sacred Seal"
@@ -5677,7 +5749,7 @@
     {
         "name": "axebreaker 1",
         "aliases": [],
-        "content": "If unit's HP >= 90% in combat against an axe user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 90% in combat against an axe user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Axebreaker 1",
         "skill": "B Skill"
@@ -5685,7 +5757,7 @@
     {
         "name": "axebreaker 2",
         "aliases": [],
-        "content": "If unit's HP >= 70% in combat against an axe user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 70% in combat against an axe user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Axebreaker 2",
         "skill": "B Skill"
@@ -5695,7 +5767,7 @@
         "aliases": [
             "axebreaker"
         ],
-        "content": "If unit's HP >= 50% in combat against an axe user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 50% in combat against an axe user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Axebreaker 3",
         "skill": "B Skill"
@@ -5743,7 +5815,7 @@
         "aliases": [
             "blue tomebreaker 1"
         ],
-        "content": "If unit's HP >= 90% in combat against a blue tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 90% in combat against a blue tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "B Tomebreaker 1",
         "skill": "B Skill"
@@ -5753,7 +5825,7 @@
         "aliases": [
             "blue tomebreaker 2"
         ],
-        "content": "If unit's HP >= 70% in combat against a blue tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 70% in combat against a blue tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "B Tomebreaker 2",
         "skill": "B Skill"
@@ -5765,7 +5837,7 @@
             "b tomebreaker",
             "blue tomebreaker"
         ],
-        "content": "If unit's HP >= 50% in combat against a blue tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 50% in combat against a blue tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "B Tomebreaker 3",
         "skill": "B Skill"
@@ -5783,7 +5855,7 @@
     {
         "name": "bowbreaker 1",
         "aliases": [],
-        "content": "If unit's HP >= 90% in combat against a bow user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 90% in combat against a bow user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Bowbreaker 1",
         "skill": "B Skill"
@@ -5791,7 +5863,7 @@
     {
         "name": "bowbreaker 2",
         "aliases": [],
-        "content": "If unit's HP >= 70% in combat against a bow user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 70% in combat against a bow user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Bowbreaker 2",
         "skill": "B Skill"
@@ -5801,7 +5873,7 @@
         "aliases": [
             "bowbreaker"
         ],
-        "content": "If unit's HP >= 50% in combat against a bow user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 50% in combat against a bow user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Bowbreaker 3",
         "skill": "B Skill"
@@ -5809,7 +5881,7 @@
     {
         "name": "brash assault 1",
         "aliases": [],
-        "content": "Unit automatically makes a follow-up when at HP <= 30% and attacking a foe that can counter.",
+        "content": "Unit automatically makes a follow-up when at HP \u2264 30% and attacking a foe that can counter.",
         "color": "orange",
         "aka": "Brash Assault 1",
         "skill": "B Skill & Sacred Seal"
@@ -5817,7 +5889,7 @@
     {
         "name": "brash assault 2",
         "aliases": [],
-        "content": "Unit automatically makes a follow-up when at HP <= 40% and attacking a foe that can counter.",
+        "content": "Unit automatically makes a follow-up when at HP \u2264 40% and attacking a foe that can counter.",
         "color": "orange",
         "aka": "Brash Assault 2",
         "skill": "B Skill & Sacred Seal"
@@ -5827,7 +5899,7 @@
         "aliases": [
             "brash assault"
         ],
-        "content": "Unit automatically makes a follow-up when at HP <= 50% and attacking a foe that can counter.",
+        "content": "Unit automatically makes a follow-up when at HP \u2264 50% and attacking a foe that can counter.",
         "color": "orange",
         "aka": "Brash Assault 3",
         "skill": "B Skill & Sacred Seal"
@@ -5894,7 +5966,7 @@
 	{
 		"name": "chilling seal",
 		"aliases": [],
-		"content": "At the start of each turn, if unit's HP >= 50% inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited)",
+		"content": "At the start of each turn, if unit's HP \u2265 50% inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited)",
 		"color": "orange",
 		"aka": "Chilling Seal",
 		"skill": "B Skill"
@@ -5912,7 +5984,7 @@
     {
         "name": "daggerbreaker 1",
         "aliases": [],
-        "content": "If unit's HP >= 90% in combat against a dagger user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 90% in combat against a dagger user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Daggerbreaker 1",
         "skill": "B Skill"
@@ -5920,7 +5992,7 @@
     {
         "name": "daggerbreaker 2",
         "aliases": [],
-        "content": "If unit's HP >= 70% in combat against a dagger user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 70% in combat against a dagger user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Daggerbreaker 2",
         "skill": "B Skill"
@@ -5931,7 +6003,7 @@
             "dagger breaker",
             "daggerbreaker"
         ],
-        "content": "If unit's HP >= 50% in combat against a dagger user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 50% in combat against a dagger user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Daggerbreaker 3",
         "skill": "B Skill"
@@ -5947,7 +6019,7 @@
     {
         "name": "dazzling staff 2",
         "aliases": [],
-        "content": "If unit has >= 50% HP at the start of combat, the enemy cannot counterattack.",
+        "content": "If unit has \u2265 50% HP at the start of combat, the enemy cannot counterattack.",
         "color": "orange",
         "aka": "Dazzling Staff 2",
         "skill": "B Skill"
@@ -5965,7 +6037,7 @@
     {
         "name": "desperation 1",
         "aliases": [],
-        "content": "If unit initiates combat with HP <= 25%, follow-up attacks occur immediately after unit's attack.",
+        "content": "If unit initiates combat with HP \u2264 25%, follow-up attacks occur immediately after unit's attack.",
         "color": "orange",
         "aka": "Desperation 1",
         "skill": "B Skill"
@@ -5973,7 +6045,7 @@
     {
         "name": "desperation 2",
         "aliases": [],
-        "content": "If unit initiates combat with HP <= 50%, follow-up attacks occur immediately after unit's attack.",
+        "content": "If unit initiates combat with HP \u2264 50%, follow-up attacks occur immediately after unit's attack.",
         "color": "orange",
         "aka": "Desperation 2",
         "skill": "B Skill"
@@ -5985,7 +6057,7 @@
             "desp 3",
             "desp"
         ],
-        "content": "If unit initiates combat with HP <= 75%, follow-up attacks occur immediately after unit's attack.",
+        "content": "If unit initiates combat with HP \u2264 75%, follow-up attacks occur immediately after unit's attack.",
         "color": "orange",
         "aka": "Desperation 3",
         "skill": "B Skill"
@@ -6021,7 +6093,7 @@
 		"aliases": [
 			"dull range 2"
 		],
-		"content": "If unit's HP >= 50% at start of combat and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+		"content": "If unit's HP \u2265 50% at start of combat and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
 		"color": "orange",
 		"aka": "Dull Ranged 2",
 		"skill": "B Skill"
@@ -6067,7 +6139,7 @@
     {
         "name": "escape route 1",
         "aliases": [],
-        "content": "Enables unit whose own HP is <= 30% to warp adjacent to any ally.",
+        "content": "Enables unit whose own HP is \u2264 30% to warp adjacent to any ally.",
         "color": "orange",
         "aka": "Escape Route 1",
         "skill": "B Skill"
@@ -6075,7 +6147,7 @@
     {
         "name": "escape route 2",
         "aliases": [],
-        "content": "Enables unit whose own HP is <= 40% to warp adjacent to any ally.",
+        "content": "Enables unit whose own HP is \u2264 40% to warp adjacent to any ally.",
         "color": "orange",
         "aka": "Escape Route 2",
         "skill": "B Skill"
@@ -6085,7 +6157,7 @@
         "aliases": [
             "escape route"
         ],
-        "content": "Enables unit whose own HP is <= 50% to warp adjacent to any ally.",
+        "content": "Enables unit whose own HP is \u2264 50% to warp adjacent to any ally.",
         "color": "orange",
         "aka": "Escape Route 3",
         "skill": "B Skill"
@@ -6101,7 +6173,7 @@
     {
         "name": "flier formation 2",
         "aliases": [],
-        "content": "If unit has <= 50% HP, unit can move to a space adjacent to a flier ally within 2 spaces.",
+        "content": "If unit has \u2264 50% HP, unit can move to a space adjacent to a flier ally within 2 spaces.",
         "color": "orange",
         "aka": "Flier Formation 2",
         "skill": "B Skill"
@@ -6122,7 +6194,7 @@
             "follow up ring",
             "followup ring"
         ],
-        "content": "Unit makes a guaranteed follow-up attack when unit's HP >= 50% at start of combat. (Skill cannot be inherited.)",
+        "content": "Unit makes a guaranteed follow-up attack when unit's HP \u2265 50% at start of combat. (Skill cannot be inherited.)",
         "color": "orange",
         "aka": "Follow-Up Ring",
         "skill": "B Skill"
@@ -6176,7 +6248,7 @@
         "aliases": [
             "green tomebreaker 1"
         ],
-        "content": "If unit's HP >= 90% in combat against a green tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 90% in combat against a green tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "G Tomebreaker 1",
         "skill": "B Skill"
@@ -6186,7 +6258,7 @@
         "aliases": [
             "green tomebreaker 2"
         ],
-        "content": "If unit's HP >= 70% in combat against a green tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 70% in combat against a green tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "G Tomebreaker 2",
         "skill": "B Skill"
@@ -6198,7 +6270,7 @@
             "g tomebreaker",
             "green tomebreaker"
         ],
-        "content": "If unit's HP >= 50% in combat against a green tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 50% in combat against a green tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "G Tomebreaker 3",
         "skill": "B Skill"
@@ -6214,7 +6286,7 @@
     {
         "name": "guard 2",
         "aliases": [],
-        "content": "If unit's HP is >= 90% at start of combat, enemy is inflicted with Special cooldown charge-1. (If using similar skill, only highest value applied.)",
+        "content": "If unit's HP is \u2265 90% at start of combat, enemy is inflicted with Special cooldown charge-1. (If using similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Guard 2",
         "skill": "B Skill"
@@ -6224,7 +6296,7 @@
         "aliases": [
             "guard"
         ],
-        "content": "If unit's HP is >= 80% at start of combat, enemy is inflicted with Special cooldown charge-1. (If using similar skill, only highest value applied.)",
+        "content": "If unit's HP is \u2265 80% at start of combat, enemy is inflicted with Special cooldown charge-1. (If using similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Guard 3",
         "skill": "B Skill"
@@ -6255,7 +6327,7 @@
     {
         "name": "lancebreaker 1",
         "aliases": [],
-        "content": "If unit's HP >= 90% in combat against a lance user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 90% in combat against a lance user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Lancebreaker 1",
         "skill": "B Skill"
@@ -6263,7 +6335,7 @@
     {
         "name": "lancebreaker 2",
         "aliases": [],
-        "content": "If unit's HP >= 70% in combat against a lance user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 70% in combat against a lance user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Lancebreaker 2",
         "skill": "B Skill"
@@ -6273,7 +6345,7 @@
         "aliases": [
             "lancebreaker"
         ],
-        "content": "If unit's HP >= 50% in combat against a lance user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 50% in combat against a lance user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Lancebreaker 3",
         "skill": "B Skill"
@@ -6333,7 +6405,7 @@
     {
         "name": "obstruct 1",
         "aliases": [],
-        "content": "Prevents foes from moving through adjacent spaces while this unit's HP >= 90%. (No effect on foes with a Pass skill.)",
+        "content": "Prevents foes from moving through adjacent spaces while this unit's HP \u2265 90%. (No effect on foes with a Pass skill.)",
         "color": "orange",
         "aka": "Obstruct 1",
         "skill": "B Skill"
@@ -6341,7 +6413,7 @@
     {
         "name": "obstruct 2",
         "aliases": [],
-        "content": "Prevents foes from moving through adjacent spaces while this unit's HP >= 70%. (No effect on foes with a Pass skill.)",
+        "content": "Prevents foes from moving through adjacent spaces while this unit's HP \u2265 70%. (No effect on foes with a Pass skill.)",
         "color": "orange",
         "aka": "Obstruct 2",
         "skill": "B Skill"
@@ -6351,7 +6423,7 @@
         "aliases": [
             "obstruct"
         ],
-        "content": "Prevents foes from moving through adjacent spaces while this unit's HP >= 50%. (No effect on foes with a Pass skill.)",
+        "content": "Prevents foes from moving through adjacent spaces while this unit's HP \u2265 50%. (No effect on foes with a Pass skill.)",
         "color": "orange",
         "aka": "Obstruct 3",
         "skill": "B Skill"
@@ -6359,7 +6431,7 @@
     {
         "name": "obstruct meme",
         "aliases": [],
-        "content": "Prevents foes from moving through adjacent spaces while this unit's HP >= 50%. (No effect on Kelly.)",
+        "content": "Prevents foes from moving through adjacent spaces while this unit's HP \u2265 50%. (No effect on Kelly.)",
         "color": "orange",
         "aka": "Obstruct 3",
         "skill": "B Skill"
@@ -6383,7 +6455,7 @@
     {
         "name": "pass 1",
         "aliases": [],
-        "content": "Units can pass through foes if its own HP >= 75%.",
+        "content": "Units can pass through foes if its own HP \u2265 75%.",
         "color": "orange",
         "aka": "Pass 1",
         "skill": "B Skill"
@@ -6391,7 +6463,7 @@
     {
         "name": "pass 2",
         "aliases": [],
-        "content": "Units can pass through foes if its own HP >= 50%.",
+        "content": "Units can pass through foes if its own HP \u2265 50%.",
         "color": "orange",
         "aka": "Pass 2",
         "skill": "B Skill"
@@ -6402,7 +6474,7 @@
             "pass",
             "ass"
         ],
-        "content": "Units can pass through foes if its own HP >= 25%.",
+        "content": "Units can pass through foes if its own HP \u2265 25%.",
         "color": "orange",
         "aka": "Pass 3",
         "skill": "B Skill"
@@ -6436,7 +6508,7 @@
     {
         "name": "quick riposte 1",
         "aliases": [],
-        "content": "Unit automatically makes a follow-up attack if attacked at HP >= 90%.",
+        "content": "Unit automatically makes a follow-up attack if attacked at HP \u2265 90%.",
         "color": "orange",
         "aka": "Quick Riposte 1",
         "skill": "B Skill & Sacred Seal"
@@ -6444,7 +6516,7 @@
     {
         "name": "quick riposte 2",
         "aliases": [],
-        "content": "Unit automatically makes a follow-up attack if attacked at HP >= 80%.",
+        "content": "Unit automatically makes a follow-up attack if attacked at HP \u2265 80%.",
         "color": "orange",
         "aka": "Quick Riposte 2",
         "skill": "B Skill & Sacred Seal"
@@ -6456,7 +6528,7 @@
             "qr3",
             "qr"
         ],
-        "content": "Unit automatically makes a follow-up attack if attacked at HP >= 70%.",
+        "content": "Unit automatically makes a follow-up attack if attacked at HP \u2265 70%.",
         "color": "orange",
         "aka": "Quick Riposte 3",
         "skill": "B Skill & Sacred Seal"
@@ -6476,7 +6548,7 @@
         "aliases": [
             "red tomebreaker 1"
         ],
-        "content": "If unit's HP >= 90% in combat against a red tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 90% in combat against a red tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "R Tomebreaker 1",
         "skill": "B Skill"
@@ -6486,7 +6558,7 @@
         "aliases": [
             "red tomebreaker 2"
         ],
-        "content": "If unit's HP >= 70% in combat against a red tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 70% in combat against a red tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "R Tomebreaker 2",
         "skill": "B Skill"
@@ -6498,7 +6570,7 @@
             "r tomebreaker",
             "red tomebreaker"
         ],
-        "content": "If unit's HP >= 50% in combat against a red tome user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 50% in combat against a red tome user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "R Tomebreaker 3",
         "skill": "B Skill"
@@ -6749,7 +6821,7 @@
     {
         "name": "swordbreaker 1",
         "aliases": [],
-        "content": "If unit's HP >= 90% in combat against a sword user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 90% in combat against a sword user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Swordbreaker 1",
         "skill": "B Skill"
@@ -6757,7 +6829,7 @@
     {
         "name": "swordbreaker 2",
         "aliases": [],
-        "content": "If unit's HP >= 70% in combat against a sword user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 70% in combat against a sword user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Swordbreaker 2",
         "skill": "B Skill"
@@ -6767,7 +6839,7 @@
         "aliases": [
             "swordbreaker"
         ],
-        "content": "If unit's HP >= 50% in combat against a sword user, unit makes a follow-up attack and foe cannot.",
+        "content": "If unit's HP \u2265 50% in combat against a sword user, unit makes a follow-up attack and foe cannot.",
         "color": "orange",
         "aka": "Swordbreaker 3",
         "skill": "B Skill"
@@ -6785,7 +6857,7 @@
     {
         "name": "vantage 1",
         "aliases": [],
-        "content": "Unit counterattacks first when attacked at HP <= 25%.",
+        "content": "Unit counterattacks first when attacked at HP \u2264 25%.",
         "color": "orange",
         "aka": "Vantage 1",
         "skill": "B Skill"
@@ -6793,7 +6865,7 @@
     {
         "name": "vantage 2",
         "aliases": [],
-        "content": "Unit counterattacks first when attacked at HP <= 50%.",
+        "content": "Unit counterattacks first when attacked at HP \u2264 50%.",
         "color": "orange",
         "aka": "Vantage 2",
         "skill": "B Skill"
@@ -6803,7 +6875,7 @@
         "aliases": [
             "vantage"
         ],
-        "content": "Unit counterattacks first when attacked at HP <= 75%.",
+        "content": "Unit counterattacks first when attacked at HP \u2264 75%.",
         "color": "orange",
         "aka": "Vantage 3",
         "skill": "B Skill"
@@ -6813,7 +6885,7 @@
 		"aliases": [
 			"vengeful fighter"
 		],
-		"content": "If unit's HP >= 50% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
+		"content": "If unit's HP \u2265 50% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
 		"color": "orange",
 		"aka": "Vengeful Fighter 3",
 		"skill": "B Skill"
@@ -6821,7 +6893,7 @@
 	{
 		"name": "warp powder",
 		"aliases": [],
-		"content": "If unit's HP >= 80%, unit can move adjacent to any ally within 2 spaces. (Skill cannot be inherited.)",
+		"content": "If unit's HP \u2265 80%, unit can move adjacent to any ally within 2 spaces. (Skill cannot be inherited.)",
 		"color": "orange",
 		"aka": "Warp Powder",
 		"skill": "B Skill"
@@ -6831,7 +6903,7 @@
         "aliases": [
             "weary fighter 1"
         ],
-        "content": "Prevents follow-up attacks in combat from unit and foes if unit's HP >= 90%.",
+        "content": "Prevents follow-up attacks in combat from unit and foes if unit's HP \u2265 90%.",
         "color": "orange",
         "aka": "Wary Fighter 1",
         "skill": "B Skill"
@@ -6841,7 +6913,7 @@
         "aliases": [
             "weary fighter 2"
         ],
-        "content": "Prevents follow-up attacks in combat from unit and foes if unit's HP >= 70%.",
+        "content": "Prevents follow-up attacks in combat from unit and foes if unit's HP \u2265 70%.",
         "color": "orange",
         "aka": "Wary Fighter 2",
         "skill": "B Skill"
@@ -6853,7 +6925,7 @@
             "wary fighter",
             "weary fighter"
         ],
-        "content": "Prevents follow-up attacks in combat from unit and foes if unit's HP >= 50%.",
+        "content": "Prevents follow-up attacks in combat from unit and foes if unit's HP \u2265 50%.",
         "color": "orange",
         "aka": "Wary Fighter 3",
         "skill": "B Skill"
@@ -6861,7 +6933,7 @@
     {
         "name": "watersweep 1",
         "aliases": [],
-        "content": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff or dragonstone, if unit's Spd - foe's Spd >= 5, foe can't counterattack.",
+        "content": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff or dragonstone, if unit's Spd - foe's Spd \u2265 5, foe can't counterattack.",
         "color": "orange",
         "aka": "Watersweep 1",
         "skill": "B Skill"
@@ -6869,7 +6941,7 @@
     {
         "name": "watersweep 2",
         "aliases": [],
-        "content": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff or dragonstone, if unit's Spd - foe's Spd >= 3, foe can't counterattack.",
+        "content": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff or dragonstone, if unit's Spd - foe's Spd \u2265 3, foe can't counterattack.",
         "color": "orange",
         "aka": "Watersweep 2",
         "skill": "B Skill"
@@ -6879,7 +6951,7 @@
         "aliases": [
             "watersweep"
         ],
-        "content": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff or dragonstone, if unit's Spd - foe's Spd >= 1, foe can't counterattack.",
+        "content": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff or dragonstone, if unit's Spd - foe's Spd \u2265 1, foe can't counterattack.",
         "color": "orange",
         "aka": "Watersweep 3",
         "skill": "B Skill"
@@ -6887,7 +6959,7 @@
     {
         "name": "windsweep 1",
         "aliases": [],
-        "content": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd >= 5, foe can't counterattack.",
+        "content": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd \u2265 5, foe can't counterattack.",
         "color": "orange",
         "aka": "Windsweep 1",
         "skill": "B Skill"
@@ -6895,7 +6967,7 @@
     {
         "name": "windsweep 2",
         "aliases": [],
-        "content": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd >= 3, foe can't counterattack.",
+        "content": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd \u2265 3, foe can't counterattack.",
         "color": "orange",
         "aka": "Windsweep 2",
         "skill": "B Skill"
@@ -6905,7 +6977,7 @@
         "aliases": [
             "windsweep"
         ],
-        "content": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd >= 1, foe can't counterattack.",
+        "content": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd \u2265 1, foe can't counterattack.",
         "color": "orange",
         "aka": "Windsweep 3",
         "skill": "B Skill"
@@ -6913,7 +6985,7 @@
     {
         "name": "wings of mercy 1",
         "aliases": [],
-        "content": "Enables unit to warp adjacent to any ally with HP <= 30%.",
+        "content": "Enables unit to warp adjacent to any ally with HP \u2264 30%.",
         "color": "orange",
         "aka": "Wings of Mercy 1",
         "skill": "B Skill"
@@ -6921,7 +6993,7 @@
     {
         "name": "wings of mercy 2",
         "aliases": [],
-        "content": "Enables unit to warp adjacent to any ally with HP <= 40%.",
+        "content": "Enables unit to warp adjacent to any ally with HP \u2264 40%.",
         "color": "orange",
         "aka": "Wings of Mercy 2",
         "skill": "B Skill"
@@ -6934,7 +7006,7 @@
             "wom",
             "noooooo"
         ],
-        "content": "Enables unit to warp adjacent to any ally with HP <= 50%.",
+        "content": "Enables unit to warp adjacent to any ally with HP \u2264 50%.",
         "color": "orange",
         "aka": "Wings of Mercy 3",
         "skill": "B Skill"
@@ -6942,7 +7014,7 @@
     {
         "name": "wrath 1",
         "aliases": [],
-        "content": "If unit's HP <= 25%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
+        "content": "If unit's HP \u2264 25%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
         "color": "orange",
         "aka": "Wrath 1",
         "skill": "B Skill"
@@ -6950,7 +7022,7 @@
     {
         "name": "wrath 2",
         "aliases": [],
-        "content": "If unit's HP <= 50%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
+        "content": "If unit's HP \u2264 50%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
         "color": "orange",
         "aka": "Wrath 2",
         "skill": "B Skill"
@@ -6960,7 +7032,7 @@
         "aliases": [
             "wrath"
         ],
-        "content": "If unit's HP <= 75%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
+        "content": "If unit's HP \u2264 75%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special.",
         "color": "orange",
         "aka": "Wrath 3",
         "skill": "B Skill"
@@ -6976,7 +7048,7 @@
     {
         "name": "wrathful staff 2",
         "aliases": [],
-        "content": "If unit has >= 50% HP at the start of combat, damage from their staff will be calculated the same as other weapons.",
+        "content": "If unit has \u2265 50% HP at the start of combat, damage from their staff will be calculated the same as other weapons.",
         "color": "orange",
         "aka": "Wrathful Staff 2",
         "skill": "B Skill"
@@ -7006,7 +7078,7 @@
         "aliases": [
             "armour march 2"
         ],
-        "content": "If unit has >= 50% HP and an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
+        "content": "If unit has \u2265 50% HP and an adjacent armored ally at start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)",
         "color": "orange",
         "aka": "Armor March 2",
         "skill": "C Skill"
@@ -7092,7 +7164,7 @@
 		"aliases": [
 			"attack tactic 1"
 		],
-		"content": "At start of turn, grants Atk+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Atk+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Atk Tactic 1",
 		"skill": "C Skill"
@@ -7102,7 +7174,7 @@
 		"aliases": [
 			"attack tactic 2"
 		],
-		"content": "At start of turn, grants Atk+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Atk+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Atk Tactic 2",
 		"skill": "C Skill"
@@ -7114,7 +7186,7 @@
 			"attack tactic",
 			"atk tactic"
 		],
-		"content": "At start of turn, grants Atk+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Atk+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Atk Tactic 3",
 		"skill": "C Skill"
@@ -7452,7 +7524,7 @@
 		"aliases": [
 			"defense tactic 1"
 		],
-		"content": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Def Tactic 1",
 		"skill": "C Skill"
@@ -7462,7 +7534,7 @@
 		"aliases": [
 			"defense tactic 2"
 		],
-		"content": "At start of turn, grants Def+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Def+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Def Tactic 2",
 		"skill": "C Skill"
@@ -7474,7 +7546,7 @@
 			"defense tactic",
 			"def tactic"
 		],
-		"content": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Def Tactic 3",
 		"skill": "C Skill"
@@ -7748,7 +7820,7 @@
     {
         "name": "guidance 2",
         "aliases": [],
-        "content": "If unit has >= 50% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+        "content": "If unit has \u2265 50% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
         "color": "orange",
         "aka": "Guidance 2",
         "skill": "C Skill & Sacred Seal"
@@ -8080,7 +8152,7 @@
 		"aliases": [
 			"resistance tactic 1"
 		],
-		"content": "At start of turn, grants Res+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Res+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Res Tactic 1",
 		"skill": "C Skill"
@@ -8090,7 +8162,7 @@
 		"aliases": [
 			"resistance tactic 2"
 		],
-		"content": "At start of turn, grants Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Res Tactic 2",
 		"skill": "C Skill"
@@ -8102,7 +8174,7 @@
 			"resistance tactic",
 			"res tactic"
 		],
-		"content": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team <= 2.",
+		"content": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
 		"color": "orange",
 		"aka": "Res Tactic 3",
 		"skill": "C Skill"
@@ -8728,7 +8800,7 @@
     {
         "name": "hardy bearing 2",
         "aliases": [],
-        "content": "Disables skills that change unit's attack priority. If unit has >= 50% HP at start of battle, enemy skills that change attack priority are also disabled.",
+        "content": "Disables skills that change unit's attack priority. If unit has \u2265 50% HP at start of battle, enemy skills that change attack priority are also disabled.",
         "color": "yellow",
         "aka": "Hardy Bearing 2",
         "skill": "Sacred Seal"
@@ -9071,7 +9143,7 @@
     {
         "name": "flashing blade 1",
         "aliases": [],
-        "content": "If unit's Spd - foe's Spd >= 5, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
+        "content": "If unit's Spd - foe's Spd \u2265 5, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Flashing Blade 1",
         "skill": "A Skill"
@@ -9079,7 +9151,7 @@
     {
         "name": "flashing blade 2",
         "aliases": [],
-        "content": "If unit's Spd - foe's Spd >= 3, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
+        "content": "If unit's Spd - foe's Spd \u2265 3, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Flashing Blade 2",
         "skill": "A Skill"
@@ -9089,7 +9161,7 @@
         "aliases": [
             "flashing blade"
         ],
-        "content": "If unit's Spd - foe's Spd >= 1, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
+        "content": "If unit's Spd - foe's Spd \u2265 1, unit gains Special cooldown charge +1 per attack.\n(If using other similar skill, only highest value applied.)",
         "color": "orange",
         "aka": "Flashing Blade 3",
         "skill": "A Skill"
@@ -9153,7 +9225,7 @@
     {
         "name": "alfonse",
         "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/5\n5\\* lv40: 43/35/25/32/22 (157)\n\n**Skills:**\nW: Folkvangr (5\\*)\nS: Sol (4\\*)\nA: Death Blow 3 (4\\*)\nC: Spur Atk 3 (5\\*)\n(Unit only obtainable through story, no IV variation)",
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/5\n5\\* lv40: 43/35/25/32/22 (157)\n\n**Skills:**\nW: F\u00F3lkvangr (5\\*)\nS: Sol (4\\*)\nA: Death Blow 3 (4\\*)\nC: Spur Atk 3 (5\\*)\n(Unit only obtainable through story, no IV variation)",
         "color": "red",
         "aka": "Alfonse: Prince of Askr",
         "skill": "Infantry Sword"
@@ -9177,7 +9249,7 @@
     {
         "name": "anna",
         "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/10/5/6\n5\\* lv40: 41/29/38/22/28 (158)\n\n**Skills:**\nW: Noatun (5\\*)\nS: Astra (4\\*)\nB: Vantage 3 (5\\*)\nC: Spur Res 3 (4\\*)\n(Unit only obtainable through story, no IV variation)",
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/10/5/6\n5\\* lv40: 41/29/38/22/28 (158)\n\n**Skills:**\nW: N\u00F3at\u00FAn (5\\*)\nS: Astra (4\\*)\nB: Vantage 3 (5\\*)\nC: Spur Res 3 (4\\*)\n(Unit only obtainable through story, no IV variation)",
         "color": "green",
         "aka": "Anna: Commander",
         "skill": "Infantry Axe"
@@ -9266,7 +9338,7 @@
             "pa!azura",
             "azura undertale"
         ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/8/3/6\n5\\* lv40: 35/32/34/20/28 (148~150)\n\n**Skills:**\nW: Urdr\nAs: Sing\nA: Triangle Adept 3\nC: Spur Res 1, Drive Res 2\n(Unit only summonable at 5\\* in limited banner)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/8/3/6\n5\\* lv40: 35/32/34/20/28 (148~150)\n\n**Skills:**\nW: Ur\u00F0r\nAs: Sing\nA: Triangle Adept 3\nC: Spur Res 1, Drive Res 2\n(Unit only summonable at 5\\* in limited banner)",
         "color": "green",
         "aka": "Azura: Lady of Ballads",
         "skill": "Infantry Axe"
@@ -9343,7 +9415,7 @@
     {
         "name": "bruno",
         "aliases": [],
-        "content": "A mysterious unit that only appears in the story, not usable by the player.\n\n**Skills:**\nW: Valaskjalf (5\\*)",
+        "content": "A mysterious unit that only appears in the story, not usable by the player.\n\n**Skills:**\nW: Valaskj\u00E1lf (5\\*)",
         "color": "blue",
         "aka": "Bruno: Masked Knight",
         "skill": "Cavalry Tome"
@@ -10262,7 +10334,7 @@
     {
         "name": "tailtiu",
         "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/4/6\n5\\* lv40: 39/32/35/17/25 (147~149)\n\n**Skills**\nW: Blarblade+ (5\\*)\nAs: Rally Speed Resistance (4\\*)\nA: Attack +1, Attack Res 2 (5\\*)\nC: Spur Spd 1, Drive Spd 2 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/4/6\n5\\* lv40: 39/32/35/17/25 (147~149)\n\n**Skills**\nW: Bl\u00E1rblade+ (5\\*)\nAs: Rally Speed Resistance (4\\*)\nA: Attack +1, Attack Res 2 (5\\*)\nC: Spur Spd 1, Drive Spd 2 (4\\*)",
         "color": "blue",
         "aka": "Tailtiu: Thunder Noble",
         "skill": "Infantry Tome"
@@ -10304,7 +10376,7 @@
     {
         "name": "tharja",
         "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/8/6/5\n5\\* lv40: 39/32/34/23/20 (147~148)\n\n**Skills**\nW: Raudrblade+ (5\\*)\nS: Vengeance (4\\*)\nA: Darting Blow 3 (4\\*)\nC: Spur Res 3 (5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/8/6/5\n5\\* lv40: 39/32/34/23/20 (147~148)\n\n**Skills**\nW: Rau\u00F0rblade+ (5\\*)\nS: Vengeance (4\\*)\nA: Darting Blow 3 (4\\*)\nC: Spur Res 3 (5\\*)",
         "color": "red",
         "aka": "Tharja: Dark Shadow",
         "skill": "Infantry Tome"
