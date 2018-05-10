@@ -1,4 +1,5 @@
 import json
+import difflib
 
 # Change this to give the spellcheck more or less leeway for suggestions
 # 1.0 means if num edits required is <= 100% of original length, return
@@ -99,4 +100,14 @@ def spellcheck(word, w_dict):
         except Exception as e:
             return e
 
-
+def command_match(str, commands):
+    """
+    Gets the closest matching command to an input string.
+    :param str: Input string.
+    :param commands: Command list.
+    :returns: closest matching command.
+    """
+    matches = difflib.get_close_matches(str, commands, 1)
+    if matches:
+         return matches[0]
+    return ""
