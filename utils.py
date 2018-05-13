@@ -107,7 +107,7 @@ def command_match(str, commands):
     :param commands: Command list.
     :returns: closest matching command.
     """
-    matches = difflib.get_close_matches(str, commands, 0.3)
+    matches = difflib.get_close_matches(str, commands, 1, 0.3)
     if matches:
          return matches[0]
     return ""
