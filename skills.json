@@ -173,7 +173,6 @@
     {
         "name": "lightninggrey",
         "aliases": [
-            "grey",
             "traps are gay",
             "traps",
             "are",
@@ -363,6 +362,16 @@
         "aka": "Arden Sacrifice",
         "skill": "Assist, SP:400"
     },
+	{
+		"name": "fe\u026a",
+		"aliases": [
+			"/fe\u026a/"
+		],
+		"content": "Fae: Divine Dragon?\nFaye: Devoted Heart?\nFeh: Messenger Owl?",
+		"color": "yellow",
+		"aka": "Did you mean:",
+		"skill": "/fe\u026a/ (disambiguation)"
+	},
     {
         "name": "",
         "aliases": [],
@@ -2420,7 +2429,7 @@
 		"aliases": [
 			"blizzard entertainment"
 		],
-		"content": "Grants Res+3. Grants bonus to unit's Atk = total penalties on foe during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nGunnthra: Voice of Dreams (5\\*)",
+		"content": "Grants Res+3. Grants bonus to unit's Atk = total penalties on foe during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nGunnthr\u00e1: Voice of Dreams (5\\*)",
 		"color": "green",
 		"aka": "Blizzard",
 		"skill": "Green Tome, Mt:14, SP:400"
@@ -2655,7 +2664,7 @@
     {
         "name": "rexcalibur-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nDeirdre: Lady of the Forest (5\\*)\nGunnthra: Voice of Dreams (5\\*)\nJulia: Naga's Blood (5\\*)\nMerric: Wind Mage (3\\*)\nOlwen: Righteous Knight (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)\nSonya: Vengeful Mage (5\\*)\nSoren: Shrewd Strategist (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nDeirdre: Lady of the Forest (5\\*)\nGunnthr\u00e1: Voice of Dreams (5\\*)\nJulia: Naga's Blood (5\\*)\nMerric: Wind Mage (3\\*)\nOlwen: Righteous Knight (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)\nSonya: Vengeful Mage (5\\*)\nSoren: Shrewd Strategist (3\\*)",
         "color": "green",
         "aka": "Rexcalibur",
         "skill": "Green Tome, Mt:9, SP:200"
@@ -3898,7 +3907,7 @@
         "aliases": [
 			"i'll eat fjorm's ass"
 		],
-        "content": "Treats foe's Def/Res as if reduced by 50% during combat. Restores HP = half of damage dealt.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nChrom: Exalted Prince (5\\*) [Summ. 3\\*]\nChrom: Knight Exalt (5\\*)\nIke: Young Mercenary (5\\*)\nIke: Brave Mercenary (Brave Heroes) (5\\*)\nLucina: Future Witness (5\\*)\nLucina: Brave Princess (Brave Heroes) (5\\*)",
+        "content": "Treats foe's Def/Res as if reduced by 50% during combat. Restores HP = half of damage dealt.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nChrom: Exalted Prince (5\\*)\nChrom: Knight Exalt (5\\*)\nIke: Young Mercenary (5\\*)\nIke: Brave Mercenary (Brave Heroes) (5\\*)\nLucina: Future Witness (5\\*)\nLucina: Brave Princess (Brave Heroes) (5\\*)",
         "color": "purple",
         "aka": "Aether",
         "skill": "Special, CD:5, SP:500"
@@ -9215,1200 +9224,3079 @@
 		"skill": "A Skill"
 	},
     {
-        "name": "abel",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/8/6\n5\\* lv40: 39/33/32/25/25 (153~155)\n\n**Skills:**\nW: Brave Lance+ (5\\*)\nS: Aegis (4\\*)\nA: HP+5 (5\\*)\nB: Swordbreaker 3 (4\\*)",
+        "name": "abel: the panther",
+        "aliases": [
+			"abel"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/8/6 (46)\n5\\* lv40: 39/33/32/25/25 (154)\n\n**Skills:**\nW: Brave Lance+ (5\\*)\nS: Aegis (4\\*)\nA: HP+5 (5\\*)\nB: Swordbreaker 3 (4\\*)",
         "color": "blue",
         "aka": "Abel: The Panther",
         "skill": "Cavalry Lance"
     },
     {
-        "name": "alfonse",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/5\n5\\* lv40: 43/35/25/32/22 (157)\n\n**Skills:**\nW: F\u00F3lkvangr (5\\*)\nS: Sol (4\\*)\nA: Death Blow 3 (4\\*)\nC: Spur Atk 3 (5\\*)\n(Unit only obtainable through story, no IV variation)",
-        "color": "red",
-        "aka": "Alfonse: Prince of Askr",
-        "skill": "Infantry Sword"
-    },
-    {
-        "name": "alm",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/9/6/6/5\n5\\* lv40: 45/33/30/28/22 (157~158)\n\n**Skills:**\nW: Falchion\nS: Draconic Aura\nA: Attack +3\nB: Windsweep 3\n(Unit only summonable at 5\\*)",
-        "color": "red",
-        "aka": "Alm: Hero of Prophecy",
-        "skill": "Infantry Sword"
-    },
-    {
-        "name": "amelia",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/6/8/9/4\n5\\* lv40: 47/34/34/35/23 (173~174)\n\n**Skills:**\nW: Slaying Axe+\nS: Sacred Cowl\nA: Earth Boost 3\nC: Armor March 3\n(Unit only summonable at 5\\*)",
-        "color": "green",
-        "aka": "Amelia: Rose of the War",
-        "skill": "Armored Axe"
-    },
-    {
-        "name": "anna",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/10/5/6\n5\\* lv40: 41/29/38/22/28 (158)\n\n**Skills:**\nW: N\u00F3at\u00FAn (5\\*)\nS: Astra (4\\*)\nB: Vantage 3 (5\\*)\nC: Spur Res 3 (4\\*)\n(Unit only obtainable through story, no IV variation)",
-        "color": "green",
-        "aka": "Anna: Commander",
-        "skill": "Infantry Axe"
-    },
-    {
-        "name": "arden",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 25/10/3/13/3\n5\\* lv40: 60/36/16/41/16 (169)\n\n**Skills:**\nW: Brave Sword+ (5\\*)\nS: Pavise (4\\*)\nB: Follow-Up Ring (5\\*)\nC: Spur Def 1, Drive Def 2 (4\\*)\n(Unit only available from Tempest Trials, no IV variation)",
-        "color": "red",
-        "aka": "Arden: Strong and Tough",
-        "skill": "Armored Sword"
-    },
-    {
-        "name": "arthur",
+		"name": "alfonse: prince of askr",
+		"aliases": [
+			"alfonse"
+		],
+		"content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/5 (47)\n5\\* lv40: 43/35/25/32/22 (157)\n\n**Skills:**\nW: F\u00f3lkvangr (5\\*)\nS: Sol (4\\*)\nA: Death Blow 3 (4\\*)\nC: Spur Atk 3 (5\\*)\n(Unit only obtainable through story, no IV variation)",
+		"color": "red",
+		"aka": "Alfonse: Prince of Askr",
+		"skill": "Infantry Sword"
+	},
+	{
+        "name": "alfonse: spring prince",
         "aliases": [
-            "captain america"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/7/8/5\n5\\* lv40: 43/32/29/30/24 (157~159)\n\n**Skills:**\nW: Emerald Axe+ (5\\*)\nAs: Swap (3\\*)\nA: HP+5 (4\\*)\nB: Lancebreaker 3 (5\\*)",
+			"spring alfonse",
+			"s!alfonse",
+			"alfonse hares at the fair",
+			"hares at the fair alfonse",
+			"alfonse finally gets an alt",
+			"alfonse 2",
+			"alfonse undertale"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/7/6/5 (46)\n5\\* lv40: 41/35/33/30/18 (157)\n\n**Skills**:\nW: Giant Spoon+\nS: Noontime\nA: Sturdy Blow 2\nC: Def Smoke 3\n(Unit only summonable at 5\\* in limited banner)",
         "color": "green",
-        "aka": "Arthur: Hapless Hero",
-        "skill": "Infantry Axe"
+        "aka": "Alfonse: Spring Prince",
+        "skill": "Cavalry Axe"
     },
-    {
-        "name": "arvis",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/4/7\n%\\* lv40: 33/34/31/17/33 (148)\n\n**Skills:**\nW: Valflame (5\\*)\nS: Growing Flame (4\\*)\nB: Recover Ring (5\\*)\nC: Def Ploy 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
-        "color": "red",
-        "aka": "Arvis: Emperor of Flame",
-        "skill": "Infantry Tome"
-    },
-    {
-        "name": "athena",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/10/8/5\n5\\* lv40: 36/31/38/27/24 (156~157)\n\n**Skills:**\nW: Wo Dao+ (5\\*)\nS: Moonbow (4\\*)\nA: Armored Blow 1, Sturdy Blow 2 (5\\*)\nC: Sword Exp. 3 (4\\*)",
-        "color": "red",
-        "aka": "Athena: Borderland Sword",
-        "skill": "Infantry Sword"
-    },
-    {
-        "name": "ayra",
+	{
+		"name": "alm: hero of prophecy",
+		"aliases": [
+			"alm"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/9/6/6/5 (47)\n5\\* lv40: 45/33/30/28/22 (158)\n\n**Skills:**\nW: Falchion (Gaiden)\nS: Draconic Aura\nA: Attack +3\nB: Windsweep 3\n(Unit only summonable at 5\\*)",
+		"color": "red",
+		"aka": "Alm: Hero of Prophecy",
+		"skill": "Infantry Sword"
+	},
+	{
+		"name": "amelia: rose of the war",
+		"aliases": [
+			"amelia"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/6/8/9/4 (46)\n5\\* lv40: 47/34/34/35/23 (173)\n\n**Skills:**\nW: Slaying Axe+\nS: Sacred Cowl\nA: Earth Boost 3\nC: Armor March 3\n(Unit only summonable at 5\\*)",
+		"color": "green",
+		"aka": "Amelia: Rose of the War",
+		"skill": "Armored Axe"
+	},
+	{
+		"name": "anna: commander",
+		"aliases": [
+			"anna",
+			"red hair girl"
+		],
+		"content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/10/5/6 (47)\n5\\* lv40: 41/29/38/22/28 (158)\n\n**Skills:**\nW: N\u00f3at\u00fan (5\\*)\nS: Astra (4\\*)\nB: Vantage 3 (5\\*)\nC: Spur Res 3 (4\\*)\n(Unit only obtainable through story, no IV variation)",
+		"color": "green",
+		"aka": "Anna: Commander",
+		"skill": "Infantry Axe"
+  },
+  {
+		"name": "arden: strong and tough",
+		"aliases": [
+			"arden"
+		],
+		"content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 25/10/3/13/3 (54)\n5\\* lv40: 60/36/16/41/16 (169)\n\n**Skills:**\nW: Brave Sword+ (5\\*)\nS: Pavise (4\\*)\nB: Follow-Up Ring (5\\*)\nC: Drive Def 2 (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+		"color": "red",
+		"aka": "Arden: Strong and Tough",
+		"skill": "Armored Sword"
+  },
+  {
+		"name": "ares: black knight",
+		"aliases": [
+			"ares"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/7/5 (46)\n5\\* lv40: 40/36/30/33/18 (157)\n\n**Skills:**\nW: Dark Mystletainn\nS: Draconic Aura\nA: Brazen Atk/Def 3\nB: Seal Def/Res 2\n(Unit only summonable at 5\\*)",
+		"color": "red",
+		"aka": "Ares: Black Knight",
+		"skill": "Cavalry Sword"
+  },
+  {
+		"name": "arthur: hapless hero",
+		"aliases": [
+			"arthur",
+			"captain america"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/7/8/5 (47)\n5\\* lv40: 43/32/29/30/24 (158)\n\n**Skills:**\nW: Emerald Axe+ (5\\*)\nAs: Swap (3\\*)\nA: HP +5 (4\\*)\nB: Lancebreaker 3 (5\\*)",
+		"color": "green",
+		"aka": "Arthur: Hapless Hero",
+		"skill": "Infantry Axe"
+  },
+  {
+		"name": "arvis: emperor of flame",
+		"aliases": [
+			"arvis"
+		],
+		"content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/4/7 (44)\n5\\* lv40: 33/34/31/17/33 (148)\n\n**Skills:**\nW: Valflame (5\\*)\nS: Growing Flame (4\\*)\nB: Recover Ring (5\\*)\nC: Def Ploy 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+		"color": "red",
+		"aka": "Arvis: Emperor of Flame",
+		"skill": "Infantry Tome"
+  },
+  {
+		"name": "athena: borderland sword",
+		"aliases": [
+			"athena"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/10/8/5 (47)\n5\\* lv40: 36/31/38/27/24 (156)\n\n**Skills:**\nW: Wo Dao+ (5\\*)\nS: Moonbow (4\\*)\nA: Sturdy Blow 2 (5\\*)\nC: Sword Exp. 3 (4\\*)",
+		"color": "red",
+		"aka": "Athena: Borderland Sword",
+		"skill": "Infantry Sword"
+  },
+  {
+		"name": "ayra: astra's wielder",
+		"aliases": [
+			"ayra",
+			"sailor mars",
+			"there hasn't been a single unit we didn't get prelaunch info for"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/11/7/4 (48)\n5\\* lv40: 41/33/37/31/21 (163)\n\n**Skills:**\nW: Ayra's Blade\nS: Regnal Astra\nA: Swift Sparrow 2\nB: Desperation 3\n(Unit only summonable at 5\\*)",
+		"color": "red",
+		"aka": "Ayra: Astra's Wielder",
+		"skill": "Infantry Sword"
+  },
+  {
+		"name": "azama: carefree monk",
+		"aliases": [
+			"azama",
+			"azama bin laden"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/4/7/8/6 (44)\n5\\* lv40: 43/21/26/32/25 (147)\n\n**Skills:**\nW: Pain+ (5\\*)\nAs: Martyr+ (5\\*)\nS: Solid-Earth Balm (3\\*)\nC: Threaten Atk 3 (5\\*)",
+		"color": "grey",
+		"aka": "Azama: Carefree Monk",
+		"skill": "Infantry Staff"
+  },
+  {
+		"name": "azura: celebratory spirit",
+		"aliases": [
+			"ny!azura",
+			"nyazura",
+			"flyzura",
+			"azura 3",
+			"azura happy new year",
+			"happy new year azura",
+			"new year's azura",
+			"airzura"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/9/5/4 (39)\n5\\* lv40: 37/30/35/22/26 (150)\n\n**Skills:**\nW: Hagoita+\nAs: Sing\nB: Earth Dance 3\nC: Hone Fliers\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "green",
+		"aka": "Azura: Celebratory Spirit",
+		"skill": "Flying Axe"
+  },
+  {
+		"name": "azura: lady of ballads",
+		"aliases": [
+			"azura 2",
+			"axura",
+			"performing arts azura",
+			"pa!azura",
+			"azura undertale"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/8/3/6 (39)\n5\\* lv40: 35/32/34/20/28 (149)\n\n**Skills:**\nW: Ur\u00f0r\nAs: Sing\nA: Triangle Adept 3\nC: Drive Res 2\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "green",
+		"aka": "Azura: Lady of Ballads",
+		"skill": "Infantry Axe"
+	},	{
+        "name": "azura: lady of the lake",
         "aliases": [
-            "bamboozle",
-            "bamboozled",
-            "jebaited",
-            "sailor mars",
-            "dark eirika"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/11/7/4\n5\\* lv40: 41/33/37/31/21 (162~163)\n\n**Skills:**\nW: Ayra's Blade\nS: Astra, Regnal Astra\nA: Darting Blow 1, Swift Sparrow 2\nB: Desperation 3\n(Unit only summonable at 5\\*)",
-        "color": "red",
-        "aka": "Ayra: Astra's Wielder",
-        "skill": "Infantry Sword"
-    },
-    {
-        "name": "azama",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/4/7/8/6\n5\\* lv40: 43/21/26/32/25 (147~148)\n\n**Skills:**\nW: Pain (3\\*)\nAs: Martyr (4\\*)\nS: Imbue, Solid-Earth Balm (3\\*)\nC: Threaten Atk 3 (5\\*)",
-        "color": "grey",
-        "aka": "Azama: Carefree Monk",
-        "skill": "Infantry Staff"
-    },
-    {
-        "name": "azura",
-        "aliases": [
-            "regular azura"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/5/7/4/6\n5\\* lv40: 36/31/33/21/28 (148~150)\n\n**Skills:**\nW: Sapphire Lance+\nAs: Sing\nA: Speed +3\nC: Fortify Res 3\n(Unit only summonable at 5\\*)",
+			"azura",
+			"the ocean's grey waves"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/5/7/4/6 (39)\n5\\* lv40: 36/31/33/21/28 (149)\n\n**Skills**:\nW: Sapphire Lance+\nAs: Sing\nA: Speed +3\nC: Fortify Res 3\n(Unit only summonable at 5\\*)",
         "color": "blue",
         "aka": "Azura: Lady of the Lake",
         "skill": "Infantry Lance"
     },
     {
-        "name": "azura 2",
+        "name": "barst: the hatchet",
         "aliases": [
-            "dark azura",
-            "evil azura",
-            "azura but with a purple dress",
-            "limited azura",
-            "performing arts azura",
-            "azura performing arts",
-            "pa azura",
-            "edgy azura",
-            "axe azura",
-            "axura",
-            "azura (performing arts)",
-            "p!azura",
-            "pa!azura",
-            "azura undertale"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/8/3/6\n5\\* lv40: 35/32/34/20/28 (148~150)\n\n**Skills:**\nW: Ur\u00F0r\nAs: Sing\nA: Triangle Adept 3\nC: Spur Res 1, Drive Res 2\n(Unit only summonable at 5\\* in limited banner)",
-        "color": "green",
-        "aka": "Azura: Lady of Ballads",
-        "skill": "Infantry Axe"
-    },
-	{
-		"name": "azura 3",
-		"aliases": [
-			"new year's azura",
-			"new years azura",
-			"new year azura",
-			"azura undertale 2",
-			"axura 2",
-			"azazel",
-			"ny!azura",
-			"airzura",
-			"flyzura",
-			"nyazura"
+			"barst"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/9/5/4\n5\\* lv40: 37/30/35/22/26 (149~150)\n\n**Skills:**\nW: Hagoita+\nAs: Sing\nB: Earth Dance 3\nC: Hone Spd 2, Hone Fliers\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "green",
-		"aka": "Azura: Celebratory Spirit",
-		"skill": "Flying Axe"
-	},
-    {
-        "name": "barst",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/9/8/6/4\n5\\* lv40: 46/33/32/30/17 (157~158)\n\n**Skills:**\nW: Brave Axe+ (5\\*)\nAs: Reposition (3\\*)\nB: Knock Back (3\\*)\nC: Spur Atk 3 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/9/8/6/4 (47)\n5\\* lv40: 46/33/32/30/17 (158)\n\n**Skills**:\nW: Brave Axe+ (5\\*)\nAs: Reposition (3\\*)\nB: Knock Back (3\\*)\nC: Spur Atk 3 (4\\*)",
         "color": "green",
         "aka": "Barst: The Hatchet",
         "skill": "Infantry Axe"
     },
     {
-        "name": "bartre",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/10/6/7/3\n5\\* lv40: 49/36/25/33/13 (156~157)\n\n**Skills:**\nW: Hammer+ (5\\*)\nAs: Smite (3\\*)\nA: Fury 3 (5\\*)\nB: Brash Assault 3 (4\\*)",
+        "name": "bartre: fearless warrior",
+        "aliases": [
+			"bartre"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/10/6/7/3 (47)\n5\\* lv40: 49/36/25/33/13 (156)\n\n**Skills**:\nW: Hammer+ (5\\*)\nAs: Smite (3\\*)\nA: Fury 3 (5\\*)\nB: Brash Assault 3 (4\\*)",
         "color": "green",
         "aka": "Bartre: Fearless Warrior",
         "skill": "Infantry Axe"
     },
     {
-        "name": "berkut",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/5/7/7\n5\\* lv40: 43/34/22/31/24 (154)\n\n**Skills:**\nW: Berkut's Lance+ (5\\*)\nS: Blazing Flame (4\\*)\nA: Water Boost 3 (5\\*)\nC: Spur Res 2, Ward Cavalry (4\\*)\n(Unit only obtainable from Grand Hero Battles, no IV variation)",
+        "name": "berkut: prideful prince",
+        "aliases": [
+			"berkut",
+			"bercutie"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/5/7/7 (46)\n5\\* lv40: 43/34/22/31/24 (154)\n\n**Skills**:\nW: Berkut's Lance+ (5\\*)\nS: Blazing Flame (4\\*)\nA: Water Boost 3 (5\\*)\nC: Ward Cavalry (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
         "color": "blue",
         "aka": "Berkut: Prideful Prince",
         "skill": "Cavalry Lance"
     },
     {
-        "name": "beruka",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/7/6/9/5\n5\\* lv40: 46/29/23/37/22 (156~157)\n\n**Skills:**\nW: Killer Axe+ (5\\*)\nS: Glimmer (4\\*)\nA: Defiant Def 3 (4\\*)\nB: Lunge (3\\*)",
+        "name": "beruka: quiet assassin",
+        "aliases": [
+			"beruka",
+			"neoberuka"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/7/6/9/5 (47)\n5\\* lv40: 46/29/23/37/22 (157)\n\n**Skills**:\nW: Killer Axe+ (5\\*)\nS: Glimmer (4\\*)\nA: Defiant Def 3 (4\\*)\nB: Lunge (3\\*)",
         "color": "green",
         "aka": "Beruka: Quiet Assassin",
         "skill": "Flying Axe"
     },
     {
-        "name": "black knight",
+        "name": "black knight: sinister general",
         "aliases": [
-            "burger king"
-        ],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 22/10/8/9/5\n5\\* lv40: 48/34/34/35/18 (169)\n\n**Skills:**\nW: Alondite (5\\*)\nS: Black Luna (5\\*)\nA: Steady Stance 3 (5\\*)\nB: Wings of Mercy 3 (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+			"black knight",
+			"burger king",
+			"#15"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 22/10/8/9/5 (54)\n5\\* lv40: 48/34/34/35/18 (169)\n\n**Skills**:\nW: Alondite (5\\*)\nS: Black Luna (5\\*)\nA: Steady Stance 3 (5\\*)\nB: Wings of Mercy 3 (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
         "color": "red",
         "aka": "Black Knight: Sinister General",
         "skill": "Armored Sword"
     },
     {
-        "name": "boey",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/5/8/5\n5\\* lv40: 43/29/27/32/18 (148~149)\n\n**Skills:**\nW: Gronnowl+ (5\\*)\nS: Ignis (4\\*)\nA: Earth Boost 3 (4\\*)\nB: Renewal 3 (5\\*)",
+        "name": "boey: skillful survivor",
+        "aliases": [
+			"boey"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/5/8/5 (44)\n5\\* lv40: 43/29/27/32/18 (149)\n\n**Skills**:\nW: Gronnowl+ (5\\*)\nS: Ignis (4\\*)\nA: Earth Boost 3 (4\\*)\nB: Renewal 3 (5\\*)",
         "color": "green",
         "aka": "Boey: Skillful Survivor",
         "skill": "Infantry Tome"
     },
     {
-        "name": "bruno",
-        "aliases": [],
+        "name": "bruno: masked knight",
+        "aliases": [
+			"bruno"
+		],
         "content": "A mysterious unit that only appears in the story, not usable by the player.\n\n**Skills:**\nW: Valaskj\u00E1lf (5\\*)",
         "color": "blue",
         "aka": "Bruno: Masked Knight",
         "skill": "Cavalry Tome"
     },
     {
-        "name": "caeda",
+        "name": "caeda: talys's bride",
         "aliases": [
-            "regular caeda"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/9/5/10\n5\\* lv40: 36/25/37/24/34 (156~157)\n\n**Skills:**\nW: Armorslayer+ (5\\*)\nAs: Rally Speed (4\\*)\nA: Darting Blow 3 (5\\*)\nC: Fortify Fliers 2, Fortify Fliers (4\\*)",
-        "color": "red",
-        "aka": "Caeda: Talys's Heart",
-        "skill": "Flying Sword"
-    },
-    {
-        "name": "caeda 2",
-        "aliases": [
-            "caeda (bridal blessings)",
-            "caeda bridal blessings",
-            "bridal blessings caeda",
-            "bride caeda",
-            "marry me caeda",
-            "caeda marry me",
-            "wedding caeda",
-            "limited caeda",
-            "caeda undertale",
-            "caeda but with a white dress",
-            "caeda with longer hair",
-            "b!caeda",
-            "bb!caeda"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/9/4/8\n5\\* lv40: 33/29/37/19/30 (147~148)\n\n**Skills:**\nW: Blessed Bouquet+\nS: Iceberg\nA: Resistance +1, Attack Res 2\nC: Hone Spd 3\n(Unit only summonable at 5\\* in limited banner)",
+			"b!caeda",
+			"bb!caeda",
+			"bride caeda",
+			"bridal blessings caeda",
+			"marry me caeda",
+			"caeda undertale",
+			"caeda bridal blessings"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/9/4/8 (44)\n5\\* lv40: 33/29/37/19/30 (148)\n\n**Skills**:\nW: Blessed Bouquet+\nS: Iceberg\nA: Atk/Res 2\nC: Hone Spd 3\n(Unit only summonable at 5\\* in limited banner)",
         "color": "blue",
         "aka": "Caeda: Talys's Bride",
         "skill": "Infantry Tome"
     },
     {
-        "name": "cain",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/6/8/6\n5\\* lv40: 42/32/32/27/21 (154~155)\n\n**Skills:**\nW: Brave Sword+ (5\\*)\nS: Escutcheon (4\\*)\nB: Wings of Mercy 3 (4\\*)\nC: Threaten Atk 3 (5\\*)",
+        "name": "caeda: talys's heart",
+        "aliases": [
+			"caeda"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/9/5/10 (47)\n5\\* lv40: 36/25/37/24/34 (156)\n\n**Skills**:\nW: Armorslayer+ (5\\*)\nAs: Rally Speed (3\\*)\nA: Darting Blow 3 (5\\*)\nC: Fortify Fliers (4\\*)",
+        "color": "red",
+        "aka": "Caeda: Talys's Heart",
+        "skill": "Flying Sword"
+    },
+    {
+        "name": "cain: the bull",
+        "aliases": [
+			"cain"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/6/8/6 (46)\n5\\* lv40: 42/32/32/27/21 (154)\n\n**Skills**:\nW: Brave Sword+ (5\\*)\nS: Escutcheon (4\\*)\nB: Wings of Mercy 3 (4\\*)\nC: Threaten Atk 3 (5\\*)",
         "color": "red",
         "aka": "Cain: The Bull",
         "skill": "Cavalry Sword"
     },
     {
-        "name": "camilla",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/7\n5\\* lv40: 37/30/32/28/31 (157~159)\n\n**Skills:**\nW: Brave Axe+ (5\\*)\nS: Draconic Aura (4\\*)\nA: Death Blow 3 (5\\*)\nC: Savage Blow 3 (4\\*)",
+        "name": "camilla: bewitching beauty",
+        "aliases": [
+			"camilla"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/7 (47)\n5\\* lv40: 37/30/32/28/31 (158)\n\n**Skills**:\nW: Brave Axe+ (5\\*)\nS: Draconic Aura (4\\*)\nA: Darting Blow 3 (5\\*)\nC: Savage Blow 3 (4\\*)",
         "color": "green",
         "aka": "Camilla: Bewitching Beauty",
         "skill": "Flying Axe"
     },
     {
-        "name": "camilla 2",
+        "name": "camilla: holiday traveler",
         "aliases": [
-            "spring camilla",
-            "s!camilla",
-            "camilla undertale",
-            "sf!camilla",
-            "spring festival camilla",
-            "camilla spring festival",
-            "camilla (spring festival)",
-            "easter camilla",
-            "egg camilla",
-            "camilla with an egg",
-            "playboy camilla",
-            "bunny camilla",
-            "limited camilla",
-            "boobasaurus rex",
-            "nurse boobasaurus rex",
-			"springo bringo"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/6/8/4\n5\\* lv40: 39/35/25/30/19 (147~149)\n\n**Skills:**\nW: Green Egg+\nAs: Rally Attack\nA: Defiant Spd 3\nB: Live for Bounty\n(Unit only summonable at 5\\* in limited banner)",
+			"ny!camilla",
+			"camilla 3",
+			"new year's camilla",
+			"happy new year camilla",
+			"camilla happy new year"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/9/7/4 (47)\n5\\* lv40: 40/33/35/31/23 (162)\n\n**Skills**:\nW: Kadomatsu+\nS: Draconic Aura\nA: Spd/Def Bond 3\nC: Ward Fliers\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "red",
+        "aka": "Camilla: Holiday Traveler",
+        "skill": "Flying Sword"
+    },
+    {
+        "name": "camilla: spring princess",
+        "aliases": [
+			"spring camilla",
+			"camilla 2",
+			"camilla undertale",
+			"s!camilla",
+			"springo bringo",
+			"camilla spring festival",
+			"spring festival camilla"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/6/8/4 (44)\n5\\* lv40: 39/35/25/30/19 (148)\n\n**Skills**:\nW: Green Egg+\nAs: Rally Attack\nA: Defiant Spd 3\nB: Live for Bounty\n(Unit only summonable at 5\\* in limited banner)",
         "color": "green",
         "aka": "Camilla: Spring Princess",
         "skill": "Flying Tome"
     },
-	{
-		"name": "camilla 3",
-		"aliases": [
-			"camilla undertale 2",
-			"new years camilla",
-			"new year's camilla",
-			"new year camilla",
-			"sword camilla",
-			"while you were celebrating new year's, i studied the blade",
-			"ny!camilla"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/9/7/4\n5\\* lv40: 40/33/35/31/23 (161~163)\n\n**Skills:**\nW: Kadomatsu+\nS: Draconic Aura\nA: Spd/Def Bond\nC: Spur Def 2, Ward Fliers\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "red",
-		"aka": "Camilla: Holiday Traveler",
-		"skill": "Flying Sword"
-	},
     {
-        "name": "camus",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/9/7/4\n5\\* lv40: 42/32/33/31/17 (155)\n\n**Skills:**\nW: Gradivus (5\\*)\nS: Growing Thunder (4\\*)\nA: Grani's Shield (4\\*)\nC: Spur Atk 2, Goad Cavalry (4\\*)\n(Unit only obtainable from Grand Hero Battles, no IV variation)",
+        "name": "camus: sable knight",
+        "aliases": [
+			"camus",
+			"camoo",
+			"cow"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/9/7/4 (46)\n5\\* lv40: 42/32/33/31/17 (155)\n\n**Skills**:\nW: Gradivus (5\\*)\nS: Growing Thunder (4\\*)\nA: Grani's Shield (4\\*)\nC: Goad Cavalry (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
         "color": "blue",
         "aka": "Camus: Sable Knight",
         "skill": "Cavalry Lance"
     },
     {
-        "name": "catria",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/10/7/6\n5\\* lv40: 39/31/34/29/25 (157~159)\n\n**Skills:**\nW: Killer Lance+ (5\\*)\nS: Luna (4\\*)\nA: Armored Blow 3 (4\\*)\nB: Seal Atk 3 (5\\*)",
+        "name": "catria: middle whitewing",
+        "aliases": [
+			"catria"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/10/7/6 (47)\n5\\* lv40: 39/31/34/29/25 (158)\n\n**Skills**:\nW: Killer Lance+ (5\\*)\nS: Luna (4\\*)\nA: Armored Blow 3 (4\\*)\nB: Seal Atk 3 (5\\*)",
         "color": "blue",
         "aka": "Catria: Middle Whitewing",
         "skill": "Flying Lance"
     },
     {
-        "name": "cecilia",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/6/5/7\n5\\* lv40: 36/32/25/22/29 (143~145)\n\n**Skills:**\nW: Gronnraven+ (5\\*)\nAs: Rally Resistance (3\\*)\nA: Attack +3 (5\\*)\nB: Escape Route 3 (4\\*)",
+        "name": "catria: spring whitewing",
+        "aliases": [
+			"spring catria",
+			"catria 2",
+			"catria undertale",
+			"s!catria"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/9/5/6 (43)\n5\\* lv40: 36/32/35/18/23 (144)\n\n**Skills**:\nW: Huginn's Egg\nAs: Draw Back\nB: Chill Res 3\nC: Drive Spd 2\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "blue",
+        "aka": "Catria: Spring Whitewing",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "cecilia: etrurian general",
+        "aliases": [
+			"cecilia"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/6/5/7 (43)\n5\\* lv40: 36/32/25/22/29 (144)\n\n**Skills**:\nW: Gronnraven+ (5\\*)\nAs: Rally Resistance (3\\*)\nA: Attack +3 (5\\*)\nB: Escape Route 3 (4\\*)",
         "color": "green",
         "aka": "Cecilia: Etrurian General",
         "skill": "Cavalry Tome"
     },
     {
-        "name": "celica",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/7/5/7\n5\\* lv40: 39/32/33/22/22 (147~148)\n\n**Skills:**\nW: Ragnarok\nS: Blazing Light\nA: Distant Def 3\nC: Spur Def 3\n(Unit only summonable at 5\\*)",
+        "name": "celica: caring princess",
+        "aliases": [
+			"celica"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/7/5/7 (44)\n5\\* lv40: 39/32/33/22/22 (148)\n\n**Skills**:\nW: Ragnarok\nS: Blazing Light\nA: Distant Def 3\nC: Spur Def 3\n(Unit only summonable at 5\\*)",
         "color": "red",
         "aka": "Celica: Caring Princess",
         "skill": "Infantry Tome"
     },
     {
-        "name": "charlotte",
+        "name": "celica: imprisoned soul",
         "aliases": [
-            "charlotte undertale",
-            "bride charlotte",
-            "bridal blessings charlotte",
-            "charlotte bridal blessings",
-            "charlotte (bridal blessings)",
-            "b!charlotte"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/10/8/5/4\n5\\* lv40: 46/36/32/24/19 (157~158)\n\n**Skills:**\nW: First Bite+\nAs: Smite\nA: Wind Boost 3\nC: Threaten Atk 3\n(Unit only summonable at 5\\* in limited banner)",
+			"fallen celica",
+			"celica 2",
+			"celica undertale",
+			"brain damaged celica",
+			"fallen heroes celica",
+			"celica fallen heroes",
+			"purple celica",
+			"edgy celica"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/9/5/7 (48)\n5\\* lv40: 40/35/35/27/26 (163)\n\n**Skills**:\nW: Beloved Zofia\nS: Luna\nB: Chill Spd 3\nC: Hone Atk 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Celica: Imprisoned Soul",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "charlotte: money maiden",
+        "aliases": [
+			"charlotte",
+			"bride charlotte",
+			"bridal blessings charlotte",
+			"marry me charlotte"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/10/8/5/4 (47)\n5\\* lv40: 46/36/32/24/19 (157)\n\n**Skills**:\nW: First Bite+\nAs: Smite\nA: Wind Boost 3\nC: Threaten Atk 3\n(Unit only summonable at 5\\* in limited banner)",
         "color": "blue",
         "aka": "Charlotte: Money Maiden",
         "skill": "Infantry Lance"
     },
     {
-        "name": "cherche",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/10/6/8/3\n5\\* lv40: 46/38/25/32/16 (156~158)\n\n**Skills:**\nW: Hammer+ (5\\*)\nAs: Pivot (3\\*)\nA: Attack +3 (4\\*)\nC: Fortify Def 3 (5\\*)",
+        "name": "cherche: wyvern friend",
+        "aliases": [
+			"cherche"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/10/6/8/3 (47)\n5\\* lv40: 46/38/25/32/16 (157)\n\n**Skills**:\nW: Hammer+ (5\\*)\nAs: Pivot (3\\*)\nA: Attack +3 (4\\*)\nC: Fortify Def 3 (5\\*)",
         "color": "green",
         "aka": "Cherche: Wyvern Friend",
         "skill": "Flying Axe"
     },
     {
-        "name": "chrom",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/9/6/7/4\n5\\* lv40: 47/37/25/31/17 (156~158)\n\n**Skills:**\nW: Falchion (5\\*)\nS: Sol (4\\*), Aether (5\\*)\nA: Defiant Def 3 (4\\*)\nC: Spur Def 3 (5\\*)",
+        "name": "chrom: exalted prince",
+        "aliases": [
+			"chrom"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/9/6/7/4 (47)\n5\\* lv40: 47/37/25/31/17 (157)\n\n**Skills**:\nW: Falchion (Awakening) (5\\*)\nS: Aether (5\\*)\nA: Defiant Def 3 (4\\*)\nC: Spur Def 3 (5\\*)",
         "color": "red",
         "aka": "Chrom: Exalted Prince",
         "skill": "Infantry Sword"
     },
     {
-        "name": "chrom 2",
+        "name": "chrom: gifted leader",
         "aliases": [
-            "chrom undertale",
-            "spring chrom",
-            "spring festival chrom",
-            "chrom spring festival",
-            "axe chrom",
-            "bunny chrom",
-            "s!chrom"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/8/6/5\n5\\* lv40: 43/35/32/28/20 (157~158)\n\n**Skills:**\nW: Carrot Axe+\nAs: Shove\nA: Defense +1, Attack Def +2\nCL Axe Experience 3\n(Unit only summonable at 5\\* in limited banner)",
+			"w!chrom",
+			"c!chrom",
+			"chromstmas",
+			"christmas chrom",
+			"chrom winter's envoy",
+			"winter's envoy chrom"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 25/12/4/9/5 (55)\n5\\* lv40: 51/40/19/35/29 (174)\n\n**Skills**:\nW: Sack o' Gifts+\nAs: Pivot\nA: Brazen Atk/Def 3\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Chrom: Gifted Leader",
+        "skill": "Armored Axe"
+    },
+    {
+        "name": "chrom: knight exalt",
+        "aliases": [
+			"the branded king",
+			"chrom branded king",
+			"branded king chrom",
+			"chrom on a horse",
+			"cavalry chrom",
+			"the chrom that comes with sword valor"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/4 (46)\n5\\* lv40: 41/37/28/34/17 (157)\n\n**Skills**:\nW: Sealed Falchion\nS: Aether\nA: Fury 3\nB: Chill Def 3\nC: Sword Valor 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Chrom: Knight Exalt",
+        "skill": "Cavalry Sword"
+    },
+    {
+        "name": "chrom: spring exalt",
+        "aliases": [
+			"s!chrom",
+			"spring chrom",
+			"spring festival chrom",
+			"chrom undertale",
+			"chrom spring festival"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/8/6/5 (47)\n5\\* lv40: 43/35/32/28/20 (158)\n\n**Skills**:\nW: Carrot Axe+\nAs: Shove\nA: Atk/Def 2\nC: Axe Exp. 3\n(Unit only summonable at 5\\* in limited banner)",
         "color": "green",
         "aka": "Chrom: Spring Exalt",
         "skill": "Infantry Axe"
     },
-	{
-		"name": "chrom 3",
-		"aliases": [
-			"w!chrom",
-			"christmas chrom",
-			"chromstmas",
-			"chrom winter's envoy",
-			"chrom winters envoy",
-			"chrom (winter's envoy)",
-			"chrom (winters envoy)",
-			"winter's envoy chrom",
-			"winters envoy chrom",
-			"santa chrom",
-			"chrom undertale 2"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 25/12/4/9/5\n5\\* lv40: 51/40/19/35/29 (174)\n\n**Skills:**\nW: Sack O' Gifts+\nAs: Pivot\nA: Brazen Atk/Def 3\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "green",
-		"aka": "Chrom: Gifted Leader",
-		"skill": "Armored Axe"
-	},
     {
-        "name": "clair",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/5/9\n5\\* lv40: 37/26/36/24/33 (156~157)\n\n**Skills:**\nW: Silver Lance+ (5\\*)\nAs: Harsh Command (4\\*)\nB: Hit and Run (4\\*)\nC: Spur Spd 3 (5\\*)",
+        "name": "clair: highborn flier",
+        "aliases": [
+			"clair"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/5/9 (47)\n5\\* lv40: 37/26/36/24/33 (156)\n\n**Skills**:\nW: Silver Lance+ (5\\*)\nAs: Harsh Command (3\\*)\nB: Hit and Run (3\\*)\nC: Spur Spd 3 (5\\*)",
         "color": "blue",
         "aka": "Clair: Highborn Flier",
         "skill": "Flying Lance"
     },
     {
-        "name": "clarine",
+        "name": "clarine: refined noble",
         "aliases": [
-			"clarinet"
+			"clarine",
+			"\"clarinet\""
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/9/5/7\n5\\* lv40: 35/25/33/22/29 (143~145)\n\n**Skills:**\nW: Fear (3\\*)\nAs: Martyr (5\\*)\nS: Imbue, Swift-Winds Balm (3\\*)\nA: Resistance +3 (5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/9/5/7 (43)\n5\\* lv40: 35/25/33/22/29 (144)\n\n**Skills**:\nW: Fear+ (5\\*)\nAs: Martyr+ (5\\*)\nS: Swift-Winds Balm (3\\*)\nA: Resistance +3 (5\\*)",
         "color": "grey",
         "aka": "Clarine: Refined Noble",
         "skill": "Cavalry Staff"
     },
     {
-        "name": "clarisse",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/6/5\n5\\* lv40: 37/31/34/25/20 (147)\n\n**Skills:**\nW: Clarisse's Bow+ (5\\*)\nS: Glimmer (4\\*)\nB: Poison Strike 3 (4\\*)\nC: Threaten Def 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "name": "clarisse: sniper in the dark",
+        "aliases": [
+			"clarisse",
+			"not glimmer fodder"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/6/5 (44)\n5\\* lv40: 37/31/34/25/20 (147)\n\n**Skills**:\nW: Clarisse's Bow+ (5\\*)\nS: Glimmer (4\\*)\nB: Poison Strike 3 (4\\*)\nC: Threaten Def 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
         "color": "grey",
         "aka": "Clarisse: Sniper in the Dark",
         "skill": "Infantry Bow"
     },
     {
-        "name": "clive",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/4\n5\\* lv40: 45/33/25/32/19 (154)\n\n**Skills:**\nW: Silver Lance+ (5\\*)\nS: Escutcheon (4\\*)\nA: Defense +3 (4\\*)\nB: Hit and Run (4\\*)\n(Unit only available from Tempest Trials, no IV variation)",
+        "name": "clive: idealistic knight",
+        "aliases": [
+			"clive"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/4 (46)\n5\\* lv40: 45/33/25/32/19 (154)\n\n**Skills**:\nW: Silver Lance+ (5\\*)\nS: Escutcheon (4\\*)\nA: Defense +3 (4\\*)\nB: Hit and Run (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
         "color": "blue",
         "aka": "Clive: Idealistic Knight",
         "skill": "Cavalry Lance"
     },
     {
-        "name": "cordelia",
+        "name": "cordelia: knight paragon",
         "aliases": [
-            "regular cordelia"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/9/5/6\n5\\* lv40: 40/35/35/22/25 (156~158)\n\n**Skills:**\nW: Brave Lance+ (5\\*)\nS: Astra, Galeforce (5\\*)\nA: Triangle Adept 3 (5\\*)\nB: Pass 3 (4\\*)",
+			"cordelia"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/9/5/6 (47)\n5\\* lv40: 40/35/35/22/25 (157)\n\n**Skills**:\nW: Brave Lance+ (5\\*)\nS: Galeforce (5\\*)\nA: Triangle Adept 3 (5\\*)\nB: Pass 3 (4\\*)",
         "color": "blue",
         "aka": "Cordelia: Knight Paragon",
         "skill": "Flying Lance"
     },
     {
-        "name": "cordelia 2",
+        "name": "cordelia: perfect bride",
         "aliases": [
-            "cordelia undertale",
-            "bride cordelia",
-            "bridelia",
-            "bowdelia",
-            "bridal blessings cordelia",
-            "cordelia bridal blessings",
-            "cordelia (bridal blessings)",
-            "perfect bride",
-            "b!cordelia"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/9/4/5\n5\\* lv40: 36/35/35/19/22 (147~148)\n\n**Skills:**\nW: Cupid Arrow+\nAs: Rally Attack Speed\nB: Escape Route 3\nC: Breath of Life 3\n(Unit only summonable at 5\\* in limited banner)",
+			"bridelia",
+			"b!cordelia",
+			"bb!cordelia",
+			"bride cordelia",
+			"bridal cordelia",
+			"bridal blessings cordelia",
+			"cordelia bridal blessings",
+			"cordelia undertale",
+			"marry me cordelia"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/9/4/5 (44)\n5\\* lv40: 36/35/35/19/22 (147)\n\n**Skills**:\nW: Cupid Arrow+\nAs: Rally Atk/Spd\nB: Escape Route 3\nC: Breath of Life 3\n(Unit only summonable at 5\\* in limited banner)",
         "color": "grey",
         "aka": "Cordelia: Perfect Bride",
         "skill": "Infantry Bow"
     },
+	{
+		"name": "corrin",
+		"aliases": [
+			"corrin disambiguation"
+		],
+		"content": "Corrin: Fateful Prince? (m!corrin)\nCorrin: Fateful Princess? (f!corrin)\nCorrin: Novice Vacationer (s!corrin)\nCorrin: Enjoying Tradition? (ny!corrin)",
+		"color": "yellow",
+		"aka": "Did you mean:",
+		"skill": "Corrin (disambiguation)"
+	},
     {
-        "name": "f!corrin",
+        "name": "corrin: enjoying tradition",
         "aliases": [
-            "corrin f",
-            "corrin female",
-            "female corrin",
-            "blue corrin",
-            "dragon corrin",
-            "corrin: fateful princess"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/6/8/6\n5\\* lv40: 41/27/34/34/21 (156~158)\n\n**Skills:**\nW: Dark Breath+ (5\\*)\nS: Draconic Aura (4\\*)\nB: Seal Res 3 (5\\*)\nC: Hone Atk 3 (4\\*)",
+			"new year's corrin",
+			"happy new year corrin",
+			"ny!corrin",
+			"male corrin undertale",
+			"corrin happy new year"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5 (45)\n5\\* lv40: 37/32/30/34/18 (151)\n\n**Skills**:\nW: Hama Ya+ (5\\*)\nAs: Rally Def/Res (4\\*)\nA: Atk/Def 2 (5\\*)\nC: Spur Def/Res 2 (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+        "color": "grey",
+        "aka": "Corrin: Enjoying Tradition",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "corrin: fateful prince",
+        "aliases": [
+			"male corrin",
+			"m!corrin",
+			"sword corrin",
+			"yato corrin"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/8/8/6/5 (47)\n5\\* lv40: 42/32/32/28/24 (158)\n\n**Skills**:\nW: Yato (5\\*)\nS: Dragon Fang (4\\*)\nA: Defense +3 (4\\*)\nB: Obstruct 3 (5\\*)",
+        "color": "red",
+        "aka": "Corrin: Fateful Prince",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "corrin: fateful princess",
+        "aliases": [
+			"f!corrin",
+			"female corrin",
+			"dragon corrin",
+			"breath corrin"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/6/8/6 (47)\n5\\* lv40: 41/27/34/34/21 (157)\n\n**Skills**:\nW: Dark Breath+ (5\\*)\nS: Draconic Aura (4\\*)\nB: Seal Res 3 (5\\*)\nC: Hone Atk 3 (4\\*)",
         "color": "blue",
         "aka": "Corrin: Fateful Princess",
         "skill": "Infantry Breath"
     },
     {
-        "name": "s!corrin",
+        "name": "corrin: novice vacationer",
         "aliases": [
-            "corrin 2",
-            "corrin 3?",
-            "corrin undertale",
-            "summer corrin",
-            "bikini corrin",
-            "nohrian summer corrin",
-            "corrin nohrian summer",
-            "corrin (f) (nohrian summer)",
-            "corrin (nohrian summer)",
-            "limited corrin",
-            "corrin s",
-            "corrin: novice vacationer"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/5/7\n5\\* lv40: 34/31/34/22/26 (147~148)\n\n**Skills:**\nW: Sealife Tome+\nS: Dragon Fang\nA: Darting Blow 1, Swift Strike 2\nC: Fortify Res 2, Fortify Fliers\n(Unit only summonable at 5\\* in limited banner)",
+			"s!corrin",
+			"ns!corrin",
+			"summer corrin",
+			"flying corrin",
+			"corrin nohrian summer",
+			"nohrian summer corrin"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/5/7 (44)\n5\\* lv40: 34/31/34/22/26 (147)\n\n**Skills**:\nW: Sealife Tome+\nS: Dragon Fang\nA: Swift Strike 2\nC: Fortify Fliers\n(Unit only summonable at 5\\* in limited banner)",
         "color": "blue",
         "aka": "Corrin: Novice Vacationer",
         "skill": "Flying Tome"
     },
     {
-        "name": "male corrin",
+        "name": "deirdre: lady of the forest",
         "aliases": [
-            "m!corrin",
-            "corn",
-            "corrin male",
-            "corrin m",
-            "red corrin",
-            "sword corrin",
-            "bad corrin",
-            "corrin: fateful prince"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/8/8/6/5\n5\\* lv40: 42/32/32/28/24 (157~159)\n\n**Skills:**\nW: Yato (5\\*)\nS: Dragon Fang (4\\*)\nA: Defense +3 (4\\*)\nB: Obstruct 3 (5\\*)",
-        "color": "red",
-        "aka": "Corrin: Fateful Prince",
-        "skill": "Infantry Sword"
-    },
-	{
-		"name": "new year's corrin",
-		"aliases": [
-			"new years corrin",
-			"new year corrin",
-			"limited male corrin",
-			"ny!corrin",
-			"corrin: enjoying tradition",
-			"bow corrin"
+			"deirdre",
+			"dr. dre"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/5\n5\\* lv40: 37/32/30/34/18 (151)\n\n**Skills:**\nW: Hama Ya+ (5\\*)\nAs: Rally Def/Res (4\\*)\nA: Attack/Def +2 (5\\*)\nC: Spur Def/Res 2 (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
-		"color": "grey",
-		"aka": "Corrin: Enjoying Tradition",
-		"skill": "Infantry Bow"
-	},
-    {
-        "name": "corrin",
-        "aliases": [],
-        "content": "Corrin: Fateful Prince? (m!corrin)\nCorrin: Fateful Princess? (f!corrin)\nCorrin: Novice Vacationer? (s!corrin)\nCorrin: Enjoying Tradition? (ny!corrin)",
-        "color": "yellow",
-        "aka": "Did you mean:",
-        "skill": "Corrin (disambiguation)"
-    },
-    {
-        "name": "deirdre",
-        "aliases": [
-            "dr. dre",
-            "dr dre"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/6/3/4\n5\\* lv40: 36/33/28/16/35 (147~149)\n\n**Skills:**\nW: Divine Naga\nAs: Ardent Sacrifice\nB: Quick Riposte 3\nC: Spd Ploy 3\n(Unit only summonable at 5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/6/3/9 (44)\n5\\* lv40: 36/33/28/16/35 (148)\n\n**Skills**:\nW: Divine Naga\nAs: Ardent Sacrifice\nB: Quick Riposte 3\nC: Spd Ploy 3\n(Unit only summonable at 5\\*)",
         "color": "green",
         "aka": "Deirdre: Lady of the Forest",
         "skill": "Infantry Tome"
     },
     {
-        "name": "delthea",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/10/8/3/7\n5\\* lv40: 33/36/34/13/31 (147~148)\n\n**Skills:**\nW: Dark Aura\nS: Miracle\nA: Death Blow 3\nC: Spur Atk 1, Drive Atk 2\n(Unit only summonable at 5\\*)",
+        "name": "delthea: free spirit",
+        "aliases": [
+			"delthea",
+			"philadelthea"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/10/8/3/7 (44)\n5\\* lv40: 33/36/34/13/31 (147)\n\n**Skills**:\nW: Dark Aura\nS: Miracle\nA: Death Blow 3\nC: Drive Atk 2\n(Unit only summonable at 5\\*)",
         "color": "blue",
         "aka": "Delthea: Free Spirit",
         "skill": "Infantry Tome"
     },
     {
-        "name": "donnel",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/5/6/4\n5\\* lv40: 43/35/29/32/23 (162~163)\n\n**Skills:**\nW: Brave Lance+ (5\\*)\nAs: Reciprocal Aid (3\\*)\nA: HP+5 (4\\*)\nB: Drag Back (3\\*)",
+        "name": "donnel: village hero",
+        "aliases": [
+			"donnel",
+			"pothead"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/5/6/4 (39)\n5\\* lv40: 43/35/29/32/23 (162)\n\n**Skills**:\nW: Brave Lance+ (5\\*)\nAs: Reciprocal Aid (3\\*)\nA: HP +5 (4\\*)\nB: Drag Back (3\\*)",
         "color": "blue",
         "aka": "Donnel: Village Hero",
         "skill": "Infantry Lance"
     },
     {
-        "name": "dorcas",
+        "name": "dorcas: serene warrior",
         "aliases": [
-            "dorkas"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/9/5\n5\\* lv40: 45/35/23/35/24 (162~163)\n\n**Skills:**\nW: Stout Tomahawk\nS: Draconic Aura\nA: Fierce Stance 3\nB: Quick Riposte 3\nC: Infantry Pulse 3\n(Unit only summonable at 5\\*)",
+			"dorcas"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/9/5 (48)\n5\\* lv40: 45/35/23/35/24 (162)\n\n**Skills**:\nW: Stout Tomahawk\nS: Draconic Aura\nA: Fierce Stance 3\nB: Quick Riposte 3\nC: Infantry Pulse 3\n(Unit only summonable at 5\\*)",
         "color": "green",
         "aka": "Dorcas: Serene Warrior",
         "skill": "Infantry Axe"
     },
     {
-        "name": "draug",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 24/8/6/13/3\n5\\* lv40: 50/30/32/39/18 (168~169)\n\n**Skills:**\nW: Brave Sword+ (5\\*)\nS: Pavise (4\\*)\nB: Lunge (3\\*)\nC: Spur Def 2 (2\\*), Ward Armor (4\\*)",
+        "name": "draug: gentle giant",
+        "aliases": [
+			"draug"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 24/8/6/13/3 (54)\n5\\* lv40: 50/30/32/39/18 (169)\n\n**Skills**:\nW: Brave Sword+ (5\\*)\nS: Pavise (4\\*)\nB: Lunge (3\\*)\nC: Ward Armor (4\\*)",
         "color": "red",
         "aka": "Draug: Gentle Giant",
         "skill": "Armored Sword"
     },
     {
-        "name": "effie",
+        "name": "effie: army of one",
         "aliases": [
-			"rice",
-			"ricequeen",
-			"rice queen"
+			"effie"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 22/12/5/11/4\n5\\* lv40: 50/40/22/33/23 (167~169)\n\n**Skills:**\nW: Silver Lance+ (5\\*)\nAs: Smite (4\\*)\nA: Death Blow 3 (5\\*)\nB: Wary Fighter 3 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 22/12/5/11/4 (54)\n5\\* lv40: 50/40/22/33/23 (168)\n\n**Skills**:\nW: Silver Lance+ (5\\*)\nAs: Smite (3\\*)\nA: Death Blow 3 (5\\*)\nB: Wary Fighter 3 (4\\*)",
         "color": "blue",
         "aka": "Effie: Army of One",
         "skill": "Armored Lance"
     },
     {
-        "name": "eirika",
+        "name": "eirika: anamnesis lady",
         "aliases": [
-			"old eirika"
+			"eirika 2",
+			"eirika undertale",
+			"anamnesis eirika",
+			"horse eirika",
+			"cavalry eirika"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/7/6\n5\\* lv40: 42/26/35/26/28 (156~158)\n\n**Skills:**\nW: Sieglinde (5\\*)\nAs: Pivot (4\\*)\nB: Drag Back (4\\*)\nC: Hone Spd 3 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/5/5 (43)\n5\\* lv40: 36/31/35/20/22 (144)\n\n**Skills**:\nW: Gleipnir\nAs: Rally Atk/Spd\nA: Swift Sparrow 2\nB: Desperation 3\nC: R Tome Exp. 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Eirika: Anamnesis Lady",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "eirika: restoration lady",
+        "aliases": [
+			"eirika"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/7/6 (47)\n5\\* lv40: 42/26/35/26/28 (157)\n\n**Skills**:\nW: Sieglinde (5\\*)\nAs: Pivot (3\\*)\nB: Drag Back (3\\*)\nC: Hone Spd 3 (4\\*)",
         "color": "red",
         "aka": "Eirika: Restoration Lady",
         "skill": "Infantry Sword"
     },
-	{
-		"name": "eirika 2",
-		"aliases": [
-			"eirika undertale",
-			"the cool eirika",
-			"cool eirika",
-			"tome eirika",
-			"horse eirika",
-			"the other eirika",
-			"new eirika",
-			"erka"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/5/5\n5\\* lv40: 36/31/35/20/22 (144~145)\n\n**Skills:**\nW: Gleipnir\nAs: Rally Atk/Spd\nA: Swift Sparrow 2\nB: Desperation 3\nC: R Tome Exp. 3\n(Unit only summonable at 5\\*)",
-		"color": "red",
-		"aka": "Eirika: Anamnesis Lady",
-		"skill": "Cavalry Tome"
-	},
     {
-        "name": "eldigan",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/5/8/6\n5\\* lv40: 45/32/24/34/19 (153~155)\n\n**Skills:**\nW: Mystletainn\nS: Growing Light\nA: Fury 3\nB: Lunge\n(Unit only summonable at 5\\*)",
+        "name": "eldigan: lionheart",
+        "aliases": [
+			"eldigan"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/5/8/6 (46)\n5\\* lv40: 45/32/24/34/19 (154)\n\n**Skills**:\nW: Mystletainn\nS: Growing Light\nA: Fury 3\nB: Lunge\n(Unit only summonable at 5\\*)",
         "color": "red",
         "aka": "Eldigan: Lionheart",
         "skill": "Cavalry Sword"
     },
     {
-        "name": "elincia",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/10/5/8\n5\\* lv40: 35/34/36/24/27 (156~157)\n\n**Skills:**\nW: Amiti\nAs: Ardent Sacrifice\nA: Death Blow 3\nB: Flier Formation 3\n(Unit only summonable at 5\\*)",
+        "name": "elincia: lost princess",
+        "aliases": [
+			"elincia"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/10/5/8 (47)\n5\\* lv40: 35/34/36/24/27 (156)\n\n**Skills**:\nW: Amiti\nAs: Ardent Sacrifice\nA: Death Blow 3\nB: Flier Formation 3\n(Unit only summonable at 5\\*)",
         "color": "red",
         "aka": "Elincia: Lost Princess",
         "skill": "Flying Sword"
     },
     {
-        "name": "elise",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/8/8/4/8\n5\\* lv40: 30/32/32/19/32 (145)\n\n**Skills:**\nW: Gravity\nAs: Recover\nS: Imbue, Kindled-Fire Balm\nB: Live to Serve 3\n(Unit only summonable at 5\\*)",
+        "name": "elise: budding flower",
+        "aliases": [
+			"elise",
+			"dark overlord elise"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/8/8/4/8 (43)\n5\\* lv40: 30/32/32/19/32 (145)\n\n**Skills**:\nW: Gravity+\nAs: Recover+\nS: Kindled-Fire Balm\nB: Live to Serve 3\n(Unit only summonable at 5\\*)",
         "color": "grey",
         "aka": "Elise: Budding Flower",
         "skill": "Cavalry Staff"
     },
     {
-        "name": "s!elise",
+        "name": "elise: tropical flower",
         "aliases": [
-            "elise 2",
-            "elise undertale",
-            "summer elise",
-            "nohrian summer elise",
-            "elise nohrian summer",
-            "limited elise",
-            "swimsuit elise",
-            "elise (nohrian summer)"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/10/8/3/6\n5\\* lv40: 34/36/34/18/25 (147~148)\n\n**Skills:**\nW: Hibiscus Tome+\nAs: Rally Attack Resistance\nA: Speed +1, Spd Res 2\nC: G Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+			"s!elise",
+			"summer elise",
+			"elise undertale",
+			"elise 2",
+			"elise nohrian summer",
+			"nohrian summer elise"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/10/8/3/6 (44)\n5\\* lv40: 34/36/34/18/25 (147)\n\n**Skills**:\nW: Hibiscus Tome+\nAs: Rally Atk/Res\nA: Spd/Res 2\nC: G Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
         "color": "green",
         "aka": "Elise: Tropical Flower",
         "skill": "Infantry Tome"
     },
     {
-        "name": "eliwood",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/6/8\n5\\* lv40: 39/31/30/23/32 (154~155)\n\n**Skills:**\nW: Durandal (5\\*)\nS: Sacred Cowl (4\\*)\nB: Axebreaker 3 (5\\*)\nC: Spur Res 2 (3\\*), Ward Cavalry (4\\*)",
+        "name": "eliwood: devoted love",
+        "aliases": [
+			"eliwood 2",
+			"eliwood undertale",
+			"v!eliwood",
+			"la!eliwood",
+			"love abounds eliwood",
+			"eliwood love abounds",
+			"valentine's eliwood",
+			"eliwood valentine's"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 23/10/8/7/7 (55)\n5\\* lv40: 47/38/32/29/29 (175)\n\n**Skills**:\nW: Casa Blanca+ (5\\*)\nAs: Rally Atk/Def (4\\*)\nA: Fire Boost 3 (5\\*)\nC: Goad Armor (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+        "color": "blue",
+        "aka": "Eliwood: Devoted Love",
+        "skill": "Armored Lance"
+    },
+    {
+        "name": "eliwood: knight of lycia",
+        "aliases": [
+			"eliwood"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/6/8 (46)\n5\\* lv40: 39/31/30/23/32 (155)\n\n**Skills**:\nW: Durandal (5\\*)\nS: Sacred Cowl (4\\*)\nB: Axebreaker 3 (5\\*)\nC: Ward Cavalry (4\\*)",
         "color": "red",
         "aka": "Eliwood: Knight of Lycia",
         "skill": "Cavalry Sword"
     },
     {
-        "name": "ephraim",
+        "name": "ephraim: legendary lord",
         "aliases": [
-            "disgusting"
-        ],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/5\n5\\* lv40: 45/35/25/32/20 (157~158)\n\n**Skills:**\nW: Siegmund\nS: Moonbow\nB: Seal Def 3\nC: Threaten Def 3\n(Unit only summonable at 5\\*)",
+			"ephraim undertale",
+			"ephraim 2",
+			"legendary ephraim"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/5/9/3 (46)\n5\\* lv40: 43/36/27/33/18 (157)\n\n**Skills**:\nW: Flame Siegmund\nS: Sol\nA: Sturdy Stance 2\nB: Solar Brace\nC: Fortify Def 3\n(Unit only available from Legendary Hero banners)\n\nEphraim: Legendary Lord is a Legendary Hero for the Fire Season, and provides a stat boost of +3 HP/+4 Def.",
+        "color": "blue",
+        "aka": "Ephraim: Legendary Lord",
+        "skill": "Cavalry Lance"
+    },
+    {
+        "name": "ephraim: restoration lord",
+        "aliases": [
+			"ephraim",
+			"disgusting"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/5 (47)\n5\\* lv40: 45/35/25/32/20 (157)\n\n**Skills**:\nW: Siegmund\nS: Moonbow\nB: Seal Def 3\nC: Threaten Def 3\n(Unit only summonable at 5\\*)",
         "color": "blue",
         "aka": "Ephraim: Restoration Lord",
         "skill": "Infantry Lance"
     },
     {
-        "name": "est",
+        "name": "est: junior whitewing",
         "aliases": [
+			"est",
 			"eastern standard time"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/8/5/8\n5\\* lv40: 36/35/30/24/32 (156~158)\n\n**Skills:**\nW: Heavy Spear+ (5\\*)\nAs: Shove (3\\*)\nA: Defiant Res 3 (4\\*)\nB: Seal Spd 3 (5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/8/5/8 (47)\n5\\* lv40: 36/35/30/24/32 (157)\n\n**Skills**:\nW: Heavy Spear+ (5\\*)\nAs: Shove (3\\*)\nA: Defiant Res 3 (4\\*)\nB: Seal Spd 3 (5\\*)",
         "color": "blue",
         "aka": "Est: Junior Whitewing",
         "skill": "Flying Lance"
     },
-	{
-		"name": "fae",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/5/4/6/8\n5\\* lv40: 46/33/28/25/30 (161~163)\n\n**Skills:**\nW: Light Breath+ (5\\*)\nAs: Draw Back (4\\*)\nB: Renewal 3 (4\\*)\nC: Threaten Atk 3 (5\\*)",
-		"color": "green",
-		"aka": "Fae: Divine Dragon",
-		"skill": "Infantry Breath"
-	},
     {
-		"name": "faye",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/3/4/7\n5\\* lv40: 42/30/25/26/31 (153~154)\n\n**Skills:**\nW: Firesweep Bow+\nS: Noontime\nB: Wings of Mercy 3\nC: Bow Exp. 3\n(Unit only summonable at 5\\*)",
-		"color": "grey",
-		"aka": "Faye, Devoted Heart",
-		"skill": "Infantry Bow"
-	},
-	{
-		"name": "felicia",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/11/3/9\n5\\* lv40: 34/23/37/18/35 (147~148)\n\n**Skills:**\nW: Silver Dagger+ (5\\*)\nS: Glacies (4\\*)\nA: Resistance +3 (5\\*)\nC: Breath of Life 3 (4\\*)",
-		"color": "grey",
-		"aka": "Felicia: Maid Mayhem",
-		"skill": "Neutral Dagger"
-	},
-	{
-		"name": "fir",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/6/10/5/7\n5\\* lv40: 41/25/36/24/31 (156~158)\n\n**Skills:**\nW: Killing Edge+ (5\\*)\nS: Glacies (4\\*)\nA: Speed +3 (4\\*)\nB: Pass 3 (5\\*)",
-		"color": "red",
-		"aka": "Fir: Sword Student",
-		"skill": "Infantry Sword"
-	},
-	{
-		"name": "fjorm",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/7/8/8\n5\\* lv40: 39/30/31/30/34 (163~164)\n\n**Skills:**\nW: Leiptr\nS: Ice Mirror\nA: Atk/Def Bond 3\nB: Shield Pulse 3\nC: Spur Atk 1, Drive Atk 2\n(Unit only summonable at 5\\* in limited banner or from story)\n\nFjorm is a Legendary Hero for the Water Season",
-		"color": "blue",
-		"aka": "Fjorm: Princess of Ice",
-		"skill": "Infantry Lance"
-	},
-	{
-		"name": "florina",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/6/8\n5\\* lv40: 42/29/27/25/34 (156~158)\n\n**Skills:**\nW: Heavy Spear (5\\*)\nAs: Ardent Sacrifice (3\\*)\nA: Darting Blow 3 (4\\*)\nC: Breath of Life 3 (5\\*)",
-		"color": "blue",
-		"aka": "Florina: Lovely Flier",
-		"skill": "Flying Lance"
-	},
-	{
-		"name": "frederick",
-		"aliases": [
+        "name": "fae: divine dragon",
+        "aliases": [
+			"fae",
+			"chicken"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/5/4/6/8 (39)\n5\\* lv40: 46/33/28/25/30 (162)\n\n**Skills**:\nW: Light Breath+ (5\\*)\nAs: Draw Back (3\\*)\nB: Renewal 3 (4\\*)\nC: Threaten Atk 3 (5\\*)",
+        "color": "green",
+        "aka": "Fae: Divine Dragon",
+        "skill": "Infantry Breath"
+    },
+    {
+        "name": "faye: devoted heart",
+        "aliases": [
+			"faye"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/3/4/7 (36)\n5\\* lv40: 42/30/25/26/31 (154)\n\n**Skills**:\nW: Firesweep Bow+\nS: Noontime\nB: Wings of Mercy 3\nC: Bow Exp. 3\n(Unit only summonable at 5\\*)",
+        "color": "grey",
+        "aka": "Faye: Devoted Heart",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "felicia: maid mayhem",
+        "aliases": [
+			"felicia",
+			"bye"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/11/3/9 (44)\n5\\* lv40: 34/23/37/18/35 (147)\n\n**Skills**:\nW: Silver Dagger+ (5\\*)\nS: Glacies (4\\*)\nA: Resistance +3 (5\\*)\nC: Breath of Life 3 (4\\*)",
+        "color": "grey",
+        "aka": "Felicia: Maid Mayhem",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "finn: lance of legend",
+        "aliases": [
+			"finn"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/9/8/3 (46)\n5\\* lv40: 40/34/33/32/18 (157)\n\n**Skills**:\nW: Brave Lance+ (5\\*)\nS: Miracle (4\\*)\nA: Atk/Def 2 (5\\*)\nC: Goad Cavalry (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+        "color": "blue",
+        "aka": "Finn: Lance of Legend",
+        "skill": "Cavalry Lance"
+    },
+    {
+        "name": "fir: sword student",
+        "aliases": [
+			"fear my",
+			"fir"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/6/10/5/7 (47)\n5\\* lv40: 41/25/36/24/31 (157)\n\n**Skills**:\nW: Killing Edge+ (5\\*)\nS: Glacies (4\\*)\nA: Speed +3 (4\\*)\nB: Pass 3 (5\\*)",
+        "color": "red",
+        "aka": "Fir: Sword Student",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "fjorm: princess of ice",
+        "aliases": [
+			"fjorm",
+			"\u1f357"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/7/8/8 (48)\n5\\* lv40: 39/30/31/30/34 (164)\n\n**Skills**:\nW: Leiptr\nS: Ice Mirror\nA: Atk/Def Bond 3\nB: Shield Pulse 3\nC: Drive Atk 2\n(Unit only available from Legendary Hero banners, or Part 5 of Book II's Chapter 1)\n\nFjorm: Princess of Ice is a Legendary Hero for the Water Season, and provides a stat boost of +3 HP/+3 Spd.",
+        "color": "blue",
+        "aka": "Fjorm: Princess of Ice",
+        "skill": "Infantry Lance"
+    },
+    {
+        "name": "florina: lovely flier",
+        "aliases": [
+			"florina"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/6/8 (47)\n5\\* lv40: 42/29/27/25/34 (157)\n\n**Skills**:\nW: Heavy Spear+ (5\\*)\nAs: Ardent Sacrifice (3\\*)\nA: Darting Blow 3 (4\\*)\nC: Breath of Life 3 (5\\*)",
+        "color": "blue",
+        "aka": "Florina: Lovely Flier",
+        "skill": "Flying Lance"
+    },
+    {
+        "name": "frederick: horizon watcher",
+        "aliases": [
+			"s!frederick",
+			"s!freddy",
+			"s!fred",
+			"summer fred",
+			"summer freddy",
+			"summer frederick",
+			"frederick ylissean summer",
+			"ylissean summer frederick",
+			"frederick undertale"
+			
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/6/5 (44)\n5\\* lv40: 40/32/31/28/18 (149)\n\n**Skills**:\nW: Seashell+\nAs: Ardent Sacrifice\nA: Armored Blow 3\nB: Seal Atk/Spd 2\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Frederick: Horizon Watcher",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "frederick: polite knight",
+        "aliases": [
+			"frederick",
 			"freddy",
 			"fred"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/4\n5\\* lv40: 43/35/25/36/14 (153~154)\n\n**Skills:**\nW: Hammer+ (5\\*)\nS: Luna (4\\*)\nB: Wings of Mercy 3 (5\\*)\nC: Fortify Def 3 (4\\*)",
-		"color": "green",
-		"aka": "Frederick: Polite Knight",
-		"skill": "Cavalry Axe"
-	},
-	{
-		"name": "s!frederick",
-		"aliases": [
-			"summer frederick",
-			"summer freddy",
-			"summer fred",
-			"s!fred",
-			"s!freddy",
-			"ylissean summer frederick",
-			"frederick ylissean summer",
-			"frederick undertale",
-			"frederick 2"
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/8/4 (46)\n5\\* lv40: 43/35/25/36/14 (153)\n\n**Skills**:\nW: Hammer+ (5\\*)\nS: Luna (4\\*)\nB: Wings of Mercy 3 (5\\*)\nC: Fortify Def 3 (4\\*)",
+        "color": "green",
+        "aka": "Frederick: Polite Knight",
+        "skill": "Cavalry Axe"
+    },
+    {
+        "name": "gaius: candy stealer",
+        "aliases": [
+			"gaius"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/6/5\n5\\* lv40: 40/32/31/28/18 (148~149)\n\n**Skills:**\nW: Seashell+\nAs: Ardent Sacrifice\nA: Armored Blow 3\nB: Seal Spd 1, Seal Atk Spd 2\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "grey",
-		"aka": "Frederick: Horizon Watcher",
-		"skill": "Infantry Dagger"
-	},
-	{
-		"name": "gunnthra",
-		"aliases": [
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/10/5/4 (44)\n5\\* lv40: 42/29/36/22/19 (148)\n\n**Skills**:\nW: Rogue Dagger+ (5\\*)\nAs: Rally Speed (3\\*)\nA: Defiant Atk 3 (5\\*)\nB: Pass 3 (4\\*)",
+        "color": "grey",
+        "aka": "Gaius: Candy Stealer",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "gaius: thief exposed",
+        "aliases": [
+			"gaius 2",
+			"gaius undertale",
+			"summer gaius",
+			"s!gaius",
+			"ylissean summer gaius",
+			"gaius ylissean summer"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/4/6 (44)\n5\\* lv40: 34/30/37/19/28 (148)\n\n**Skills**:\nW: Refreshing Bolt+\nS: Astra\nB: Vantage 3\nC: Def Ploy 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Gaius: Thief Exposed",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "genny: endearing ally",
+        "aliases": [
+			"genny",
+			"sheep"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/6/4/8 (44)\n5\\* lv40: 32/35/25/21/34 (147)\n\n**Skills**:\nW: Gravity+\nAs: Physic+\nS: Heavenly Light\nB: Wrathful Staff 3\n(Unit only summonable at 5\\*)",
+        "color": "grey",
+        "aka": "Genny: Endearing Ally",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "gerome: masked rider",
+        "aliases": [
+			"gerome",
+			"batman"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/6/8/4 (47)\n5\\* lv40: 45/38/25/34/19 (161)\n\n**Skills**:\nW: Poleaxe+ (5\\*)\nAs: Rally Atk/Def (4\\*)\nA: Fortress Def 3 (4\\*)\nB: Hit and Run (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+        "color": "green",
+        "aka": "Gerome: Masked Rider",
+        "skill": "Flying Axe"
+    },
+    {
+        "name": "gordin: altean archer",
+        "aliases": [
+			"gordin",
+			"gordin freeman"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/6/8/4 (44)\n5\\* lv40: 43/31/25/32/17 (148)\n\n**Skills**:\nW: Brave Bow+ (5\\*)\nAs: Shove (3\\*)\nA: Attack +3 (4\\*)\nB: Vantage 3 (5\\*)",
+        "color": "grey",
+        "aka": "Gordin: Altean Archer",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "gray: wry comrade",
+        "aliases": [
+			"gray",
+			"grey"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/6/6/3 (39)\n5\\* lv40: 43/35/32/30/22 (162)\n\n**Skills**:\nW: Zanbato+\nAs: Swap\nA: Wind Boost 3\nC: Sword Valor 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Gray: Wry Comrade",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "gunnthr\u00e1: voice of dreams",
+        "aliases": [
+			"gunnthra",
 			"enter the gunnthra"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/7/9/6/6\n5\\* lv40: 37/31/33/19/25 (144~146)\n\n**Skills:**\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only summonable at 5\\* in limited banner)\n\nGunnthra is a Legendary Hero for the Wind Season",
-		"color": "green",
-		"aka": "Gunnthra: Voice of Dreams",
-		"skill": "Cavalry Tome"
-	},
-	{
-		"name": "hector 2",
-		"aliases": [
-			"valentine's hector",
-			"valentines hector",
-			"v!hector",
-			"hector love abounds",
-			"hector (love abounds)",
-			"love abounds hector",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/7/9/6/6 (43)\n5\\* lv40: 37/31/33/19/25 (145)\n\n**Skills**:\nW: Blizzard\nS: Glacies\nA: Fortress Res 3\nB: Chilling Seal\nC: Res Ploy 3\n(Unit only available from Legendary Hero banners)\n\nGunnthr\u00e1: Voice of Dreams is a Legendary Hero for the Wind Season, and provides a stat boost of +3 HP/+4 Res.",
+        "color": "green",
+        "aka": "Gunnthr\u00e1: Voice of Dreams",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "gunter: inveterate soldier",
+        "aliases": [
+			"gunter"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/10/7/11/5 (54)\n5\\* lv40: 43/32/24/33/18 (150)\n\n**Skills**:\nW: Silver Axe+ (5\\*)\nAs: Harsh Command (3\\*)\nA: Armored Blow 3 (5\\*)\nC: Hone Cavalry (4\\*)",
+        "color": "green",
+        "aka": "Gunter: Inveterate Soldier",
+        "skill": "Cavalry Axe"
+    },
+    {
+        "name": "gwendolyn: adorable knight",
+        "aliases": [
+			"gwendolyn",
+			"gwen"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 23/8/5/12/6 (54)\n5\\* lv40: 49/30/24/38/28 (169)\n\n**Skills**:\nW: Killer Lance+ (5\\*)\nS: Escutcheon (4\\*)\nB: Drag Back (3\\*)\nC: Hone Armor (4\\*)",
+        "color": "blue",
+        "aka": "Gwendolyn: Adorable Knight",
+        "skill": "Armored Lance"
+    },
+    {
+        "name": "hana: focused samurai",
+        "aliases": [
+			"hana",
+			"hanaskatana"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/10/6/4 (47)\n5\\* lv40: 37/35/36/23/26 (157)\n\n**Skills**:\nW: Armorslayer+ (5\\*)\nAs: Rally Attack (3\\*)\nA: Life and Death 3 (5\\*)\nB: Obstruct 3 (4\\*)",
+        "color": "red",
+        "aka": "Hana: Focused Samurai",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "hardin: dark emperor",
+        "aliases": [
+			"hardin"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 23/8/6/10/8 (55)\n5\\* lv40: 45/34/28/36/32 (175)\n\n**Skills**:\nW: Gradivus\nS: Vengeance\nA: Brazen Def/Res 3\nB: Bold Fighter 3\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Hardin: Dark Emperor",
+        "skill": "Armored Lance"
+    },
+    {
+        "name": "hawkeye: desert guardian",
+        "aliases": [
+			"hawkeye"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/9/5/6/6 (47)\n5\\* lv40: 45/33/22/28/30 (158)\n\n**Skills**:\nW: Killer Axe+ (5\\*)\nS: Growing Light (4\\*)\nA: Death Blow 3 (5\\*)\nC: Threaten Atk 3 (4\\*)",
+        "color": "green",
+        "aka": "Hawkeye: Desert Guardian",
+        "skill": "Infantry Axe"
+    },
+    {
+        "name": "hector: general of ostia",
+        "aliases": [
+			"hector"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 24/10/5/11/4 (54)\n5\\* lv40: 52/36/24/37/19 (168)\n\n**Skills**:\nW: Armads\nS: Pavise\nA: Distant Counter\nC: Goad Armor\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Hector: General of Ostia",
+        "skill": "Armored Axe"
+    },
+    {
+        "name": "hector: just here to fight",
+        "aliases": [
+			"hector 2",
 			"hector undertale",
-			"note: this version of hector: just here to fight is not the special version of the character that won choose your legends: round 2 in january.",
-			"just here to fight"
+			"note: this special version of hector: just here to fight is not the special version of the character that won choose your legends: round 2 in january.",
+			"love abounds hector",
+			"hector love abounds",
+			"la!hector",
+			"v!hector",
+			"vector",
+			"valentine's hector",
+			"hector valentine's"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 24/8/4/12/7\n5\\* lv40: 50/38/21/40/24 (173)\n\n**Skills:**\nW: Berserk Armads\nS: Glimmer\nA: Distant Counter\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "green",
-		"aka": "Hector: Just Here to Fight",
-		"skill": "Armored Axe"
-	},
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 24/8/4/12/7 (55)\n5\\* lv40: 50/38/21/40/24 (173)\n\n**Skills**:\nW: Berserk Armads\nS: Glimmer\nA: Distant Counter\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Hector: Just Here to Fight",
+        "skill": "Armored Axe"
+    },
+    {
+        "name": "helbindi: savage scourge",
+        "aliases": [
+			"helbindi",
+			"helblinde"
+		],
+        "content": "A story exclusive unit that cannot be used by the player.\n\n**Skills**:\nW: B\u00fdleistr",
+        "color": "green",
+        "aka": "Helbindi: Savage Scourge",
+        "skill": "Infantry Axe"
+    },
+    {
+        "name": "henry: happy vampire",
+        "aliases": [
+			"henry 2",
+			"henry undertale",
+			"halloween henry",
+			"h!henry",
+			"henry trick or defeat",
+			"trick or defeat henry"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/10/4/12 (52)\n5\\* lv40: 36/33/34/26/36 (165)\n\n**Skills**:\nW: Spectral Tome+\nS: Reprisal\nB: Live for Honor\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Henry: Happy Vampire",
+        "skill": "Armored Tome"
+    },
+    {
+        "name": "henry: twisted mind",
+        "aliases": [
+			"henry"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/6/5/8/6 (44)\n5\\* lv40: 45/23/22/32/25 (147)\n\n**Skills**:\nW: Rau\u00f0rraven+ (5\\*)\nS: Ignis (4\\*)\nA: Defiant Def 3 (5\\*)\nB: G Tomebreaker 3 (4\\*)",
+        "color": "red",
+        "aka": "Henry: Twisted Mind",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "hinata: wild samurai",
+        "aliases": [
+			"hinata",
+			"fury master"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/8/5/10/3 (47)\n5\\* lv40: 47/32/24/36/18 (157)\n\n**Skills**:\nW: Ruby Sword+ (5\\*)\nS: Pavise (4\\*)\nA: Fury 3 (4\\*)\nB: Brash Assault 3 (5\\*)",
+        "color": "red",
+        "aka": "Hinata: Wild Samurai",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "hinoka: blue sky warrior",
+        "aliases": [
+			"hinoka 2",
+			"hinoka undertale",
+			"bow hinoka",
+			"wings of fate hinoka"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/4/7 (44)\n5\\* lv40: 37/32/35/17/29 (150)\n\n**Skills**:\nW: Warrior Princess\nS: Luna\nA: Atk/Spd Bond 3\nB: Flier Formation 3\nC: Flier Guidance 3\n(Unit only summonable at 5\\*)",
+        "color": "grey",
+        "aka": "Hinoka: Blue Sky Warrior",
+        "skill": "Flying Bow"
+    },
+    {
+        "name": "hinoka: warrior princess",
+        "aliases": [
+			"hinoka"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/8/6/7 (47)\n5\\* lv40: 41/35/32/25/24 (157)\n\n**Skills**:\nW: Brave Lance+\nS: Blazing Wind\nA: Defiant Def 3\nC: Hone Fliers\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Hinoka: Warrior Princess",
+        "skill": "Flying Lance"
+    },
+    {
+        "name": "ike: brave mercenary",
+        "aliases": [
+			"b!ike",
+			"brave ike",
+			"bike",
+			"brave heroes ike",
+			"cyl ike",
+			"ike brave heroes"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/10/6/9/5 (47)\n5\\* lv40: 43/36/28/35/20 (162)\n\n**Skills**:\nW: Urvan\nS: Aether\nA: Steady Breath\nB: Beorc's Blessing\nC: Threaten Def 3\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Ike: Brave Mercenary",
+        "skill": "Infantry Axe"
+    },
+    {
+        "name": "ike: vanguard legend",
+        "aliases": [
+			"l!ike",
+			"v!ike",
+			"like",
+			"vike",
+			"nike",
+			"legend ike",
+			"legendary ike",
+			"vanguard legend ike",
+			"ike but older"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/6/9/4 (48)\n5\\* lv40: 41/36/30/35/21 (163)\n\n**Skills**:\nW: Ragnell\nS: Radiant Aether\nA: Warding Breath\nB: Seal Atk/Def 2\nC: Def Tactic 3\n(Unit only available from Legendary Hero banners, or  Part 5 of Xenologue 3)\n\nIke: Vanguard Legend is a Legendary Hero for the Earth Season, and provides a stat boost of +3 HP/+2 Atk.",
+        "color": "red",
+        "aka": "Ike: Vanguard Legend",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "ike: young mercenary",
+        "aliases": [
+			"ike",
+			"og ike"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/7/8/5 (47)\n5\\* lv40: 42/35/31/32/18 (158)\n\n**Skills**:\nW: Ragnell\nS: Aether\nA: Heavy Blade 3\nB: Swordbreaker 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Ike: Young Mercenary",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "inigo: indigo dancer",
+        "aliases": [
+			"inigo",
+			"pa!inigo"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/7/5/3 (36)\n5\\* lv40: 37/28/33/22/20 (140)\n\n**Skills**:\nW: Dancer's Ring+\nAs: Dance\nB: Gale Dance 3\nC: Hone Atk 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Inigo: Indigo Dancer",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "innes: regal strategician",
+        "aliases": [
+			"innes"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/8/4/7 (44)\n5\\* lv40: 35/33/34/14/31 (147)\n\n**Skills**:\nW: Nidhogg\nS: Iceberg\nA: Fortress Res 3\nB: Cancel Affinity 3\n(Unit only summonable at 5\\*)",
+        "color": "grey",
+        "aka": "Innes: Regal Strategician",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "ishtar: thunder goddess",
+        "aliases": [
+			"ishtar",
+			"why is everyone so thirsty for her?",
+			"marik"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/10/4/7 (45)\n5\\* lv40: 38/34/36/17/26 (151)\n\n**Skills**:\nW: Mj\u00f6lnir\nS: Moonbow\nA: Swift Sparrow 2\nB: Vantage 3\nC: Odd Atk Wave 3\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Ishtar: Thunder Goddess",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "jaffar: angel of death",
+        "aliases": [
+			"jaffar"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/6/5 (44)\n5\\* lv40: 41/26/33/25/22 (147)\n\n**Skills**:\nW: Deathly Dagger\nS: Glimmer\nA: Life and Death 3\nC: Threaten Spd 3\n(Unit only summonable at 5\\*)",
+        "color": "grey",
+        "aka": "Jaffar: Angel of Death",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "jagen: veteran knight",
+        "aliases": [
+			"jagen",
+			"moves like jagen"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/8/7/8/11 (54)\n5\\* lv40: 37/27/24/25/35 (148)\n\n**Skills**:\nW: Silver Lance+ (5\\*)\nS: Aegis (4\\*)\nA: Fury 3 (5\\*)\nC: Fortify Cavalry (4\\*)",
+        "color": "blue",
+        "aka": "Jagen: Veteran Knight",
+        "skill": "Cavalry Lance"
+    },
+    {
+        "name": "jakob: devoted monster",
+        "aliases": [
+			"jakob 2",
+			"jakob undertale",
+			"halloween jakob",
+			"trick or defeat jakob",
+			"h!jakob",
+			"jakob trick or defeat",
+			"jakob halloween",
+			"bow jakob"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/9/6/9/8 (52)\n5\\* lv40: 42/35/23/33/32 (165)\n\n**Skills**:\nW: Monstrous Bow+\nS: Ignis\nA: Bracing Blow 2\nB: Wary Fighter 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Jakob: Devoted Monster",
+        "skill": "Armored Bow"
+    },
+    {
+        "name": "jakob: devoted servant",
+        "aliases": [
+			"jakob"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/6/5 (44)\n5\\* lv40: 39/29/31/25/24 (148)\n\n**Skills**:\nW: Silver Dagger+ (5\\*)\nAs: Rally Resistance (3\\*)\nA: Defense +3 (4\\*)\nB: Renewal 3 (5\\*)",
+        "color": "grey",
+        "aka": "Jakob: Devoted Servant",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "jeorge: perfect shot",
+        "aliases": [
+			"jeorge"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/5/5 (44)\n5\\* lv40: 37/32/32/24/22 (147)\n\n**Skills**:\nW: Parthia (5\\*)\nS: Blazing Flame (4\\*)\nB: Seal Atk 3 (4\\*)\nC: Spur Spd 3 (5\\*)",
+        "color": "grey",
+        "aka": "Jeorge: Perfect Shot",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "joshua: tempest king",
+        "aliases": [
+			"joshua",
+			"josh"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/8/6 (48)\n5\\* lv40: 40/31/35/30/28 (164)\n\n**Skills**:\nW: Audhulma (5\\*)\nS: Moonbow (4\\*)\nA: Close Def 3 (5\\*)\nB: Windsweep 3 (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+        "color": "red",
+        "aka": "Joshua: Tempest King",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "julia: naga's blood",
+        "aliases": [
+			"julia"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/7/4/8 (44)\n5\\* lv40: 38/35/26/17/32 (148)\n\n**Skills**:\nW: Naga\nS: Dragon Fang\nA: Resistance +3\nC: Breath of Life 3\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Julia: Naga's Blood",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "julius: scion of darkness",
+        "aliases": [
+			"julius"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/8/3/9 (45)\n5\\* lv40: 38/35/27/16/35 (151)\n\n**Skills**:\nW: Loptous (5\\*)\nS: Draconic Aura (4\\*)\nB: Guard 3 (5\\*)\nC: Atk Ploy 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "red",
+        "aka": "Julius: Scion of Darkness",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "kagero: honorable ninja",
+        "aliases": [
+			"kagero",
+			"chart"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/8/5/6 (44)\n5\\* lv40: 31/35/32/22/28 (148)\n\n**Skills**:\nW: Poison Dagger+ (5\\*)\nS: Reprisal (4\\*)\nA: Warding Blow 3 (5\\*)\nB: Daggerbreaker 3 (4\\*)",
+        "color": "grey",
+        "aka": "Kagero: Honorable Ninja",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "kagero: spring ninja",
+        "aliases": [
+			"kagero 2",
+			"kagero undertale",
+			"flying kagero",
+			"spring kagero",
+			"s!kagero",
+			"kagero hares at the fair",
+			"hares at the fair kagero",
+			"back injury"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/8/5/5 (44)\n5\\* lv40: 36/35/34/18/27 (150)\n\n**Skills**:\nW: Lethal Carrot+\nS: Glimmer\nA: Spd/Res Bond 3\nB: Live for Honor\nC: Goad Fliers\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Kagero: Spring Ninja",
+        "skill": "Flying Dagger"
+    },
 	{
-		"name": "l'arachel",
+		"name": "kana",
 		"aliases": [
-			"larachel",
-			"l'acherche"
+			"kana disambiguation"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/7/4/7\n5\\* lv40: 33/33/31/17/31 (144~145)\n\n**Skills:**\nW: Ivaldi\nS: Growing Light\nB: Renewal 3\nC: Res Tactic 3\n(Unit only summonable at 5\\*)",
-		"color": "blue",
-		"aka": "L'Arachel: Princess of Light",
-		"skill": "Cavalry Tome"
-	},
-	{
-		"name": "v!lilina",
-		"aliases": [
-			"valentine's lilina",
-			"valentines lilina",
-			"horse lilina",
-			"cavalry lilina",
-			"lilina undertale",
-			"green lilina",
-			"lilina 2"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/8/5/4\n5\\* lv40: 34/35/30/20/26 (145)\n\n**Skills:**\nW: Green Gift+\nS: Blazing Flame\nA: HP/Atk 2\nC: Atk Tactic 3\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "green",
-		"aka": "Lilina: Blush of Youth",
-		"skill": "Cavalry Tome"
-	},
-	{
-		"name": "c!lissa",
-		"aliases": [
-			"w!lissa",
-			"christmas lissa",
-			"chrissa",
-			"lissa winter's envoy",
-			"lissa winters envoy",
-			"lissa (winter's envoy)",
-			"lissa (winters envoy)",
-			"winter's envoy lissa",
-			"winters envoy lissa",
-			"lissa will never have a special costume",
-			"lissa undertale",
-			"lissa 2",
-			"limited lissa"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/9/8/9/8\n5\\* lv40: 43/33/30/35/34 (174~175)\n\n**Skills:**\nW: Handbell+\nS: Bonfire\nB: Bold Fighter 3\nC: Fortify Def 2, Fortify Armor\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "green",
-		"aka": "Lissa: Pure Joy",
-		"skill": "Armored Axe"
-	},
-	{
-		"name": "v!lyn",
-		"aliases": [
-			"valentine's lyn",
-			"valentines lyn",
-			"lyn 4",
-			"lyn undertale 3",
-			"i can't believe lyn got her 4th unit while [x] still isn't in the game"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/10/5/10\n5\\* lv40: 37/31/36/27/34 (165)\n\n**Skills:**\nW: Blue Gift+\nAs: Ardent Sacrifice\nA: Atk/Spd Bond 3\nB: Guard 3\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "blue",
-		"aka": "Lyn: Wind's Embrace",
-		"skill": "Armored Tome"
-	},
-	{
-		"name": "micaiah",
-		"aliases": [
-			"micah",
-			"micaih",
-			"miciaah",
-			"miciaih"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/6/5/9\n5\\* lv40: 35/35/28/18/35 (150~152)\n\n**Skills:**\nW: Thani\nAs: Sacrifice\nA: Distant Def 3\nB: Guard 3\nC: Drive Atk 2\n(Unit only summonable at 5\\*)",
-		"color": "blue",
-		"aka": "Micaiah: Priestess of Dawn",
-		"skill": "Infantry Tome"
-	},
-	{
-		"name": "myrrh",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/6/3/7\n5\\* lv40: 42/33/25/36/31 (166~168)\n\n**Skills:**\nW: Great Flame\nS: Bonfire\nA: Fury 3\nC: Hone Dragons\n(Unit only summonable at 5\\*)",
-		"color": "green",
-		"aka": "Myrrh: Great Dragon",
-		"skill": "Flying Breath"
-	},
-	{
-		"name": "oliver",
-		"aliases": [
-			"not olivia"
-		],
-		"content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/5/6/8\n5\\* lv40: 42/32/20/23/34 (151)\n\n**Skills:**\nW: Shine+ (5\\*)\nS: Blazing Light (4\\*)\nA: Mirror Strike 2 (4\\*)\nC: Atk Ploy 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
-		"color": "blue",
-		"aka": "Oliver: Admirer of Beauty",
-		"skill": "Infantry Tome"
-	},
-	{
-		"name": "c!robin",
-		"aliases": [
-			"w!robin",
-			"christmas robin",
-			"chrobin",
-			"robin winter's envoy",
-			"robin winters envoy",
-			"robin (winter's envoy)",
-			"robin (winters envoy)",
-			"winter's envoy robin",
-			"winters envoy robin"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 23/9/8/9/6\n5\\* lv40: 45/35/34/35/25 (173~175)\n\n**Skills:**\nW: Tannenboom!+\nAs: Reciprocal Aid\nA: Brazen Atk/Spd 3\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "blue",
-		"aka": "Robin: Festive Tactician",
-		"skill": "Armored Lance"
-	},
-	{
-		"name": "v!roy",
-		"aliases": [
-			"valentine's roy",
-			"valentines roy",
-			"roy 3",
-			"roy undertale 2",
-			"roy except he's brave lyn"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/6/5/6\n5\\* lv40: 34/35/19/27/30 (145)\n\n**Skills:**\nW: Gratia+\nAs: Reciprocal Aid\nA: Death Blow 3\nC: Bow Valor 3\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "grey",
-		"aka": "Roy: Youthful Gifts",
-		"skill": "Cavalry Bow"
+		"content": "Kana: Dragon Princess? (f!kana)\nKana: Dragon Spawn? (m!kana)",
+		"color": "yellow",
+		"aka": "Did you mean:",
+		"skill": "Kana (disambiguation)"
 	},
     {
-        "name": "saber",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/8/5\n5\\* lv40: 40/31/33/32/22 (157~158)\n\n**Skills:**\nW: Slaying Edge+\nS: Aegis\nA: HP +3, HP Spd 2\nB: Shield Pulse 3\n(Unit only summonable at 5\\*)",
+        "name": "kana: dragon princess",
+        "aliases": [
+			"f!kana",
+			"female kana",
+			"green kana",
+			"gacha kana"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/7/7 (48)\n5\\* lv40: 40/30/34/33/26 (163)\n\n**Skills**:\nW: Water Breath+\nS: Draconic Aura\nA: Fierce Stance 3\nC: Goad Dragons\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Kana: Dragon Princess",
+        "skill": "Infantry Breath"
+    },
+    {
+        "name": "kana: dragon spawn",
+        "aliases": [
+			"m!kana",
+			"male kana",
+			"blue kana",
+			"ghb kana"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/7/7/7 (48)\n5\\* lv40: 40/31/33/31/29 (164)\n\n**Skills**:\nW: Water Breath+ (5\\*)\nS: Dragon Fang (4\\*)\nA: Brazen Def/Res 3 (5\\*)\nC: Fortify Dragons (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "blue",
+        "aka": "Kana: Dragon Spawn",
+        "skill": "Infantry Breath"
+    },
+    {
+        "name": "karel: sword demon",
+        "aliases": [
+			"karel"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/9/6/5 (47)\n5\\* lv40: 47/30/35/25/20 (157)\n\n**Skills**:\nW: Wo Dao+\nS: Reprisal\nA: Defiant Atk 3\nB: Desperation 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Karel: Sword Demon",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "katarina: wayward one",
+        "aliases": [
+			"katarina"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/8/5/8 (44)\n5\\* lv40: 34/32/34/15/32 (147)\n\n**Skills**:\nW: Rau\u00f0rowl+\nS: Glacies\nA: Swift Sparrow 2\nC: Atk Ploy 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Katarina: Wayward One",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "kaze: easygoing ninja",
+        "aliases": [
+			"kaze",
+			"kaze emanuar",
+			"makes good sm64 hacks"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/10/4/8 (45)\n5\\* lv40: 34/30/36/17/34 (151)\n\n**Skills**:\nW: Barb Shuriken+ (5\\*)\nS: Iceberg (4\\*)\nB: Poison Strike 3 (5\\*)\nC: Atk Smoke 3 (4\\*)",
+        "color": "grey",
+        "aka": "Kaze: Easygoing Ninja",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "klein: silver nobleman",
+        "aliases": [
+			"calvin",
+			"klein"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/7/5/5 (44)\n5\\* lv40: 40/31/33/20/24 (148)\n\n**Skills**:\nW: Brave Bow+ (5\\*)\nS: Glacies (4\\*)\nA: Death Blow 3 (4\\*)\nB: Quick Riposte 3 (5\\*)",
+        "color": "grey",
+        "aka": "Klein: Silver Nobleman",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "l'arachel: princess of light",
+        "aliases": [
+			"l'arachel",
+			"l'acherche"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/7/4/7 (43)\n5\\* lv40: 33/33/31/17/31 (145)\n\n**Skills**:\nW: Ivaldi (5\\*)\nS: Growing Light (4\\*)\nB: Renewal 3 (4\\*)\nC: Res Tactic 3 (5\\*)",
+        "color": "blue",
+        "aka": "L'Arachel: Princess of Light",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "lachesis: lionheart's sister",
+        "aliases": [
+			"lachesis"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/8/5/8 (44)\n5\\* lv40: 39/32/25/22/30 (148)\n\n**Skills**:\nW: Absorb+ (5\\*)\nAs: Physic+ (5\\*)\nS: Solid-Earth Balm (3\\*)\nC: Spur Res 3 (5\\*)",
+        "color": "grey",
+        "aka": "Lachesis: Lionheart's Sister",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "laegjarn: sheathed steel",
+        "aliases": [
+			"laegjarn"
+		],
+        "content": "A story exclusive unit that cannot be used by the player.\n\n**Skills**:\nW: N\u00edu",
+        "color": "red",
+        "aka": "Laegjarn: Sheathed Steel",
+        "skill": "Flying Sword"
+    },
+    {
+        "name": "laevatein: searing steel",
+        "aliases": [
+			"u!laevatein",
+			"laevatein the person",
+			"laevatein the unit",
+			"laevatein not the sword",
+			"laevatein the unit?",
+			"laevatein unit",
+			"unit laevatein",
+			"person laevatein",
+			"laevatein person"
+		],
+        "content": "A story exclusive unit that cannot be used by the player.\n\n**Skills**:\nW: Laevatein (weapon)",
+        "color": "red",
+        "aka": "Laevatein: Searing Steel",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "laslow: dancing duelist",
+        "aliases": [
+			"laslow"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/9/7/6/5 (47)\n5\\* lv40: 44/35/26/30/22 (157)\n\n**Skills**:\nW: Silver Sword+ (5\\*)\nS: Noontime (4\\*)\nB: Axebreaker 3 (4\\*)\nC: Hone Spd 3 (5\\*)",
+        "color": "red",
+        "aka": "Laslow: Dancing Duelist",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "legion: masked maniac",
+        "aliases": [
+			"legion",
+			"we are legion"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/10/9/5/3 (47)\n5\\* lv40: 46/36/35/22/18 (157)\n\n**Skills**:\nW: Legion's Axe+ (5\\*)\nS: Reprisal (4\\*)\nA: Fury 3 (5\\*)\nB: Obstruct 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "green",
+        "aka": "Legion: Masked Maniac",
+        "skill": "Infantry Axe"
+    },
+    {
+        "name": "leif: prince of leonster",
+        "aliases": [
+			"leif"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/10/8/6 (48)\n5\\* lv40: 40/32/38/30/23 (163)\n\n**Skills**:\nW: Light Brand\nS: Blazing Light\nA: Steady Blow 2\nB: S Drink\nC: Drive Atk 2\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Leif: Prince of Leonster",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "lene: yearning dancer",
+        "aliases": [
+			"lene",
+			"lene cuisine"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/7/4/6 (39)\n5\\* lv40: 35/28/35/23/28 (149)\n\n**Skills**:\nW: Safeguard+\nAs: Dance\nB: Firestorm Dance 2\nC: Sword Valor 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Lene: Yearning Dancer",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "leo: seashore's prince",
+        "aliases": [
+			"summer leo",
+			"s!leo",
+			"nohrian summer leo",
+			"leo nohrian summer",
+			"leo 2",
+			"leo undertale"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/5/6/7 (44)\n5\\* lv40: 37/32/27/16/35 (147)\n\n**Skills**:\nW: Tomato Tome+\nS: Iceberg\nB: Seal Res 3\nC: Atk Ploy 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "red",
+        "aka": "Leo: Seashore's Prince",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "leo: sorcerous prince",
+        "aliases": [
+			"leo"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/5/6/8 (43)\n5\\* lv40: 39/29/22/25/30 (145)\n\n**Skills**:\nW: Brynhildr\nS: Blazing Light\nB: Quick Riposte 3\nC: Savage Blow 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Leo: Sorcerous Prince",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "leon: true of heart",
+        "aliases": [
+			"leon"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/6/8/5 (44)\n5\\* lv40: 39/34/30/30/15 (148)\n\n**Skills**:\nW: Slaying Bow+ (5\\*)\nS: Ignis (4\\*)\nA: Speed +3 (4\\*)\nB: Guard 3 (5\\*)",
+        "color": "grey",
+        "aka": "Leon: True of Heart",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "lilina: blush of youth",
+        "aliases": [
+			"lilina 2",
+			"lilina undertale",
+			"valentine's lilina",
+			"lilina valentine's",
+			"love abounds lilina",
+			"lilina love abounds",
+			"la!lilina",
+			"v!lilina"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/8/5/4 (43)\n5\\* lv40: 34/35/30/20/26 (145)\n\n**Skills**:\nW: Green Gift+\nS: Blazing Flame\nA: HP/Atk 2\nC: Atk Tactic 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Lilina: Blush of Youth",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "lilina: delightful noble",
+        "aliases": [
+			"lilina"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/6/4/9 (44)\n5\\* lv40: 35/37/25/19/31 (147)\n\n**Skills**:\nW: Bolganone+ (5\\*)\nS: Growing Flame (4\\*)\nA: Attack +3 (5\\*)\nC: Spur Atk 3 (4\\*)",
+        "color": "red",
+        "aka": "Lilina: Delightful Noble",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "linde: light mage",
+        "aliases": [
+			"linde"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/10/4/5 (44)\n5\\* lv40: 35/35/36/14/27 (147)\n\n**Skills**:\nW: Aura\nAs: Ardent Sacrifice\nA: Speed +3\nC: Fortify Res 3\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Linde: Light Mage",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "lissa: pure joy",
+        "aliases": [
+			"lissa 2",
+			"lissa undertale",
+			"lissa will never have a special costume",
+			"christmas lissa",
+			"c!lissa",
+			"winter's envoy lissa",
+			"lissa winter's envoy",
+			"armor lissa",
+			"w!lissa"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/9/8/9/8 (55)\n5\\* lv40: 43/33/30/35/34 (175)\n\n**Skills**:\nW: Handbell+\nS: Bonfire\nB: Bold Fighter 3\nC: Fortify Armor\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Lissa: Pure Joy",
+        "skill": "Armored Axe"
+    },
+    {
+        "name": "lissa: sprightly cleric",
+        "aliases": [
+			"lissa"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/6/6/8 (44)\n5\\* lv40: 39/26/25/28/30 (148)\n\n**Skills**:\nW: Gravity+ (5\\*)\nAs: Rehabilitate+ (5\\*)\nS: Kindled-Fire Balm (3\\*)\nB: Renewal 3 (5\\*)",
+        "color": "grey",
+        "aka": "Lissa: Sprightly Cleric",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "lloyd: white wolf",
+        "aliases": [
+			"lloyd",
+			"dansgame"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/5/8 (47)\n5\\* lv40: 41/32/35/20/30 (158)\n\n**Skills**:\nW: Regal Blade (5\\*)\nS: Iceberg (4\\*)\nB: Pass 3 (4\\*)\nC: Threaten Atk 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "red",
+        "aka": "Lloyd: White Wolf",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "loki: the trickster",
+        "aliases": [
+			"loki"
+		],
+        "content": "A story exclusive unit that cannot be used by the player.\n\n**Skills**:\nW: Th\u00f6kk",
+        "color": "grey",
+        "aka": "Loki: The Trickster",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "lon'qu: solitary blade",
+        "aliases": [
+			"lon'qu",
+			"lonq"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/11/5/5 (47)\n5\\* lv40: 45/29/39/22/22 (157)\n\n**Skills**:\nW: Killing Edge+ (5\\*)\nS: Glimmer (4\\*)\nA: Speed +3 (5\\*)\nB: Vantage 3 (4\\*)",
+        "color": "red",
+        "aka": "Lon'qu: Solitary Blade",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "lucina: brave princess",
+        "aliases": [
+			"b!lucina",
+			"brave lucina",
+			"lancina",
+			"lance lucina"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/10/8/4 (47)\n5\\* lv40: 41/34/36/27/19 (157)\n\n**Skills**:\nW: Geirsk\u00f6gul\nS: Aether\nA: Sturdy Blow 2\nC: Drive Spd 2\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Lucina: Brave Princess",
+        "skill": "Infantry Lance"
+    },
+    {
+        "name": "lucina: future witness",
+        "aliases": [
+			"lucina",
+			"og lucina"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/10/6/4 (47)\n5\\* lv40: 43/34/36/25/19 (157)\n\n**Skills**:\nW: Falchion (Awakening)\nS: Aether\nA: Defiant Spd 3\nC: Spur Atk 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Lucina: Future Witness",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "lucina: spring exalt",
+        "aliases": [
+			"lucina 2",
+			"lucina undertale",
+			"s!lucina",
+			"spring lucina",
+			"spring festival lucina",
+			"lucina spring festival"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/10/5/6 (44)\n5\\* lv40: 35/29/36/22/25 (147)\n\n**Skills**:\nW: Blue Egg+\nAs: Rally Speed\nA: Swift Sparrow 2\nB: Seal Res 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "blue",
+        "aka": "Lucina: Spring Exalt",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "lucius: the light",
+        "aliases": [
+			"lucius"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/8/3/9 (44)\n5\\* lv40: 37/32/30/13/35 (147)\n\n**Skills**:\nW: Pain+ (5\\*)\nAs: Martyr+ (5\\*)\nS: Miracle (3\\*)\nA: HP +5 (5\\*)",
+        "color": "grey",
+        "aka": "Lucius: The Light",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "lukas: sharp soldier",
+        "aliases": [
+			"lukas"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/5/10/4 (47)\n5\\* lv40: 45/35/22/38/17 (157)\n\n**Skills**:\nW: Killer Lance+ (5\\*)\nS: Sacred Cowl (4\\*)\nA: Fortress Def 3 (5\\*)\nB: Obstruct 3 (4\\*)",
+        "color": "blue",
+        "aka": "Lukas: Sharp Soldier",
+        "skill": "Infantry Lance"
+    },
+    {
+        "name": "luke: rowdy squire",
+        "aliases": [
+			"luke"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/6/8/5 (46)\n5\\* lv40: 43/34/28/30/20 (155)\n\n**Skills**:\nW: Brave Sword+\nS: Bonfire\nA: Fire Boost 3\nC: Panic Ploy 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Luke: Rowdy Squire",
+        "skill": "Cavalry Sword"
+    },
+    {
+        "name": "lute: prodigy",
+        "aliases": [
+			"lute"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/10/8/3/8 (45)\n5\\* lv40: 33/36/32/16/34 (151)\n\n**Skills**:\nW: Weirding Tome\nAs: Rally Atk/Res\nA: HP/Res 2\nC: Res Ploy 3\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Lute: Prodigy",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "lyn: brave lady",
+        "aliases": [
+			"b!lyn",
+			"brave lyn",
+			"lyn again",
+			"cancer lyn",
+			"lyn brave heroes",
+			"brave heroes lyn",
+			"colorless bow lyn"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/9/5/6 (43)\n5\\* lv40: 35/33/35/18/28 (149)\n\n**Skills**:\nW: Mulagir\nS: Draconic Aura\nA: Swift Sparrow 2\nB: Sacae's Blessing\nC: Atk Smoke 3\n(Unit only summonable at 5\\*)",
+        "color": "grey",
+        "aka": "Lyn: Brave Lady",
+        "skill": "Cavalry Bow"
+    },
+    {
+        "name": "lyn: bride of the plains",
+        "aliases": [
+			"bride lyn",
+			"bb!lyn",
+			"bridal blessings lyn",
+			"lyn bridal blessings",
+			"bridal lyn",
+			"marry me lyn",
+			"tfw you can make a balanced team of lyn without the best one aesthetically",
+			"staff lyn",
+			"healer lyn"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/10/6/5 (44)\n5\\* lv40: 39/28/34/23/24 (148)\n\n**Skills**:\nW: Candlelight+\nAs: Rehabilitate+\nS: Swift-Winds Balm\nB: Dazzling Staff 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Lyn: Bride of the Plains",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "lyn: lady of the plains",
+        "aliases": [
+			"lyn",
+			"og lyn",
+			"i said the real lyn",
+			"sword lyn",
+			"sol katti lyn"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/11/7/5 (47)\n5\\* lv40: 37/28/37/26/29 (157)\n\n**Skills**:\nW: Sol Katti\nS: Galeforce\nA: Defiant Atk 3\nC: Spur Spd 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Lyn: Lady of the Plains",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "lyn: lady of the wind",
+        "aliases": [
+			"l!lyn",
+			"legend lyn",
+			"legendary lyn",
+			"legendary hero lyn",
+			"wind lyn",
+			"green bow lyn",
+			"i can't believe there are 5 lyn and [x] still isn't in the game",
+			"just lyn"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/10/4/5 (45)\n5\\* lv40: 36/31/36/21/27 (151)\n\n**Skills**:\nW: Swift Mulagir\nAs: Rally Def/Res\nA: Laws of Sacae\nB: Desperation 3\nC: Spd Tactic 3\n(Unit only available from Legendary Hero banners)\n\nLyn: Lady of the Wind is a Legendary Hero for the Wind Season, and provides a stat boost of +3 HP/+2 Atk.",
+        "color": "green",
+        "aka": "Lyn: Lady of the Wind",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "lyn: wind's embrace",
+        "aliases": [
+			"love abounds lyn",
+			"lyn love abounds",
+			"la!lyn",
+			"v!lyn",
+			"valentine's lyn",
+			"lyn valentine's",
+			"blue tome lyn",
+			"blue lyn"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/10/5/10 (52)\n5\\* lv40: 37/31/36/27/34 (165)\n\n**Skills**:\nW: Blue Gift+\nAs: Ardent Sacrifice\nA: Atk/Spd Bond 3\nB: Guard 3\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "blue",
+        "aka": "Lyn: Wind's Embrace",
+        "skill": "Armored Tome"
+    },
+    {
+        "name": "lyon: shadow prince",
+        "aliases": [
+			"lyon"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/4/4/8 (45)\n5\\* lv40: 41/34/21/26/30 (152)\n\n**Skills**:\nW: Naglfar (5\\*)\nS: Vengeance (4\\*)\nA: Atk/Res 2 (5\\*)\nC: Drive Res 2 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "red",
+        "aka": "Lyon: Shadow Prince",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "mae: bundle of energy",
+        "aliases": [
+			"mae"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/10/7/3/8 (44)\n5\\* lv40: 35/36/31/16/30 (148)\n\n**Skills**:\nW: Bl\u00e1rowl+ (5\\*)\nAs: Draw Back (3\\*)\nB: Desperation 3 (5\\*)\nC: B Tome Exp. 3 (4\\*)",
+        "color": "blue",
+        "aka": "Mae: Bundle of Energy",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "maria: minerva's sister",
+        "aliases": [
+			"maria"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/5/8/4/10 (44)\n5\\* lv40: 36/27/34/19/32 (148)\n\n**Skills**:\nW: Panic+ (5\\*)\nAs: Physic+ (5\\*)\nS: Miracle (3\\*)\nC: Fortify Res 3 (5\\*)",
+        "color": "grey",
+        "aka": "Maria: Minerva's Sister",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "marisa: crimson flash",
+        "aliases": [
+			"marisa",
+			"marisa stole the precious thing"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/10/6/6 (48)\n5\\* lv40: 46/30/36/30/21 (163)\n\n**Skills**:\nW: Wo Dao+ (5\\*)\nS: Glimmer (4\\*)\nA: HP/Def 2 (4\\*)\nC: Infantry Pulse 3 (5\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+        "color": "red",
+        "aka": "Marisa: Crimson Flash",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "marth: altean prince",
+        "aliases": [
+			"marth"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/8/7/6 (47)\n5\\* lv40: 41/31/34/29/23 (158)\n\n**Skills**:\nW: Falchion (Mystery) (5\\*)\nAs: Pivot (3\\*)\nB: Escape Route 3 (5\\*)\nC: Spur Spd 3 (4\\*)",
+        "color": "red",
+        "aka": "Marth: Altean Prince",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "marth: enigmatic blade",
+        "aliases": [
+			"masked marth",
+			"lucina marth",
+			"marth lucina",
+			"not marth btw"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/10/6/4 (47)\n5\\* lv40: 43/34/36/25/19 (157)\n\n**Skills**:\nW: Falchion (Awakening) (5\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+        "color": "red",
+        "aka": "Marth: Enigmatic Blade",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "mathilda: legendary knight",
+        "aliases": [
+			"mathilda"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/8/7/8 (46)\n5\\* lv40: 35/29/32/24/34 (154)\n\n**Skills**:\nW: Ridersbane+ (5\\*)\nAs: Rally Resistance (3\\*)\nB: Cancel Affinity 3 (5\\*)\nC: Hone Atk 3 (4\\*)",
+        "color": "blue",
+        "aka": "Mathilda: Legendary Knight",
+        "skill": "Cavalry Lance"
+    },
+    {
+        "name": "matthew: faithful spy",
+        "aliases": [
+			"matthew"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/10/6/5 (44)\n5\\* lv40: 41/25/34/30/18 (148)\n\n**Skills**:\nW: Rogue Dagger+ (5\\*)\nAs: Reciprocal Aid (3\\*)\nB: Poison Strike 3 (5\\*)\nC: Hone Spd 3 (4\\*)",
+        "color": "grey",
+        "aka": "Matthew: Faithful Spy",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "merric: wind mage",
+        "aliases": [
+			"merric"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/8/6/4 (44)\n5\\* lv40: 43/26/32/28/19 (148)\n\n**Skills**:\nW: Excalibur (5\\*)\nS: Growing Wind (4\\*)\nA: HP +5 (5\\*)\nC: Spur Res 3 (4\\*)",
+        "color": "green",
+        "aka": "Merric: Wind Mage",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "mia: lady of blades",
+        "aliases": [
+			"mia"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/12/6/6 (48)\n5\\* lv40: 38/32/40/28/25 (163)\n\n**Skills**:\nW: Resolute Blade\nS: Luna\nA: Flashing Blade 3\nB: Vantage 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Mia: Lady of Blades",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "micaiah: priestess of dawn",
+        "aliases": [
+			"micaiah"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/6/5/9 (45)\n5\\* lv40: 35/35/28/18/35 (151)\n\n**Skills**:\nW: Thani\nAs: Sacrifice\nA: Distant Def 3\nB: Guard 3\nC: Drive Atk 2\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Micaiah: Priestess of Dawn",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "michalis: ambitious king",
+        "aliases": [
+			"michalis"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/7/9/4 (47)\n5\\* lv40: 43/34/26/35/19 (157)\n\n**Skills**:\nW: Hauteclere (5\\*)\nS: Blazing Thunder (4\\*)\nA: Iote's Shield (4\\*)\nC: Threaten Def 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "green",
+        "aka": "Michalis: Ambitious King",
+        "skill": "Flying Axe"
+    },
+    {
+        "name": "minerva: red dragoon",
+        "aliases": [
+			"minerva",
+			"m'nerva"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/8/5 (47)\n5\\* lv40: 40/31/33/32/22 (158)\n\n**Skills**:\nW: Hauteclere\nS: Sacred Cowl\nA: Life and Death 3\nC: Ward Fliers\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Minerva: Red Dragoon",
+        "skill": "Flying Axe"
+    },
+    {
+        "name": "mist: helpful sister",
+        "aliases": [
+			"mist"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/6/5/8 (44)\n5\\* lv40: 39/27/28/20/34 (148)\n\n**Skills**:\nW: Slow+\nAs: Recover+\nS: Miracle\nC: Spur Def/Res 2\n(Unit only summonable at 5\\*)",
+        "color": "grey",
+        "aka": "Mist: Helpful Sister",
+        "skill": "Infantry Staff"
+    },
+	{
+		"name": "morgan",
+		"aliases": [
+			"morgan disambiguation"
+		],
+		"content": "Morgan: Lad from Afar? (m!morgan)\nMorgan: Lass from Afar? (f!morgan)",
+		"color": "yellow",
+		"aka": "Did you mean:",
+		"skill": "Morgan (disambiguation)"
+	},
+    {
+        "name": "morgan: lad from afar",
+        "aliases": [
+			"m!morgan",
+			"male morgan",
+			"red morgan"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/5/7 (45)\n5\\* lv40: 37/33/34/20/26 (150)\n\n**Skills**:\nW: Grima's Truth (5\\*)\nS: Dragon Fang (4\\*)\nB: Dull Ranged 3 (5\\*)\nC: Spur Def/Res 2 (4\\*)",
+        "color": "red",
+        "aka": "Morgan: Lad from Afar",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "morgan: lass from afar",
+        "aliases": [
+			"f!morgan",
+			"female morgan",
+			"blue morgan"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/6/3/9 (44)\n5\\* lv40: 37/34/30/16/33 (150)\n\n**Skills**:\nW: Bl\u00e1rserpent+\nS: Iceberg\nA: Mirror Stance 2\nB: Guard 3\nC: Atk Ploy 3\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Morgan: Lass from Afar",
+        "skill": "Flying Tome"
+    },
+    {
+        "name": "myrrh: great dragon",
+        "aliases": [
+			"myrrh",
+			"gold",
+			"frankincense"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/6/3/7 (39)\n5\\* lv40: 42/33/25/36/31 (167)\n\n**Skills**:\nW: Great Flame\nS: Bonfire\nA: Fury 3\nC: Hone Dragons\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Myrrh: Great Dragon",
+        "skill": "Flying Breath"
+    },
+    {
+        "name": "nanna: nordion princess",
+        "aliases": [
+			"nanna"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/5/8/6/7 (43)\n5\\* lv40: 36/27/34/21/26 (144)\n\n**Skills**:\nW: Absorb+ (5\\*)\nAs: Restore+ (5\\*)\nS: Heavenly Light (4\\*)\nA: Spd/Res 2 (5\\*)\nC: Drive Def 2 (4\\*)",
+        "color": "grey",
+        "aka": "Nanna: Nordion Princess",
+        "skill": "Cavalry Staff"
+    },
+    {
+        "name": "narcian: wyvern general",
+        "aliases": [
+			"narcian"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/7/8/7 (47)\n5\\* lv40: 42/29/29/32/26 (158)\n\n**Skills**:\nW: Emerald Axe+ (5\\*)\nS: Vengeance (4\\*)\nB: Lancebreaker 3 (4\\*)\nC: Savage Blow 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "green",
+        "aka": "Narcian: Wyvern General",
+        "skill": "Flying Axe"
+    },
+    {
+        "name": "navarre: scarlet sword",
+        "aliases": [
+			"navarre",
+			"narre warren"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/11/6/5 (47)\n5\\* lv40: 42/31/37/23/24 (157)\n\n**Skills**:\nW: Killing Edge+ (5\\*)\nS: Blazing Wind (4\\*)\nB: Desperation 3 (5\\*)\nC: Threaten Spd 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "red",
+        "aka": "Navarre: Scarlet Sword",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "nephenee: fierce halberdier",
+        "aliases": [
+			"nephenee",
+			"nepheneeeeeeeeeeee"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/8/5 (47)\n5\\* lv40: 37/31/35/34/20 (157)\n\n**Skills**:\nW: Slaying Lance+\nS: Moonbow\nA: Atk/Spd 2\nB: Wrath 3\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Nephenee: Fierce Halberdier",
+        "skill": "Infantry Lance"
+    },
+    {
+        "name": "niles: cruel to be kind",
+        "aliases": [
+			"niles",
+			"and i would pull 500 niles"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/8/4/8 (44)\n5\\* lv40: 37/25/34/17/34 (147)\n\n**Skills**:\nW: Killer Bow+ (5\\*)\nS: Iceberg (4\\*)\nA: Warding Blow 3 (4\\*)\nC: Spur Res 3 (5\\*)",
+        "color": "grey",
+        "aka": "Niles: Cruel to Be Kind",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "ninian: oracle of destiny",
+        "aliases": [
+			"ninian"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/5/7/6/5 (39)\n5\\* lv40: 42/24/33/23/27 (149)\n\n**Skills**:\nW: Light Breath+\nAs: Dance\nB: Escape Route 3\nC: Fortify Dragons\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Ninian: Oracle of Destiny",
+        "skill": "Infantry Breath"
+    },
+    {
+        "name": "nino: pious mage",
+        "aliases": [
+			"nino",
+			"niiiiiiiiinooooooo",
+			"do my best!"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/10/4/7 (44)\n5\\* lv40: 33/33/36/19/26 (147)\n\n**Skills**:\nW: Gronnblade+ (5\\*)\nAs: Draw Back (3\\*)\nA: Resistance +3 (4\\*)\nC: Hone Atk 3 (5\\*)",
+        "color": "green",
+        "aka": "Nino: Pious Mage",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "nowi: eternal witch",
+        "aliases": [
+			"nowi 2",
+			"nowi undertale",
+			"halloween nowi",
+			"tome nowi",
+			"h!nowi",
+			"trick or defeat nowi",
+			"witchy nowi",
+			"nowi trick or defeat",
+			"you know, once upon a time, witches really did exist!",
+			"red nowi"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/6/5/8 (44)\n5\\* lv40: 34/34/32/20/27 (147)\n\n**Skills**:\nW: Grimoire\nAs: Reposition\nA: Atk/Res Bond 3\nB: Live for Bounty\nC: Hone Fliers\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "red",
+        "aka": "Nowi: Eternal Witch",
+        "skill": "Flying Tome"
+    },
+    {
+        "name": "nowi: eternal youth",
+        "aliases": [
+			"nowi",
+			"best unit in the game",
+			"you're the best too",
+			"nowi emote"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/5/6/5 (39)\n5\\* lv40: 45/34/27/30/27 (163)\n\n**Skills**:\nW: Lightning Breath+ (5\\*)\nAs: Rally Defense (3\\*)\nA: Defense +3 (5\\*)\nC: Threaten Res 3 (4\\*)",
+        "color": "blue",
+        "aka": "Nowi: Eternal Youth",
+        "skill": "Infantry Breath"
+    },
+    {
+        "name": "oboro: fierce fighter",
+        "aliases": [
+			"oboro",
+			"david i swear to god stop"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/9/5 (47)\n5\\* lv40: 40/32/26/35/24 (157)\n\n**Skills**:\nW: Heavy Spear+ (5\\*)\nAs: Rally Defense (3\\*)\nB: Seal Def 3 (4\\*)\nC: Threaten Res 3 (5\\*)",
+        "color": "blue",
+        "aka": "Oboro: Fierce Fighter",
+        "skill": "Infantry Lance"
+    },
+    {
+        "name": "odin: potent force",
+        "aliases": [
+			"odin"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/5/8/6/6 (44)\n5\\* lv40: 43/22/32/25/25 (147)\n\n**Skills**:\nW: Bl\u00e1rblade+ (5\\*)\nS: Moonbow (4\\*)\nA: Defiant Atk 3 (5\\*)\nB: R Tomebreaker 3 (4\\*)",
+        "color": "blue",
+        "aka": "Odin: Potent Force",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "ogma: loyal blade",
+        "aliases": [
+			"ogma"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/7/10/6/3 (47)\n5\\* lv40: 47/35/34/28/13 (157)\n\n**Skills**:\nW: Brave Sword+ (5\\*)\nS: Noontime (4\\*)\nA: Defiant Atk 3 (4\\*)\nC: Spur Atk 3 (5\\*)",
+        "color": "red",
+        "aka": "Ogma: Loyal Blade",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "oliver: admirer of beauty",
+        "aliases": [
+			"oliver",
+			"god"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/5/6/8 (45)\n5\\* lv40: 42/32/20/23/34 (151)\n\n**Skills**:\nW: Shine+ (5\\*)\nS: Blazing Light (4\\*)\nA: Mirror Strike 2 (4\\*)\nC: Atk Ploy 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "blue",
+        "aka": "Oliver: Admirer of Beauty",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "olivia: blushing beauty",
+        "aliases": [
+			"olivia",
+			"olivia newton john"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/7/5/4 (39)\n5\\* lv40: 36/28/33/27/26 (150)\n\n**Skills**:\nW: Silver Sword+ (5\\*)\nAs: Dance (3\\*)\nB: Knock Back (3\\*)\nC: Hone Atk 3 (4\\*)",
+        "color": "red",
+        "aka": "Olivia: Blushing Beauty",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "olivia: festival dancer",
+        "aliases": [
+			"olivia 2",
+			"olivia undertale",
+			"olivia with good art",
+			"pa!olivia",
+			"performing arts olivia",
+			"olivia performing arts",
+			"dagger olivia"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/8/3/4 (36)\n5\\* lv40: 34/28/34/16/28 (140)\n\n**Skills**:\nW: Dancer's Fan+\nAs: Dance\nA: Distant Def 3\nB: Blaze Dance 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Olivia: Festival Dancer",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "olwen: blue mage knight",
+        "aliases": [
+			"olwen",
+			"blue olwen"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/5/6 (43)\n5\\* lv40: 34/26/34/20/30 (144)\n\n**Skills**:\nW: Dire Thunder\nAs: Reposition\nA: Warding Blow 3\nC: Ward Cavalry\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Olwen: Blue Mage Knight",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "olwen: righteous knight",
+        "aliases": [
+			"olwen 2",
+			"olwen undertale",
+			"green olwen",
+			"world of thracia olwen",
+			"olwen world of thracia"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/4/5 (43)\n5\\* lv40: 34/30/35/19/27 (145)\n\n**Skills**:\nW: Thunderhead\nS: Blazing Wind\nA: Swift Sparrow 2\nB: Renewal 3\nC: G Tome Exp. 3\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Olwen: Righteous Knight",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "oscar: agile horseman",
+        "aliases": [
+			"oscar"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/7/6 (46)\n5\\* lv40: 40/33/34/26/21 (154)\n\n**Skills**:\nW: Sapphire Lance+ (5\\*)\nAs: Rally Spd/Def (4\\*)\nB: Lancebreaker 3 (4\\*)\nC: Spur Spd/Def 2 (5\\*)",
+        "color": "blue",
+        "aka": "Oscar: Agile Horseman",
+        "skill": "Cavalry Lance"
+    },
+    {
+        "name": "palla: eldest whitewing",
+        "aliases": [
+			"palla",
+			"paella"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/6/7 (47)\n5\\* lv40: 42/31/31/28/26 (158)\n\n**Skills**:\nW: Ruby Sword+ (5\\*)\nS: Moonbow (4\\*)\nB: Wings of Mercy 3 (5\\*)\nC: Goad Fliers (4\\*)",
+        "color": "red",
+        "aka": "Palla: Eldest Whitewing",
+        "skill": "Flying Sword"
+    },
+    {
+        "name": "peri: playful slayer",
+        "aliases": [
+			"peri"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/9/6/6 (46)\n5\\* lv40: 35/33/33/23/30 (154)\n\n**Skills**:\nW: Killer Lance+ (5\\*)\nS: Glimmer (4\\*)\nA: Resistance +3 (5\\*)\nC: Threaten Def 3 (4\\*)",
+        "color": "blue",
+        "aka": "Peri: Playful Slayer",
+        "skill": "Cavalry Lance"
+    },
+    {
+        "name": "priscilla: delicate princess",
+        "aliases": [
+			"priscilla",
+			"queen of the desert"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/7/4/8 (43)\n5\\* lv40: 36/29/29/19/32 (145)\n\n**Skills**:\nW: Panic+ (5\\*)\nAs: Rehabilitate+ (5\\*)\nS: Still-Water Balm (3\\*)\nC: Spur Def 3 (5\\*)",
+        "color": "grey",
+        "aka": "Priscilla: Delicate Princess",
+        "skill": "Cavalry Staff"
+    },
+    {
+        "name": "raigh: dark child",
+        "aliases": [
+			"raigh"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/7/5/7 (44)\n5\\* lv40: 36/32/29/22/29 (148)\n\n**Skills**:\nW: Rau\u00f0rwolf+ (5\\*)\nAs: Rally Attack (3\\*)\nA: HP +5 (5\\*)\nB: Seal Res 3 (4\\*)",
+        "color": "red",
+        "aka": "Raigh: Dark Child",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "raven: peerless fighter",
+        "aliases": [
+			"raven",
+			"quoth"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/9/6/5 (47)\n5\\* lv40: 41/34/35/25/22 (157)\n\n**Skills**:\nW: Brave Axe+ (5\\*)\nS: Sol (4\\*)\nA: Defiant Spd 3 (4\\*)\nC: Threaten Def 3 (5\\*)",
+        "color": "green",
+        "aka": "Raven: Peerless Fighter",
+        "skill": "Infantry Axe"
+    },
+    {
+        "name": "rebecca: wildflower",
+        "aliases": [
+			"rebecca"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/6/5 (44)\n5\\* lv40: 37/29/34/21/27 (148)\n\n**Skills**:\nW: Silver Bow+ (5\\*)\nAs: Ardent Sacrifice (3\\*)\nA: Darting Blow 3 (4\\*)\nB: Seal Atk 3 (5\\*)",
+        "color": "grey",
+        "aka": "Rebecca: Wildflower",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "reinhardt: thunder's fist",
+        "aliases": [
+			"reinhardt",
+			"magic is everything"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/6/5/8 (43)\n5\\* lv40: 38/32/23/27/25 (145)\n\n**Skills**:\nW: Dire Thunder (5\\*)\nS: Blazing Thunder (4\\*)\nB: Vantage 3 (4\\*)\nC: Goad Cavalry (5\\*)",
+        "color": "blue",
+        "aka": "Reinhardt: Thunder's Fist",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "reinhardt: thunder's sword",
+        "aliases": [
+			"reinhardt 2",
+			"reinhardt undertale",
+			"thracia reinhardt",
+			"world of thracia reinhardt",
+			"reinhardt world of thracia",
+			"sword reinhardt",
+			"swordhardt"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/6/7/6 (46)\n5\\* lv40: 40/35/23/31/28 (157)\n\n**Skills**:\nW: Meisterschwert\nS: Pavise\nA: Death Blow 3\nB: Vantage 3\nC: Spur Atk/Def 2\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Reinhardt: Thunder's Sword",
+        "skill": "Cavalry Sword"
+    },
+    {
+        "name": "rhajat: black magician",
+        "aliases": [
+			"rhajat",
+			"not tharja"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/8/4/7 (45)\n5\\* lv40: 36/35/34/21/24 (150)\n\n**Skills**:\nW: Keen Gronnwolf+\nAs: Rally Atk/Def\nA: Distant Def 3\nC: Savage Blow 3\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Rhajat: Black Magician",
+        "skill": "Infantry Tome"
+    },
+	{
+		"name": "robin",
+		"aliases": [
+			"robin disambiguation"
+		],
+		"content": "Robin: Fell Reincarnation? (m!grima)\nRobin: Fell Vessel? (f!grima)\nRobin: Festive Tactician? (w!robin)\nRobin: High Deliverer? (m!robin)\nRobin: Mystery Tactician? (f!robin)\nRobin: Seaside Tactician (s!robin)",
+		"color": "yellow",
+		"aka": "Did you mean:",
+		"skill": "Robin (disambiguation)"
+	},
+	{
+		"name": "grima",
+		"aliases": [
+			"grima disambiguation"
+		],
+		"content": "Robin: Fell Reincarnation? (m!grima)\nRobin: Fell Vessel? (f!grima)",
+		"color": "yellow",
+		"aka": "Did you mean:",
+		"skill": "Grima (disambiguation)"
+	},
+    {
+        "name": "robin: fell reincarnation",
+        "aliases": [
+			"m!grima",
+			"male grima",
+			"male robin fallen heroes",
+			"fallen heroes male robin",
+			"armored grima"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 24/10/7/9/5 (55)\n5\\* lv40: 48/40/24/35/27 (174)\n\n**Skills**:\nW: Expiration\nS: Ignis\nB: Vengeful Fighter 3\nC: Ward Dragons\n(Unit only summonable at 5\\*)",
+        "color": "green",
+        "aka": "Robin: Fell Reincarnation",
+        "skill": "Armored Breath"
+    },
+    {
+        "name": "robin: fell vessel",
+        "aliases": [
+			"f!grima",
+			"female grima",
+			"female robin fallen heroes",
+			"fallen heroes female robin",
+			"flying grima",
+			"altair re:creators"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/9/8/6 (47)\n5\\* lv40: 40/32/35/30/25 (162)\n\n**Skills**:\nW: Expiration\nS: Bonfire\nA: Dragonskin\nB: Cancel Affinity 3\nC: Res Smoke 3\n(Unit only available from Legendary Hero banners)\n\nRobin: Fell Vessel is a Legendary Hero for the Earth Season, and provides a stat boost of +3 HP/+3 Spd.",
+        "color": "grey",
+        "aka": "Robin: Fell Vessel",
+        "skill": "Flying Breath"
+    },
+    {
+        "name": "robin: festive tactician",
+        "aliases": [
+			"christmas robin",
+			"c!robin",
+			"w!robin",
+			"winter's envoy robin",
+			"robin winter's envoy",
+			"winter robin"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 23/9/8/9/6 (55)\n5\\* lv40: 45/35/34/35/25 (174)\n\n**Skills**:\nW: Tannenboom!+\nAs: Reciprocal Aid\nA: Brazen Atk/Spd 3\nC: Armor March 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "blue",
+        "aka": "Robin: Festive Tactician",
+        "skill": "Armored Lance"
+    },
+    {
+        "name": "robin: high deliverer",
+        "aliases": [
+			"m!robin",
+			"male robin",
+			"blue tome robin",
+			"sameface robin"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/7/7/5 (44)\n5\\* lv40: 40/29/29/29/22 (149)\n\n**Skills**:\nW: Bl\u00e1rraven+ (5\\*)\nS: Bonfire (4\\*)\nA: Defiant Spd 3 (5\\*)\nC: Spur Def 3 (4\\*)",
+        "color": "blue",
+        "aka": "Robin: High Deliverer",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "robin: mystery tactician",
+        "aliases": [
+			"f!robin",
+			"female robin",
+			"green tome robin",
+			"ghb robin"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/7/7/5 (44)\n5\\* lv40: 40/29/29/29/22 (149)\n\n**Skills**:\nW: Gronnwolf+ (5\\*)\nS: Ignis (4\\*)\nA: Defiant Res 3 (5\\*)\nB: B Tomebreaker 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "green",
+        "aka": "Robin: Mystery Tactician",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "robin: seaside tactician",
+        "aliases": [
+			"s!robin",
+			"summer robin",
+			"robin ylissean summer",
+			"ylissean summer robin",
+			"bikini robin",
+			"harpoon robin"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/7 (47)\n5\\* lv40: 35/32/34/28/29 (158)\n\n**Skills**:\nW: Deft Harpoon+\nAs: Reposition\nA: HP/Def 2\nC: Lance Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "blue",
+        "aka": "Robin: Seaside Tactician",
+        "skill": "Infantry Lance"
+    },
+    {
+        "name": "roderick: steady squire",
+        "aliases": [
+			"roderick"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/6/7 (46)\n5\\* lv40: 40/31/34/25/24 (154)\n\n**Skills**:\nW: Firesweep Lance+ (5\\*)\nAs: Rally Def/Res (4\\*)\nB: Drag Back (3\\*)\nC: Drive Def 2 (5\\*)",
+        "color": "blue",
+        "aka": "Roderick: Steady Squire",
+        "skill": "Cavalry Lance"
+    },
+    {
+        "name": "roy: brave lion",
+        "aliases": [
+			"b!roy",
+			"brave roy",
+			"i always forget brave roy is cavalry",
+			"cyl roy"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/8/7/7 (46)\n5\\* lv40: 38/32/34/26/24 (154)\n\n**Skills**:\nW: Blazing Durandal\nS: Galeforce\nA: Steady Blow 2\nB: Desperation 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Roy: Brave Lion",
+        "skill": "Cavalry Sword"
+    },
+    {
+        "name": "roy: young lion",
+        "aliases": [
+			"roy",
+			"og roy",
+			"our boy"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/8/9/6/4 (47)\n5\\* lv40: 44/30/31/25/28 (158)\n\n**Skills**:\nW: Binding Blade (5\\*)\nAs: Shove (3\\*)\nA: Triangle Adept 3 (4\\*)\nB: Seal Def 3 (5\\*)",
+        "color": "red",
+        "aka": "Roy: Young Lion",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "roy: youthful gifts",
+        "aliases": [
+			"valentine's roy",
+			"v!roy",
+			"roy valentine's",
+			"la!roy",
+			"love abounds roy",
+			"roy love abounds",
+			"bow roy"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/6/5/6 (43)\n5\\* lv40: 34/35/19/27/30 (145)\n\n**Skills**:\nW: Gratia+\nAs: Reciprocal Aid\nA: Death Blow 3\nC: Bow Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Roy: Youthful Gifts",
+        "skill": "Cavalry Bow"
+    },
+    {
+        "name": "ryoma: peerless samurai",
+        "aliases": [
+			"lobster",
+			"ryoma"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/11/5/4 (47)\n5\\* lv40: 41/34/35/27/21 (158)\n\n**Skills**:\nW: Raijinto\nS: Astra\nA: Defiant Atk 3\nC: Hone Spd 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Ryoma: Peerless Samurai",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "saber: driven mercenary",
+        "aliases": [
+			"saber"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/8/5 (47)\n5\\* lv40: 40/31/33/32/22 (158)\n\n**Skills**:\nW: Slaying Edge+\nS: Aegis\nA: HP/Spd 2\nB: Shield Pulse 3\n(Unit only summonable at 5\\*)",
         "color": "red",
         "aka": "Saber: Driven Mercenary",
         "skill": "Infantry Sword"
-	},
-	{
-        "name": "saizo",
+    },
+    {
+        "name": "saias: bishop of flame",
         "aliases": [
+			"saias"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/5/8 (45)\n5\\* lv40: 36/33/30/18/34 (151)\n\n**Skills**:\nW: Wargod's Tome (5\\*)\nS: Glacies (4\\*)\nB: Escape Route 3 (5\\*)\nC: Spd Ploy 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "blue",
+        "aka": "Saias: Bishop of Flame",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "saizo: angry ninja",
+        "aliases": [
+			"saizo",
 			"kaizo"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/9/3\n5\\* lv40: 36/29/34/33/16 (147~149)\n\n**Skills:**\nW: Smoke Dagger+ (5\\*)\nAs: Harsh Command (3\\*)\nB: Poison Strike 3 (4\\*)\nC: Spur Spd 3 (5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/8/9/3 (44)\n5\\* lv40: 36/29/34/33/16 (148)\n\n**Skills**:\nW: Smoke Dagger+ (5\\*)\nAs: Harsh Command (3\\*)\nB: Poison Strike 3 (4\\*)\nC: Spur Spd 3 (5\\*)",
         "color": "grey",
         "aka": "Saizo: Angry Ninja",
         "skill": "Infantry Dagger"
     },
     {
-        "name": "sakura",
+        "name": "sakura: gentle nekomata",
         "aliases": [
-			"regular sakura"
-		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/8/5/8\n5\\* lv40: 36/28/30/24/30 (147~149)\n\n**Skills:**\nW: Fear+ (5\\*)\nAs: Physic+ (5\\*)\nS: Imbue, Still-Water Balm (4\\*)\nC: Fortify Def 3 (5\\*)",
-        "color": "grey",
-        "aka": "Sakura: Loving Priestess",
-        "skill": "Infantry Staff"
-    },
-    {
-        "name": "h!sakura",
-        "aliases": [
+			"h!sakura",
 			"halloween sakura",
 			"trick or defeat sakura",
 			"sakura trick or defeat",
-			"kitty sakura",
-			"neko sakura",
 			"furry sakura",
 			"sakura 2",
-			"sakura undertale",
-			"limited sakura"
+			"sakura undertale"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/8/4/8\n5\\* lv40: 33/32/34/14/34 (147~148)\n\n**Skills:**\nW: Kitty Paddle+\nS:Glacies\nA: Warding Stance 3\nB: Guard 3\nC: Dagger Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/8/4/8 (44)\n5\\* lv40: 33/32/34/14/34 (147)\n\n**Skills**:\nW: Kitty Paddle+\nS: Glacies\nA: Warding Stance 3\nB: Guard 3\nC: Dagger Valor 3\n(Unit only summonable at 5\\* in limited banner)",
         "color": "grey",
         "aka": "Sakura: Gentle Nekomata",
         "skill": "Infantry Dagger"
     },
     {
-        "name": "sanaki",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/7/4/8\n5\\* lv40: 33/37/26/17/34 (146~148)\n\n**Skills:**\nW: Cymbeline\nAs: Harsh Command\nA: Triangle Adept 3\nC: Hone Atk 3\n(Unit only summonable at 5\\*)",
+        "name": "sakura: loving priestess",
+        "aliases": [
+			"sakura"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/8/5/8 (44)\n5\\* lv40: 36/28/30/24/30 (148)\n\n**Skills**:\nW: Fear+ (5\\*)\nAs: Physic+ (5\\*)\nS: Still-Water Balm (3\\*)\nC: Fortify Def 3 (5\\*)",
+        "color": "grey",
+        "aka": "Sakura: Loving Priestess",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "sanaki: begnion's apostle",
+        "aliases": [
+			"sanaki",
+			"snacki"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/7/4/8 (44)\n5\\* lv40: 33/37/26/17/34 (147)\n\n**Skills**:\nW: Cymbeline\nAs: Harsh Command\nA: Triangle Adept 3\nC: Hone Atk 3\n(Unit only summonable at 5\\*)",
         "color": "red",
         "aka": "Sanaki: Begnion's Apostle",
         "skill": "Infantry Tome"
     },
     {
-        "name": "selena",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/8/6\n5\\* lv40: 37/25/35/32/28 (156~158)\n\n**Skills:**\nW: Armorslayer+ (5\\*)\nAs: Reposition (3\\*)\nA: Triangle Adept 3 (5\\*)\nC: Threaten Spd 3 (4\\*)",
+        "name": "selena: cutting wit",
+        "aliases": [
+			"selena",
+			"don't eat glue"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/8/6 (47)\n5\\* lv40: 37/25/35/32/28 (157)\n\n**Skills**:\nW: Armorslayer+ (5\\*)\nAs: Reposition (3\\*)\nA: Triangle Adept 3 (5\\*)\nC: Threaten Spd 3 (4\\*)",
         "color": "red",
         "aka": "Selena: Cutting Wit",
         "skill": "Infantry Sword"
     },
     {
-        "name": "seliph",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/7/8/5\n5\\* lv40: 47/34/24/30/22 (156~157)\n\n**Skills:**\nW: Tyrfing (5\\*)\nAs: Rally Speed (4\\*)\nA: HP +5 (4\\*)\nB: Brash Assault 3 (5\\*)",
+        "name": "seliph: heir of light",
+        "aliases": [
+			"seliph"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/7/8/5 (47)\n5\\* lv40: 47/34/24/30/22 (157)\n\n**Skills**:\nW: Tyrfing (5\\*)\nAs: Rally Speed (3\\*)\nA: HP +5 (4\\*)\nB: Brash Assault 3 (5\\*)",
         "color": "red",
         "aka": "Seliph: Heir of Light",
         "skill": "Infantry Sword"
     },
     {
-        "name": "serra",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/9/4/9\n5\\* lv40: 33/30/31/21/33 (147~148)\n\n**Skills:**\nW: Absorb (3\\*)\nAs: Recover (4\\*)\nS: Imbue, Swift-Winds Balm (3\\*)\nC: Hone Atk 3 (5\\*)",
+        "name": "serra: outspoken cleric",
+        "aliases": [
+			"serra"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/6/9/4/9 (44)\n5\\* lv40: 33/30/31/21/33 (148)\n\n**Skills**:\nW: Absorb+ (5\\*)\nAs: Recover+ (5\\*)\nS: Swift-Winds Balm (3\\*)\nC: Hone Atk 3 (5\\*)",
         "color": "grey",
         "aka": "Serra: Outspoken Cleric",
         "skill": "Infantry Staff"
     },
     {
-        "name": "seth",
+        "name": "seth: silver knight",
         "aliases": [
-			"sethbling"
+			"seth",
+			"welcome back"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/8/5\n5\\* lv40: 37/32/31/32/22 (154~155)\n\n**Skills:**\nW: Ruby Sword+ (5\\*)\nAs: Swap (4\\*)\nA: Fortress Def 3 (4\\*)\nB: Seal Atk 1, Seal Atk Def 2 (5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/8/5 (46)\n5\\* lv40: 37/32/31/32/22 (154)\n\n**Skills**:\nW: Ruby Sword+ (5\\*)\nAs: Swap (3\\*)\nA: Fortress Def 3 (4\\*)\nB: Seal Atk/Def 2 (5\\*)",
         "color": "red",
         "aka": "Seth: Silver Knight",
-        "skill": "Sword Cavalry"
+        "skill": "Cavalry Sword"
     },
     {
-        "name": "setsuna",
+        "name": "setsuna: absent archer",
         "aliases": [
+			"setsuna",
 			"i am setsuna"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/5/6\n5\\* lv40: 37/28/37/22/23 (146~148)\n\n**Skills:**\nW: Assassin's Bow+ (5\\*)\nAs: Reciprocal Aid (3\\*)\nA: HP+5 (5\\*)\nB: Bowbreaker 3 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/5/6 (44)\n5\\* lv40: 37/28/37/22/23 (147)\n\n**Skills**:\nW: Assassin's Bow+ (5\\*)\nAs: Reciprocal Aid (3\\*)\nA: HP +5 (5\\*)\nB: Bowbreaker 3 (4\\*)",
         "color": "grey",
         "aka": "Setsuna: Absent Archer",
         "skill": "Infantry Bow"
     },
     {
-        "name": "shanna",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/6/7\n5\\* lv40: 39/30/35/25/29 (157~159)\n\n**Skills:**\nW: Killer Lance+ (5\\*)\nS: Iceberg (4\\*)\nB: Desperation 3 (4\\*)\nC: Threaten Spd 3 (5\\*)",
+        "name": "shanna: sprightly flier",
+        "aliases": [
+			"shanna"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/6/7 (47)\n5\\* lv40: 39/30/35/25/29 (158)\n\n**Skills**:\nW: Killer Lance+ (5\\*)\nS: Iceberg (4\\*)\nB: Desperation 3 (4\\*)\nC: Threaten Spd 3 (5\\*)",
         "color": "blue",
         "aka": "Shanna: Sprightly Flier",
         "skill": "Flying Lance"
     },
     {
-        "name": "sharena",
-        "aliases": [],
-        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/8/7/5\n5\\* lv40: 43/32/32/29/22 (158)\n\n**Skills:**\nW: Fensalir (5\\*)\nAs: Rally Atk (2\\*)\nA: Spd +3 (4\\*)\nC: Fortify Def 3 (5\\*)\n(Unit only obtainable through story, no IV variation)",
+        "name": "sharena: princess of askr",
+        "aliases": [
+			"sharena"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/8/7/5 (47)\n5\\* lv40: 43/32/32/29/22 (158)\n\n**Skills**:\nW: Fensalir (5\\*)\nAs: Rally Attack (2\\*)\nA: Speed +3 (4\\*)\nC: Fortify Def 3 (5\\*)\n(Unit only obtainable through story, no IV variation)",
         "color": "blue",
         "aka": "Sharena: Princess of Askr",
         "skill": "Infantry Lance"
     },
     {
-        "name": "sheena",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/8/6/12/7\n5\\* lv40: 45/30/25/36/33 (168~170)\n\n**Skills:**\nW: Killer Axe+ (5\\*)\nS: Escutcheon (4\\*)\nA: Svalinn Shield (4\\*)\nC: Fortify Def 2, Fortify Armor (4\\*)",
+        "name": "sharena: spring princess",
+        "aliases": [
+			"s!sharena",
+			"spring sharena",
+			"hares at the fair sharena",
+			"sharena hares at the fair",
+			"sharena 2",
+			"sharena undertale",
+			"it looks like i won't be getting a seasonal costume any time soon"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/10/3/6 (45)\n5\\* lv40: 37/32/36/16/30 (151)\n\n**Skills**:\nW: Muninn's Egg\nAs: Rally Atk/Spd\nA: Swift Stance 2\nB: Live for Bounty\nC: Res Tactic 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Sharena: Spring Princess",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "sheena: princess of gra",
+        "aliases": [
+			"sheena"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 21/8/6/12/7 (54)\n5\\* lv40: 45/30/25/36/33 (169)\n\n**Skills**:\nW: Killer Axe+ (5\\*)\nS: Escutcheon (4\\*)\nA: Svalinn Shield (3\\*)\nC: Fortify Armor (4\\*)",
         "color": "green",
         "aka": "Sheena: Princess of Gra",
         "skill": "Armored Axe"
     },
     {
-        "name": "p!shigure",
+        "name": "shigure: dark sky singer",
         "aliases": [
 			"pa!shigure",
-			"shigure",
-			"shigure undertale",
-			"limited shigure",
-			"shigure performing arts",
-			"performing arts shigure"
+			"singing shigure",
+			"shigure dancer",
+			"the first shigure",
+			"performing arts shigure",
+			"blue tome shigure"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/7/5/4/5\n5\\* lv40: 34/31/29/21/24 (139~140)\n\n**Skills:**\nW: Dancer's Score+\nAs: Sing\nB: Geyser Dance\nC: B Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/7/5/4/5 (36)\n5\\* lv40: 34/31/29/21/24 (139)\n\n**Skills**:\nW: Dancer's Score+\nAs: Sing\nB: Geyser Dance 2\nC: B Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
         "color": "blue",
         "aka": "Shigure: Dark Sky Singer",
         "skill": "Infantry Tome"
     },
     {
-        "name": "sigurd",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/8/6/4\n5\\* lv40: 41/35/32/34/17 (158~159)\n\n**Skills:**\nW: Divine Tyrfing\nS: Miracle\nA: Close Def 3\nB: Crusader's Ward\nC: Spd Smoke 3\n(Unit only summonable at 5\\*)",
+        "name": "shigure: uplifting artist",
+        "aliases": [
+			"shigure 2",
+			"shigure undertale",
+			"non limited shigure",
+			"lance shigure",
+			"flying shigure"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/9/5/8 (47)\n5\\* lv40: 40/33/37/27/25 (162)\n\n**Skills**:\nW: Harmonic Lance+ (5\\*)\nS: Noontime (4\\*)\nA: Darting Stance 3 (5\\*)\nC: Ward Fliers (4\\*)",
+        "color": "blue",
+        "aka": "Shigure: Uplifting Artist",
+        "skill": "Flying Lance"
+    },
+    {
+        "name": "shiro: raw talent",
+        "aliases": [
+			"shiro"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/6/9/5 (48)\n5\\* lv40: 41/35/30/35/22 (163)\n\n**Skills**:\nW: Bright Naginata\nAs: Swap\nA: Steady Stance 3\nC: Def Tactic 3\n(Unit only summonable at 5\\*)",
+        "color": "blue",
+        "aka": "Shiro: Raw Talent",
+        "skill": "Infantry Lance"
+    },
+    {
+        "name": "siegbert: future king",
+        "aliases": [
+			"siegbert",
+			"i'm siegbert"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/9/7/3 (46)\n5\\* lv40: 41/34/35/31/16 (157)\n\n**Skills**:\nW: Dark Greatsword\nS: Dragon Fang\nA: Death Blow 3\nC: Atk Tactic 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Siegbert: Future King",
+        "skill": "Cavalry Sword"
+    },
+    {
+        "name": "sigurd: holy knight",
+        "aliases": [
+			"sigurd"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/9/8/6/4 (46)\n5\\* lv40: 41/35/32/34/17 (159)\n\n**Skills**:\nW: Divine Tyrfing\nS: Miracle\nA: Close Def 3\nB: Crusader's Ward\nC: Spd Smoke 3\n(Unit only summonable at 5\\*)",
         "color": "red",
         "aka": "Sigurd: Holy Knight",
         "skill": "Cavalry Sword"
     },
     {
-        "name": "sonya",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/7/5/8\n5\\* lv40: 36/33/31/15/32 (147~148)\n\n**Skills:**\nW: Dark Excalibur\nS: Moonbow\nA: Warding Blow 1, Mirror Strike 2\nC: Res Ploy 3\n(Unit only summonable at 5\\*)",
+        "name": "soleil: adorable adorer",
+        "aliases": [
+			"soleil"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/10/9/6/5 (48)\n5\\* lv40: 37/38/35/28/24 (162)\n\n**Skills**:\nW: Firesweep Sword+ (5\\*)\nS: Blazing Wind (4\\*)\nA: Darting Blow 3 (5\\*)\nC: Drive Res 2 (4\\*)",
+        "color": "red",
+        "aka": "Soleil: Adorable Adorer",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "sonya: vengeful mage",
+        "aliases": [
+			"sonya"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/7/5/8 (44)\n5\\* lv40: 36/33/31/15/32 (147)\n\n**Skills**:\nW: Dark Excalibur\nS: Moonbow\nA: Mirror Strike 2\nC: Res Ploy 3\n(Unit only summonable at 5\\*)",
         "color": "green",
         "aka": "Sonya: Vengeful Mage",
         "skill": "Infantry Tome"
     },
     {
-        "name": "sophia",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/4/6/7\n5\\* lv40: 40/33/19/28/29 (148~149)\n\n**Skills:**\nW: Fenrir+ (5\\*)\nS: Dragon Fang (4\\*)\nA: Warding Blow 3 (5\\*)\nC: Fortify Res 3 (4\\*)",
+        "name": "sophia: nabata prophet",
+        "aliases": [
+			"sophia",
+			"giraffe"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/9/4/6/7 (44)\n5\\* lv40: 40/33/19/28/29 (149)\n\n**Skills**:\nW: Fenrir+ (5\\*)\nS: Dragon Fang (4\\*)\nA: Warding Blow 3 (5\\*)\nC: Fortify Res 3 (4\\*)",
         "color": "red",
         "aka": "Sophia: Nabata Prophet",
         "skill": "Infantry Tome"
     },
     {
-        "name": "soren",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/4/7\n5\\* lv40: 36/33/33/17/29 (147~149)\n\n**Skills**\nW: Rexcalibur+ (5\\*)\nS: Growing Wind (4\\*)\nB: Watersweep 3 (5\\*)\nC: Fortify Res 3 (4\\*)",
+        "name": "soren: shrewd strategist",
+        "aliases": [
+			"soren"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/4/7 (44)\n5\\* lv40: 36/33/33/17/29 (148)\n\n**Skills**:\nW: Rexcalibur+ (5\\*)\nS: Growing Wind (4\\*)\nB: Watersweep 3 (5\\*)\nC: Fortify Res 3 (4\\*)",
         "color": "green",
         "aka": "Soren: Shrewd Strategist",
         "skill": "Infantry Tome"
     },
-	{
-		"name": "sothe",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/10/9/5/4\n5\\* lv40: 39/36/33/22/21 (150~151)\n\n**Skills:**\nW: Peshkatz\nS: Glimmer\nA: Life and Death 3\nC: Spur Atk/Spd 2\n(Unit only summonable at 5\\*)",
-		"color": "grey",
-		"aka": "Sothe: Zephyr",
-		"skill": "Infantry Dagger"
-	},
     {
-        "name": "stahl",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/7/8/5\n5\\* lv40: 45/31/26/30/22 (153~155)\n\n**Skills**\nW: Ruby Sword+ (5\\*)\nAs: Swap (3\\*)\nA: Defense +3 (4\\*)\nB: Obstruct 3 (5\\*)",
+        "name": "sothe: zephyr",
+        "aliases": [
+			"sothe"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/10/9/5/4 (45)\n5\\* lv40: 39/36/33/22/21 (151)\n\n**Skills**:\nW: Peshkatz (5\\*)\nS: Glimmer (4\\*)\nA: Life and Death 3 (4\\*)\nC: Spur Atk/Spd 2 (5\\*)",
+        "color": "grey",
+        "aka": "Sothe: Zephyr",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "stahl: viridian knight",
+        "aliases": [
+			"stahl"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/7/8/5 (46)\n5\\* lv40: 45/31/26/30/22 (154)\n\n**Skills**:\nW: Ruby Sword+ (5\\*)\nAs: Swap (3\\*)\nA: Defense +3 (4\\*)\nB: Obstruct 3 (5\\*)",
         "color": "red",
         "aka": "Stahl: Viridian Knight",
         "skill": "Cavalry Sword"
     },
     {
-        "name": "subaki",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/9/5\n5\\* lv40: 40/25/35/35/22 (156~158)\n\n**Skills**\nW: Sapphire Lance+ (5\\*)\nAs: Swap (3\\*)\nA: Res +3 (4\\*)\nB: Quick Riposte 3 (5\\*)",
+        "name": "subaki: perfect expert",
+        "aliases": [
+			"subaki"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/9/9/5 (47)\n5\\* lv40: 40/25/35/35/22 (157)\n\n**Skills**:\nW: Sapphire Lance+ (5\\*)\nAs: Swap (3\\*)\nA: Resistance +3 (4\\*)\nB: Quick Riposte 3 (5\\*)",
         "color": "blue",
         "aka": "Subaki: Perfect Expert",
         "skill": "Flying Lance"
     },
     {
-        "name": "sully",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/7/6\n5\\* lv40: 42/26/34/24/28 (153~155)\n\n**Skills**\nW: Sapphire Lance+ (5\\*)\nAs: Draw Back (3\\*)\nB: Swordbreaker 3 (5\\*)\nC: Spur Def (4\\*)",
+        "name": "sully: crimson knight",
+        "aliases": [
+			"sully"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/7/6 (46)\n5\\* lv40: 42/26/34/24/28 (154)\n\n**Skills**:\nW: Sapphire Lance+ (5\\*)\nAs: Draw Back (3\\*)\nB: Swordbreaker 3 (5\\*)\nC: Spur Def 3 (4\\*)",
         "color": "blue",
         "aka": "Sully: Crimson Knight",
-        "skill": "Lance Cavalier"
+        "skill": "Cavalry Lance"
     },
     {
-        "name": "tailtiu",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/4/6\n5\\* lv40: 39/32/35/17/25 (147~149)\n\n**Skills**\nW: Bl\u00E1rblade+ (5\\*)\nAs: Rally Speed Resistance (4\\*)\nA: Attack +1, Attack Res 2 (5\\*)\nC: Spur Spd 1, Drive Spd 2 (4\\*)",
+        "name": "surtr: ruler of flame",
+        "aliases": [
+			"surtr"
+		],
+        "content": "A story exclusive unit that cannot be used by the player.\n\n**Skills**:\nW: Sinmara",
+        "color": "green",
+        "aka": "Surtr: Ruler of Flame",
+        "skill": "Armored Axe"
+    },
+    {
+        "name": "tailtiu: thunder noble",
+        "aliases": [
+			"tailtiu",
+			"drive speed fodder"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/9/4/6 (44)\n5\\* lv40: 39/32/35/17/25 (148)\n\n**Skills**:\nW: Bl\u00e1rblade+ (5\\*)\nAs: Rally Spd/Res (4\\*)\nA: Atk/Res 2 (5\\*)\nC: Drive Spd 2 (4\\*)",
         "color": "blue",
         "aka": "Tailtiu: Thunder Noble",
         "skill": "Infantry Tome"
     },
     {
-        "name": "takumi",
+        "name": "takumi: empty vessel",
         "aliases": [
+			"fh!takumi",
+			"fallen takumi",
+			"edgy takumi",
+			"fallen heroes takumi",
+			"takumi fallen heroes",
+			"purple takumi",
+			"takumi is dead"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/9/10/6/5 (45)\n5\\* lv40: 37/31/34/25/24 (151)\n\n**Skills**:\nW: Skadi (5\\*)\nS: Vengeance (4\\*)\nA: Fury 3 (4\\*)\nC: Spd Smoke 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "grey",
+        "aka": "Takumi: Empty Vessel",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "takumi: prince of soup",
+        "aliases": [
+			"ny!takumi",
+			"happy new year takumi",
+			"takumi happy new year",
+			"new year's takumi",
+			"dagger takumi",
+			"takumi 2",
+			"takumi undertale"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/10/4/5 (45)\n5\\* lv40: 40/34/34/17/27 (152)\n\n**Skills**:\nW: Kagami Mochi+\nS: Moonbow\nA: Atk/Res Bond 3\nB: Bowbreaker 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "grey",
+        "aka": "Takumi: Prince of Soup",
+        "skill": "Infantry Dagger"
+    },
+    {
+        "name": "takumi: wild card",
+        "aliases": [
+			"takumi",
 			"pineapple"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/6/5\n5\\* lv40: 40/32/33/25/18 (147~149)\n\n**Skills**\nW: Fujin Yumi\nS: Vengeance\nA: Close Counter\nC: Threaten Spd 3\n(Unit only summonable at 5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/7/6/5 (44)\n5\\* lv40: 40/32/33/25/18 (148)\n\n**Skills**:\nW: Fujin Yumi\nS: Vengeance\nA: Close Counter\nC: Threaten Spd 3\n(Unit only summonable at 5\\*)",
         "color": "grey",
         "aka": "Takumi: Wild Card",
         "skill": "Infantry Bow"
     },
-	{
-		"name": "takumi 2",
-		"aliases": [
-			"new year's takumi",
-			"new years takumi",
-			"new year takumi",
-			"takumi undertale",
-			"prince of soup",
-			"soups",
-			"ny!takumi"
-		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/10/4/5\n5\\* lv40: 40/34/34/17/27 (151~152)\n\n**Skills:**\nW: Kagami Mochi+\nS: Moonbow\nA: Atk/Res Bond 3\nB: Bowbreaker 3\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "grey",
-		"aka": "Takumi: Prince of Soup",
-		"skill": "Infantry Dagger"
-	},
     {
-        "name": "tana",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/10/6/6\n5\\* lv40: 36/34/36/25/25 (156~157)\n\n**Skills**\nW: Vidofnir\nS: Moonbow\nA: Speed +1, Spd Def 2\nC: Guidance 3\n(Unit only summonable at 5\\*)",
+        "name": "tana: winged princess",
+        "aliases": [
+			"tana"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/10/6/6 (47)\n5\\* lv40: 36/34/36/25/25 (156)\n\n**Skills**:\nW: Vidofnir\nS: Moonbow\nA: Spd/Def 2\nC: Guidance 3\n(Unit only summonable at 5\\*)",
         "color": "blue",
         "aka": "Tana: Winged Princess",
         "skill": "Flying Lance"
     },
     {
-        "name": "tharja",
-        "aliases": [],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/8/6/5\n5\\* lv40: 39/32/34/23/20 (147~148)\n\n**Skills**\nW: Rau\u00F0rblade+ (5\\*)\nS: Vengeance (4\\*)\nA: Darting Blow 3 (4\\*)\nC: Spur Res 3 (5\\*)",
+        "name": "tharja: \"normal girl\"",
+        "aliases": [
+			"w!tharja",
+			"c!tharja",
+			"christmas tharja",
+			"winter tharja",
+			"winter's envoy tharja",
+			"tharja winter's envoy",
+			"tharja 2",
+			"tharja undertale",
+			"tharja fire emblem",
+			"tharja why are you wearing a bikini it's christmas for crying out loud i know you wanted to be in the summer banner but this is strictly inappropriate for the workplace, why don't you put on some clothes and call me back when you're fit for this game, ok?",
+			"stop putting special characters in names IS"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/5/8/10 (52)\n5\\* lv40: 43/34/18/34/36 (165)\n\n**Skills**:\nW: Candelabra+\nS: Iceberg\nA: Close Counter\nB: Vengeful Fighter 3\nC: R Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "red",
+        "aka": "Tharja: \"Normal Girl\"",
+        "skill": "Armored Tome"
+    },
+    {
+        "name": "tharja: dark shadow",
+        "aliases": [
+			"tharja"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/8/6/5 (44)\n5\\* lv40: 39/32/34/23/20 (148)\n\n**Skills**:\nW: Rau\u00f0rblade+ (5\\*)\nS: Vengeance (4\\*)\nA: Darting Blow 3 (4\\*)\nC: Spur Res 3 (5\\*)",
         "color": "red",
         "aka": "Tharja: Dark Shadow",
         "skill": "Infantry Tome"
     },
 	{
-		"name": "c!tharja",
+		"name": "tiki",
 		"aliases": [
-			"w!tharja",
-			"tharja why are you wearing a bikini it's christmas for crying out loud i know you wanted to be in the summer banner but this is strictly inappropriate for the workplace, why don't you put on some clothes and call me back when you're fit for this game, ok?",
-			"tharja winter's envoy",
-			"tharja winters envoy",
-			"tharja (winter's envoy)",
-			"tharja (winters envoy)",
-			"winter's envoy tharja",
-			"winters envoy tharja",
-			"tharja undertale",
-			"tharja fire emblem",
-			"tharja 2",
-			"limited tharja",
-			"christmas tharja"
+			"tiki disambiguation"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/5/8/10\n5\\* lv40: 43/34/18/34/36 (164~165)\n\n**Skills:**\nW: Candelabra+\nS: Iceberg\nA: Close Counter\nB: Vengeful Fighter 3\nC: R Tome Valor 3\n(Unit only summonable at 5\\* in limited banner)",
-		"color": "red",
-		"aka": "Tharja: \"Normal Girl\"",
-		"skill": "Armored Tome"
+		"content": "Tiki: Dragon Scion (Young)? (y!tiki)\nTiki: Naga's Voice (Adult)? (a!tiki)\nTiki: Summering Scion? (s!tiki)",
+		"color": "yellow",
+		"aka": "Did you mean:",
+		"skill": "Tiki (disambiguation)"
 	},
+    {
+        "name": "tiki: dragon scion",
+        "aliases": [
+			"y!tiki",
+			"young tiki",
+			"smol tiki"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/5/4/8/7 (39)\n5\\* lv40: 41/31/30/32/29 (163)\n\n**Skills**:\nW: Flametongue+\nS: Growing Flame\nA: Armored Blow 3\nC: Breath of Life 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Tiki: Dragon Scion",
+        "skill": "Infantry Breath"
+    },
+    {
+        "name": "tiki: naga's voice",
+        "aliases": [
+			"a!tiki",
+			"adult tiki",
+			"tol tiki"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/6/9/7 (47)\n5\\* lv40: 40/35/23/35/24 (157)\n\n**Skills**:\nW: Lightning Breath+ (5\\*)\nS: Bonfire (4\\*)\nA: Defiant Atk 3 (4\\*)\nC: Spur Res 3 (5\\*)",
+        "color": "red",
+        "aka": "Tiki: Naga's Voice",
+        "skill": "Infantry Breath"
+    },
+    {
+        "name": "tiki: summering scion",
+        "aliases": [
+			"s!tiki",
+			"summer tiki",
+			"tiki ylissean summer",
+			"ylissean summer tiki",
+			"axe tiki"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/6/8/7 (47)\n5\\* lv40: 35/36/30/32/24 (157)\n\n**Skills**:\nW: Melon Crusher+\nS: Sol\nA: Close Def 3\nC: Axe Valor 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Tiki: Summering Scion",
+        "skill": "Infantry Axe"
+    },
+    {
+        "name": "titania: mighty mercenary",
+        "aliases": [
+			"titania"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/8/6/8 (46)\n5\\* lv40: 37/28/34/25/30 (154)\n\n**Skills**:\nW: Emerald Axe+ (5\\*)\nAs: Reciprocal Aid (3\\*)\nA: Armored Blow 3 (4\\*)\nB: Guard 3 (5\\*)",
+        "color": "green",
+        "aka": "Titania: Mighty Mercenary",
+        "skill": "Cavalry Axe"
+    },
+    {
+        "name": "tobin: the clueless one",
+        "aliases": [
+			"tobin"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/5/5/4 (39)\n5\\* lv40: 46/31/27/33/26 (163)\n\n**Skills**:\nW: Armorslayer+ (5\\*)\nAs: Pivot (4\\*)\nA: Attack +3 (4\\*)\nB: Seal Spd 3 (5\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+        "color": "red",
+        "aka": "Tobin: The Clueless One",
+        "skill": "Infantry Sword"
+    },
+    {
+        "name": "ursula: blue crow",
+        "aliases": [
+			"ursula"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/7/8/4/8 (43)\n5\\* lv40: 35/29/32/19/30 (145)\n\n**Skills**:\nW: Bl\u00e1rwolf+ (5\\*)\nS: Growing Thunder (4\\*)\nA: Death Blow 3 (5\\*)\nC: Threaten Res 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "blue",
+        "aka": "Ursula: Blue Crow",
+        "skill": "Cavalry Tome"
+    },
+    {
+        "name": "valter: dark moonstone",
+        "aliases": [
+			"valter",
+			"virion alter"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/9/8/4 (47)\n5\\* lv40: 42/32/31/34/19 (158)\n\n**Skills**:\nW: Cursed Lance (5\\*)\nS: Luna (4\\*)\nA: Darting Blow 3 (4\\*)\nC: Panic Ploy 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "blue",
+        "aka": "Valter: Dark Moonstone",
+        "skill": "Flying Lance"
+    },
+    {
+        "name": "veronica: emblian princess",
+        "aliases": [
+			"veronica",
+			"the veronicas"
+		],
+        "content": "A story exclusive unit that cannot be used by the player.\n\n**Skills**:\nW: \u00c9liv\u00e1gar",
+        "color": "green",
+        "aka": "Veronica: Emblian Princess",
+        "skill": "Infantry Tome"
+    },
+    {
+        "name": "virion: elite archer",
+        "aliases": [
+			"virion",
+			"press f to pay respects"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/7/7/7/3 (44)\n5\\* lv40: 46/31/31/26/13 (147)\n\n**Skills**:\nW: Silver Bow+ (5\\*)\nS: Astra (4\\*)\nA: Defiant Res 3 (5\\*)\nB: Seal Spd 3 (4\\*)",
+        "color": "grey",
+        "aka": "Virion: Elite Archer",
+        "skill": "Infantry Bow"
+    },
+    {
+        "name": "wrys: kindly priest",
+        "aliases": [
+			"wrys"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/5/6/5/10 (44)\n5\\* lv40: 42/24/23/22/36 (147)\n\n**Skills**:\nW: Slow+ (5\\*)\nAs: Rehabilitate+ (5\\*)\nS: Heavenly Light (3\\*)\nB: Live to Serve 3 (5\\*)",
+        "color": "grey",
+        "aka": "Wrys: Kindly Priest",
+        "skill": "Infantry Staff"
+    },
+    {
+        "name": "xander: paragon knight",
+        "aliases": [
+			"xander",
+			"sword xander"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 20/8/5/9/4 (46)\n5\\* lv40: 44/32/24/37/17 (154)\n\n**Skills**:\nW: Siegfried (5\\*)\nS: Blazing Light (4\\*)\nA: Armored Blow 3 (5\\*)\nC: Spur Def 3 (5\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "red",
+        "aka": "Xander: Paragon Knight",
+        "skill": "Cavalry Sword"
+    },
 	{
-		"name": "zelgius",
-		"aliases": [],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 22/10/7/10/6\n5\\* lv40: 46/36/33/38/21 (174)\n\n**Skills:**\nW: Alondite\nS: Black Luna\nA: Fierce Stance 3\nB: Warp Powder\nC: Panic Ploy 3\n(Unit only summonable at 5\\*)",
-		"color": "red",
-		"aka": "Zelgius: Jet-Black General",
-		"skill": "Armored Sword"
-	}
+		"name": "s!xander",
+		"aliases": [
+			"xander disambiguation",
+			"xander undertale"
+		],
+		"content": "Xander: Spring Prince? (sp!xander)\nXander: Student Swimmer? (su!xander)",
+		"color": "yellow",
+		"aka": "I know you tried to specify, but Did you mean:",
+		"skill": "Limited Xander (disambiguation)"
+	},
+    {
+        "name": "xander: spring prince",
+        "aliases": [
+			"sp!xander",
+			"spring xander",
+			"spring festival xander",
+			"xander spring festival",
+			"lance xander"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/6/6/9/7 (46)\n5\\* lv40: 40/25/28/35/26 (154)\n\n**Skills**:\nW: Carrot Lance+\nAs: Swap\nB: Live for Honor\nC: Fortify Def 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "blue",
+        "aka": "Xander: Spring Prince",
+        "skill": "Cavalry Lance"
+    },
+    {
+        "name": "xander: student swimmer",
+        "aliases": [
+			"su!xander",
+			"summer xander",
+			"nohrian summer xander",
+			"xander nohrian summer",
+			"axe xander"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/6/8/6 (47)\n5\\* lv40: 43/32/30/36/16 (157)\n\n**Skills**:\nW: Lilith Floatie+\nS: Bonfire\nA: Fire Boost 3\nC: Infantry Pulse 3\n(Unit only summonable at 5\\* in limited banner)",
+        "color": "green",
+        "aka": "Xander: Student Swimmer",
+        "skill": "Infantry Axe"
+    },
+    {
+        "name": "zelgius: jet-black general",
+        "aliases": [
+			"zelgius"
+		],
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 22/10/7/10/6 (55)\n5\\* lv40: 46/36/33/38/21 (174)\n\n**Skills**:\nW: Alondite\nS: Black Luna\nA: Fierce Stance 3\nB: Warp Powder\nC: Panic Ploy 3\n(Unit only summonable at 5\\*)",
+        "color": "red",
+        "aka": "Zelgius: Jet-Black General",
+        "skill": "Armored Sword"
+    },
+    {
+        "name": "zephiel: the liberator",
+        "aliases": [
+			"zephiel"
+		],
+        "content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 25/9/3/12/5 (54)\n5\\* lv40: 55/35/16/38/24 (168)\n\n**Skills**:\nW: Eckesachs (5\\*)\nS: Reprisal (4\\*)\nA: Life and Death 3 (5\\*)\nB: Wary Fighter 3 (4\\*)\n(Unit only available from Grand Hero Battles, no IV variation)",
+        "color": "red",
+        "aka": "Zephiel: The Liberator",
+        "skill": "Armored Sword"
+    }
 ]
