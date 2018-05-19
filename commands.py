@@ -142,6 +142,9 @@ class CommandHandler:
                     '%s(.*)%s' % ('{{', '}}'), self.content).group(1).lower()
 
             query = utils.command_match(query, skill_command_list)
+            if not query:
+                await self._handle_error()
+                return
 
             # just in case it errors
             if query not in skill_commands:
