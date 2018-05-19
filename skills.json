@@ -9500,7 +9500,7 @@
         "aliases": [
 			"caeda"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/9/5/10 (47)\n5\\* lv40: 36/25/37/24/34 (156)\n\n**Skills**:\nW: Armorslayer+ (5\\*)\nAs: Rally Speed (3\\*)\nA: Darting Blow 3 (5\\*)\nC: Fortify Fliers (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/6/9/5/10 (47)\n5\\* lv40: 36/25/37/24/34 (156)\n\n**Skills**:\nW: Wing Sword (5\\*)\nAs: Rally Speed (3\\*)\nA: Darting Blow 3 (5\\*)\nC: Fortify Fliers (4\\*)",
         "color": "red",
         "aka": "Caeda: Talys's Heart",
         "skill": "Flying Sword"
@@ -9520,7 +9520,7 @@
         "aliases": [
 			"camilla"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/7 (47)\n5\\* lv40: 37/30/32/28/31 (158)\n\n**Skills**:\nW: Brave Axe+ (5\\*)\nS: Draconic Aura (4\\*)\nA: Darting Blow 3 (5\\*)\nC: Savage Blow 3 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/6/7 (47)\n5\\* lv40: 37/30/32/28/31 (158)\n\n**Skills**:\nW: Camilla's Axe (5\\*)\nS: Draconic Aura (4\\*)\nA: Darting Blow 3 (5\\*)\nC: Savage Blow 3 (4\\*)",
         "color": "green",
         "aka": "Camilla: Bewitching Beauty",
         "skill": "Flying Axe"
@@ -9709,7 +9709,7 @@
         "aliases": [
 			"clair"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/5/9 (47)\n5\\* lv40: 37/26/36/24/33 (156)\n\n**Skills**:\nW: Silver Lance+ (5\\*)\nAs: Harsh Command (3\\*)\nB: Hit and Run (3\\*)\nC: Spur Spd 3 (5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/8/5/9 (47)\n5\\* lv40: 37/26/36/24/33 (156)\n\n**Skills**:\nW: Rhomphaia (5\\*)\nAs: Harsh Command (3\\*)\nB: Hit and Run (3\\*)\nC: Spur Spd 3 (5\\*)",
         "color": "blue",
         "aka": "Clair: Highborn Flier",
         "skill": "Flying Lance"
@@ -10004,7 +10004,10 @@
         "aliases": [
 			"ephraim undertale",
 			"ephraim 2",
-			"legendary ephraim"
+			"legendary ephraim",
+			"l!ephraim",
+			"horse ephraim",
+			"cav disgusting"
 		],
         "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/10/5/9/3 (46)\n5\\* lv40: 43/36/27/33/18 (157)\n\n**Skills**:\nW: Flame Siegmund\nS: Sol\nA: Sturdy Stance 2\nB: Solar Brace\nC: Fortify Def 3\n(Unit only available from Legendary Hero banners)\n\nEphraim: Legendary Lord is a Legendary Hero for the Fire Season, and provides a stat boost of +3 HP/+4 Def.",
         "color": "blue",
@@ -10060,7 +10063,7 @@
 			"felicia",
 			"bye"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/11/3/9 (44)\n5\\* lv40: 34/23/37/18/35 (147)\n\n**Skills**:\nW: Silver Dagger+ (5\\*)\nS: Glacies (4\\*)\nA: Resistance +3 (5\\*)\nC: Breath of Life 3 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/11/3/9 (44)\n5\\* lv40: 34/23/37/18/35 (147)\n\n**Skills**:\nW: Felicia's Plate (5\\*)\nS: Glacies (4\\*)\nA: Resistance +3 (5\\*)\nC: Breath of Life 3 (4\\*)",
         "color": "grey",
         "aka": "Felicia: Maid Mayhem",
         "skill": "Infantry Dagger"
@@ -10081,7 +10084,7 @@
 			"fear my",
 			"fir"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/6/10/5/7 (47)\n5\\* lv40: 41/25/36/24/31 (157)\n\n**Skills**:\nW: Killing Edge+ (5\\*)\nS: Glacies (4\\*)\nA: Speed +3 (4\\*)\nB: Pass 3 (5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/6/10/5/7 (47)\n5\\* lv40: 41/25/36/24/31 (157)\n\n**Skills**:\nW: Nameless Blade (5\\*)\nS: Glacies (4\\*)\nA: Speed +3 (4\\*)\nB: Pass 3 (5\\*)",
         "color": "red",
         "aka": "Fir: Sword Student",
         "skill": "Infantry Sword"
@@ -10364,7 +10367,7 @@
         "aliases": [
 			"hinoka"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/8/6/7 (47)\n5\\* lv40: 41/35/32/25/24 (157)\n\n**Skills**:\nW: Brave Lance+\nS: Blazing Wind\nA: Defiant Def 3\nC: Hone Fliers\n(Unit only summonable at 5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/7/8/6/7 (47)\n5\\* lv40: 41/35/32/25/24 (157)\n\n**Skills**:\nW: Hinoka's Spear\nS: Blazing Wind\nA: Defiant Def 3\nC: Hone Fliers\n(Unit only summonable at 5\\*)",
         "color": "blue",
         "aka": "Hinoka: Warrior Princess",
         "skill": "Flying Lance"
@@ -10604,7 +10607,7 @@
         "aliases": [
 			"karel"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/9/6/5 (47)\n5\\* lv40: 47/30/35/25/20 (157)\n\n**Skills**:\nW: Wo Dao+\nS: Reprisal\nA: Defiant Atk 3\nB: Desperation 3\n(Unit only summonable at 5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/9/6/5 (47)\n5\\* lv40: 47/30/35/25/20 (157)\n\n**Skills**:\nW: Nameless Blade\nS: Reprisal\nA: Defiant Atk 3\nB: Desperation 3\n(Unit only summonable at 5\\*)",
         "color": "red",
         "aka": "Karel: Sword Demon",
         "skill": "Infantry Sword"
@@ -10790,7 +10793,7 @@
         "aliases": [
 			"lilina"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/6/4/9 (44)\n5\\* lv40: 35/37/25/19/31 (147)\n\n**Skills**:\nW: Bolganone+ (5\\*)\nS: Growing Flame (4\\*)\nA: Attack +3 (5\\*)\nC: Spur Atk 3 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/9/6/4/9 (44)\n5\\* lv40: 35/37/25/19/31 (147)\n\n**Skills**:\nW: Forblaze (5\\*)\nS: Growing Flame (4\\*)\nA: Attack +3 (5\\*)\nC: Spur Atk 3 (4\\*)",
         "color": "red",
         "aka": "Lilina: Delightful Noble",
         "skill": "Infantry Tome"
@@ -11477,7 +11480,7 @@
 			"raven",
 			"quoth"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/9/6/5 (47)\n5\\* lv40: 41/34/35/25/22 (157)\n\n**Skills**:\nW: Brave Axe+ (5\\*)\nS: Sol (4\\*)\nA: Defiant Spd 3 (4\\*)\nC: Threaten Def 3 (5\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 19/8/9/6/5 (47)\n5\\* lv40: 41/34/35/25/22 (157)\n\n**Skills**:\nW: Basilikos (5\\*)\nS: Sol (4\\*)\nA: Defiant Spd 3 (4\\*)\nC: Threaten Def 3 (5\\*)",
         "color": "green",
         "aka": "Raven: Peerless Fighter",
         "skill": "Infantry Axe"
@@ -11496,7 +11499,8 @@
         "name": "reinhardt: thunder's fist",
         "aliases": [
 			"reinhardt",
-			"magic is everything"
+			"magic is everything",
+			"tiny hand man"
 		],
         "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/8/6/5/8 (43)\n5\\* lv40: 38/32/23/27/25 (145)\n\n**Skills**:\nW: Dire Thunder (5\\*)\nS: Blazing Thunder (4\\*)\nB: Vantage 3 (4\\*)\nC: Goad Cavalry (5\\*)",
         "color": "blue",
@@ -11960,7 +11964,7 @@
         "aliases": [
 			"soren"
 		],
-        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/4/7 (44)\n5\\* lv40: 36/33/33/17/29 (148)\n\n**Skills**:\nW: Rexcalibur+ (5\\*)\nS: Growing Wind (4\\*)\nB: Watersweep 3 (5\\*)\nC: Fortify Res 3 (4\\*)",
+        "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/7/9/4/7 (44)\n5\\* lv40: 36/33/33/17/29 (148)\n\n**Skills**:\nW: Wind's Brand (5\\*)\nS: Growing Wind (4\\*)\nB: Watersweep 3 (5\\*)\nC: Fortify Res 3 (4\\*)",
         "color": "green",
         "aka": "Soren: Shrewd Strategist",
         "skill": "Infantry Tome"
