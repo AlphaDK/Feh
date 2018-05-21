@@ -820,7 +820,7 @@
     {
         "name": "slaying edge-",
         "aliases": [],
-        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nJoshua: Tempest King (4\\*)\nAres: Black Knight (5\\*)\nSaber: Driven Mercenary (5\\*)",
+        "content": "Accelerates Special trigger (cooldown count-1).\n\n**Available from:**\nJoshua: Tempest King (4\\*)\nAres: Black Knight (4\\*)\nSaber: Driven Mercenary (5\\*)",
         "color": "red",
         "aka": "Slaying Edge",
         "skill": "Red Sword, Mt:10, SP:200"
@@ -1075,6 +1075,16 @@
 		"color": "red",
 		"aka": "Loptous",
 		"skill": "Red Tome, Mt:14, SP:400"
+	},
+	{
+		"name": "muspell fireposy",
+		"aliases": [
+			"fire flowers"
+		],
+		"content": "Grants Spd+3. During combat, boosts unit's Atk/Spd by number of allies withn 2 spaces x 2. (Maximum bonus of +6 to each stat.)\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTharja: Obsessive Bride (5\\*)",
+		"color": "red",
+		"aka": "M\u00faspell Fireposy",
+		"skill": "Red Tome, Mt:16, SP:400"
 	},
 	{
 		"name": "naglfar",
@@ -1849,6 +1859,24 @@
         "skill": "Blue Tome, Mt:6, SP:100"
     },
 	{
+		"name": "fresh bouquet-",
+		"aliases": [],
+		"content": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit adjacent allies for 1 turn.\n\n**Available from:**\nNinian: Bright-Eyed Bride (Bridal Bloom) (5\\*)",
+		"color": "blue",
+		"aka": "Fresh Bouquet",
+		"skill": "Blue Tome, Mt:8, SP:200"
+	},
+	{
+		"name": "fresh bouquet",
+		"aliases": [
+			"fresh bouquet+"
+		],
+		"content": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit adjacent allies for 1 turn.\n\n**Available from:**\nNinian: Bright-Eyed Bride (Bridal Bloom) (5\\*)\n\n***Fresh Bouquet+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "blue",
+		"aka": "Fresh Bouquet",
+		"skill": "Blue Tome, Mt:12, SP:300"
+	},
+	{
 		"name": "huginn's egg",
 		"aliases": [
 			"huginns egg",
@@ -2007,6 +2035,28 @@
         "aka": "Weirding Tome",
         "skill": "Blue Tome, Mt:14, SP:400"
     },
+	{
+		"name": "ardent service-",
+		"aliases": [
+			"cake lifter-"
+		],
+		"content": "At start of turn, if unit is adjacent to an ally, grants Atk+4 to unit and adjacent allies for 1 turn.\n\n**Available from:**\nMarth: Atlean Groom (Bridal Bloom) (4\\*)",
+		"color": "green",
+		"aka": "Ardent Service",
+		"skill": "Green Axe, Mt:10, SP:200"
+	},
+	{
+		"name": "ardent service",
+		"aliases": [
+			"ardent service+",
+			"cake lifter",
+			"cake lifter+"
+		],
+		"content": "At start of turn, if unit is adjacent to an ally, grants Atk+4 to unit and adjacent allies for 1 turn.\n\n**Available from:**\nMarth: Atlean Groom (Bridal Bloom) (5\\*)",
+		"color": "green",
+		"aka": "Ardent Service+",
+		"skill": "Green Axe, Mt:14, SP:200"
+	},
     {
         "name": "armads",
         "aliases": [],
@@ -2661,10 +2711,18 @@
         "aka": "Naga",
         "skill": "Green Tome, Mt:14, SP:400"
     },
+	{
+		"name": "nifl frostflowers",
+		"aliases": [],
+		"content": "Grants Atk+3. During combat, boosts unit's Atk/Spd by number of allies withn 2 spaces x 2. (Maximum bonus of +6 to each stat.)\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nSanaki: Apostle in White (Bridal Bloom) (5\\*)",
+		"color": "green",
+		"aka": "Nifl Frostflowers",
+		"skill": "Green Tome, Mt:14, SP:400"
+	},
     {
         "name": "rexcalibur-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nDeirdre: Lady of the Forest (5\\*)\nGunnthr\u00e1: Voice of Dreams (5\\*)\nJulia: Naga's Blood (5\\*)\nMerric: Wind Mage (3\\*)\nOlwen: Righteous Knight (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)\nSonya: Vengeful Mage (5\\*)\nSoren: Shrewd Strategist (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nDeirdre: Lady of the Forest (5\\*)\nGunnthr\u00e1: Voice of Dreams (5\\*)\nJulia: Naga's Blood (5\\*)\nMerric: Wind Mage (3\\*)\nOlwen: Righteous Knight (5\\*)\nSanaki: Apostle in White (Bridal Bloom) (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)\nSonya: Vengeful Mage (5\\*)\nSoren: Shrewd Strategist (3\\*)",
         "color": "green",
         "aka": "Rexcalibur",
         "skill": "Green Tome, Mt:9, SP:200"
@@ -3574,7 +3632,7 @@
     {
         "name": "dance",
         "aliases": [],
-        "content": "Grants another action to target ally. (Cannot target an ally with Sing or Dance.)\n\n**Inheritance restriction:** Exclusive\n**Available for:**\nOlivia: Blushing Beauty (3\\*)\nLene: Yearning Dancer (5\\*)\nNinian: Oracle of Destiny (5\\*)\nInigo: Indigo Dancer (Performing Arts) (5\\*)\nOlivia: Festival Dancer (Performing Arts) (5\\*)\n\nSee also: Sing",
+        "content": "Grants another action to target ally. (Cannot target an ally with Sing or Dance.)\n\n**Inheritance restriction:** Exclusive\n**Available for:**\nOlivia: Blushing Beauty (3\\*)\nLene: Yearning Dancer (5\\*)\nNinian: Oracle of Destiny (5\\*)\nInigo: Indigo Dancer (Performing Arts) (5\\*)\nNinian: Bright-Eyed Bride (Bridal Bloom) (5\\*)\nOlivia: Festival Dancer (Performing Arts) (5\\*)\n\nSee also: Sing",
         "color": "cyan",
         "aka": "Dance",
         "skill": "Assist, SP:150"
@@ -3582,7 +3640,7 @@
     {
         "name": "draw back",
         "aliases": [],
-        "content": "Unit moves 1 space away from target ally. Ally moves to unit's previous space.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nFae: Divine Dragon (3\\*)\nMae: Bundle of Energy (3\\*)\nNino: Pious Mage (3\\*)\nSully: Crimson Knight (3\\*)\nCatria: Spring Whitewing (Hares at the Fair) (5\\*)",
+        "content": "Unit moves 1 space away from target ally. Ally moves to unit's previous space.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nFae: Divine Dragon (3\\*)\nMae: Bundle of Energy (3\\*)\nNino: Pious Mage (3\\*)\nSully: Crimson Knight (3\\*)\nCatria: Spring Whitewing (Hares at the Fair) (5\\*)\nSanaki: Apostle in White (Bridal Bloom) (5\\*)",
         "color": "cyan",
         "aka": "Draw Back",
         "skill": "Assist, SP:150"
@@ -3698,7 +3756,7 @@
 			"rally atk/spd",
 			"rally attack spd"
         ],
-        "content": "Grants Atk/Spd+3 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nCordelia: Perfect Bride (Bridal Blessings) (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)",
+        "content": "Grants Atk/Spd+3 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nCordelia: Perfect Bride (Bridal Blessings) (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)\nTharja: Obsessive Bride (Bridal Bloom) (5\\*)",
         "color": "cyan",
         "aka": "Rally Attack Speed",
         "skill": "Assist, SP:300"
@@ -3750,7 +3808,7 @@
             "rally spd def",
 			"rally speed def"
         ],
-        "content": "Grants Spd/Def+3 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nOscar: Agile Horseman (4\\*)",
+        "content": "Grants Spd/Def+3 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nOscar: Agile Horseman (4\\*)\nMarth: Atlean Groom (Bridal Bloom) (4\\*)",
         "color": "cyan",
         "aka": "Rally Speed Defense",
         "skill": "Assist, SP:300"
@@ -9305,7 +9363,7 @@
 		"aliases": [
 			"ares"
 		],
-		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/7/5 (46)\n5\\* lv40: 40/36/30/33/18 (157)\n\n**Skills:**\nW: Dark Mystletainn\nS: Draconic Aura\nA: Brazen Atk/Def 3\nB: Seal Def/Res 2\n(Unit only summonable at 5\\*)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/8/8/7/5 (46)\n5\\* lv40: 40/36/30/33/18 (157)\n\n**Skills:**\nW: Dark Mystletainn (5\\*)\nS: Draconic Aura (4\\*)\nA: Brazen Atk/Def 3 (4\\*)\nB: Seal Def/Res 2 (5\\*)",
 		"color": "red",
 		"aka": "Ares: Black Knight",
 		"skill": "Cavalry Sword"
@@ -11070,6 +11128,21 @@
         "aka": "Marisa: Crimson Flash",
         "skill": "Infantry Sword"
     },
+	{
+		"name": "marth: atlean groom",
+		"aliases": [
+			"marth 2",
+			"marth undertale",
+			"groom marth",
+			"bridal bloom marth",
+			"marth bridal bloom",
+			"\"bride\" marth"
+		],
+		"content": "Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 18/7/10/6/5 (46)\n5\\* lv40: 40/31/36/30/20 (157)\n\n**Skills:**\nW: Ardent Service+ (5\\*)\nAs: Rally Spd/Def (4\\*)\nB: Wings of Mercy 3 (5\\*)\nC: Drive Atk 2 (4\\*)\n(Unit only obtainable from Tempest Trials, no IV variation)",
+		"color": "green",
+		"aka": "Marth: Atlean Groom",
+		"skill": "Cavalry Axe"
+	},
     {
         "name": "marth: altean prince",
         "aliases": [
@@ -11273,6 +11346,22 @@
         "aka": "Niles: Cruel to Be Kind",
         "skill": "Infantry Bow"
     },
+	{
+		"name": "ninian: bright-eyed bride",
+		"aliases": [
+			"ninian 2",
+			"ninian undertale",
+			"bride ninian",
+			"wedding ninian",
+			"bridal bloom ninian",
+			"ninian bridal bloom",
+			"b!ninian"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 15/6/7/3/5 (36)\n5\\* lv40: 34/28/33/18/27 (140)\n\n**Skills:**\nW: Fresh Bouquet+\nAs: Dance\nB: Chill Atk 3\nC: Drive Spd 2\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "blue",
+		"aka": "Ninian: Bright-Eyed Bride",
+		"skill": "Flying Tome"
+	},
     {
         "name": "ninian: oracle of destiny",
         "aliases": [
@@ -11758,6 +11847,22 @@
         "aka": "Sakura: Loving Priestess",
         "skill": "Infantry Staff"
     },
+	{
+		"name": "sanaki: apostle in white",
+		"aliases": [
+			"sanaki 2",
+			"sanaki undertale",
+			"bride sanaki",
+			"bridal bloom sanaki",
+			"sanaki bridal bloom",
+			"b!sanaki",
+			"wedding sanaki"
+		],
+		"content": "Neutral Stats: (HP/Akt/Spd/Def/Res)\n5\\* lv 1: 16/10/8/3/4 (44)\n5\\* lv40: 35/36/30/16/33 (150)\n\n**Skills:**\nNifl Frostflowers\nAs: Draw Back\nA: Atk/Res Bond 3\nB: Def/Res Link 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "green",
+		"aka": "Sanaki: Apostle in White",
+		"skill": "Flying Tome"
+	},
     {
         "name": "sanaki: begnion's apostle",
         "aliases": [
@@ -12113,6 +12218,20 @@
         "aka": "Tharja: Dark Shadow",
         "skill": "Infantry Tome"
     },
+	{
+		"name": "tharja: obsessive bride",
+		"aliases": [
+			"bride tharja",
+			"bridal bloom tharja",
+			"tharja bridal bloom",
+			"b!tharja",
+			"wedding tharja"
+		],
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/9/9/6/4 (47)\n5\\* lv40: 39/35/35/21/21 (151)\n\n**Skills:**\nW: M\u00faspell Fireposy\nAs: Rally Atk/Spd\nA: Atk/Spd Bond 3\nB: Spd Feint 3\n(Unit only summonable at 5\\* in limited banner)",
+		"color": "red",
+		"aka": "Tharja: Obsessive Bride",
+		"skill": "Infantry Tome"
+	},
 	{
 		"name": "tiki",
 		"aliases": [
