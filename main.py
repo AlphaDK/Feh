@@ -57,7 +57,7 @@ async def check_tweets(lastnews, lastgauntlet):
             await client.send_message(client.get_channel("333859340253396992"), "@FEHeroes_News: <http://twitter.com/FEHeroes_News/status/" + str(tweet.id) + ">\n" + str(tweet.text))
             lastnews = tweet.id
         for tweet in tweetsgauntlet[::-1]:
-            if "is losing with" in tweet.text: #So, I don't think we need the exact link to run-of-the-mill updates. I'll leave the link for the rest though
+            if "is losing with" in tweet.text or "No multiplier for #Team" in tweet.text: #So, I don't think we need the exact link to run-of-the-mill updates. I'll leave the link for the rest though
                 await client.send_message(client.get_channel("333859340253396992"), str(tweet.text).split("(")[0][:-1]) #In fact, get rid of that (Round X Hour Y) stuff too I think it's pretty obvious within Discord's context
             else:
                 await client.send_message(client.get_channel("333859340253396992"), "@FEHGauntletBot: <http://www.twitter.com/FEHGauntletBot/status/" + str(tweet.id) + ">\n" + str(tweet.text))
