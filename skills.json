@@ -36,10 +36,11 @@
             "d'amour",
             "damouryouknow"
         ],
-        "content": "Cool Canadian guy, loves databases and hates Python 2",
+        "content": "Cool Canadian guy, loves databases and anime",
         "color": "orange",
         "aka": "D'Amour",
-        "skill": "Player"
+        "skill": "Player",
+        "image": "https://avatars2.githubusercontent.com/u/12652114?s=400&v=4"
     },
     {
         "name": "feh",

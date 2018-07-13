@@ -55,6 +55,10 @@ def read_skill_commands() -> dict:
                 'aka': old_skill['aka'],
                 'skill': old_skill['skill']
             }
+
+            if 'image' in old_skill:
+                new_skill['image'] = old_skill['image']
+
             new_skills[old_skill['name']] = new_skill
             for a in old_skill['aliases']:
                 new_skills[a] = new_skill
@@ -156,6 +160,11 @@ class CommandHandler:
                                 description=skill['content'],
                                 color=int(COLOR_TYPES[skill['color']]))
             emb.set_author(name=skill['skill'], icon_url=EMBED_ICON_URL)
+
+            # Set image if one exists.
+            if 'image' in skill:
+               emb.set_thumbnail(url=skill["image"]) 
+            
             await self.bot.send_message(self.channel, embed=emb)
 
     async def _send_reply(self, response):
