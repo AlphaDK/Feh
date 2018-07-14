@@ -23,11 +23,12 @@
             "nintendude",
             "nintendude92",
             "king of team fae for 2 hours",
-            "king of team fae for two hours"
+            "king of team fae for two hours",
+            "go go mic"
         ],
-        "content": "Best streamer NA, Tier 20 Player, King of Team Fae for 2 hours\nhttp://twitch.tv/Nintendude92",
+        "content": "Best streamer NA, Tier 20 Player, King of Team Fae for 2 hours\nhttp://twitch.tv/GoGoMic",
         "color": "red",
-        "aka": "Nintendude",
+        "aka": "GoGoMic",
         "skill": "Player"
     },
     {
@@ -36,10 +37,11 @@
             "d'amour",
             "damouryouknow"
         ],
-        "content": "Cool Canadian guy, loves databases and hates Python 2",
+        "content": "Cool Canadian guy, loves databases and anime",
         "color": "orange",
         "aka": "D'Amour",
-        "skill": "Player"
+        "skill": "Player",
+        "image": "https://avatars2.githubusercontent.com/u/12652114?s=400&v=4"
     },
     {
         "name": "feh",
@@ -124,7 +126,7 @@
     {
         "name": "magryx",
         "aliases": [],
-        "content": "Not to be counted out. Is not a frog.",
+        "content": "Not to be counted out.\nIs not a frog.",
         "color": "red",
         "aka": "MaGryX",
         "skill": "Player"
@@ -462,7 +464,7 @@
 	{
 		"name": "beloved zofia",
 		"aliases": [],
-		"content": "Grants Def+3. At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+4, but if unit attacked, deals 4 damage to unit after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCelica: Imprisoned Soul (Fallen Heroes) (5\\*)",
+		"content": "Grants Def+3. At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+4, but after combat, if unit attacked, deals 4 damage to unit.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCelica: Imprisoned Soul (Fallen Heroes) (5\\*)",
 		"color": "red",
 		"aka": "Beloved Zofia",
 		"skill": "Red Sword, Mt:16, SP:400"
@@ -547,7 +549,10 @@
     {
         "name": "falchion",
         "aliases": [
-			"longest skill description"
+			"longest skill description",
+			"falchion (awakening)",
+			"falchion (gaiden)",
+			"falchion (mystery)"
 		],
         "content": "Effective against dragon foes. At the start of every third turn, restores 10 HP.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAlm: Hero of Prophecy (5\\*)\nChrom: Exalted Prince (5\\*)\nLucina: Future Witness (5\\*)\nMarth: Atlean Prince (5\\*)\nMarth: Enigmatic Blade (Masked) (5\\*)\n\n***Falchion may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against dragon foes. At the start of every second turn, restores 10 HP.\")_\n**Marth:** +3 HP, and gains \"Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat.\"\n**Alm:** +3 HP, and gains \"If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 5 damage to unit after combat.\"\n**Lucina, Chrom, Masked Marth:** +3 HP, and gains \"If unit is adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res\n_(The named variants are exclusive to the units matching those names)_",
         "color": "red",
@@ -597,7 +602,7 @@
 	{
 		"name": "kadomatsu-",
 		"aliases": [],
-		"content": "Grants Def/Res+2 during combat to allies within 2 spaces during combat.\n\n**Available from:**\nCamilla: Holiday Traveler (Happy New Year!) (5\\*)",
+		"content": "Grants Def/Res+2 to allies within 2 spaces during combat.\n\n**Available from:**\nCamilla: Holiday Traveler (Happy New Year!) (5\\*)",
 		"color": "red",
 		"aka": "Kadomatsu",
 		"skill": "Red Sword, Mt:10, SP:200"
@@ -607,7 +612,7 @@
 		"aliases": [
 			"kadomatsu"
 		],
-		"content": "Grants Def/Res+2 during combat to allies within 2 spaces during combat.\n\n**Available from:**\nCamilla: Holiday Traveler (Happy New Year!) (5\\*)\n\n***Kadomatsu+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"content": "Grants Def/Res+2 to allies within 2 spaces during combat.\n\n**Available from:**\nCamilla: Holiday Traveler (Happy New Year!) (5\\*)\n\n***Kadomatsu+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "red",
 		"aka": "Kadomatsu+",
 		"skill": "Red Sword, Mt:14, SP:300"
@@ -737,7 +742,7 @@
     {
         "name": "ruby sword-",
         "aliases": [],
-        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nHinata: Wild Samurai (3\\*)\nPalla: Eldest Whitewing (3\\*)\nSeth: Silver Knight (3\\*)\nStahl: Viridian Knight (3\\*)",
+        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nHinata: Wild Samurai (3\\*)\nPalla: Eldest Whitewing (3\\*)\nSeth: Silver Knight (3\\*)\nStahl: Viridian Knight (3\\*)\n_(Ruby Sword affects the attack of enemy units as well)_",
         "color": "red",
         "aka": "Ruby Sword",
         "skill": "Red Sword, Mt:8, SP:200"
@@ -749,7 +754,7 @@
 			"gem sword",
 			"ta sword"
         ],
-        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nHinata: Wild Samurai (5\\*)\nPalla: Eldest Whitewing (5\\*)\nSeth: Silver Knight (5\\*)\nStahl: Viridian Knight (5\\*)",
+        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nHinata: Wild Samurai (5\\*)\nPalla: Eldest Whitewing (5\\*)\nSeth: Silver Knight (5\\*)\nStahl: Viridian Knight (5\\*)\n_(Ruby Sword+ affects the attack of enemy units as well)_",
         "color": "red",
         "aka": "Ruby Sword+",
         "skill": "Red Sword, Mt:12, SP:300"
@@ -802,7 +807,7 @@
     {
         "name": "silver sword-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nAlfonse, Alm, Ayra, Black Knight, Celica (Fallen Heroes), Chrom, Chrom (Branded King), Corrin (M), Eirika, Elincia, Eliwood, Ike, Ike (Vanguard Legend), Laslow, Leif, Lloyd, Lucina, Lyn, Marth, Marth (Masked), Olivia, Reinhardt (Thracia), Roy, Roy (Brave Heroes), Ryoma, Seliph, Siegbert, Sigurd, Xander, Zelgius, Zephiel",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Silver Sword as a filler before their final weapon slot. Check Silver Sword+ for units with Silver Sword+",
         "color": "red",
         "aka": "Silver Sword",
         "skill": "Red Sword, Mt:11, SP:200"
@@ -838,7 +843,7 @@
     {
         "name": "sol katti",
         "aliases": [],
-        "content": "If wielder initiates attack at HP \u2264 50%, any follow-up occurs immediately.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Lady of the Plains (5\\*)\n\n***Sol Katti may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.\")_\n**Special:** +3 HP, and gains \"If unit initiates combat against a foe that can counter and unit's HP \u2264 75%, unit makes a guaranteed follow-up attack.\"\n**Atk:** +5HP, +2 Mt\n**Spd:** +5HP, +3 Spd\n**Def:** +5HP, +4 Def\n**Res:** +5HP, +4 Res",
+        "content": "If unit's HP \u2264 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyn: Lady of the Plains (5\\*)\n\n***Sol Katti may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.\")_\n**Special:** +3 HP, and gains \"If unit initiates combat against a foe that can counter and unit's HP \u2264 75%, unit makes a guaranteed follow-up attack.\"\n**Atk:** +5HP, +2 Mt\n**Spd:** +5HP, +3 Spd\n**Def:** +5HP, +4 Def\n**Res:** +5HP, +4 Res",
         "color": "red",
         "aka": "Sol Katti",
         "skill": "Red Sword, Mt:16, SP:400"
@@ -860,6 +865,16 @@
         "skill": "Red Sword, Mt:16, SP:400"
     },
 	{
+		"name": "vassal's blade",
+		"aliases": [
+			"vassals blade"
+		],
+		"content": "Accelerates Special trigger (cooldown count-1). If unit's Spd > foe's Spd, boosts damage deal by 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom spd.)\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nKarla: Sword Vassal (5\\*)",
+		"color": "red",
+		"aka": "Vassal's Blade",
+		"skill": "Red Sword, Mt:16, SP:400"
+	},
+	{
 		"name": "wing sword",
 		"aliases": [],
 		"content": "Effective against armored and cavalry foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCaeda: Talys's Heart (5\\*)\n\n***Wing Sword may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If unit's Spd - foe's Spd \u2265 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
@@ -870,7 +885,7 @@
     {
         "name": "wo dao-",
         "aliases": [],
-        "content": "Grants +10 to damage when Special triggers.\n\n**Available from:**\nAthena: Borderland Sword (3\\*)\nKarel: Sword Demon (5\\*)\nMarisa: Crimson Flash (4\\*)\nMia: Lady of Blades (5\\*)",
+        "content": "Grants +10 to damage when Special triggers.\n\n**Available from:**\nAthena: Borderland Sword (3\\*)\nKarel: Sword Demon (5\\*)\nKarel: Sword Vassal (5\\*)\nMarisa: Crimson Flash (4\\*)\nMia: Lady of Blades (5\\*)",
         "color": "red",
         "aka": "Wo Dao",
         "skill": "Red Sword, Mt:9, SP:200"
@@ -890,7 +905,6 @@
         "name": "yato",
         "aliases": [
 			"yaboku",
-			"noragami",
 			"noragami joke"
 		],
         "content": "If unit initiates combat, grants Spd+4 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCorrin: Fateful Prince (M) (5\\*)\n\n***Yato may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Grants Atk/Spd/Def/Res+2.\")_\n**Special:** +3 HP, and gains \"If unit is within 2 spaces of support partner, grants Atk/Spd/Def/Res+4 to that ally during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
@@ -919,7 +933,7 @@
     {
         "name": "bolganone-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nArvis: Emperor of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nLilina: Delightful Noble (3\\*)\nSanaki: Begnion's Apostle (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nArvis: Emperor of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nLilina: Delightful Noble (3\\*)\nSanaki: Begnion's Apostle (5\\*)\nTana: Noble and Nimble (Summer's Arrival) (5\\*)\nTharja: Obsessive Bride (Bridal Bloom) (5\\*)",
         "color": "red",
         "aka": "Bolganone",
         "skill": "Red Tome, Mt:9, SP:200"
@@ -971,7 +985,7 @@
     {
         "name": "elfire",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nArvis: Emperor of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nKatarina: Wayward One (5\\*)\nLilina: Delightful Noble (3\\*)\nSanaki: Begnion's Apostle (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Elfire as a filler before their other two weapon slots.\n\nSee also: Ruin",
         "color": "red",
         "aka": "Elfire",
         "skill": "Red Tome, Mt:6, SP:100"
@@ -979,7 +993,7 @@
     {
         "name": "fenrir-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nJulius: Scion of Darkness (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (M) (4\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nSophia: Nabata Prophet (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Fenrir as a filler before their final weapon slot.Check Fenrir+ for units with Fenrir+",
         "color": "red",
         "aka": "Fenrir",
         "skill": "Red Tome, Mt:9, SP:200"
@@ -997,7 +1011,7 @@
     {
         "name": "fire",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nArvis: Emperor of Flame (3\\*)\nCelica: Caring Princess (5\\*)\nKatarina: Wayward One (5\\*)\nLilina: Delightful Noble (3\\*)\nSanaki: Begnion's Apostle (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Fire as a filler before their other three weapon slots.\n\nSee also: Flux",
         "color": "red",
         "aka": "Fire",
         "skill": "Red Tome, Mt:4, SP:50"
@@ -1005,7 +1019,7 @@
     {
         "name": "flux",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (M) (4\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (1\\*)\nTharja: Dark Shadow (3\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Flux as a filler before their other three weapon slots.\n\nSee also: Fire",
         "color": "red",
         "aka": "Flux",
         "skill": "Red Tome, Mt:4, SP:50"
@@ -1018,6 +1032,17 @@
 		"content": "At start of turn, inflict Res-7 on foe on the enemy team with the highest Res through its next action.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLilina: Delightful Noble (5\\*)\n\n***Forblaze may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"If unit initiates combat, grants Atk+6 during combat.\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "red",
 		"aka": "Forblaze",
+		"skill": "Red Tome, Mt:14, SP:400"
+	},
+	{
+		"name": "fruit of ithunn",
+		"aliases": [
+			"fruit of iounn",
+			"fruit of idunn"
+		],
+		"content": "Grants Spd+3. If unit's HP \u2265 50%, allies within 2 spaces can move to a space adjacent to unit.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTana: Noble and Nimble (Summer's Arrival) (5\\*)",
+		"color": "red",
+		"aka": "Fruit of I\u00F0unn",
 		"skill": "Red Tome, Mt:14, SP:400"
 	},
 	{
@@ -1091,7 +1116,7 @@
 		"aliases": [
 			"lyon's tome"
 		],
-		"content": "Grants weapon-triangle advantage against colorless foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyon: Shadow Prince (5\\*)",
+		"content": "Grants weapon-triangle advantage against colorless foes and inflicts weapon-triangle disadvantage on colorless foes during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLyon: Shadow Prince (5\\*)",
 		"color": "red",
 		"aka": "Naglfar",
 		"skill": "Red Tome, Mt:14, SP:400"
@@ -1101,7 +1126,7 @@
         "aliases": [
             "ragnarok online"
         ],
-        "content": "If unit has 100% HP at the start of combat, unit receives Atk/Spd +5. If attacking, unit will receive 5 damage after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCelica: Caring Princess (5\\*)",
+        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but after combat, if unit attacked, deals 5 damage to unit.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nCelica: Caring Princess (5\\*)",
         "color": "red",
         "aka": "Ragnarok",
         "skill": "Red Tome, Mt:14, SP:400"
@@ -1133,7 +1158,7 @@
         "aliases": [
 			"rau\u00F0rowl-"
 		],
-        "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)",
+        "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)\nCanas: Wisdom Seeker (4\\*)",
         "color": "red",
         "aka": "Rau\u00F0rowl",
         "skill": "Red Tome, Mt:6, SP:200"
@@ -1145,7 +1170,7 @@
 			"raudrowl",
 			"raudrowl+"
         ],
-        "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)\n\n***Rau\u00F0rowl+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Atk, +3 Res",
+        "content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Available from:**\nKatarina: Wayward One (5\\*)\nCanas: Wisdom Seeker (5\\*)\n\n***Rau\u00F0rowl+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Atk, +3 Res",
         "color": "red",
         "aka": "Rau\u00F0rowl+",
         "skill": "Red Tome, Mt:10, SP:300"
@@ -1155,7 +1180,7 @@
         "aliases": [
 			"raudrraven-"
 		],
-        "content": "Grants weapon-triangle advantage against colorless foes. Inflicts weapon-triangle disadvantage against colorless foes.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)",
+        "content": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage against colorless foes during combat.\n\n**Available from:**\nHenry: Twisted Mind (3\\*)",
         "color": "red",
         "aka": "Rau\u00F0rraven",
         "skill": "Red Tome, Mt:7, SP:200"
@@ -1167,7 +1192,7 @@
 			"raudrraven",
 			"raudrraven+"
         ],
-        "content": "Grants weapon-triangle advantage against colorless foes. Inflicts weapon-triangle disadvantage against colorless foes.\n\n**Available from:**\nHenry: Twisted Mind (5\\*)",
+        "content": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage against colorless foes during combat.\n\n**Available from:**\nHenry: Twisted Mind (5\\*)",
         "color": "red",
         "aka": "Rau\u00F0rraven+",
         "skill": "Red Tome, Mt:11, SP:300"
@@ -1194,10 +1219,20 @@
         "aka": "Rau\u00F0rwolf+",
         "skill": "Red Tome, Mt:10, SP:300"
     },
+	{
+		"name": "reese's tome",
+		"aliases": [
+			"eat 'em up"
+		],
+		"content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Exclusive weapon, cannot be inherited**\n**Available for: Katarina: Wayward One (5\\*)\n\n***Reese's Tome may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"At start of turn, inflicts Spd/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "red",
+		"aka": "Reese's Tome",
+		"skill": "Red Tome, Mt:14, SP: 400"
+	},
     {
         "name": "ruin",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nEirika: Anamnesis Lady (5\\*)\nHenry: Twisted Mind (3\\*)\nLeo: Sorcerous Prince (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nLyon: Shadow Prince (3\\*)\nMorgan: Lad from Afar (M) (4\\*)\nNowi: Eternal Witch (Trick or Defeat!) (5\\*)\nRaigh: Dark Child (2\\*)\nSophia: Nabata Prophet (2\\*)\nTharja: Dark Shadow (3\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Ruin as a filler before their other two weapon slots.\n\nSee also: Elfire",
         "color": "red",
         "aka": "Ruin",
         "skill": "Red Tome, Mt:6, SP:100"
@@ -1219,7 +1254,7 @@
             "tomato tome+",
             "maki tome+"
         ],
-        "content": "Grants Atk/Spd+1 to allies within 2 spaces during combat.\n\n**Available from:**\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\n\n***Tomato Tome+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, 1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+        "content": "Grants Atk/Spd+1 to allies within 2 spaces during combat.\n\n**Available from:**\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\n\n***Tomato Tome+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "red",
         "aka": "Tomato Tome+",
         "skill": "Red Tome, Mt:12, SP:300"
@@ -1324,10 +1359,20 @@
         "aka": "Cursed Lance",
         "skill": "Blue Lance, Mt:16, SP:400"
     },
+	{
+		"name": "dauntless lance",
+		"aliases": [
+			"y'all seen divergent?"
+		],
+		"content": "Accelerates Special trigger (cooldown count-1). Effective against armored foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:** Nephenee: Fierce Halberdier (5\\*)\n\n***Dauntless Lance may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If foe initiates combat, grants Spd/Def+4 during combat.\"\n**Atk:** +5 HP, +2 Atk\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "blue",
+		"aka": "Dauntless Lance",
+		"skill": "Blue Lance, Mt:16, SP:400"
+	},
     {
         "name": "deft harpoon-",
         "aliases": [],
-        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2. If unit initiates combat, deals 2 damage to unit after combat.\n\n**Available from:**\nRobin: Seaside Tactician (F) (Ylissean Summer) (5\\*)",
+        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit.\n\n**Available from:**\nRobin: Seaside Tactician (F) (Ylissean Summer) (5\\*)",
         "color": "blue",
         "aka": "Deft Harpoon",
         "skill": "Blue Lance, Mt:10, SP:200"
@@ -1337,7 +1382,7 @@
         "aliases": [
             "deft harpoon+"
         ],
-        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2. If unit initiates combat, deals 2 damage to unit after combat.\n\n**Available from:**\nRobin: Seaside Tactician (F) (Ylissean Summer) (5\\*)\n\n***Deft Harpoon+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit.\n\n**Available from:**\nRobin: Seaside Tactician (F) (Ylissean Summer) (5\\*)\n\n***Deft Harpoon+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "blue",
         "aka": "Deft Harpoon+",
         "skill": "Blue Lance, Mt:14, SP:300"
@@ -1405,7 +1450,7 @@
     {
         "name": "geirskogul",
         "aliases": [],
-        "content": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLucina: Brave Princess (Brave Heroes) (5\\*)",
+        "content": "Grants Def+3. If allies within 2 spaces use sword, lance, axe, bow, or dagger, granst Atk/Spd+3 to those allies during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLucina: Brave Princess (Brave Heroes) (5\\*)",
         "color": "blue",
         "aka": "Geirsk\u00F6gul",
         "skill": "Blue Lance, Mt:16, SP:400"
@@ -1534,7 +1579,7 @@
     {
         "name": "sapphire lance-",
         "aliases": [],
-        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nAzura: Lady of the Lake (5\\*)\nOscar: Agile Horseman (3\\*)\nSubaki: Perfect Expert (3\\*)\nSully: Crimson Knight (3\\*)",
+        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nAzura: Lady of the Lake (5\\*)\nOscar: Agile Horseman (3\\*)\nSubaki: Perfect Expert (3\\*)\nSully: Crimson Knight (3\\*)\n_(Sapphire Lance affects the attack of enemy units as well)_",
         "color": "blue",
         "aka": "Sapphire Lance",
         "skill": "Blue Lance, Mt:8, SP:200"
@@ -1546,11 +1591,29 @@
 			"gem lance",
 			"ta lance"
         ],
-        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nAzura: Lady of the Lake (5\\*)\nOscar: Agile Horseman (5\\*)\nSubaki: Perfect Expert (5\\*)\nSully: Crimson Knight (5\\*)",
+        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nAzura: Lady of the Lake (5\\*)\nOscar: Agile Horseman (5\\*)\nSubaki: Perfect Expert (5\\*)\nSully: Crimson Knight (5\\*)\n_(Sapphire Lance+ affects the attack of enemy units as well)_",
         "color": "blue",
         "aka": "Sapphire Lance+",
         "skill": "Blue Lance, Mt:12, SP:300"
     },
+	{
+		"name": "shell lance-",
+		"aliases": [],
+		"content": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nCordelia: Knight Paradise (Summer's Arrival) (5\\*)",
+		"color": "blue",
+		"aka": "Shell Lance",
+		"skill": "Blue Lance, Mt:10, SP:200"
+	},
+	{
+		"name": "shell lance",
+		"aliases": [
+			"shell lance+"
+		],
+		"content": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nCordelia: Knight Paradise (Summer's Arrival) (5\\*)\n\n***Shell Lance+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "blue",
+		"aka": "Shell Lance+",
+		"skill": "Blue Lance, Mt:14, SP:300"
+	},
     {
         "name": "siegmund",
         "aliases": [],
@@ -1562,7 +1625,7 @@
     {
         "name": "silver lance-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nCamus: Sable Knight (3\\*)\nClair: Highborn Flier (3\\*)\nClive: Idealistic Knight (4\\*)\nEffie: Army of One (3\\*)\nEphraim: Legendary Lord (5\\*)\nFjorm: Princess of Ice (5\\*)\nHardin: Dark Emperor (5\\*)\nJagen: Veteran Knight (3\\*)\nLucina: Brave Princess (5\\*)\nSharena: Princess of Askr (3\\*)\nShiro: Raw Talent (5\\*)\nValter: Dark Moonstone (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Silver Lance as a filler before their final weapon slot. Check Silver Lance+ for units with Silver Lance+",
         "color": "blue",
         "aka": "Silver Lance",
         "skill": "Blue Lance, Mt:11, SP:200"
@@ -1654,7 +1717,7 @@
     {
         "name": "aura",
         "aliases": [],
-        "content": "If unit initiates combat, restores 5 HP to adjacent allies after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLinde: Light Mage (5\\*)\n\nAura may be evolved into Dark Aura in the Weapon Refinery",
+        "content": "If unit initiates combat, restores 5 HP to adjacent allies after combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nLinde: Light Mage (5\\*)\n\nAura may be evolved into Dark Aura in the Weapon Refinery\n\n***Aura may be refined in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"At start of turn, grants Atk+6 to adjacent magic and staff allies for 1 turn.\")_**Special:** Gains \"If unit is within 2 spaces of a magic or staff ally, grants Atk/Spd+5 during combat\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "blue",
         "aka": "Aura",
         "skill": "Blue Tome, Mt:14, SP:400"
@@ -1845,7 +1908,7 @@
 	{
 		"name": "ellight",
 		"aliases": [],
-		"content": "No special effect.\n\n**Available from:**\nL'Arachel: Princess of Light (4\\*)\nLyn: Wind's Embrace (Love Abounds (5\\*)\nMicaiah: Priestess of Dawn (5\\*)\nOliver: Admirer of Beauty (3\\*)\nSaias: Bishop of Flame (3\\*)",
+		"content": "No special effect.\n\n**Available from:**\nMany units possess Ellight as a filler before their other two weapon slots.\n\nSee also: Elthunder",
 		"color": "blue",
 		"aka": "Ellight",
 		"skill": "Blue Tome, Mt:6, SP:100"
@@ -1853,7 +1916,7 @@
     {
         "name": "elthunder",
         "aliases": [],
-        "content": "No special effect.\n\nEvery blue tome unit in the game has Elthunder, and there is therefore no need to inherit it.",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Elthunder as a filler before their other two weapon slots.\n\nSee also: Ellight",
         "color": "blue",
         "aka": "Elthunder",
         "skill": "Blue Tome, Mt:6, SP:100"
@@ -1861,7 +1924,7 @@
 	{
 		"name": "fresh bouquet-",
 		"aliases": [],
-		"content": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit adjacent allies for 1 turn.\n\n**Available from:**\nNinian: Bright-Eyed Bride (Bridal Bloom) (5\\*)",
+		"content": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit and adjacent allies for 1 turn.\n\n**Available from:**\nNinian: Bright-Eyed Bride (Bridal Bloom) (5\\*)",
 		"color": "blue",
 		"aka": "Fresh Bouquet",
 		"skill": "Blue Tome, Mt:8, SP:200"
@@ -1871,7 +1934,7 @@
 		"aliases": [
 			"fresh bouquet+"
 		],
-		"content": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit adjacent allies for 1 turn.\n\n**Available from:**\nNinian: Bright-Eyed Bride (Bridal Bloom) (5\\*)\n\n***Fresh Bouquet+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"content": "At start of turn, if unit is adjacent to an ally, grants Spd+4 to unit and adjacent allies for 1 turn.\n\n**Available from:**\nNinian: Bright-Eyed Bride (Bridal Bloom) (5\\*)\n\n***Fresh Bouquet+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "blue",
 		"aka": "Fresh Bouquet",
 		"skill": "Blue Tome, Mt:12, SP:300"
@@ -1903,6 +1966,24 @@
 		"skill": "Blue Tome, Mt:14, SP:400"
 	},
 	{
+		"name": "juicy wave-",
+		"aliases": [],
+		"content": "If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack\n\n**Available from:**\nCamilla: Tropical Beauty (A Sketchy Summer) (5\\*)",
+		"color": "blue",
+		"aka": "Juicy Wave",
+		"skill": "Blue Tome, Mt:10, SP:200"
+	},
+	{
+		"name": "juicy wave",
+		"aliases": [
+			"juicy wave+"
+		],
+		"content": "If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack\n\n**Available from:**\nCamilla: Tropical Beauty (A Sketchy Summer) (5\\*)\n\n***Juicy Wave+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
+		"color": "blue",
+		"aka": "Juicy Wave+",
+		"skill": "Blue Tome, Mt:12, SP:300"
+	},
+	{
 		"name": "keen blarwolf-",
 		"aliases": [],
 		"content": "Effective against cavalry foes.\n\n**Available from:**\nKeen Bl\u00E1rwolf is obtained by evolving Bl\u00E1rwolf+ in the Weapon Refinery, and then downgrading from Keen Bl\u00E1rwolf+",
@@ -1923,7 +2004,7 @@
 	{
 		"name": "light",
 		"aliases": [],
-		"content": "No special effect.\n\n**Available from:**\nL'Arachel: Princess of Light (4\\*)\nLyn: Wind's Embrace (Love Abounds) (5\\*)\nMicaiah: Priestess of Dawn (5\\*)\nOliver: Admirer of Beauty (3\\*)\nSaias: Bishop of Flame (3\\*)",
+		"content": "No special effect.\n\n**Available from:**\nMany units possess Light as a filler before their other three weapon slots.\n\nSee also: Thunder",
 		"color": "blue",
 		"aka": "Light",
 		"skill": "Blue Tome, Mt:4, SP:50"
@@ -1988,7 +2069,7 @@
         "aliases": [
 			"thoron"
 		],
-        "content": "No special effect.\n\n**Available from:**\nCatria: Spring Whitewing (Hares at the Fair) (5\\*)\nDelthea: Free Spirit (5\\*)\nIshtar: Thunder Goddess (5\\*)\nLinde: Light Mage (5\\*)\nLute: Prodigy (5\\*)\nOlwen: Blue Mage Knight (5\\*)\nReinhardt: Thunder's Fist (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Thoron as a filler before their final weapon slot. Thoron+ is unavailable to the player, so this weapon shall remain as filler.",
         "color": "blue",
         "aka": "Thoron",
         "skill": "Blue Tome, Mt:9, SP:200"
@@ -1996,7 +2077,7 @@
     {
         "name": "thoron+",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nNowhere. This weapon exists in game files but is not used.\n\n***That doesn't stop it from having Weapon Refinery upgrades. Variants?***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
+        "content": "No special effect.\n\n**Available from:**\nThoron+ is exclusively used by enemy units.\n\n***It still however may be refined. Variants?***\n**Atk:** +2 HP, +2 Mt\n**Spd:** +2 HP, +1 Mt, +2 Spd\n**Def:** +2 HP, +1 Mt, +3 Def\n**Res:** +2 HP, +1 Mt, +3 Res",
         "color": "blue",
         "aka": "Thoron+",
         "skill": "Blue Tome, Mt:13, SP:300"
@@ -2004,7 +2085,7 @@
     {
         "name": "thunder",
         "aliases": [],
-        "content": "No special effect.\n\nEvery blue tome unit in the game has Thunder, and there is therefore no need to inherit it.",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Thunder as a filler before their other three weapon slots.\n\nSee also: Light",
         "color": "blue",
         "aka": "Thunder",
         "skill": "Blue Tome, Mt:4, SP:50"
@@ -2052,7 +2133,7 @@
 			"cake lifter",
 			"cake lifter+"
 		],
-		"content": "At start of turn, if unit is adjacent to an ally, grants Atk+4 to unit and adjacent allies for 1 turn.\n\n**Available from:**\nMarth: Atlean Groom (Bridal Bloom) (5\\*)",
+		"content": "At start of turn, if unit is adjacent to an ally, grants Atk+4 to unit and adjacent allies for 1 turn.\n\n**Available from:**\nMarth: Atlean Groom (Bridal Bloom) (5\\*)\n\n***Ardent Service+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "green",
 		"aka": "Ardent Service+",
 		"skill": "Green Axe, Mt:14, SP:200"
@@ -2068,10 +2149,28 @@
 	{
 		"name": "basilikos",
 		"aliases": [],
-		"content": "Accelerates Special trigger (cooldown count-1)\n\n**Exclusive weapon, cannot be inherited**\nRaven: Peerless Fighter (5\\*)\n\n***Basilikos may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"Grants Atk/Spd+5. Inflicts Def/Res-5\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"content": "Accelerates Special trigger (cooldown count-1)\n\n**Exclusive weapon, cannot be inherited**\nRaven: Peerless Fighter (5\\*)\nLinus: Mad Dog (5\\*)\n\n***Basilikos may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"Grants Atk/Spd+5. Inflicts Def/Res-5\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "green",
 		"aka": "Basilikos",
 		"skill": "Green Axe, Mt:16, SP:400"
+	},
+	{
+		"name": "beach banner-",
+		"aliases": [],
+		"content": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nInnes: Flawless Form (Summer's Arrival) (5\\*)",
+		"color": "green",
+		"aka": "Beach Banner",
+		"skill": "Green Axe, Mt:10, SP:200"
+	},
+	{
+		"name": "beach banner",
+		"aliases": [
+			"beach banner+"
+		],
+		"content": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nInnes: Flawless Form (Summer's Arrival) (5\\*)\n\n***Beach Banner+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "green",
+		"aka": "Beach Banner+",
+		"skill": "Green Axe, Mt:14, SP:300"
 	},
 	{
 		"name": "berserk armads",
@@ -2138,10 +2237,18 @@
         "aka": "Carrot Axe+",
         "skill": "Green Axe, Mt:13, SP:300"
     },
+	{
+		"name": "draconic poleax",
+		"aliases": [],
+		"content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTitania: Mighty Mercenary (5\\*)\n\n***Draconic Poleax may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res\n_(Draconic Poleax affects the attack of enemy units as well)_",
+		"color": "green",
+		"aka": "Draconic Poleax",
+		"skill": "Green Axe, Mt:16, SP:400"
+	},
     {
         "name": "emerald axe-",
         "aliases": [],
-        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nArthur: Hapless Hero (3\\*)\nNarcian: Wyvern General (3\\*)\nTitania: Mighty Mercenary (3\\*)",
+        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nArthur: Hapless Hero (3\\*)\nNarcian: Wyvern General (3\\*)\nTitania: Mighty Mercenary (3\\*)\n_(Emerald Axe affects the attack of enemy units as well)_",
         "color": "green",
         "aka": "Emerald Axe",
         "skill": "Green Axe, Mt:8, SP:200"
@@ -2153,7 +2260,7 @@
 			"gem axe",
 			"ta axe"
         ],
-        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nArthur: Hapless Hero (5\\*)\nNarcian: Wyvern General (5\\*)\nTitania: Mighty Mercenary (5\\*)",
+        "content": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\n\n**Available from:**\nArthur: Hapless Hero (5\\*)\nNarcian: Wyvern General (5\\*)\nTitania: Mighty Mercenary (5\\*)\n_(Emerald Axe+ affects the attack of enemy units as well)_",
         "color": "green",
         "aka": "Emerald Axe+",
         "skill": "Green Axe, Mt:12, SP:300"
@@ -2216,7 +2323,7 @@
 	{
 		"name": "handbell-",
 		"aliases": [],
-		"content": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nLissa: Pure Joy (Winter's Envoy) (5\\*)",
+		"content": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nLissa: Pure Joy (Winter's Envoy) (5\\*)\n\nSee also: Sack o' Gifts",
 		"color": "green",
 		"aka": "Handbell",
 		"skill": "Green Axe, Mt:10, SP:200"
@@ -2226,7 +2333,7 @@
 		"aliases": [
 			"handbell+"
 		],
-		"content": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nLissa: Pure Joy (Winter's Envoy) (5\\*)\n\n***Handbell+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"content": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nLissa: Pure Joy (Winter's Envoy) (5\\*)\n\n***Handbell+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res\n\nSee also: Sack o' Gifts+",
 		"color": "green",
 		"aka": "Handbell+",
 		"skill": "Green Axe, Mt:14, SP:300"
@@ -2308,7 +2415,7 @@
     {
         "name": "melon crusher-",
         "aliases": [],
-        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Rest+2. If unit initiates combat, deals 2 damage to unit after combat.\n\n**Available from:**\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)",
+        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2. If unit initiates combat, deals 2 damage to unit after combat.\n\n**Available from:**\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)",
         "color": "green",
         "aka": "Melon Crusher",
         "skill": "Green Axe, Mt:10, SP:200"
@@ -2319,7 +2426,7 @@
             "melon crusher+",
             "esports camilla"
         ],
-        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Rest+2. If unit initiates combat, deals 2 damage to unit after combat.\n\n**Available from:**\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)\n\n***Melon Crusher+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+        "content": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2. If unit initiates combat, deals 2 damage to unit after combat.\n\n**Available from:**\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)\n\n***Melon Crusher+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
         "color": "green",
         "aka": "Melon Crusher+",
         "skill": "Green Axe, Mt:14, SP:300"
@@ -2357,7 +2464,7 @@
 		],
 		"content": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nChrom: Gifted Leader (Winter's Envoy) (5\\*)",
 		"color": "green",
-		"aka": "Sack O' Gifts",
+		"aka": "Sack o' Gifts",
 		"skill": "Green Axe, Mt:10, SP:200"
 	},
 	{
@@ -2370,15 +2477,15 @@
 			"sacks axe",
 			"axe sack"
 		],
-		"content": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nChrom: Gifted Leader (Winter's Envoy) (5\\*)\n\n***Sack O' Gifts+ may be upgraded in Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"content": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nChrom: Gifted Leader (Winter's Envoy) (5\\*)\n\n***Sack o' Gifts+ may be upgraded in Weapon Refinery. Variants:***\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
 		"color": "green",
-		"aka": "Sack O' Gifts+",
+		"aka": "Sack o' Gifts+",
 		"skill": "Green Axe, Mt:14, SP:300"
 	},
     {
         "name": "silver axe-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nAnna: Commander (3\\*)\nAzura: Lady of Ballads (Performing Arts) (5\\*)\nDorcas: Serene Warrior (5\\*)\nGunter: Inveterate Soldier (3\\*)\nHector: General of Ostia (5\\*)\nHector: Just Here to Fight (Love Abounds) (5\\*)\nIke: Brave Mercenary (Brave Heroes) (5\\*)\nMichalis: Ambitious King (3\\*)\nMinerva: Red Dragoon (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Silver Axe as a filler before their final weapon slot. Check Silver Axe+ for units with Silver Axe+",
         "color": "green",
         "aka": "Silver Axe",
         "skill": "Green Axe, Mt:11, SP:200"
@@ -2453,6 +2560,14 @@
         "aka": "Stout Tomahawk",
         "skill": "Green Axe, Mt:16, SP:400"
     },
+	{
+		"name": "thunder armads",
+		"aliases": [],
+		"content": "Grants Def+3. If the number of allies within 2 spaces (excluding unit) > the number of foes within 2 spaces (excluding target), foe cannot make a follow-up attack.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nHector: Marquess of Ostia (5\\*)",
+		"color": "green",
+		"aka": "Thunder Armads",
+		"skill": "Green Axe, Mt:16, SP:400"
+	},
     {
         "name": "urvan",
         "aliases": [],
@@ -2541,11 +2656,19 @@
     {
         "name": "excalibur",
         "aliases": [],
-        "content": "Effective against flying foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMerric: Wind Mage (5\\*)\n\nExcalibur may be evolved into Dark Excalibur in the Weapon Refinery",
+        "content": "Effective against flying foes.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nMerric: Wind Mage (5\\*)\n\nExcalibur may be evolved into Dark Excalibur in the Weapon Refinery\n\n***Excalibur may be refined in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against flying units. Accelerates Special trigger (cooldown count-1)\")_**Special:** Gains \"If unit is within 2 spaces of a magic or staff ally, grants Atk/Spd+5 during combat\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
         "color": "green",
         "aka": "Excalibur",
         "skill": "Green Tome, Mt:14, SP:400"
     },
+	{
+		"name": "giga excalibur",
+		"aliases": [],
+		"content": "Grants Spd+3. If unit's Spd > foe's Spd, boosts damage dealt by 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nNino: Pale Flower (5\\*)",
+		"color": "green",
+		"aka": "Giga Excalibur",
+		"skill": "Green Tome, Mt:14, SP:400"
+	},
     {
         "name": "green egg-",
         "aliases": [],
@@ -2722,7 +2845,7 @@
     {
         "name": "rexcalibur-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nDeirdre: Lady of the Forest (5\\*)\nGunnthr\u00e1: Voice of Dreams (5\\*)\nJulia: Naga's Blood (5\\*)\nMerric: Wind Mage (3\\*)\nOlwen: Righteous Knight (5\\*)\nSanaki: Apostle in White (Bridal Bloom) (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)\nSonya: Vengeful Mage (5\\*)\nSoren: Shrewd Strategist (3\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Rexcalibur as a filler before their final weapon slot. Check Rexcalibur+ for units with Rexcalibur+",
         "color": "green",
         "aka": "Rexcalibur",
         "skill": "Green Tome, Mt:9, SP:200"
@@ -2780,6 +2903,17 @@
 		"skill": "Green Tome: Mt:14, SP:400"
 	},
 	{
+		"name": "breath of fog",
+		"aliases": [
+			"fog breath",
+			"tiki breath"
+		],
+		"content": "Effective against dragon foes. At the start of every second turn, restores 10 HP. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTiki: Dragon Scion (Young) (5\\*)\nTiki: Naga's Voice (Adult) (5\\*)\n\n***Breath of Fog may be upgraded in the Weapon Refinery. Variants:***\n**Special:** +3 HP, and gains \"If unit is within 2 spaces of a sword or dragon ally, grants Atk/Def+5 during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res",
+		"color": "red",
+		"aka": "Breath of Fog",
+		"skill": "Breath, Mt:16, SP:400"
+	},
+	{
         "name": "dark breath-",
         "aliases": [],
         "content": "If unit initiates combat, inflicts Atk/Spd-5 on foes within 2 spaces of target through their next actions after combat.\n\n**Available from: Corrin: Fateful Princess (F) (3\\*)",
@@ -2829,7 +2963,7 @@
     {
         "name": "flametongue-",
         "aliases": [],
-        "content": "No special effect.\n\n**Available from:**\nMyrrh: Great Dragon (5\\*)\nRobin: Fell Reincarnation (M) (Fallen Heroes) (5\\*)\nRobin: Fell Vessel (F) (5\\*)\nTiki: Dragon Scion (Young) (5\\*)",
+        "content": "No special effect.\n\n**Available from:**\nMany units possess Flametongue as a filler before their final weapon slot. Check Flametongue+ for units with Flametongue+",
         "color": "white",
         "aka": "Flametongue",
         "skill": "Breath, Mt:11, SP:200"
@@ -2889,7 +3023,6 @@
             "lb",
             "lb+",
 			"luna bliss",
-			"best weapon in the game",
 			"rawr"
         ],
         "content": "Slows Special trigger (cooldown count+1). Unit can counterattack regardless of foe's range.\n\n**Available from:**\nNowi: Eternal Youth (5\\*)\nTiki: Naga's Voice (Adult) (5\\*)\n\n***Lightning Breath+ may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Slows Special trigger (cooldown count+1). Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.\")_\n**Atk:** +5 HP, +3 Mt\n**Spd:** +5 HP, +1 Mt, +3 Spd\n**Def:** +5 HP, +1 Mt, +4 Def\n**Res:** +5 HP, +1 Mt, +4 Res",
@@ -2897,6 +3030,14 @@
         "aka": "Lightning Breath+",
         "skill": "Breath, Mt:11, SP:300"
     },
+	{
+		"name": "summer's breath",
+		"aliases": [],
+		"content": "Effective against dragon foes. Grants Def+3. If foe initiates combat, grants Special cooldown charge +1 per attack during combat. (Only highest value applied. Does not stack.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nTiki: Beachside Scion (Young) (A Sketchy Summer)",
+		"color": "red",
+		"aka": "Summer's Breath",
+		"skill": "Breath, Mt:16, SP:400"
+	},
 	{
 		"name": "water breath-",
 		"aliases": [],
@@ -3123,6 +3264,24 @@
         "aka": "Clarisse's Bow+",
         "skill": "Bow, Mt:11, SP:300"
     },
+	{
+		"name": "cocobow-",
+		"aliases": [],
+		"content": "Effective against flying foes. If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nNoire: Shade Seeker (Summer's Arrival) (5\\*)",
+		"color": "white",
+		"aka": "Cocobow",
+		"skill": "Bow, Mt:8, SP:200"
+	},
+	{
+		"name": "cocobow",
+		"aliases": [
+			"cocobow+"
+		],
+		"content": "Effective against flying foes. If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.\n\n**Available from:**\nNoire: Shade Seeker (Summer's Arrival) (5\\*)\n\n***Cocobow+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "white",
+		"aka": "Cocobow+",
+		"skill": "Bow, Mt:12, SP:300"
+	},
     {
         "name": "cupid arrow-",
         "aliases": [
@@ -3172,6 +3331,24 @@
         "aka": "Firesweep Bow+",
         "skill": "Bow, Mt:11, SP:300"
     },
+	{
+		"name": "fishie bow-",
+		"aliases": [],
+		"content": "Effective against flying foes. If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.\n\n**Available from:** Takumi: Prince at Play (A Sketchy Summer) (5\\*)",
+		"color": "white",
+		"aka": "Fishie Bow",
+		"skill": "Bow, Mt:10, SP:200"
+	},
+	{
+		"name": "fishie bow",
+		"aliases": [
+			"fishie bow+"
+		],
+		"content": "Effective against flying foes. If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.\n\n**Available from:** Takumi: Prince at Play (A Sketchy Summer) (5\\*)\n\n***Fishie Bow+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "white",
+		"aka": "Fishie Bow+",
+		"skill": "Bow, Mt:12, SP:300"
+	},
     {
         "name": "fujin yumi",
         "aliases": [],
@@ -3324,7 +3501,7 @@
     {
         "name": "silver bow-",
         "aliases": [],
-        "content": "Effective against flying foes.\n\n**Available from:**\nHinoka: Blue Sky Warrior (5\\*)\nInnes: Regal Strategician (5\\*)\nJeorge: Perfect Shot (3\\*)\nLyn: Brave Lady (Brave Heroes) (5\\*)\nLyn: Lady of the Wind (5\\*)\nRebecca: Wildflower (3\\*)\nTakumi: Wild Card (5\\*)\nTakumi: Empty Vessel (Fallen Heroes) (3\\*)\nVirion: Elite Archer (3\\*)",
+        "content": "Effective against flying foes.\n\n**Available from:**\nMany units possess Silver Bow as a filler before their final weapon slot. Check Silver Bow+ for units with Silver Bow+",
         "color": "white",
         "aka": "Silver Bow",
         "skill": "Bow, Mt:9, SP:200"
@@ -3580,7 +3757,7 @@
     {
         "name": "silver dagger-",
         "aliases": [],
-        "content": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action.\n\n**Available from:**\nFelicia: Maid Mayhem (3\\*)\nJaffar: Angel of Death (5\\*)\nJakob: Devoted Servant (3\\*)\nSothe: Zephyr (4\\*)",
+        "content": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action.\n\n**Available from:**\nMany units possess Silver Dagger as a filler before their final weapon slot. Check Silver Dagger+ for units with Silver Dagger+",
         "color": "grey",
         "aka": "Silver Dagger",
         "skill": "Colorless Dagger, Mt:7, SP:200"
@@ -3613,6 +3790,24 @@
         "aka": "Smoke Dagger+",
         "skill": "Colorless Dagger, Mt:9, SP:300"
     },
+	{
+		"name": "starfish-",
+		"aliases": [],
+		"content": "If unit’s HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.\n\n**Available from:**\nLinde: Summer Rays (A Sketchy Summer) (5\\*)",
+		"color": "grey",
+		"aka": "Starfish",
+		"skill": "Colorless Dagger, Mt:10, SP:200"
+	},
+	{
+		"name": "starfish",
+		"aliases": [
+			"starfish+"
+		],
+		"content": "If unit’s HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.\n\n**Available from:**\nLinde: Summer Rays (A Sketchy Summer) (5\\*)\n\n***Starfish+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "grey",
+		"aka": "Starfish+",
+		"skill": "Colorless Dagger, Mt:12, SP:300"
+	},
     {
         "name": "steel dagger",
         "aliases": [],
@@ -3621,6 +3816,24 @@
         "aka": "Steel Dagger",
         "skill": "Colorless Dagger, Mt:5, SP:100"
     },
+	{
+		"name": "the cleaner-",
+		"aliases": [],
+		"content": "Adds total bonuses on foe to damage dealt during combat. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.\n\n**Available from:**\nLegault: The Hurricane (4\\*)",
+		"color": "grey",
+		"aka": "The Cleaner",
+		"skill": "Colorless Dagger, Mt:8, SP:200"
+	},
+	{
+		"name": "the cleaner",
+		"aliases": [
+			"the cleaner+"
+		],
+		"content": "Adds total bonuses on foe to damage dealt during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.\n\n**Available from:**\nLegault: The Hurricane (5\\*)\n\n***The Cleaner+ may be upgraded in the Weapon Refinery. Variants:***\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"color": "grey",
+		"aka": "The Cleaner+",
+		"skill": "Colorless Dagger, Mt:12, SP:300"
+	},
     {
         "name": "ardent sacrifice",
         "aliases": [],
@@ -11875,7 +12088,7 @@
 			"b!sanaki",
 			"wedding sanaki"
 		],
-		"content": "Neutral Stats: (HP/Akt/Spd/Def/Res)\n5\\* lv 1: 16/10/8/3/4 (44)\n5\\* lv40: 35/36/30/16/33 (150)\n\n**Skills:**\nNifl Frostflowers\nAs: Draw Back\nA: Atk/Res Bond 3\nB: Def/Res Link 3\n(Unit only summonable at 5\\* in limited banner)",
+		"content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 16/10/8/3/4 (44)\n5\\* lv40: 35/36/30/16/33 (150)\n\n**Skills:**\nW: Nifl Frostflowers\nAs: Draw Back\nA: Atk/Res Bond 3\nB: Def/Res Link 3\n(Unit only summonable at 5\\* in limited banner)",
 		"color": "green",
 		"aka": "Sanaki: Apostle in White",
 		"skill": "Flying Tome"
