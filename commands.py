@@ -31,7 +31,6 @@ EMBED_ICON_URL = 'https://i.imgur.com/CyaOfZE.png'
 def read_static_commands() -> dict:
     """
     Reads all static commands from their source file.
-
     :return: Dictionary mapping command names to their output values.
     """
     with open(STATIC_COMMANDS_FILE) as f:
@@ -41,7 +40,6 @@ def read_static_commands() -> dict:
 def read_skill_commands() -> dict:
     """
     Reads all skill commands from their source file.abs
-
     :return: Dictionary mapping command names to their outputs.
     """
     with open(SKILL_COMMANDS_FILE) as f:
@@ -57,8 +55,8 @@ def read_skill_commands() -> dict:
             }
 
             if 'image' in old_skill:
-                    new_skill['image'] = old_skill['image']
-                
+                new_skill['image'] = old_skill['image']
+
             new_skills[old_skill['name']] = new_skill
             for a in old_skill['aliases']:
                 new_skills[a] = new_skill
@@ -78,7 +76,6 @@ class CommandHandler:
         """
         Constructor creating a new instance of a command handler. Only one
             instance is needed per bot object.
-
         :param bot: Discord bot object using this CommandHandler.
         :param message: Discord message being handled.
         """
@@ -91,7 +88,6 @@ class CommandHandler:
     async def handle_commands(self):
         """
         Handles responding to any commands present in a given message.
-
         :param message: Discord message object to search and respond to commands
             for. 
         """
@@ -161,10 +157,10 @@ class CommandHandler:
                                 color=int(COLOR_TYPES[skill['color']]))
             emb.set_author(name=skill['skill'], icon_url=EMBED_ICON_URL)
 
-            #Set image if one exists.
+            # Set image if one exists.
             if 'image' in skill:
-                emb.set_thumbnail(url=skill["image"])
-                
+               emb.set_thumbnail(url=skill["image"]) 
+            
             await self.bot.send_message(self.channel, embed=emb)
 
     async def _send_reply(self, response):
