@@ -554,7 +554,7 @@
 			"falchion (gaiden)",
 			"falchion (mystery)"
 		],
-        "content": "Effective against dragon foes. At the start of every third turn, restores 10 HP.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAlm: Hero of Prophecy (5\\*)\nChrom: Exalted Prince (5\\*)\nLucina: Future Witness (5\\*)\nMarth: Atlean Prince (5\\*)\nMarth: Enigmatic Blade (Masked) (5\\*)\n\n***Falchion may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against dragon foes. At the start of every second turn, restores 10 HP.\")_\n**Marth:** +3 HP, and gains \"Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat.\"\n**Alm:** +3 HP, and gains \"If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 5 damage to unit after combat.\"\n**Lucina, Chrom, Masked Marth:** +3 HP, and gains \"If unit is adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res\n_(The named variants are exclusive to the units matching those names)_",
+        "content": "Effective against dragon foes. At the start of every third turn, restores 10 HP.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nAlm: Hero of Prophecy (5\\*)\nChrom: Exalted Prince (5\\*)\nLucina: Future Witness (5\\*)\nMarth: Atlean Prince (5\\*)\nMarth: Enigmatic Blade (Masked) (5\\*)\n\nChrom's, Lucina's, and Masked Marth's Falchions may be evolved into Sealed Falchion in the Weapon Refinery\n\n***Falchion may be upgraded in the Weapon Refinery. Variants:***\n_(Any variant's effect becomes \"Effective against dragon foes. At the start of every second turn, restores 10 HP.\")_\n**Marth:** +3 HP, and gains \"Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat.\"\n**Alm:** +3 HP, and gains \"If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 5 damage to unit after combat.\"\n**Lucina, Chrom, Masked Marth:** +3 HP, and gains \"If unit is adjacent to an ally, grants Atk/Spd/Def/Res+4 during combat.\"\n**Atk:** +5 HP, +2 Mt\n**Spd:** +5 HP, +3 Spd\n**Def:** +5 HP, +4 Def\n**Res:** +5 HP, +4 Res\n_(The named variants are exclusive to the units matching those names)_",
         "color": "red",
         "aka": "Falchion",
         "skill": "Red Sword, Mt:16, SP:400"
@@ -783,7 +783,7 @@
 			"falchion 2",
 			"falchion undertale"
 		],
-		"content": "Effective against dragon foes. At start of combat, if unit's HP < 100%, grants Atk/Spd/Def/Res+5 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nChrom: Knight Exalt (5\\*)",
+		"content": "Effective against dragon foes. At start of combat, if unit's HP < 100%, grants Atk/Spd/Def/Res+5 during combat.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nChrom: Knight Exalt (5\\*)\nSealed Falchion may also be obtained by evolving Chrom's, Lucina's, or Masked Marth's Falchions in the Weapon Refinery",
 		"color": "red",
 		"aka": "Sealed Falchion",
 		"skill": "Red Sword, Mt:16, SP:400"
@@ -1224,7 +1224,7 @@
 		"aliases": [
 			"eat 'em up"
 		],
-		"content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Exclusive weapon, cannot be inherited**\n**Available for: Katarina: Wayward One (5\\*)\n\n***Reese's Tome may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"At start of turn, inflicts Spd/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
+		"content": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies x 2.\n\n**Exclusive weapon, cannot be inherited**\n**Available for:**\nKatarina: Wayward One (5\\*)\n\n***Reese's Tome may be upgraded in the Weapon Refinery. Variants:***\n**Special:** Gains \"At start of turn, inflicts Spd/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions\"\n**Atk:** +2 HP, +1 Mt\n**Spd:** +2 HP, +2 Spd\n**Def:** +2 HP, +3 Def\n**Res:** +2 HP, +3 Res",
 		"color": "red",
 		"aka": "Reese's Tome",
 		"skill": "Red Tome, Mt:14, SP: 400"
@@ -3837,7 +3837,7 @@
     {
         "name": "ardent sacrifice",
         "aliases": [],
-        "content": "Restores 10 HP to target ally. Unit loses 10 HP but cannot go below 1.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nFlorina: Lovely Flier (3\\*)\nRebecca: Wildflower (3\\*)\nDeirdre: Lady of the Forest (5\\*)\nElincia: Lost Princess (5\\*)\nLinde: Light Mage (5\\*)\nMicaiah: Priestess of Dawn (5\\*)\nFrederick: Horizon Watcher (Ylissean Summer) (5\\*)\nLyn: Wind's Embrace (Love Abounds) (5\\*)",
+        "content": "Restores 10 HP to target ally. Unit loses 10 HP but cannot go below 1.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nFlorina: Lovely Flier (3\\*)\nRebecca: Wildflower (3\\*)\nDeirdre: Lady of the Forest (5\\*)\nElincia: Lost Princess (5\\*)\nLinde: Light Mage (5\\*)\nMicaiah: Priestess of Dawn (5\\*)\nFrederick: Horizon Watcher (Ylissean Summer) (5\\*)\nLinde: Summer Rays (A Sketchy Summer) (5\\*)\nLyn: Wind's Embrace (Love Abounds) (5\\*)\nNoire: Shade Seeker (Summer's Arrival) (5\\*)",
         "color": "cyan",
         "aka": "Ardent Sacrifice",
         "skill": "Assist, SP:150"
@@ -3861,7 +3861,7 @@
     {
         "name": "harsh command",
         "aliases": [],
-        "content": "Converts penalties on target into bonuses.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nClair: Highborn Flier (3\\*)\nGunter: Inveterate Soldier (3\\*)\nSaizo: Angry Ninja (3\\*)\nSanaki: Begnion's Apostle (5\\*)",
+        "content": "Converts penalties on target into bonuses.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nClair: Highborn Flier (3\\*)\nGunter: Inveterate Soldier (3\\*)\nSaizo: Angry Ninja (3\\*)\nCordelia: Knight Paradise (Summer's Arrival) (5\\*)\nSanaki: Begnion's Apostle (5\\*)",
         "color": "cyan",
         "aka": "Harsh Command",
         "skill": "Assist, SP:150"
@@ -3877,7 +3877,7 @@
     {
         "name": "martyr-",
         "aliases": [],
-        "content": "Slows Special trigger (cooldown count+1). Restores HP = damage dealt to unit. (Minimum of 7 HP.) Unit heals HP = half damage dealt to unit.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nAzama: Carefree Monk (4\\*)\nClarine: Refined Noble (4\\*)\nLucius: The Light (4\\*)",
+        "content": "Slows Special trigger (cooldown count+1). Restores X HP to target (X = damage dealt to unit + 7). Restores Y HP to unit (Y = half damage dealt to unit).\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nAzama: Carefree Monk (4\\*)\nClarine: Refined Noble (4\\*)\nLucius: The Light (4\\*)",
         "color": "cyan",
         "aka": "Martyr",
         "skill": "Assist, SP:200"
@@ -3945,7 +3945,7 @@
 			"rally atk/def",
 			"rally attack def"
         ],
-        "content": "Grants Atk/Def+3 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nEliwood: Devoted Love (Love Abounds) (4\\*)\nGerome: Masked Rider (4\\*)\nRhajat: Black Magician (5\\*)",
+        "content": "Grants Atk/Def+3 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nEliwood: Devoted Love (Love Abounds) (4\\*)\nGerome: Masked Rider (4\\*)\nRhajat: Black Magician (5\\*)\nInnes: Flawless Form (Summer's Arrival) (5\\*)",
         "color": "cyan",
         "aka": "Rally Attack Defense",
         "skill": "Assist, SP:300"
@@ -3979,7 +3979,7 @@
         "aliases": [
             "rally def"
         ],
-        "content": "Grants Def+4 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nNowi: Eternal Youth (3\\*)\nOboro: Fierce Fighter (3\\*)\nRoderick: Steady Squire (3\\*)\nCorrin: Enjoying Tradition (M) (Happy New Year!) (4\\*)\nGerome: Masked Rider (4\\*)\nRhajat: Black Magician (5\\*)\nLyn: Lady of the Wind (5\\*)",
+        "content": "Grants Def+4 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nNowi: Eternal Youth (3\\*)\nOboro: Fierce Fighter (3\\*)\nRoderick: Steady Squire (3\\*)\nCorrin: Enjoying Tradition (M) (Happy New Year!) (4\\*)\nGerome: Masked Rider (4\\*)\nMarth: Atlean Groom (4\\*)\nRhajat: Black Magician (5\\*)\nInnes: Flawless Form (Summer's Arrival) (5\\*)\nLyn: Lady of the Wind (5\\*)",
         "color": "cyan",
         "aka": "Rally Defense",
         "skill": "Assist, SP:150"
@@ -4010,7 +4010,7 @@
         "aliases": [
             "rally spd"
         ],
-        "content": "Grants Spd+4 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nCaeda: Talys's Heart (3\\*)\nGaius: Candy Stealer (3\\*)\nOscar: Agile Horseman (3\\*)\nSeliph: Heir of Light (3\\*)\nEirika: Anamnesis Lady (5\\*)\nLucina: Spring Exalt (Spring Festival) (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)",
+        "content": "Grants Spd+4 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nCaeda: Talys's Heart (3\\*)\nGaius: Candy Stealer (3\\*)\nOscar: Agile Horseman (3\\*)\nSeliph: Heir of Light (3\\*)\nEirika: Anamnesis Lady (5\\*)\nLucina: Spring Exalt (Spring Festival) (5\\*)\nSharena: Spring Princess (Hares at the Fair) (5\\*)\nTana: Noble and Nimble (Summer's Arrival) (5\\*)\nTharja: Obsessive Bride (Bridal Bloom) (5\\*)",
         "color": "cyan",
         "aka": "Rally Speed",
         "skill": "Assist, SP:150"
@@ -4032,7 +4032,7 @@
             "rally spd res",
 			"rally speed res"
         ],
-        "content": "Grants Spd/Res+3 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nTailtiu: Thunder Noble (4\\*)",
+        "content": "Grants Spd/Res+3 to target ally for 1 turn.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nTailtiu: Thunder Noble (4\\*)\nTana: Noble and Nimble (Summer's Arrival) (5\\*)",
         "color": "cyan",
         "aka": "Rally Speed Resistance",
         "skill": "Assist, SP:300"
@@ -4040,7 +4040,7 @@
     {
         "name": "reciprocal aid",
         "aliases": [],
-        "content": "Unit and target ally swap HP. (Neither can go above their max HP.)\n\n**Inheritance restriction:** No staff users\n**Available from:**\nDonnel: Village Hero (3\\*)\nMatthew: Faithful Spy (3\\*)\nSetsuna: Absent Archer (3\\*)\nTitania: Mighty Mercenary (3\\*)\nRobin: Festive Tactician (M) (Winter's Envoy) (5\\*)\nRoy: Youthful Gifts (Love Abounds) (5\\*)",
+        "content": "Unit and target ally swap HP. (Neither can go above their max HP.)\n\n**Inheritance restriction:** No staff users\n**Available from:**\nDonnel: Village Hero (3\\*)\nMatthew: Faithful Spy (3\\*)\nSetsuna: Absent Archer (3\\*)\nTitania: Mighty Mercenary (3\\*)\nCanas: Wisdom Seeker (4\\*)\nRobin: Festive Tactician (M) (Winter's Envoy) (5\\*)\nRoy: Youthful Gifts (Love Abounds) (5\\*)",
         "color": "cyan",
         "aka": "Reciprocal Aid",
         "skill": "Assist, SP:150"
@@ -4088,7 +4088,7 @@
 			"rehabilitate+",
 			"rehab+"
 		],
-        "content": "Restores HP = 50% of Atk -10. (Minimum of 7 HP.) If target's HP is ≤ 50%, the lower the target's HP, the more HP is restored.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nLissa: Sprightly Cleric (5\\*)\nPriscilla: Delicate Princess (5\\*)\nWrys: Kindly Priest (5\\*)\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)",
+        "content": "Restores HP = 50% of Atk -10. (Minimum of 7 HP.) If target's HP is \u2264 50%, the lower the target's HP, the more HP is restored.\n\n**Inheritance restriction:** Staff users only\n**Available from:**\nLissa: Sprightly Cleric (5\\*)\nPriscilla: Delicate Princess (5\\*)\nWrys: Kindly Priest (5\\*)\nLyn: Bride of the Plains (Bridal Blessings) (5\\*)",
         "color": "cyan",
         "aka": "Rehabilitate+",
         "skill": "Assist, SP:300"
@@ -4252,7 +4252,7 @@
     {
         "name": "chilling wind",
         "aliases": [],
-        "content": "Boosts damage dealt by 50% of unit's Res.",
+        "content": "Boosts damage dealt by 50% of unit's Res.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nFelicia: Maid Mayhem (3\\*)\nFir: Sword Student (3\\*)\nKaze: Easygoing Ninja (3\\*)\nKlein: Silver Nobleman (3\\*)\nLloyd: White Wolf (3\\*)\nNiles: Cruel to Be Kind (3\\*)\nSaias: Bishop of Flame (3\\*)\nShanna: Sprightly Flier (3\\*)\nInnes: Regal Strategician (5\\*)\nKatarina: Wayward One (5\\*)\nMorgan: Lass from Afar (5\\*)\nCaeda: Talys's Bride (Bridal Blessings) (5\\*)\nGunnthr\u00e1: Voice of Dreams (5\\*)\nLeo: Seashore's Prince (Nohrian Summer) (5\\*)\nSakura: Gentle Nekomata (Trick or Defeat!) (5\\*)\nTharja: \"Normal Girl\" (Winter's Envoy) (5\\*)",
         "color": "purple",
         "aka": "Chilling Wind",
         "skill": "Special, CD:4"
@@ -4260,7 +4260,7 @@
     {
         "name": "daylight",
         "aliases": [],
-        "content": "Heal 30% of damage dealt.",
+        "content": "Restores HP = 30% of damage dealt.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nAlfonse: Prince of Askr (2\\*)\nChrom: Exalted Prince (3\\*)\nLaslow: Dancing Duelist (3\\*)\nOgma: Loyal Blade (3\\*)\nRaven: Peerless Fighter (3\\*)\nShigure: Uplifting Artist (4\\*)\nFaye: Devoted Heart (5\\*)\nLucina: Brave Princess (5\\*)\nAlfonse: Spring Prince (Hares at the Fair) (5\\*)\nEphraim: Legendary Lord (5\\*)\nIke: Vanguard Legend (5\\*)\nTiki: Summering Scion (Adult) (Ylissean Summer) (5\\*)",
         "color": "purple",
         "aka": "Daylight",
         "skill": "Special, CD:3"
@@ -4268,7 +4268,7 @@
     {
         "name": "draconic aura",
         "aliases": [],
-        "content": "Grants +30% to Atk.",
+        "content": "Boosts Atk by 30%.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nAres: Black Knight (4\\*)\nCamilla: Bewitching Beauty (4\\*)\nCorrin: Fateful Princess (5\\*)\nJulius: Scion of Darkness (4\\*)\nAlm: Hero of Prophecy (5\\*)\nDorcas: Serene Warrior (5\\*)\nKana: Dragon Princess (5\\*)\nKarla: Sword Vassal (5\\*)\nLyn: Brave Lady (Brave Heroes) (5\\*)\nCamilla: Holiday Traveler (Happy New Year!) (5\\*)\nCamilla: Tropical Beauty (A Sketchy Summer) (5\\*)\nHector: Marquess of Ostia (5\\*)",
         "color": "purple",
         "aka": "Draconic Aura",
         "skill": "Special, CD:3"
@@ -4276,7 +4276,7 @@
     {
         "name": "dragon fang",
         "aliases": [],
-        "content": "Grants +50% to Atk.",
+        "content": "Boosts Atk by 50%.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nCorrin: Fateful Prince (4\\*)\nKana: Dragon Spawn (M) (4\\*)\nMorgan: Lad from Afar (4\\*)\nSophia: Nabata Prophet (4\\*)\nJulia: Naga's Blood (5\\*)\nSiegbert: Future King (5\\*)\nCorrin: Novice Vacationer (Nohrian Summer) (5\\*)",
         "color": "purple",
         "aka": "Dragon Fang",
         "skill": "Special, CD:4"
@@ -4284,7 +4284,7 @@
     {
         "name": "dragon gaze",
         "aliases": [],
-        "content": "Grants +30% to Atk.",
+        "content": "Boosts Atk by 30%.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nCamilla: Bewitching Beauty (3\\*)\nCorrin: Fateful Prince (3\\*)\nCorrin: Fateful Princess (3\\*)\nJulius: Scion of Darkness (3\\*)Kana: Dragon Spawn (M) (3\\*)\nSophia: Nabata Prophet (3\\*)\nAres: Black Knight (4\\*)\nMorgan: Lad from Afar (4\\*)\nAlm: Hero of Prophecy (5\\*)\nDorcas: Serene Warrior (5\\*)\nJulia: Naga's Blood (5\\*)\nKana: Dragon Princess (5\\*)\nKarla: Sword Vassal (5\\*)\nLyn: Brave Lady (Brave Heroes) (5\\*)\nSiegbert: Future King (5\\*)\nCamilla: Holiday Traveler (Happy New Year!) (5\\*)\nCamilla: Tropical Beauty (A Sketchy Summer) (5\\*)\nCorrin: Novice Vacationer (Nohrian Summer) (5\\*)\nHector: Marquess of Ostia (5\\*)",
         "color": "purple",
         "aka": "Dragon Gaze",
         "skill": "Special, CD:4"
@@ -4292,7 +4292,7 @@
     {
         "name": "escutcheon",
         "aliases": [],
-        "content": "Reduces damage inflicted by attacks from adjacent foes by 30%.",
+        "content": "Reduces damage from an adjacent foe's attack by 30%.\n\n**Inheritance restriction:** Melee units only\n**Available from:**\nCain: The Bull (4\\*)\nClive Idealistic Knight (4\\*)\nGwendolyn: Adorable Knight (4\\*)\nSheena: Princess of Gra (4\\*)",
         "color": "purple",
         "aka": "Escutcheon",
         "skill": "Special, CD:2"
@@ -4300,7 +4300,7 @@
     {
         "name": "galeforce",
         "aliases": [],
-        "content": "If this unit initiates an attack, it can take another action after combat. (Once per turn only.)",
+        "content": "If unit initiates combat, grants unit another action after combat. (Once per turn.)\n\n**Inheritance restriction:** Sword, Lance, and Axe units only\n**Available from:**\nCordelia: Knight Paragon (5\\*)\nLyn: Lady of the Plains (5\\*)\nRoy: Brave Lion (5\\*)",
         "color": "purple",
         "aka": "Galeforce",
         "skill": "Special, CD:5"
@@ -4308,7 +4308,7 @@
     {
         "name": "glacies",
         "aliases": [],
-        "content": "Boosts damage dealt by 80% of unit's Res.",
+        "content": "Boosts damage dealt by 80% of unit's Res.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nFelicia: Maid Mayhem (4\\*)\nFir: Sword Student (4\\*)\nKlein: Silver Nobleman (4\\*)\nSaias: Bishop of Flame (4\\*)\nKatarina: Wayward One (5\\*)\nGunnthr\u00e1: Voice of Dreams (5\\*)\nSakura: Gentle Nekomata (Trick or Defeat!) (5\\*)",
         "color": "purple",
         "aka": "Glacies",
         "skill": "Special, CD:4"
@@ -4316,7 +4316,7 @@
     {
         "name": "glimmer",
         "aliases": [],
-        "content": "Grants +50% to damage dealt.",
+        "content": "Boosts damage dealt by 50%.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nBeruka: Quiet Assassin (4\\*)\nClarisse: Sniper in the Dark (4\\*)\nLegault: The Hurricane (4\\*)\nLon'qu: Solitary Blade (4\\*)\nMarisa: Crimson Flash (4\\*)\nPeri: Playful Slayer (4\\*)\nSothe: Zephyr (4\\*)\nJaffar: Angel of Death (5\\*)\nHector: Just Here to Fight (Love Abounds) (5\\*)\nKagero: Spring Ninja (Hares at the Fair) (5\\*)\nRyoma: Supreme Samurai (5\\*)\nTakumi: Prince at Play (A Sketchy Summer) (5\\*)",
         "color": "purple",
         "aka": "Glimmer",
         "skill": "Special, CD:2"
@@ -4324,7 +4324,7 @@
     {
         "name": "glowing ember",
         "aliases": [],
-        "content": "Boosts damage dealt by 50% of unit's Def.",
+        "content": "Boosts damage dealt by 50% of unit's Def.\n\n**Inheritance restriction:** No staff users\n**Available from:**\nBoey: Skillful Survior (3\\*)\nHenry: Twisted Mind (3\\*)\nLeon: True of Heart (3\\*)\nRobin: High Deliverer (3\\*)\nRobin: Mystery Tactician (3\\*)\nTiki: Naga's Voice (Adult) (3\\*)\nLuke: Rowdy Squire (5\\*)\nMyrrh: Great Dragon (5\\*)\nRobin: Fell Reincarnation (5\\*)\nJakob: Devoted Monster (Trick or Defeat!) (5\\*)\nLissa: Pure Joy (5\\*)\nRobin: Fell Vessel (5\\*)\nXander: Student Swimmer (Nohrian Swimmer) (5\\*)",
         "color": "purple",
         "aka": "Glowing Ember",
         "skill": "Special, CD:4"
@@ -4332,7 +4332,7 @@
     {
         "name": "growing flame",
         "aliases": [],
-        "content": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "content": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nArvis: Emperor of Flame (4\\*)\nLilina: Delightful Noble (4\\*)\nTiki: Dragon Scion (Young) (5\\*)\n\nGrowing Flame's area of effect includes the following spaces:\n<:Tile:443763484589555724><:Special:443763485063774209><:Tile:443763484589555724><:Special:443763485063774209>\n<:Special:443763485063774209><:Special:443763485063774209><:Enemy:443763485080551424><:Special:443763485063774209><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209><:Tile:443763484589555724><:Special:443763485063774209>",
         "color": "purple",
         "aka": "Growing Flame",
         "skill": "Special, CD:4"
@@ -4340,7 +4340,7 @@
     {
         "name": "growing light",
         "aliases": [],
-        "content": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk - foe's Def or Res).",
+        "content": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk - foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nHawkeye: Desert Guardian (4\\*)\nL'Arachel: Princess of Light (4\\*)\nEldigan: Lionheart (5\\*)\n\nGrowing Light's area of effect includes the following spaces:\n<:Tile:443763484589555724><:Tile:443763484589555724><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209><:Tile:443763484589555724><:Special:443763485063774209>\n<:Special:443763485063774209><:Tile:443763484589555724><:Enemy:443763485080551424><:Tile:443763484589555724><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209><:Tile:443763484589555724><:Special:443763485063774209>\n<:Tile:443763484589555724><:Tile:443763484589555724><:Special:443763485063774209>",
         "color": "purple",
         "aka": "Growing Light",
         "skill": "Special, CD:4"
@@ -4348,7 +4348,7 @@
     {
         "name": "growing thunder",
         "aliases": [],
-        "content": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "content": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nCamus: Sable Knight (4\\*)\nUrsula: Blue Crow (4\\*)\n\nGrowing Thunder's area of effect includes the following spaces:\n<:Tile:443763484589555724><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209>\n<:Special:443763485063774209><:Enemy:443763485080551424><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209>\n<:Tile:443763484589555724><:Special:443763485063774209>",
         "color": "purple",
         "aka": "Growing Thunder",
         "skill": "Special, CD:4"
@@ -4356,7 +4356,7 @@
     {
         "name": "growing wind",
         "aliases": [],
-        "content": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "content": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk minus foe's Def or Res).\n\n**Inheritance restriction:** No staff users\n**Available from:**\nMerric: Wind Mage (4\\*)\nSoren: Shrewd Strategist (4\\*)\n\nGrowing Wind's area of effect includes the following spaces:\n<:Special:443763485063774209><:Special:443763485063774209><:Special:443763485063774209>\n<:Special:443763485063774209><:Enemy:443763485080551424><:Special:443763485063774209>\n<:Special:443763485063774209><:Special:443763485063774209><:Special:443763485063774209>",
         "color": "purple",
         "aka": "Growing Wind",
         "skill": "Special, CD:4"
@@ -10364,7 +10364,8 @@
         "name": "fjorm: princess of ice",
         "aliases": [
 			"fjorm",
-			"\u1f357"
+			"\u1f357",
+			"icy thighs"
 		],
         "content": "Neutral Stats: (HP/Atk/Spd/Def/Res)\n5\\* lv 1: 17/8/7/8/8 (48)\n5\\* lv40: 39/30/31/30/34 (164)\n\n**Skills:**\nW: Leiptr\nS: Ice Mirror\nA: Atk/Def Bond 3\nB: Shield Pulse 3\nC: Drive Atk 2\n(Unit only available from Legendary Hero banners, or Part 5 of Book II's Chapter 1)\n\nFjorm: Princess of Ice is a Legendary Hero for the Water Season, and provides a stat boost of +3 HP/+3 Spd.",
         "color": "blue",
@@ -10482,7 +10483,7 @@
         "skill": "Infantry Sword"
     },
     {
-        "name": "gunnthr\u00e1: voice of dreams",
+        "name": "gunnthra: voice of dreams",
         "aliases": [
 			"gunnthra",
 			"enter the gunnthra"

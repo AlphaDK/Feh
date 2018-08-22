@@ -26,6 +26,8 @@ Here's the current full list of features;
 
 -!report: Feedback command, this will message me with a copy of your message. This will also track your username and the channel it was reported in. Embedded images are not sent, please use links instead.
 
+-!superivs: Provide the neutral stats of a unit at level 1 and level 40 in format "!superivs 17/6/5/6/5 45/34/27/30/27" (that's hp/atk/spd/def/res) and Feh will respond as to which are superbanes and superboons. Primarily useful for when leaks come out, only works for 5*s
+
 -@Feh what x: Saying "@Feh what " and then A Skill/Slot, B Skill/Slot, C Skill/Slot, or (Sacred) Seal, with any more message optional, will respond with a random one of those skills. ie AlphaDK: @Feh what seal should i put on hector. Feh: @AlphaDK Brash Assault 3
 
 -!pet, !pat, !headpat, !halfpet: Pets Feh. Feh will thank you. It will also track the number of pats you've made. Half petting will add half a pat to your total. That's the difference.
@@ -49,8 +51,6 @@ Here's the current full list of features;
 
 # Most recent changelog
 
-v1.5:
+v1.6:
 
--Weapons are completely up to date with Quick Info 2.0!
-
--The bot no longer crashes. This was an important change
+-!superiv or !superivs will calculate superboons and superbanes. Requested by Struct, I didn't actually realise this was possible until today.

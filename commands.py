@@ -106,6 +106,7 @@ class CommandHandler:
 
         await self._handle_static_commands(command)
         await self._handle_pat_commands(command)
+        await self._handle_superiv_commands(command, args)
 
     async def _handle_static_commands(self, command):
         if command not in static_commands:
@@ -133,6 +134,36 @@ class CommandHandler:
         if command in ['halfpat', 'halfpet']:
             pat_manager.add_pats(self.author.id, 0.5)
             await self._send_response('Thanks!')
+
+    async def _handle_superiv_commands(self, command, args):
+        if command not in ["superiv", "superivs"]:
+            return
+
+        diffs = [0, 0, 0, 0, 0]
+        stats = {0: "HP", 1: "Atk", 2: "Spd", 3: "Def", 4: "Res"}
+        
+        for i in range(len(args[0].split("/"))):
+            args1 = args[0].split("/")
+            args40 = args[1].split("/")
+            diffs[i] = int(args40[i]) - int(args1[i])
+
+        superbanes = ""
+        superboons = ""
+
+        for index, stat in enumerate(diffs):
+            if stat in [10, 19, 30]:
+                superboons = superboons + ", " + stats[index]
+            if stat in [13, 22, 33]:
+                superbanes = superbanes + ", " + stats[index]
+
+        if superboons == "":
+            superboons = "  None"
+        if superbanes == "":
+            superbanes = "  None"
+        
+        reply = "\n**Superboons:** " + superboons[2:]
+        reply = reply + "\n**Superbanes:** " + superbanes[2:]
+        await self._send_reply(reply)
 
     async def _handle_skill_commands(self):
         if '{{' in self.content and '}}' in self.content:
