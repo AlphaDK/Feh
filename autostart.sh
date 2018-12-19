@@ -1,5 +1,20 @@
 #!/bin/bash
-until python3.6 main.py; do
-    echo "Server 'myserver' crashed with exit code $?.  Respawning.." >&2
-    sleep 1
+
+FAILS=0
+
+while true
+do
+  sleep 0.5
+  python3.6 main.py # your program
+  EXIT=$?
+  ((FAILS++))
+
+  if [[ $FAILS -gt 10 ]]
+  then
+    echo "[$(date)] failed to many times. aborting ..."
+    exit 1
+  fi
+
+  echo "[$(date)] bot exited with code $EXIT. restarting ..."
+
 done
